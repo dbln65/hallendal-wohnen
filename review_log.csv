@@ -1,0 +1,41 @@
+id,titel,review_minuten,fehlerart,ursache,beschreibung,korrektur,final
+KB-001,Bestellen ohne Kundenkonto,,,,,,nein
+KB-002,Bestellbestätigung nicht erhalten,,,,,,nein
+KB-003,Bestellung stornieren,,,,,,nein
+KB-004,Bestellung nachträglich ändern,,,,,,nein
+KB-005,Artikel nicht verfügbar,,,,,,nein
+KB-006,Stoffmuster bestellen,,,,,,nein
+KB-007,Versandkosten und Lieferzeiten Deutschland,,,,,,nein
+KB-008,Expressversand,,,,,,nein
+KB-009,Lieferung nach Österreich,,,,,,nein
+KB-010,Lieferung in die Schweiz,,,,,,nein
+KB-011,Speditionslieferung: Ablauf und Termin,,FORM,VORLAGE,"Titel mit Doppelpunkt im Frontmatter ohne Anführungszeichen, ungültiges YAML",MANUELL,nein
+KB-012,Lieferung in die Wohnung und Altmöbelmitnahme,,,,,,nein
+KB-013,Sendungsverfolgung und Packstation,,,,,,nein
+KB-014,Widerrufsrecht und 30-Tage-Rückgabe,,,,,,nein
+KB-015,Paket-Retoure anmelden,,,,,,nein
+KB-016,Speditionsware zurückgeben,,,,,,nein
+KB-017,Retouren aus Österreich und der Schweiz,,,,,,nein
+KB-018,Erstattung: Zeitpunkt und Zahlungsweg,,FORM,VORLAGE,"Titel mit Doppelpunkt im Frontmatter ohne Anführungszeichen, ungültiges YAML",MANUELL,nein
+KB-019,Artikel umtauschen,,,,,,nein
+KB-020,Von der Rückgabe ausgeschlossene Artikel,,,,,,nein
+KB-021,Transportschaden melden,,,,,,nein
+KB-022,Falscher oder fehlender Artikel,,,,,,nein
+KB-023,Gesetzliche Gewährleistung,,,,,,nein
+KB-024,5-Jahres-Garantie HD Basics,,,,,,nein
+KB-025,"Montageanleitungen, Ersatzteile und Montageservice",,,,,,nein
+KB-026,Zahlungsarten im Überblick,,,,,,nein
+KB-027,Kauf auf Rechnung,,,,,,nein
+KB-028,Ratenkauf,,,,,,nein
+KB-029,Zahlungserinnerung und Mahnung,,,,,,nein
+KB-030,Rechnung abrufen und Firmenrechnung,,,,,,nein
+KB-031,Zahlung fehlgeschlagen oder abgelehnt,,,,,,nein
+KB-032,Kundenkonto anlegen und Passwort zurücksetzen,,,,,,nein
+KB-033,Persönliche Daten und E-Mail-Adresse ändern,,,,,,nein
+KB-034,Kundenkonto löschen,,,,,,nein
+KB-035,Newsletter an- und abmelden,,,,,,nein
+KB-036,Auskunft über gespeicherte Daten,,,,,,nein
+KB-037,Geschenkgutscheine,,,,,,nein
+KB-038,Aktionscodes und Newsletter-Rabatt,,,,,,nein
+KB-039,Hallendal Club,,,,,,nein
+KB-040,Kundenservice kontaktieren,,,,,,nein

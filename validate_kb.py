@@ -2,7 +2,7 @@
 
 Prüfungen:
   FEHLER   Frontmatter, Pflichtabschnitte, Artikel-IDs, Zahlen, die nicht im Steckbrief stehen
-  WARNUNG  Länge außerhalb 300–600 Wörter, Begriffe aus den bewussten Lücken,
+  WARNUNG  Länge außerhalb 150–500 Wörter, Begriffe aus den bewussten Lücken,
            ausgeschriebene Zahlwörter, abweichende verwandte Artikel
 
 Warnungen sind Hinweise für das manuelle Review, keine automatischen Ablehnungen.
