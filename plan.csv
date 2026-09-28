@@ -1,0 +1,41 @@
+id,kategorie,titel,kernfakten,laender,verwandte
+KB-001,Bestellung,Bestellen ohne Kundenkonto,Gastbestellung; Retoure per Bestellnummer + PLZ,"DE,AT,CH","KB-015,KB-032"
+KB-002,Bestellung,Bestellbestätigung nicht erhalten,"sofort per E-Mail; nach 1 Stunde Spam-Ordner prüfen, dann Kundenservice","DE,AT,CH","KB-040,KB-013"
+KB-003,Bestellung,Bestellung stornieren,kostenlos solange Status „Bestellt“; ab „In Versandvorbereitung“ nicht mehr; Sperrgut bis 48 Stunden vor Liefertermin über Kundenservice,"DE,AT,CH","KB-014,KB-004,KB-011"
+KB-004,Bestellung,Bestellung nachträglich ändern,Lieferadresse bis „In Versandvorbereitung“; keine Artikel nachträglich hinzufügen,"DE,AT,CH",KB-003
+KB-005,Bestellung,Artikel nicht verfügbar,Benachrichtigen-Button; E-Mail bei Wiederverfügbarkeit; keine Reservierung,"DE,AT,CH",KB-040
+KB-006,Bestellung,Stoffmuster bestellen,kostenlos; max. 5 pro Bestellung; versandkostenfrei; 3–5 Werktage; nur DE und AT,"DE,AT",KB-020
+KB-007,Versand,Versandkosten und Lieferzeiten Deutschland,"Paket 4,95 €, kostenlos ab 49 €, 2–4 Werktage; Spedition 39 €, 7–14 Werktage; gemischte Bestellung",DE,"KB-008,KB-009,KB-039,KB-011"
+KB-008,Versand,Expressversand,"9,95 € zusätzlich; 1–2 Werktage; Bestellung bis 12 Uhr; nur DE",DE,KB-007
+KB-009,Versand,Lieferung nach Österreich,"Paket 6,95 €, kostenlos ab 79 €, 3–6 Werktage; Spedition 69 €, 10–18 Werktage; kein Express",AT,"KB-007,KB-010,KB-017"
+KB-010,Versand,Lieferung in die Schweiz,"14,90 CHF, keine Gratisgrenze, 4–8 Werktage; nur Paketware; Zoll im Preis enthalten",CH,"KB-009,KB-017"
+KB-011,Versand,Speditionslieferung: Ablauf und Termin,Anruf 1–2 Werktage vorher; 4-Stunden-Fenster; bis zur ersten verschließbaren Tür im Erdgeschoss,"DE,AT","KB-012,KB-016,KB-021"
+KB-012,Versand,Lieferung in die Wohnung und Altmöbelmitnahme,Lieferung in die Wohnung 49 €; Altmöbelmitnahme 29 € pro Stück nur zusammen damit; nur bei Bestellung; nur DE,DE,"KB-011,KB-025"
+KB-013,Versand,Sendungsverfolgung und Packstation,"DHL; Tracking-Link in der Versandbestätigung; Packstation und Postfiliale nur Paketware, nur DE","DE,AT,CH","KB-007,KB-002"
+KB-014,Retoure,Widerrufsrecht und 30-Tage-Rückgabe,14 Tage gesetzlich; 30 Tage freiwillig nur Paketware; Zustand ungebraucht,"DE,AT,CH","KB-015,KB-016,KB-003,KB-020"
+KB-015,Retoure,Paket-Retoure anmelden,Retourenportal oder Bestellnummer + PLZ; Label drucken; bei DHL abgeben; kostenlos in DE,"DE,AT,CH","KB-014,KB-016,KB-017,KB-018"
+KB-016,Retoure,Speditionsware zurückgeben,nur über Kundenservice; nur 14 Tage; 49 € DE bzw. 69 € AT Rücktransport; zerlegt im Erdgeschoss bereitstellen,"DE,AT","KB-014,KB-015,KB-011"
+KB-017,Retoure,Retouren aus Österreich und der Schweiz,"Paket AT 5,95 €, CH 9,90 CHF von der Erstattung abgezogen; Sperrgut AT 69 €","AT,CH","KB-015,KB-016"
+KB-018,Retoure,Erstattung: Zeitpunkt und Zahlungsweg,14 Tage nach Wareneingang; ursprüngliches Zahlungsmittel; Rechnungsbetrag reduziert; Hinsendekosten nur bei vollständigem Widerruf,"DE,AT,CH","KB-015,KB-027,KB-038"
+KB-019,Retoure,Artikel umtauschen,kein direkter Umtausch; Rücksendung plus Neubestellung,"DE,AT,CH",KB-015
+KB-020,Retoure,Von der Rückgabe ausgeschlossene Artikel,"Maßanfertigungen (Vorhänge, Teppiche nach Maß); Geschenkgutscheine; Stoffmuster","DE,AT,CH","KB-014,KB-006,KB-037"
+KB-021,Reklamation,Transportschaden melden,"Paket: 7 Tage mit Fotos; Spedition: Vermerk auf Lieferschein, verdeckte Schäden 7 Tage; Ersatz oder Erstattung","DE,AT,CH","KB-023,KB-022,KB-011"
+KB-022,Reklamation,Falscher oder fehlender Artikel,innerhalb von 14 Tagen melden; kostenlose Nachlieferung; falscher Artikel wird kostenlos abgeholt,"DE,AT,CH",KB-021
+KB-023,Reklamation,Gesetzliche Gewährleistung,2 Jahre ab Lieferung; alle Märkte,"DE,AT,CH","KB-024,KB-021"
+KB-024,Reklamation,5-Jahres-Garantie HD Basics,"5 Jahre auf Möbel der Eigenmarke; nicht auf Bezüge, Polster, Verschleißteile; Rechnung genügt","DE,AT,CH","KB-023,KB-025"
+KB-025,Reklamation,"Montageanleitungen, Ersatzteile und Montageservice","Anleitungen als PDF; Ersatzteile nur HD Basics über Kundenservice; Montageservice 59 € nur DE, nur bei Bestellung","DE,AT,CH","KB-024,KB-012"
+KB-026,Zahlung,Zahlungsarten im Überblick,"PayPal, Kreditkarte, Apple Pay alle Märkte; Rechnung DE und AT; Ratenkauf nur DE","DE,AT,CH","KB-027,KB-028,KB-031"
+KB-027,Zahlung,Kauf auf Rechnung,Zahlungsziel 30 Tage ab Versand; max. 1.500 €; nur DE und AT; Rechnungs- = Lieferadresse; nicht bei Packstation,"DE,AT","KB-028,KB-029,KB-031"
+KB-028,Zahlung,Ratenkauf,"ab 200 €; 6, 12 oder 24 Monate; nur DE",DE,"KB-027,KB-031"
+KB-029,Zahlung,Zahlungserinnerung und Mahnung,Erinnerung 7 Tage nach Fälligkeit kostenlos; ab 1. Mahnung 5 € Mahngebühr,"DE,AT",KB-027
+KB-030,Zahlung,Rechnung abrufen und Firmenrechnung,PDF per E-Mail mit Versandbestätigung und im Kundenkonto; Firmenname und USt-IdNr. vor Bestellabschluss,"DE,AT,CH",KB-027
+KB-031,Zahlung,Zahlung fehlgeschlagen oder abgelehnt,3-D-Secure-Freigabe; Bestellung 48 Stunden reserviert; Rechnungs-/Ratenkauf entscheidet der Zahlungspartner,"DE,AT,CH","KB-026,KB-027,KB-028"
+KB-032,Kundenkonto,Kundenkonto anlegen und Passwort zurücksetzen,Bestätigungslink per E-Mail; Rücksetzlink 24 Stunden gültig,"DE,AT,CH","KB-033,KB-001"
+KB-033,Kundenkonto,Persönliche Daten und E-Mail-Adresse ändern,Kontoeinstellungen; neue E-Mail-Adresse per Link bestätigen,"DE,AT,CH","KB-032,KB-034"
+KB-034,Kundenkonto,Kundenkonto löschen,nur ohne offene Bestellungen und Retouren; Rechnungsdaten bleiben wegen Aufbewahrungsfristen gespeichert,"DE,AT,CH","KB-033,KB-036"
+KB-035,Kundenkonto,Newsletter an- und abmelden,Abmeldelink in jedem Newsletter oder im Kundenkonto; sofort wirksam; 10 % Anmelderabatt,"DE,AT,CH",KB-038
+KB-036,Kundenkonto,Auskunft über gespeicherte Daten,Datenschutz-Formular; Antwort innerhalb eines Monats,"DE,AT,CH",KB-034
+KB-037,Gutscheine & Service,Geschenkgutscheine,10–500 €; digital; 3 Jahre gültig ab Ende des Kaufjahres; keine Barauszahlung; Restguthaben; nur DE und AT,"DE,AT","KB-038,KB-020"
+KB-038,Gutscheine & Service,Aktionscodes und Newsletter-Rabatt,"1 Code pro Bestellung; nicht auf reduzierte Artikel; mit Geschenkgutschein kombinierbar; 10 % ab 50 €, 30 Tage; anteilige Verrechnung bei Retoure","DE,AT,CH","KB-037,KB-035,KB-018"
+KB-039,Gutscheine & Service,Hallendal Club,kostenlos; 1 Punkt pro 1 €; 500 Punkte = 5-€-Gutschein; Gutschrift nach 30 Tagen; Verfall nach 24 Monaten; Gratisversand Paket Standard DE,"DE,AT,CH","KB-007,KB-037"
+KB-040,Gutscheine & Service,Kundenservice kontaktieren,"Kontaktformular, E-Mail, Live-Chat, Telefon; Mo–Fr 8–18 Uhr, Sa 9–14 Uhr; Antwort innerhalb von 24 Stunden an Werktagen","DE,AT,CH",KB-002

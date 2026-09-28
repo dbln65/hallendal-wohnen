@@ -1,0 +1,22 @@
+<artikel>
+ID: {id}
+Kategorie: {kategorie}
+Titel: {titel}
+Kernfakten: {kernfakten}
+Länder: {laender}
+Verwandte Artikel: {verwandte}
+Stand: {stand}
+</artikel>
+
+Schreibe genau diesen einen Hilfeartikel nach der Artikelvorlage aus dem Steckbrief.
+
+Regeln:
+1. Verwende nur Fakten aus dem Faktenkatalog und dem Unternehmensprofil, die zu diesem Artikel gehören. Die Kernfakten zeigen den Schwerpunkt; ergänze passende Details aus dem Faktenkatalog, aber nichts, was dort nicht steht.
+2. Übernimm Zahlen, Beträge und Fristen wortgleich und in Ziffern („14 Tage“, nicht „zwei Wochen“). Rechne keine neuen Beträge aus.
+3. Erwähne keine Themen aus „Bewusste Lücken“, auch nicht als Ausschluss oder Verneinung.
+4. Wiederhole keine Fakten der verwandten Artikel. Verweise im Abschnitt „Verwandte Artikel“ nur auf ihre IDs mit Titel.
+5. Übernimm im Frontmatter id, kategorie, titel, laender und stand exakt wie oben angegeben.
+6. Verwende genau die Abschnitte der Vorlage in dieser Reihenfolge: Kurzantwort, So gehen Sie vor, Kosten und Fristen, Ausnahmen und Sonderfälle, Verwandte Artikel. Gibt es zu einem Abschnitt nichts, schreibe dort einen kurzen Satz, dass keine Besonderheiten gelten.
+7. Sie-Form, sachlicher Service-Ton, keine Werbesprache, 300–600 Wörter.
+
+Gib ausschließlich den Artikel als Markdown aus, beginnend mit der Zeile „---“ des Frontmatters. Keine Einleitung, keine Code-Umrandung.
