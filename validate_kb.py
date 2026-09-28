@@ -32,7 +32,7 @@ SECTIONS = [
     "Ausnahmen und Sonderfälle",
     "Verwandte Artikel",
 ]
-MIN_WORDS, MAX_WORDS = 300, 600
+MIN_WORDS, MAX_WORDS = 150, 500
 
 # Begriffe zu den bewussten Lücken (Kleinschreibung, Regex).
 GAP_PATTERNS = {

@@ -17,6 +17,6 @@ Regeln:
 4. Wiederhole keine Fakten der verwandten Artikel. Verweise im Abschnitt „Verwandte Artikel“ nur auf ihre IDs mit Titel.
 5. Übernimm im Frontmatter id, kategorie, titel, laender und stand exakt wie oben angegeben.
 6. Verwende genau die Abschnitte der Vorlage in dieser Reihenfolge: Kurzantwort, So gehen Sie vor, Kosten und Fristen, Ausnahmen und Sonderfälle, Verwandte Artikel. Gibt es zu einem Abschnitt nichts, schreibe dort einen kurzen Satz, dass keine Besonderheiten gelten.
-7. Sie-Form, sachlicher Service-Ton, keine Werbesprache, 300–600 Wörter.
+7. Sie-Form, sachlicher Service-Ton, keine Werbesprache. Länge 150–500 Wörter, je nach Umfang der Fakten. Lieber kurz und vollständig als aufgefüllt.
 
 Gib ausschließlich den Artikel als Markdown aus, beginnend mit der Zeile „---“ des Frontmatters. Keine Einleitung, keine Code-Umrandung.

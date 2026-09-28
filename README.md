@@ -60,7 +60,7 @@ Der Steckbrief wird per Prompt-Caching zwischengespeichert. Im Log zeigen `cache
 | Stufe | Prüfung |
 | --- | --- |
 | FEHLER | Frontmatter fehlt oder weicht vom Plan ab; Pflichtabschnitte fehlen; unbekannte Artikel-IDs; Zahlen, die nicht im Steckbrief vorkommen |
-| WARNUNG | Länge außerhalb 300–600 Wörter; Begriffe aus den bewussten Lücken; ausgeschriebene Zahlwörter; Verweise weichen vom Plan ab |
+| WARNUNG | Länge außerhalb 150–500 Wörter; Begriffe aus den bewussten Lücken; ausgeschriebene Zahlwörter; Verweise weichen vom Plan ab |
 
 Warnungen sind Hinweise für das manuelle Review. Der Zahlencheck erkennt erfundene oder errechnete Werte, aber keine falsch zugeordneten (z. B. 69 € statt 49 € für DE). Das bleibt Aufgabe des manuellen Reviews.
 
