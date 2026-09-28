@@ -2,8 +2,6 @@ id,level,check,detail
 KB-006,WARNUNG,Länge,106 Wörter (Soll 150–500)
 KB-008,WARNUNG,Länge,133 Wörter (Soll 150–500)
 KB-010,WARNUNG,Länge,142 Wörter (Soll 150–500)
-KB-011,FEHLER,Frontmatter,fehlt oder ist kein gültiges YAML
-KB-018,FEHLER,Frontmatter,fehlt oder ist kein gültiges YAML
 KB-020,WARNUNG,Länge,138 Wörter (Soll 150–500)
 KB-022,WARNUNG,Länge,133 Wörter (Soll 150–500)
 KB-023,WARNUNG,Länge,129 Wörter (Soll 150–500)
