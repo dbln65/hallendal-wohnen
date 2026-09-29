@@ -69,3 +69,4 @@ Warnungen sind Hinweise für das manuelle Review. Der Zahlencheck erkennt erfund
 1. Jeden Artikel mit der Review-Checkliste manuell prüfen. Review-Zeit wird kaufmännisch gerundet, da TCO-Rechnung auf Stunden gerechnet wird.
 2. Manuelle Änderungen mit Begründung protokollieren.
 3. KB einfrieren (z. B. `git tag kb-v1.0`), erst danach die Tickets generieren.
+4. `python fix_related.py` ausführen: schreibt die Verweise aus `plan.csv` neu (Titel wurden bei der Generierung teils falsch geraten oder gar nicht erst generiert).

@@ -36,6 +36,6 @@ KB-034,Kundenkonto,Kundenkonto löschen,nur ohne offene Bestellungen und Retoure
 KB-035,Kundenkonto,Newsletter an- und abmelden,Abmeldelink in jedem Newsletter oder im Kundenkonto; sofort wirksam; 10 % Anmelderabatt,"DE,AT,CH",KB-038
 KB-036,Kundenkonto,Auskunft über gespeicherte Daten,Datenschutz-Formular; Antwort innerhalb eines Monats,"DE,AT,CH",KB-034
 KB-037,Gutscheine & Service,Geschenkgutscheine,10–500 €; digital; 3 Jahre gültig ab Ende des Kaufjahres; keine Barauszahlung; Restguthaben; nur DE und AT,"DE,AT","KB-038,KB-020"
-KB-038,Gutscheine & Service,Aktionscodes und Newsletter-Rabatt,"1 Code pro Bestellung; nicht auf reduzierte Artikel; mit Geschenkgutschein kombinierbar; 10 % ab 50 €, 30 Tage; anteilige Verrechnung bei Retoure","DE,AT,CH","KB-037,KB-035,KB-018"
+KB-038,Gutscheine & Service,Aktionscodes und Newsletter-Rabatt,"1 Code pro Bestellung; nicht auf reduzierte Artikel; mit Geschenkgutschein kombinierbar; 10 % ab 50 €, 30 Tage; anteilige Verrechnung bei Retoure","DE,AT","KB-037,KB-035,KB-018"
 KB-039,Gutscheine & Service,Hallendal Club,kostenlos; 1 Punkt pro 1 €; 500 Punkte = 5-€-Gutschein; Gutschrift nach 30 Tagen; Verfall nach 24 Monaten; Gratisversand Paket Standard DE,"DE,AT,CH","KB-007,KB-037"
 KB-040,Gutscheine & Service,Kundenservice kontaktieren,"Kontaktformular, E-Mail, Live-Chat, Telefon; Mo–Fr 8–18 Uhr, Sa 9–14 Uhr; Antwort innerhalb von 24 Stunden an Werktagen","DE,AT,CH",KB-002
