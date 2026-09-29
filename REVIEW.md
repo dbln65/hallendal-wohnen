@@ -8,7 +8,7 @@ Jeder der 40 Artikel wird manuell gegen `steckbrief.md` geprüft, bevor die KB e
 2. Checkliste unten vollständig durchgehen.
 3. Jeden gefundenen Fehler mit Fehlerart und Ursache in `review_log.csv` eintragen.
 4. Korrigieren (siehe „Korrekturen“), erneut `python validate_kb.py` ausführen.
-5. Zeit stoppen, Minuten eintragen, Artikel als final markieren.
+5. Zeit stoppen, Minuten eintragen, Artikel als final markieren. Minuten werden kaufmännisch auf ganze Minuten gerundet (4:29 → 4, 4:30 → 5).
 
 ## Checkliste
 
@@ -22,6 +22,18 @@ Jeder der 40 Artikel wird manuell gegen `steckbrief.md` geprüft, bevor die KB e
 - [ ] Sie-Form, sachlicher Ton, keine Werbesprache.
 
 Die Längenwarnung des Validators (Soll 150–500 Wörter) ist nur ein Hinweis. Ein kurzer Artikel ist in Ordnung, wenn er vollständig ist.
+
+## Toleranzregel für plausible Ergänzungen
+
+Kleine Ergänzungen, die nicht wörtlich im Steckbrief stehen, werden toleriert und nicht als Fehler erfasst, wenn alle drei Bedingungen erfüllt sind:
+
+Sie widersprechen keinem Fakt im Steckbrief.
+Sie enthalten keine Zahl, Frist, Gebühr, Bedingung oder Einschränkung.
+Sie beschreiben nur naheliegende Bedienschritte oder allgemeine Selbstverständlichkeiten.
+
+Beispiele für tolerierte Ergänzungen: „Die Benachrichtigung ist kostenlos“ in Abschnitten ohne Kostenangabe im Steckbrief (ausgelöst durch den Pflichtabschnitt „Kosten und Fristen“), „Halten Sie Ihre Bestellnummer bereit“, „Wählen Sie die Option auf der Produktseite“.
+
+Nicht toleriert und als FAKT_ERFUNDEN erfasst: neue Bedingungen oder Einschränkungen (z. B. „nur für Neukunden“), neue Fristen oder Beträge sowie Aussagen, die dem Steckbrief oder dem eigenen Artikel widersprechen.
 
 ## Fehlerarten
 
