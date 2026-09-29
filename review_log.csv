@@ -1,41 +1,41 @@
 id,titel,review_minuten,fehlerart,ursache,beschreibung,korrektur,final
-KB-001,Bestellen ohne Kundenkonto,,,,,,nein
-KB-002,Bestellbestätigung nicht erhalten,,,,,,nein
-KB-003,Bestellung stornieren,,,,,,nein
-KB-004,Bestellung nachträglich ändern,,,,,,nein
-KB-005,Artikel nicht verfügbar,,,,,,nein
-KB-006,Stoffmuster bestellen,,,,,,nein
-KB-007,Versandkosten und Lieferzeiten Deutschland,,,,,,nein
-KB-008,Expressversand,,,,,,nein
-KB-009,Lieferung nach Österreich,,,,,,nein
-KB-010,Lieferung in die Schweiz,,,,,,nein
-KB-011,Speditionslieferung: Ablauf und Termin,,FORM,VORLAGE,"Titel mit Doppelpunkt im Frontmatter ohne Anführungszeichen, ungültiges YAML",MANUELL,nein
-KB-012,Lieferung in die Wohnung und Altmöbelmitnahme,,,,,,nein
-KB-013,Sendungsverfolgung und Packstation,,,,,,nein
-KB-014,Widerrufsrecht und 30-Tage-Rückgabe,,,,,,nein
-KB-015,Paket-Retoure anmelden,,,,,,nein
-KB-016,Speditionsware zurückgeben,,,,,,nein
-KB-017,Retouren aus Österreich und der Schweiz,,,,,,nein
-KB-018,Erstattung: Zeitpunkt und Zahlungsweg,,FORM,VORLAGE,"Titel mit Doppelpunkt im Frontmatter ohne Anführungszeichen, ungültiges YAML",MANUELL,nein
-KB-019,Artikel umtauschen,,,,,,nein
-KB-020,Von der Rückgabe ausgeschlossene Artikel,,,,,,nein
-KB-021,Transportschaden melden,,,,,,nein
-KB-022,Falscher oder fehlender Artikel,,,,,,nein
-KB-023,Gesetzliche Gewährleistung,,,,,,nein
-KB-024,5-Jahres-Garantie HD Basics,,,,,,nein
-KB-025,"Montageanleitungen, Ersatzteile und Montageservice",,,,,,nein
-KB-026,Zahlungsarten im Überblick,,,,,,nein
-KB-027,Kauf auf Rechnung,,,,,,nein
-KB-028,Ratenkauf,,,,,,nein
-KB-029,Zahlungserinnerung und Mahnung,,,,,,nein
-KB-030,Rechnung abrufen und Firmenrechnung,,,,,,nein
-KB-031,Zahlung fehlgeschlagen oder abgelehnt,,,,,,nein
-KB-032,Kundenkonto anlegen und Passwort zurücksetzen,,,,,,nein
-KB-033,Persönliche Daten und E-Mail-Adresse ändern,,,,,,nein
-KB-034,Kundenkonto löschen,,,,,,nein
-KB-035,Newsletter an- und abmelden,,,,,,nein
-KB-036,Auskunft über gespeicherte Daten,,,,,,nein
-KB-037,Geschenkgutscheine,,,,,,nein
-KB-038,Aktionscodes und Newsletter-Rabatt,,,,,,nein
-KB-039,Hallendal Club,,,,,,nein
-KB-040,Kundenservice kontaktieren,,,,,,nein
+KB-001,Bestellen ohne Kundenkonto,2,-,-,Keine Fehler,-,ja
+KB-002,Bestellbestätigung nicht erhalten,2,-,-,Keine Fehler,-,ja
+KB-003,Bestellung stornieren,2,-,-,Keine Fehler,-,ja
+KB-004,Bestellung nachträglich ändern,5,FAKT_ERFUNDEN,MODELL,"„direkt im Kundenkonto ändern“ ist nicht belegt. Schritt 3 sagt „nicht möglich“, schickt dann aber zum Kundenservice",MANUELL,ja
+KB-005,Artikel nicht verfügbar,4,FORM,MODELL,ganz am Ende wurde ein freier Text ohne Bezug hinzugefügt,MANUELL,ja
+KB-006,Stoffmuster bestellen,2,-,-,-,-,ja
+KB-007,Versandkosten und Lieferzeiten Deutschland,6,"VERWEIS, FAKT_FEHLT",MODELL,Falsche Titel bei den Verweisartikel und beim CLub-Ausschluss fehlt Express,MANUELL,ja
+KB-008,Expressversand,2,-,-,-,-,ja
+KB-009,Lieferung nach Österreich,2,-,-,Keine Fehler,-,ja
+KB-010,Lieferung in die Schweiz,2,-,-,Keine Fehler,-,ja
+KB-011,Speditionslieferung: Ablauf und Termin,4,FORM,VORLAGE,"Titel mit Doppelpunkt im Frontmatter ohne Anführungszeichen, ungültiges YAML",MANUELL,ja
+KB-012,Lieferung in die Wohnung und Altmöbelmitnahme,2,-,-,-,-,ja
+KB-013,Sendungsverfolgung und Packstation,2,-,-,-,-,ja
+KB-014,Widerrufsrecht und 30-Tage-Rückgabe,5,VERWEIS,MODELL,"Die Verweisartikel waren falsch und hatten zusätzlich den Titel, anstatt nur die Nummer",MANUELL,ja
+KB-015,Paket-Retoure anmelden,2,-,-,-,-,ja
+KB-016,Speditionsware zurückgeben,2,-,-,-,-,ja
+KB-017,Retouren aus Österreich und der Schweiz,7,FAKT_ERFUNDEN,MODELL,Rücksendefristen wurden von dem Modell erfunden bzw. falsch dargestellt.,MANUELL,ja
+KB-018,Erstattung: Zeitpunkt und Zahlungsweg,4,FORM,VORLAGE,"Titel mit Doppelpunkt im Frontmatter ohne Anführungszeichen, ungültiges YAML",MANUELL,ja
+KB-019,Artikel umtauschen,4,STIL,MODELL,"Schritt 1 enthält „wie im Faktenkatalog vorgesehen“, ein internes Dokument im Kundentext",MANUELL,ja
+KB-020,Von der Rückgabe ausgeschlossene Artikel,3,-,-,-,-,ja
+KB-021,Transportschaden melden,5,FAKT_ERFUNDEN,MODELL,„gelten unabhängig von der Warenart gleich“ widerspricht dem eigenen Inhalt (Paket vs. Spedition),MANUELL,ja
+KB-022,Falscher oder fehlender Artikel,3,FORM,MODELL,"""</br>"" am Ende ",MANUELL,ja
+KB-023,Gesetzliche Gewährleistung,2,-,-,-,-,ja
+KB-024,5-Jahres-Garantie HD Basics,2,-,-,-,-,ja
+KB-025,"Montageanleitungen, Ersatzteile und Montageservice",2,-,-,-,-,ja
+KB-026,Zahlungsarten im Überblick,2,-,-,-,-,ja
+KB-027,Kauf auf Rechnung,2,-,-,-,-,ja
+KB-028,Ratenkauf,2,-,-,-,-,ja
+KB-029,Zahlungserinnerung und Mahnung,2,-,-,-,-,ja
+KB-030,Rechnung abrufen und Firmenrechnung,3,FORM,MODELL,Falscher Titel bei Verweisartikel,MANUELL,ja
+KB-031,Zahlung fehlgeschlagen oder abgelehnt,3,-,-,-,-,ja
+KB-032,Kundenkonto anlegen und Passwort zurücksetzen,2,-,-,-,-,ja
+KB-033,Persönliche Daten und E-Mail-Adresse ändern,2,-,-,-,-,ja
+KB-034,Kundenkonto löschen,2,-,-,-,-,ja
+KB-035,Newsletter an- und abmelden,4,FAKT_ERFUNDEN,MODELL,Im Steckbrief steht nichts von Neukunden. Jeder erhält die 10% Rabatt.,-,ja
+KB-036,Auskunft über gespeicherte Daten,2,-,-,-,-,ja
+KB-037,Geschenkgutscheine,2,-,-,-,-,ja
+KB-038,Aktionscodes und Newsletter-Rabatt,5,FAKT_ERFUNDEN,MODELL,Geschenkgutscheine gibt es laut Steckbrief nur in DE und AT.,MANUELL,ja
+KB-039,Hallendal Club,2,-,-,-,-,ja
+KB-040,Kundenservice kontaktieren,4,FORM,MODELL,Falscher Titel bei Verweisartikel,MANUELL,ja
