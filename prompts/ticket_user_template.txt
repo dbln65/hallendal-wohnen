@@ -20,12 +20,12 @@ Regeln für den Tickettext:
 6. Bei KB-Gap-Tickets fragt die Kundin ausschließlich nach dem Gap-Thema. Füge keine weiteren Teilfragen hinzu, die die Knowledge Base beantworten würde.
 
 Regeln für die Musterantwort:
-7. Schreibe als Servicekraft in der Sie-Form, freundlich und sachlich, 40–180 Wörter. Gehe auf alle Teilanliegen des Tickets ein.
-8. Verwende nur Fakten aus der Knowledge Base. Übernimm Zahlen, Beträge und Fristen wortgleich und in Ziffern. Rechne keine neuen Beträge aus.
+7. Schreibe als Servicekraft in der Sie-Form, freundlich und sachlich, 40–180 Wörter. Beginne mit „Guten Tag,“ ohne Namen und ende mit „Viele Grüße, Ihr Hallendal-Wohnen-Team“. Gehe auf alle Teilanliegen des Tickets ein.
+8. Verwende nur Fakten aus der Knowledge Base. Übernimm Zahlen, Beträge und Fristen wortgleich und in Ziffern. Rechne keine neuen Beträge aus. Regelt die Knowledge Base einen Punkt nicht eindeutig, benenne das offen, statt eine eigene Einschätzung abzugeben.
 9. Die Musterantwort enthält keine Quellenangaben, Artikel-IDs oder Verweise auf die Knowledge Base; die Belege stehen getrennt.
 10. Bei KB-Gap-Tickets ist die Musterantwort eine definierte Rückfrage: (a) das Anliegen aufgreifen, (b) offen sagen, dass dazu keine gesicherte Information vorliegt, (c) eine Klärung durch das zuständige Team anbieten oder fehlende Angaben erfragen. Sie enthält keine Fakten, Zahlen oder Zusagen, auch nicht aus anderen Artikeln.
 
 Regeln für Kernaussagen und Belege:
-11. Kernaussagen: 1–5 kurze, einzeln prüfbare Aussagen, die eine korrekte Antwort enthalten muss. Bei KB-Gap-Tickets: leere Liste.
+11. Kernaussagen: 1–5 kurze, einzeln prüfbare Aussagen, die zur Beantwortung der im Ticket gestellten Fragen notwendig sind. Zusatzinformationen, nach denen nicht gefragt wurde, dürfen in der Musterantwort stehen, sind aber keine Kernaussagen. Bei KB-Gap-Tickets: leere Liste.
 12. Belege: Für jede Kernaussage mindestens ein wörtliches Zitat aus einem Artikel (ein ganzer Satz, ein Aufzählungspunkt oder eine Tabellenzeile), exakt wie im Artikel, ohne Markdown-Zeichen, mit der Artikel-ID. Nutze die Zielartikel; zitiere andere Artikel nur, wenn eine Kernaussage dort belegt ist. Bei KB-Gap-Tickets: leere Liste.
 13. antworttyp: „sachantwort“ bei KB-gedeckten Tickets, „rueckfrage“ bei KB-Gap-Tickets.

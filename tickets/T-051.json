@@ -1,0 +1,48 @@
+{
+  "ticket_id": "T-051",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-017;KB-018;KB-014",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Kundin in der Schweiz widerruft nach 10 Tagen die gesamte Bestellung (Paket): Abzüge, Erstattung der Hinsendekosten, Zeitpunkt der Erstattung.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo zusammen, ich hab vor 10 Tagen meine komplette Bestellung (ein paar Kissen und eine Lampe) bekommen und möchte das jetzt alles zurückschicken, hat mir doch nicht so gefallen wie gedacht. Ich wohne in der Schweiz, muss ich da was bei den Kosten beachten oder wird mir alles erstattet? Und wie lang dauerts dann bis ich mein Geld wiederseh? Danke und liebe Grüße, Tamara",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Da Sie Ihre gesamte Bestellung innerhalb von 14 Tagen ab Erhalt widerrufen, können Sie die Artikel problemlos zurücksenden. Bitte beachten Sie, dass für Rücksendungen aus der Schweiz Kosten in Höhe von 9,90 CHF anfallen, die von Ihrer Erstattung abgezogen werden. Da es sich um einen vollständigen Widerruf handelt, werden Ihnen zusätzlich die Versandkosten der Hinsendung erstattet. Die Erstattung erfolgt insgesamt innerhalb von 14 Tagen, nachdem die Ware bei uns im Lager eingegangen ist, und zwar auf Ihr ursprüngliches Zahlungsmittel. Bei einem Kauf auf Rechnung wird der Rechnungsbetrag entsprechend reduziert.\n\nFür die Anmeldung der Rücksendung nutzen Sie bitte das Retourenportal in Ihrem Kundenkonto bzw. die Gastfunktion mit Bestellnummer und Postleitzahl.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Das Widerrufsrecht beträgt 14 Tage ab Erhalt, Tamaras Widerruf nach 10 Tagen ist also fristgerecht.",
+    "Für Rücksendungen aus der Schweiz fallen 9,90 CHF an, die von der Erstattung abgezogen werden.",
+    "Bei vollständigem Widerruf werden auch die Versandkosten der Hinsendung erstattet.",
+    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-014",
+      "zitat": "Gesetzliches Widerrufsrecht: 14 Tage ab Erhalt, gilt für Paketware und Speditionsware."
+    },
+    {
+      "artikel_id": "KB-017",
+      "zitat": "Rücksendekosten Paketware Schweiz: 9,90 CHF, werden von der Erstattung abgezogen."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Versandkosten der Hinsendung werden nur bei vollständigem Widerruf erstattet."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lager."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:33:52+00:00"
+  }
+}

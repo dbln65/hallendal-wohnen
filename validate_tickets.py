@@ -141,13 +141,14 @@ def main() -> None:
 
         # Zahlen in der Musterantwort
         antwort_nums = extract_numbers(t["musterantwort"])
-        fremd = sorted(antwort_nums - kb_numbers, key=float)
+        ticket_nums = extract_numbers(t["ticket_text"])  # Angaben der Kundin dürfen aufgegriffen werden
+        fremd = sorted(antwort_nums - kb_numbers - ticket_nums, key=float)
         if fremd:
             add(tid, "FEHLER", "Zahlen", f"nicht in der KB: {', '.join(fremd)}")
         beleg_nums = set().union(*(extract_numbers(b["zitat"]) for b in belege)) if belege else set()
-        ohne_beleg = sorted((antwort_nums & kb_numbers) - beleg_nums, key=float)
-        if gap and antwort_nums:
-            add(tid, "WARNUNG", "Gap", f"Rückfrage enthält Zahlen: {', '.join(sorted(antwort_nums, key=float))}")
+        ohne_beleg = sorted((antwort_nums & kb_numbers) - beleg_nums - ticket_nums, key=float)
+        if gap and antwort_nums - ticket_nums:
+            add(tid, "WARNUNG", "Gap", f"Rückfrage enthält Zahlen: {', '.join(sorted(antwort_nums - ticket_nums, key=float))}")
         elif ohne_beleg:
             add(tid, "WARNUNG", "Zahlen", f"in der Antwort, aber nicht in den Belegen: {', '.join(ohne_beleg)}")
 

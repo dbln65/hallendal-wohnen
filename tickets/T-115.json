@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-115",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "B2B-Konditionen und Mengenrabatte",
+    "stil": "veraergert",
+    "szenario": "Firma möchte 20 Stühle bestellen und fragt nach Mengenrabatt.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich wollte für unser Büro 20 Stühle bei Ihnen bestellen und frage mich, ob es dafür einen Mengenrabatt oder spezielle Firmenkonditionen gibt. Auf Ihrer Seite finde ich dazu überhaupt nichts, das ist echt ärgerlich bei so einer großen Bestellung! Bitte klären Sie das schnell, sonst bestelle ich woanders.",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage und Ihr Interesse an einer größeren Bestellung von 20 Stühlen für Ihr Büro. Zu speziellen B2B-Konditionen oder Mengenrabatten liegen mir aktuell leider keine gesicherten Informationen vor, die ich Ihnen verbindlich mitteilen könnte. Damit wir Ihnen hierzu eine verlässliche Auskunft geben können, leite ich Ihre Anfrage gerne an das zuständige Team weiter, das sich mit Geschäftskundenbestellungen befasst. Könnten Sie mir dafür noch mitteilen, um welches Stuhlmodell es sich handelt und ob Sie bereits ein konkretes Lieferdatum im Blick haben? So kann die Klärung möglichst zügig erfolgen. Wir melden uns anschließend mit weiteren Informationen bei Ihnen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:34:14+00:00"
+  }
+}

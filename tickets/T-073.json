@@ -1,0 +1,49 @@
+{
+  "ticket_id": "T-073",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-024;KB-025",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Ersatzteil für HD-Basics-Schrank nach 2 Jahren: Kostenlos und wie bestellen?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich habe vor etwa zwei Jahren einen Kleiderschrank von euch gekauft, glaube es war die HD Basics Reihe. Jetzt ist ein Teil davon kaputt gegangen und ich bräuchte ein Ersatzteil dafür. Ist das noch kostenlos und wie komme ich an das Teil? Danke und Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Da es sich um ein Möbelstück unserer Eigenmarke HD Basics handelt, gilt dafür eine 5-Jahre Herstellergarantie ab Lieferung. Da Ihr Schrank erst zwei Jahre alt ist, liegen Sie innerhalb dieser Garantiezeit, und Ersatzteile sind dann kostenlos. Eine Registrierung ist nicht nötig, Ihre Rechnung genügt als Nachweis.\n\nBitte kontaktieren Sie dafür unseren Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon und geben Sie die Artikelnummer des Schranks an, damit das passende Ersatzteil ermittelt werden kann. Bitte beachten Sie, dass sich die Garantie nicht auf Bezüge, Polster oder Verschleißteile erstreckt – falls Ihr defektes Teil in diese Kategorie fällt, informieren wir Sie gerne entsprechend.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Auf HD-Basics-Möbel gilt eine 5-Jahre-Herstellergarantie ab Lieferung, der Schrank ist nach 2 Jahren noch im Garantiezeitraum.",
+    "Eine Registrierung ist nicht nötig, die Rechnung genügt als Nachweis.",
+    "Ersatzteile innerhalb der Garantie sind kostenlos.",
+    "Ersatzteile werden über den Kundenservice unter Angabe der Artikelnummer angefragt.",
+    "Die Garantie gilt nicht für Bezüge, Polster und Verschleißteile."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Auf Möbel unserer Eigenmarke HD Basics erhalten Sie eine 5-Jahre Herstellergarantie."
+    },
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Eine Registrierung ist nicht nötig, Ihre Rechnung genügt als Nachweis."
+    },
+    {
+      "artikel_id": "KB-025",
+      "zitat": "Ersatzteile: nur für HD Basics, über den Kundenservice mit Artikelnummer erhältlich; innerhalb der Garantie kostenlos."
+    },
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Die Garantie gilt nicht für Bezüge, Polster und Verschleißteile."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:34:03+00:00"
+  }
+}

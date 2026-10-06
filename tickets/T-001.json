@@ -1,0 +1,39 @@
+{
+  "ticket_id": "T-001",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-007",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Bestellung von ca. 35 € (nur Paketware) nach Deutschland: Wie hoch sind die Versandkosten?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich möchte bei Ihnen für ca. 35 € ein paar kleinere Deko-Artikel bestellen, die mit normalem Paketversand kommen. Wie hoch sind dabei die Versandkosten innerhalb Deutschlands? Viele Grüße, Sandra",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage. Für Paketware innerhalb Deutschlands berechnen wir 4,95 € Versandkosten. Versandkostenfrei liefern wir erst ab einem Bestellwert von 49 €. Da Ihre geplante Bestellung mit ca. 35 € darunter liegt, würden für Sie die 4,95 € Versandkosten anfallen. Die Lieferzeit beträgt in diesem Fall 2–4 Werktage.\n\nFalls Sie regelmäßig bei uns bestellen, lohnt sich ein Blick auf unseren kostenlosen Hallendal Club: Mitglieder zahlen für den Standardversand von Paketware in Deutschland keine Versandkosten, unabhängig vom Bestellwert.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Paketware kostet innerhalb Deutschlands 4,95 € Versand.",
+    "Versandkostenfrei ist die Lieferung erst ab einem Bestellwert von 49 €.",
+    "Die Lieferzeit für Paketware in Deutschland beträgt 2–4 Werktage."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-007",
+      "zitat": "Paketware liefern wir innerhalb Deutschlands für 4,95 €, ab einem Bestellwert von 49 € versandkostenfrei, in 2–4 Werktagen."
+    },
+    {
+      "artikel_id": "KB-007",
+      "zitat": "Paket Standard: 4,95 €, kostenlos ab 49 € Bestellwert, Lieferzeit 2–4 Werktage."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:33:44+00:00"
+  }
+}
