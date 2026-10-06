@@ -87,3 +87,18 @@ Kurze Musterantworten bei Gap-Tickets und Längenwarnungen sind Hinweise für da
 ## Teilstichprobe Human-Rating
 
 `python draw_rating_sample.py` zieht je Kategorie 5 einfache, 4 mittlere, 3 komplexe und 3 KB-Gap-Tickets (insgesamt 60). Seed: 20261006.
+
+## Review der Tickets
+
+Ergebnisse und Aufwand werden in `ticket_review_log.csv` erfasst (eine Zeile pro Fehler; mehrere Fehler im selben Ticket = mehrere Zeilen mit derselben ID). Ursachen- und Korrekturcodes wie in `REVIEW.md`. Fehlerarten:
+
+| Code | Fehlerart |
+| --- | --- |
+| BELEG | Zitat nicht wörtlich, falscher Artikel oder Beleg fehlt |
+| FAKT_ERFUNDEN / ZAHL_ERFUNDEN / ZAHL_ZUORDNUNG | Musterantwort weicht von der KB ab |
+| FAKT_FEHLT | Musterantwort beantwortet ein Teilanliegen nicht |
+| KERNAUSSAGE | Kernaussage ungefragt, fehlend oder nicht prüfbar |
+| GAP | Gap-Ticket mit Fakten/Zusagen in der Rückfrage oder doch durch die KB beantwortbar |
+| TICKET | Tickettext unnatürlich, KB-Fachbegriff oder entscheidende Information fehlt |
+| SCHWIERIGKEIT | Ticket passt nicht zum Schwierigkeitsgrad der DEMI |
+| STIL | Anrede, Ton, Formulierung der Musterantwort |

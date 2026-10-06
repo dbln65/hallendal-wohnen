@@ -19,10 +19,8 @@ T-009,HINWEIS,Relevanz,"Fakt aus KB-012 auch in KB-011: „Lieferung in die Wohn
 T-013,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 4"
 T-014,HINWEIS,Relevanz,Fakt aus KB-011 auch in KB-012: „Die Spedition ruft 1–2 Werktage vorher an und vereinbart ein…“
 T-015,HINWEIS,Relevanz,"Fakt aus KB-009 auch in KB-011: „Spedition (Sperrgut): 69 € pauschal, Lieferzeit 10–18 Werkta…“"
-T-017,FEHLER,Beleg,Zitat nicht wörtlich in KB-013: „Nach dem Versand erhalten Sie eine Versandbestätigung mit Tracking-Lin…“
 T-018,HINWEIS,Relevanz,"Fakt aus KB-012 auch in KB-011: „Lieferung in die Wohnung: 49 €, inkl. Tragen in den Aufstell…“"
 T-019,HINWEIS,Relevanz,"Fakt aus KB-009 auch in KB-011: „Spedition (Sperrgut): 69 € pauschal, Lieferzeit 10–18 Werkta…“"
-T-020,FEHLER,Beleg,Zitat nicht wörtlich in KB-039 (steht in KB-007): „Mitglieder des Hallendal Club zahlen für Paket Standard in Deutschland…“
 T-020,HINWEIS,Relevanz,"Fakt aus KB-007 auch in KB-011: „Spedition (Sperrgut): 39 € pauschal pro Bestellung, Lieferze…“"
 T-020,HINWEIS,Relevanz,Fakt aus KB-011 auch in KB-012: „Die Spedition ruft 1–2 Werktage vorher an und vereinbart ein…“
 T-021,HINWEIS,Relevanz,"Fakt aus KB-009 auch in KB-011: „Spedition (Sperrgut): 69 € pauschal, Lieferzeit 10–18 Werkta…“"
@@ -72,7 +70,6 @@ T-047,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-017: „Erstattung: innerhalb 
 T-048,HINWEIS,Relevanz,Fakt aus KB-017 auch in KB-014: „Nach Eingang der Ware im Lager erfolgt die Erstattung innerh…“
 T-048,HINWEIS,Relevanz,Fakt aus KB-017 auch in KB-018: „Nach Eingang der Ware im Lager erfolgt die Erstattung innerh…“
 T-048,HINWEIS,Relevanz,Fakt aus KB-017 auch in KB-019: „Nach Eingang der Ware im Lager erfolgt die Erstattung innerh…“
-T-050,FEHLER,Beleg,"Zitat nicht wörtlich in KB-016: „Für Speditionsware gilt kein freiwilliges Rückgaberecht, sondern aussc…“"
 T-051,HINWEIS,Relevanz,"Fakt aus KB-014 auch in KB-016: „Gesetzliches Widerrufsrecht: 14 Tage ab Erhalt, gilt für Pak…“"
 T-051,HINWEIS,Relevanz,"Fakt aus KB-014 auch in KB-017: „Gesetzliches Widerrufsrecht: 14 Tage ab Erhalt, gilt für Pak…“"
 T-051,HINWEIS,Relevanz,"Fakt aus KB-017 auch in KB-015: „Rücksendekosten Paketware Schweiz: 9,90 CHF, werden von der …“"

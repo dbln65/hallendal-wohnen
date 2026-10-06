@@ -5,7 +5,7 @@
     "kategorie": "Versand",
     "schwierigkeit": "komplex",
     "kb_abdeckung": "gedeckt",
-    "ziel_artikel": "KB-007;KB-039;KB-011",
+    "ziel_artikel": "KB-007;KB-011",
     "gap_thema": "",
     "stil": "veraergert",
     "szenario": "Club-Mitglied bestellt Kissen (Paket) und Sessel (Sperrgut) nach Deutschland: Versandkosten je Warenart, Lieferung zusammen oder getrennt, Lieferzeiten.",
@@ -27,7 +27,7 @@
       "zitat": "Enthält Ihre Bestellung sowohl Paket- als auch Speditionsware, erhalten Sie beide Lieferungen getrennt."
     },
     {
-      "artikel_id": "KB-039",
+      "artikel_id": "KB-007",
       "zitat": "Mitglieder des Hallendal Club zahlen für Paket Standard in Deutschland keine Versandkosten, unabhängig vom Bestellwert."
     },
     {

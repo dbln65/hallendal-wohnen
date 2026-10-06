@@ -30,7 +30,11 @@
     },
     {
       "artikel_id": "KB-013",
-      "zitat": "Nach dem Versand erhalten Sie eine Versandbestätigung mit Tracking-Link, um den aktuellen Sendungsstatus bei DHL einzusehen."
+      "zitat": "Prüfen Sie nach dem Versand Ihrer Bestellung die Versandbestätigung, die Sie per E-Mail erhalten."
+    },
+    {
+      "artikel_id": "KB-013",
+      "zitat": "Öffnen Sie den darin enthaltenen Tracking-Link, um den aktuellen Sendungsstatus bei DHL einzusehen."
     },
     {
       "artikel_id": "KB-013",
