@@ -61,6 +61,29 @@ Die Pilottickets nutzen die übrigen Lückenthemen (Nachhaltigkeit, Kooperations
 
 P-01 bis P-10 dienen ausschließlich der Abstimmung von Prompt, Chunking und Retrieval. Sie gehen in keine Auswertung ein.
 
+## Generierung und Prüfung
+
+| Datei | Inhalt |
+| --- | --- |
+| `generate_tickets.py` | Claude Sonnet 5, ein Aufruf pro Ticket, strukturierte JSON-Ausgabe; Grundlage ist ausschließlich `kb/` (nicht der Steckbrief) |
+| `prompts/ticket_system.txt`, `prompts/ticket_user_template.txt` | Prompts (Hash im Log) |
+| `tickets/<ID>.json` | Ticket, Musterantwort, Antworttyp, Kernaussagen, Belege (wörtliche Zitate) und Metadaten |
+| `ticket_generation_log.jsonl` | Modell, Effort, Tokens, Cache, Dauer, Prompt- und KB-Hash je Aufruf |
+| `validate_tickets.py` | Prüfung gegen Plan und KB, Bericht `ticket_validation_report.csv`; `--export` schreibt `tickets.jsonl` |
+
+Ablauf:
+
+```bash
+python generate_tickets.py --dry-run --ids T-073
+python generate_tickets.py --ids T-001 T-051 T-073 T-115     # Probelauf
+python validate_tickets.py
+python generate_tickets.py                                   # alle fehlenden (haupt + pilot)
+python validate_tickets.py
+python validate_tickets.py --export                          # nach dem Review
+```
+
+Kurze Musterantworten bei Gap-Tickets und Längenwarnungen sind Hinweise für das Review. Hinweise vom Typ „Relevanz“ nennen weitere Artikel mit demselben Fakt; sie erscheinen im Export als `weitere_kandidaten` und werden im Review bestätigt oder verworfen.
+
 ## Teilstichprobe Human-Rating
 
 `python draw_rating_sample.py` zieht je Kategorie 5 einfache, 4 mittlere, 3 komplexe und 3 KB-Gap-Tickets (insgesamt 60). Seed: 20261006.
