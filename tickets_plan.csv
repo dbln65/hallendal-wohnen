@@ -1,0 +1,131 @@
+ticket_id,set,kategorie,schwierigkeit,kb_abdeckung,ziel_artikel,gap_thema,stil,szenario,human_rating
+T-001,haupt,Versand,einfach,gedeckt,KB-007,,sachlich,Bestellung von ca. 35 € (nur Paketware) nach Deutschland: Wie hoch sind die Versandkosten?,ja
+T-002,haupt,Versand,einfach,gedeckt,KB-007,,umgangssprachlich,Wie lange dauert die Lieferung von Paketware innerhalb Deutschlands?,ja
+T-003,haupt,Versand,einfach,gedeckt,KB-007,,unvollstaendig,Sofa nach Deutschland bestellt: Was kostet die Speditionslieferung und wie lange dauert sie?,nein
+T-004,haupt,Versand,einfach,gedeckt,KB-008,,veraergert,"Expressversand: Bis wann muss bestellt werden, was kostet er und wie schnell kommt die Ware?",nein
+T-005,haupt,Versand,einfach,gedeckt,KB-009,,sachlich,Lieferung nach Österreich: Was kostet der Paketversand und ab welchem Bestellwert ist er kostenlos?,nein
+T-006,haupt,Versand,einfach,gedeckt,KB-010,,umgangssprachlich,Kundin in der Schweiz fürchtet Zollnachzahlung bei Zustellung.,nein
+T-007,haupt,Versand,einfach,gedeckt,KB-010,,unvollstaendig,Kunde in der Schweiz möchte ein Sofa bestellen: Ist das möglich?,ja
+T-008,haupt,Versand,einfach,gedeckt,KB-011,,veraergert,Speditionslieferung: Wann meldet sich die Spedition und wie wird der Liefertermin festgelegt?,nein
+T-009,haupt,Versand,einfach,gedeckt,KB-012,,sachlich,Was kostet die Mitnahme eines alten Möbelstücks bei der Lieferung?,nein
+T-010,haupt,Versand,einfach,gedeckt,KB-013,,umgangssprachlich,Wo findet man die Sendungsverfolgung für ein Paket?,ja
+T-011,haupt,Versand,einfach,gedeckt,KB-013,,unvollstaendig,Kann ein Paket an eine Packstation geliefert werden?,ja
+T-012,haupt,Versand,mittel,gedeckt,KB-007;KB-039,,veraergert,Club-Mitglied bestellt Paketware für ca. 30 € nach Deutschland: Fallen Versandkosten an?,ja
+T-013,haupt,Versand,mittel,gedeckt,KB-008;KB-039,,sachlich,Club-Mitglied möchte Expressversand: Ist dieser durch die Club-Mitgliedschaft kostenlos?,ja
+T-014,haupt,Versand,mittel,gedeckt,KB-007;KB-011,,umgangssprachlich,Bestellung mit Stehlampe und Sofa (DE): Kommt alles zusammen und wie läuft die Lieferung des Sofas ab?,ja
+T-015,haupt,Versand,mittel,gedeckt,KB-009;KB-011,,unvollstaendig,"Sofa nach Österreich: Kosten, Lieferzeit und Ablauf der Speditionslieferung.",nein
+T-016,haupt,Versand,mittel,gedeckt,KB-013;KB-027,,veraergert,Lieferung an eine Packstation und Zahlung auf Rechnung gewünscht.,nein
+T-017,haupt,Versand,mittel,gedeckt,KB-010;KB-013,,sachlich,"Paket in die Schweiz: Lieferzeit, Sendungsverfolgung und Lieferung an eine Packstation.",nein
+T-018,haupt,Versand,mittel,gedeckt,KB-012;KB-025,,umgangssprachlich,Kleiderschrank (DE): Lieferung in die Wohnung und Montage gewünscht – welche Kosten fallen an?,nein
+T-019,haupt,Versand,mittel,gedeckt,KB-008;KB-009,,unvollstaendig,Kunde in Österreich möchte Expressversand; alternativ Standardlieferzeit und -kosten.,ja
+T-020,haupt,Versand,komplex,gedeckt,KB-007;KB-039;KB-011,,veraergert,"Club-Mitglied bestellt Kissen (Paket) und Sessel (Sperrgut) nach Deutschland: Versandkosten je Warenart, Lieferung zusammen oder getrennt, Lieferzeiten.",ja
+T-021,haupt,Versand,komplex,gedeckt,KB-009,,sachlich,"Kundin in Österreich bestellt Teppich (Paket, ca. 70 €) und Kommode (Sperrgut): Versandkosten je Warenart, Gratisgrenze, Lieferzeiten, getrennte Lieferung.",nein
+T-022,haupt,Versand,komplex,gedeckt,KB-010,,umgangssprachlich,"Kunde in der Schweiz möchte Sofa und Lampe bestellen und fragt nach Express, Kosten und Zoll.",nein
+T-023,haupt,Versand,komplex,gedeckt,KB-012;KB-025;KB-011,,unvollstaendig,Lieferung in die Wohnung bereits gebucht; nachträglich Altmöbelmitnahme für das alte Sofa und Montage des neuen Sofas gewünscht.,ja
+T-024,haupt,Versand,komplex,gedeckt,KB-013;KB-027;KB-026,,veraergert,"Lieferung an Packstation gewünscht, Bezahlung auf Rechnung geplant (Bestellwert ca. 200 €): Was geht, was nicht, welche Alternativen gibt es?",ja
+T-025,haupt,Versand,kb_gap,gap,,Lieferung auf Nordsee- und Ostseeinseln,sachlich,Paketlieferung auf eine Nordseeinsel (z. B. Föhr): Möglich und zu welchen Kosten?,ja
+T-026,haupt,Versand,kb_gap,gap,,Lieferung auf Nordsee- und Ostseeinseln,umgangssprachlich,Sofa per Spedition auf eine Ostfriesische Insel (z. B. Norderney).,ja
+T-027,haupt,Versand,kb_gap,gap,,Lieferung auf Nordsee- und Ostseeinseln,unvollstaendig,Gibt es Aufpreis oder längere Lieferzeit für Inseladressen (z. B. Borkum)?,ja
+T-028,haupt,Versand,kb_gap,gap,,Lieferung am Wochenende oder zu Wunschterminen,veraergert,Speditionslieferung an einem Samstag gewünscht.,nein
+T-029,haupt,Versand,kb_gap,gap,,Lieferung am Wochenende oder zu Wunschterminen,sachlich,Paket soll genau an einem bestimmten Tag (Geburtstag) ankommen.,nein
+T-030,haupt,Versand,kb_gap,gap,,Lieferung am Wochenende oder zu Wunschterminen,umgangssprachlich,Speditionslieferung abends nach 19 Uhr wegen Berufstätigkeit gewünscht.,nein
+T-031,haupt,Retoure,einfach,gedeckt,KB-014,,umgangssprachlich,"Wie lange hat man Zeit, Paketware zurückzuschicken?",nein
+T-032,haupt,Retoure,einfach,gedeckt,KB-015,,unvollstaendig,Wie meldet man eine Paket-Retoure an?,ja
+T-033,haupt,Retoure,einfach,gedeckt,KB-015,,veraergert,Kostet die Rücksendung eines Pakets innerhalb Deutschlands etwas?,nein
+T-034,haupt,Retoure,einfach,gedeckt,KB-016,,sachlich,Wie gibt man ein Sofa (Speditionsware) zurück?,nein
+T-035,haupt,Retoure,einfach,gedeckt,KB-016,,umgangssprachlich,Was kostet der Rücktransport von Speditionsware in Deutschland?,ja
+T-036,haupt,Retoure,einfach,gedeckt,KB-017,,unvollstaendig,Was kostet die Rücksendung eines Pakets aus der Schweiz?,ja
+T-037,haupt,Retoure,einfach,gedeckt,KB-018,,veraergert,Wann kommt das Geld nach einer Retoure zurück und auf welchem Weg?,ja
+T-038,haupt,Retoure,einfach,gedeckt,KB-019,,sachlich,Kissen in anderer Farbe gewünscht: Kann direkt umgetauscht werden?,ja
+T-039,haupt,Retoure,einfach,gedeckt,KB-020,,umgangssprachlich,Vorhang nach Maß soll zurückgegeben werden.,nein
+T-040,haupt,Retoure,einfach,gedeckt,KB-015,,unvollstaendig,Originalverpackung bereits entsorgt: Ist eine Rücksendung trotzdem möglich?,nein
+T-041,haupt,Retoure,einfach,gedeckt,KB-015,,veraergert,Als Gast ohne Kundenkonto bestellt: Wie wird die Retoure angemeldet?,nein
+T-042,haupt,Retoure,mittel,gedeckt,KB-014;KB-016,,sachlich,Kommode (Speditionsware) soll nach 20 Tagen zurückgegeben werden.,nein
+T-043,haupt,Retoure,mittel,gedeckt,KB-017;KB-016,,umgangssprachlich,Sessel (Speditionsware) aus Österreich zurückgeben: Ablauf und Kosten.,ja
+T-044,haupt,Retoure,mittel,gedeckt,KB-018;KB-027,,unvollstaendig,Auf Rechnung gekauft und komplett zurückgeschickt: Muss die Rechnung trotzdem bezahlt werden?,ja
+T-045,haupt,Retoure,mittel,gedeckt,KB-018;KB-038,,veraergert,"Bestellung mit Aktionscode, ein Teil wird zurückgeschickt: Wie wird der Rabatt verrechnet?",ja
+T-046,haupt,Retoure,mittel,gedeckt,KB-018;KB-014,,sachlich,Gesamte Bestellung innerhalb von 14 Tagen widerrufen: Werden auch die Versandkosten der Hinsendung erstattet?,nein
+T-047,haupt,Retoure,mittel,gedeckt,KB-019;KB-015;KB-018,,umgangssprachlich,Stuhl in anderer Größe gewünscht: Ablauf eines Tauschs und wann das Geld für den ersten Stuhl zurückkommt.,ja
+T-048,haupt,Retoure,mittel,gedeckt,KB-015;KB-017,,unvollstaendig,Paket aus Österreich zurückschicken: Anmeldung und Kosten.,nein
+T-049,haupt,Retoure,mittel,gedeckt,KB-020;KB-006,,veraergert,Bestellte Stoffmuster sollen zurückgeschickt werden.,nein
+T-050,haupt,Retoure,komplex,gedeckt,KB-014;KB-015;KB-016,,sachlich,"Stehlampe (Paket) und Sofa (Sperrgut) nach 20 Tagen zurückgeben (DE): Was ist noch möglich, wie und zu welchen Kosten?",ja
+T-051,haupt,Retoure,komplex,gedeckt,KB-017;KB-018;KB-014,,umgangssprachlich,"Kundin in der Schweiz widerruft nach 10 Tagen die gesamte Bestellung (Paket): Abzüge, Erstattung der Hinsendekosten, Zeitpunkt der Erstattung.",ja
+T-052,haupt,Retoure,komplex,gedeckt,KB-038;KB-018;KB-015,,unvollstaendig,"Bestellung über 120 € mit Aktionscode (Mindestbestellwert 100 €); ein Artikel wird zurückgeschickt, Restwert ca. 60 €: Was passiert mit dem Rabatt?",nein
+T-053,haupt,Retoure,komplex,gedeckt,KB-017;KB-016;KB-018;KB-027,,veraergert,"Sessel (Sperrgut) aus Österreich nach 10 Tagen zurückgeben, auf Rechnung gekauft: Ablauf, Kosten und Auswirkung auf die Rechnung.",ja
+T-054,haupt,Retoure,komplex,gedeckt,KB-015;KB-020;KB-014,,sachlich,Als Gast bestellt: Teppich nach Maß und zwei Kissen sollen zurückgeschickt werden.,nein
+T-055,haupt,Retoure,kb_gap,gap,,Showroom oder Abholung/Rückgabe im Lager,umgangssprachlich,Retoure persönlich im Lager oder Showroom abgeben statt per Post.,ja
+T-056,haupt,Retoure,kb_gap,gap,,Showroom oder Abholung/Rückgabe im Lager,unvollstaendig,"Sofa selbst zum Lager bringen, um den Rücktransport zu sparen.",ja
+T-057,haupt,Retoure,kb_gap,gap,,Showroom oder Abholung/Rückgabe im Lager,veraergert,"Gibt es eine Filiale, in der Rücksendungen abgegeben werden können?",nein
+T-058,haupt,Retoure,kb_gap,gap,,Kein Drucker für das Retourenlabel,sachlich,Kein Drucker vorhanden: Wie kommt das Retourenlabel aufs Paket?,nein
+T-059,haupt,Retoure,kb_gap,gap,,Kein Drucker für das Retourenlabel,umgangssprachlich,Kann das Retourenlabel als QR-Code auf dem Handy vorgezeigt werden?,nein
+T-060,haupt,Retoure,kb_gap,gap,,Kein Drucker für das Retourenlabel,unvollstaendig,Kann ein gedrucktes Retourenlabel per Post zugeschickt werden?,ja
+T-061,haupt,Reklamation/Garantie,einfach,gedeckt,KB-021,,unvollstaendig,Paket beschädigt angekommen: Was ist zu tun?,nein
+T-062,haupt,Reklamation/Garantie,einfach,gedeckt,KB-021,,veraergert,"Bei Transportschaden: Ersatz oder Geld zurück, und wer trägt die Rücksendekosten?",ja
+T-063,haupt,Reklamation/Garantie,einfach,gedeckt,KB-022,,sachlich,Falscher Artikel geliefert.,nein
+T-064,haupt,Reklamation/Garantie,einfach,gedeckt,KB-022,,umgangssprachlich,Ein bestellter Artikel fehlt in der Lieferung.,nein
+T-065,haupt,Reklamation/Garantie,einfach,gedeckt,KB-023,,unvollstaendig,Wie lange gilt die Gewährleistung?,ja
+T-066,haupt,Reklamation/Garantie,einfach,gedeckt,KB-024,,veraergert,HD-Basics-Regal wackelt nach 3 Jahren durch einen Materialfehler.,nein
+T-067,haupt,Reklamation/Garantie,einfach,gedeckt,KB-024,,sachlich,Muss die HD-Basics-Garantie registriert werden?,nein
+T-068,haupt,Reklamation/Garantie,einfach,gedeckt,KB-025,,umgangssprachlich,Montageanleitung verloren.,ja
+T-069,haupt,Reklamation/Garantie,einfach,gedeckt,KB-025,,unvollstaendig,Ersatzschraube für ein HD-Basics-Möbelstück benötigt.,ja
+T-070,haupt,Reklamation/Garantie,einfach,gedeckt,KB-025,,veraergert,Was kostet der Montageservice?,nein
+T-071,haupt,Reklamation/Garantie,einfach,gedeckt,KB-021,,sachlich,Was ist bei der Übergabe von Speditionsware mit sichtbarem Schaden zu tun?,ja
+T-072,haupt,Reklamation/Garantie,mittel,gedeckt,KB-023;KB-024,,umgangssprachlich,Bezug eines HD-Basics-Sofas nach 3 Jahren gerissen.,ja
+T-073,haupt,Reklamation/Garantie,mittel,gedeckt,KB-024;KB-025,,unvollstaendig,Ersatzteil für HD-Basics-Schrank nach 2 Jahren: Kostenlos und wie bestellen?,ja
+T-074,haupt,Reklamation/Garantie,mittel,gedeckt,KB-021;KB-011,,veraergert,"Speditionslieferung: Karton bei Übergabe eingedrückt, Inhalt erst später geprüft.",nein
+T-075,haupt,Reklamation/Garantie,mittel,gedeckt,KB-023;KB-024,,sachlich,Stehleuchte (keine HD-Basics-Ware) nach 1 Jahr defekt: Welche Ansprüche bestehen?,nein
+T-076,haupt,Reklamation/Garantie,mittel,gedeckt,KB-022;KB-016,,umgangssprachlich,Falscher Schrank (Speditionsware) geliefert: Fallen die 49 € Rücktransport an?,nein
+T-077,haupt,Reklamation/Garantie,mittel,gedeckt,KB-022;KB-040,,unvollstaendig,"Falscher Artikel geliefert, Kunde will am Samstag anrufen: Frist und Erreichbarkeit.",ja
+T-078,haupt,Reklamation/Garantie,mittel,gedeckt,KB-024;KB-023,,veraergert,"HD-Basics-Tisch nach 4 Jahren mit Materialfehler, Garantie nie registriert.",nein
+T-079,haupt,Reklamation/Garantie,mittel,gedeckt,KB-021;KB-016,,sachlich,Sofa beschädigt geliefert: Kostet die Abholung etwas?,ja
+T-080,haupt,Reklamation/Garantie,komplex,gedeckt,KB-024;KB-023;KB-025,,umgangssprachlich,HD-Basics-Bett nach 3 Jahren: Halterung des Lattenrosts gebrochen und Polster des Kopfteils durchgesessen.,ja
+T-081,haupt,Reklamation/Garantie,komplex,gedeckt,KB-022;KB-021;KB-011,,unvollstaendig,"Speditionslieferung Schrank: ein Paket fehlt, Kratzer an der Tür beim Auspacken nach 2 Tagen entdeckt.",nein
+T-082,haupt,Reklamation/Garantie,komplex,gedeckt,KB-025;KB-012;KB-009,,veraergert,Kunde in Österreich möchte Schrank mit Montage und Lieferung in die Wohnung.,nein
+T-083,haupt,Reklamation/Garantie,komplex,gedeckt,KB-021;KB-040,,sachlich,"Paketschaden am Freitagabend bemerkt: Frist, Meldeweg, Antwortzeit und Wahl zwischen Ersatz und Erstattung.",ja
+T-084,haupt,Reklamation/Garantie,komplex,gedeckt,KB-021;KB-022,,umgangssprachlich,"Paketlieferung: ein Artikel beschädigt (Geld zurück gewünscht), ein anderer fehlt.",ja
+T-085,haupt,Reklamation/Garantie,kb_gap,gap,,Ersatzteile für Fremdmarken,unvollstaendig,Ersatzglas für eine Leuchte eines anderen Herstellers.,nein
+T-086,haupt,Reklamation/Garantie,kb_gap,gap,,Ersatzteile für Fremdmarken,veraergert,Ersatzfuß für ein Sofa einer Fremdmarke.,ja
+T-087,haupt,Reklamation/Garantie,kb_gap,gap,,Ersatzteile für Fremdmarken,sachlich,Schrauben für einen Stuhl eines anderen Herstellers.,nein
+T-088,haupt,Reklamation/Garantie,kb_gap,gap,,Garantieverlängerung,umgangssprachlich,Kann die Garantie gegen Aufpreis verlängert werden?,nein
+T-089,haupt,Reklamation/Garantie,kb_gap,gap,,Garantieverlängerung,unvollstaendig,Zusatzgarantie beim Kauf eines Sofas abschließbar?,ja
+T-090,haupt,Reklamation/Garantie,kb_gap,gap,,Garantieverlängerung,veraergert,Gibt es eine Garantie von 10 Jahren auf HD-Basics-Möbel?,ja
+T-091,haupt,Zahlung,einfach,gedeckt,KB-026,,veraergert,Welche Zahlungsarten gibt es?,ja
+T-092,haupt,Zahlung,einfach,gedeckt,KB-026,,sachlich,Wird American Express akzeptiert?,nein
+T-093,haupt,Zahlung,einfach,gedeckt,KB-027,,umgangssprachlich,Bis wann muss eine Rechnung bezahlt werden?,nein
+T-094,haupt,Zahlung,einfach,gedeckt,KB-027,,unvollstaendig,Bestellung über ca. 2.000 € auf Rechnung möglich?,ja
+T-095,haupt,Zahlung,einfach,gedeckt,KB-028,,veraergert,Ab welchem Bestellwert und mit welchen Laufzeiten ist Ratenkauf möglich?,nein
+T-096,haupt,Zahlung,einfach,gedeckt,KB-029,,sachlich,"Fallen Gebühren an, wenn zu spät gezahlt wird?",ja
+T-097,haupt,Zahlung,einfach,gedeckt,KB-030,,umgangssprachlich,Wo findet man die Rechnung?,nein
+T-098,haupt,Zahlung,einfach,gedeckt,KB-030,,unvollstaendig,Firmenname soll nachträglich auf die Rechnung.,ja
+T-099,haupt,Zahlung,einfach,gedeckt,KB-031,,veraergert,Kartenzahlung ist fehlgeschlagen.,ja
+T-100,haupt,Zahlung,einfach,gedeckt,KB-031,,sachlich,Warum wurde der Kauf auf Rechnung abgelehnt?,nein
+T-101,haupt,Zahlung,einfach,gedeckt,KB-027,,umgangssprachlich,"Auf Rechnung bestellen, aber an eine andere Adresse liefern lassen (Geschenk).",nein
+T-102,haupt,Zahlung,mittel,gedeckt,KB-026;KB-028,,unvollstaendig,Kunde in Österreich möchte in Raten zahlen; welche Alternative gibt es?,ja
+T-103,haupt,Zahlung,mittel,gedeckt,KB-027;KB-029,,veraergert,"Rechnung vergessen, 35 Tage nach Versand: Was passiert jetzt?",nein
+T-104,haupt,Zahlung,mittel,gedeckt,KB-031;KB-028,,sachlich,"Kauf auf Rechnung abgelehnt, Bestellwert ca. 300 €: Gründe und Alternativen.",ja
+T-105,haupt,Zahlung,mittel,gedeckt,KB-037;KB-026,,umgangssprachlich,Kundin in der Schweiz möchte mit Geschenkgutschein bezahlen.,ja
+T-106,haupt,Zahlung,mittel,gedeckt,KB-037;KB-038,,unvollstaendig,Geschenkgutschein und Aktionscode in einer Bestellung kombinieren.,ja
+T-107,haupt,Zahlung,mittel,gedeckt,KB-030;KB-027,,veraergert,Firma bestellt auf Rechnung: Angabe der USt-IdNr. und Zahlungsziel.,nein
+T-108,haupt,Zahlung,mittel,gedeckt,KB-026;KB-010,,sachlich,Bestellung in die Schweiz: Zahlung auf Rechnung möglich und was kostet der Versand?,nein
+T-109,haupt,Zahlung,mittel,gedeckt,KB-027;KB-018,,umgangssprachlich,"Auf Rechnung gekauft, ein Teil der Bestellung zurückgeschickt: Was muss noch bezahlt werden?",nein
+T-110,haupt,Zahlung,komplex,gedeckt,KB-027;KB-028;KB-031,,unvollstaendig,"Bestellung über ca. 1.800 € (DE), Zahlung nicht sofort gewünscht: Optionen und Bedingungen.",ja
+T-111,haupt,Zahlung,komplex,gedeckt,KB-026;KB-027;KB-028,,veraergert,"Kundin in Österreich, Sofa ca. 600 €: Raten oder Rechnung, Bedingungen.",ja
+T-112,haupt,Zahlung,komplex,gedeckt,KB-030;KB-027;KB-029,,sachlich,"Rechnungs-E-Mail nie erhalten, Zahlungsziel läuft: Wo ist die Rechnung, bis wann zahlen, drohen Gebühren?",nein
+T-113,haupt,Zahlung,komplex,gedeckt,KB-031;KB-026;KB-027,,umgangssprachlich,"Kartenzahlung wegen 3-D Secure fehlgeschlagen, anschließend Rechnungskauf abgelehnt: Wie kann die Bestellung noch bezahlt werden?",ja
+T-114,haupt,Zahlung,komplex,gedeckt,KB-037;KB-038;KB-018,,unvollstaendig,"Bestellung mit Geschenkgutschein und Aktionscode bezahlt, ein Teil zurückgeschickt: Verrechnung von Rabatt und Erstattung.",nein
+T-115,haupt,Zahlung,kb_gap,gap,,B2B-Konditionen und Mengenrabatte,veraergert,Firma möchte 20 Stühle bestellen und fragt nach Mengenrabatt.,ja
+T-116,haupt,Zahlung,kb_gap,gap,,B2B-Konditionen und Mengenrabatte,sachlich,Gibt es besondere Konditionen oder einen Rahmenvertrag für Gewerbekunden?,ja
+T-117,haupt,Zahlung,kb_gap,gap,,B2B-Konditionen und Mengenrabatte,umgangssprachlich,Innenarchitekt fragt nach Händler- bzw. Wiederverkäuferrabatt.,nein
+T-118,haupt,Zahlung,kb_gap,gap,,Nachträgliche Preiserstattung bei Preissenkung,unvollstaendig,Preis eine Woche nach dem Kauf gesenkt: Wird die Differenz erstattet?,nein
+T-119,haupt,Zahlung,kb_gap,gap,,Nachträgliche Preiserstattung bei Preissenkung,veraergert,Produkt bei einem anderen Shop günstiger: Wird der Preis angepasst?,ja
+T-120,haupt,Zahlung,kb_gap,gap,,Nachträgliche Preiserstattung bei Preissenkung,sachlich,Kurz nach der Bestellung startet ein Sale: Gilt der neue Preis nachträglich?,nein
+P-01,pilot,Versand,einfach,gedeckt,KB-009,,umgangssprachlich,Wie lange dauert eine Speditionslieferung nach Österreich?,nein
+P-02,pilot,Versand,mittel,gedeckt,KB-010;KB-008,,unvollstaendig,"Expressversand in die Schweiz möglich, und wie lange dauert der Standardversand?",nein
+P-03,pilot,Retoure,einfach,gedeckt,KB-014,,veraergert,In welchem Zustand muss zurückgeschickte Ware sein?,nein
+P-04,pilot,Retoure,mittel,gedeckt,KB-017;KB-018,,sachlich,Retoure aus Österreich: Wann und in welcher Höhe kommt das Geld zurück?,nein
+P-05,pilot,Reklamation/Garantie,einfach,gedeckt,KB-023,,umgangssprachlich,Gilt die Gewährleistung auch in der Schweiz?,nein
+P-06,pilot,Reklamation/Garantie,mittel,gedeckt,KB-022;KB-021,,unvollstaendig,Falscher Artikel geliefert und dieser zusätzlich beschädigt.,nein
+P-07,pilot,Zahlung,einfach,gedeckt,KB-028,,veraergert,Ist Ratenkauf über 24 Monate möglich?,nein
+P-08,pilot,Zahlung,komplex,gedeckt,KB-026;KB-031;KB-027,,sachlich,"Apple Pay schlägt fehl, Rechnung gewünscht, Lieferung nach Österreich.",nein
+P-09,pilot,Reklamation/Garantie,kb_gap,gap,,"Nachhaltigkeit, CO₂-Bilanz und Herkunft der Materialien",umgangssprachlich,Woher stammt das Holz der HD-Basics-Möbel und ist es zertifiziert?,nein
+P-10,pilot,Sonstiges,kb_gap,gap,,Bewerbungen und Kooperationsanfragen,unvollstaendig,Anfrage zu einer Influencer-Kooperation.,nein
