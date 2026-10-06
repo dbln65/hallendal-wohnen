@@ -25,7 +25,6 @@ T-020,HINWEIS,Relevanz,"Fakt aus KB-007 auch in KB-011: „Spedition (Sperrgut):
 T-020,HINWEIS,Relevanz,Fakt aus KB-011 auch in KB-012: „Die Spedition ruft 1–2 Werktage vorher an und vereinbart ein…“
 T-021,HINWEIS,Relevanz,"Fakt aus KB-009 auch in KB-011: „Spedition (Sperrgut): 69 € pauschal, Lieferzeit 10–18 Werkta…“"
 T-021,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 1, 2, 4"
-T-021,WARNUNG,Fachbegriff,im Ticket: sperrgut
 T-022,HINWEIS,Relevanz,Fakt aus KB-010 auch in KB-013: „Die Lieferzeit beträgt 4–8 Werktage.…“
 T-023,WARNUNG,Überlappung,5 Wörter in Folge identisch mit KB-012
 T-031,HINWEIS,Relevanz,"Fakt aus KB-014 auch in KB-016: „Gesetzliches Widerrufsrecht: 14 Tage ab Erhalt, gilt für Pak…“"
@@ -34,7 +33,6 @@ T-031,HINWEIS,Relevanz,"Fakt aus KB-014 auch in KB-017: „Freiwilliges Rückgab
 T-032,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 14"
 T-033,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 14"
 T-035,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 14"
-T-035,WARNUNG,Fachbegriff,im Ticket: sperrgut
 T-036,HINWEIS,Relevanz,"Fakt aus KB-017 auch in KB-015: „Rücksendekosten Paketware Schweiz: 9,90 CHF, werden von der …“"
 T-036,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 14"
 T-037,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-014: „Ihre Erstattung erfolgt innerhalb von 14 Tagen nach Warenein…“
@@ -78,7 +76,6 @@ T-051,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-019: „Erstattung: innerhalb 
 T-052,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-014: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-052,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-017: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-052,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-019: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
-T-052,WARNUNG,Fachbegriff,im Ticket: aktionscode
 T-053,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-014: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-053,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-015: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-053,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-019: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
@@ -89,7 +86,6 @@ T-067,HINWEIS,Relevanz,Fakt aus KB-024 auch in KB-025: „Die Garantie gilt 5 Ja
 T-072,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 5"
 T-074,WARNUNG,Zielartikel,nicht zitiert: KB-011
 T-075,WARNUNG,Zielartikel,nicht zitiert: KB-024
-T-076,WARNUNG,Fachbegriff,im Ticket: sperrgut
 T-078,WARNUNG,Zielartikel,nicht zitiert: KB-023
 T-079,WARNUNG,Zielartikel,nicht zitiert: KB-016
 T-081,WARNUNG,Zielartikel,nicht zitiert: KB-011
@@ -116,4 +112,3 @@ T-114,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-014: „Erstattung: innerhalb 
 T-114,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-015: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-114,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-017: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-114,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-019: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
-T-115,WARNUNG,Gap,Rückfrage enthält Zahlen: 2

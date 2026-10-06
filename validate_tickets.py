@@ -26,7 +26,7 @@ from validate_kb import extract_numbers as _extract_numbers  # gleiche Zahlenlog
 
 def extract_numbers(text: str) -> set[str]:
     """Wie bei der KB, aber ohne die „3“ aus „3-D-Secure“."""
-    return _extract_numbers(re.sub(r"3-D-Secure", " ", text, flags=re.I))
+    return _extract_numbers(re.sub(r"3-D-Secure|B2B", " ", text, flags=re.I))
 
 BASE = Path(__file__).parent
 PLAN = BASE / "tickets_plan.csv"
