@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-068",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-025",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Montageanleitung verloren.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hi, ich hab beim Aufbau von meinem neuen Regal die Anleitung verschlampt und komm jetzt nicht mehr weiter. Gibts die irgendwo zum Nachgucken oder Runterladen?",
+  "musterantwort": "Guten Tag,\n\ndas ist kein Problem. Die Montageanleitung zu Ihrem Regal finden Sie als PDF direkt auf der jeweiligen Produktseite im Shop – dort können Sie sie sich erneut herunterladen, ohne zusätzliche Kosten. Suchen Sie einfach den Artikel im Shop und laden Sie die Anleitung von der Produktseite herunter.\n\nFalls Sie den Artikel nicht mehr finden oder die passende Anleitung nicht auf der Produktseite entdecken, melden Sie sich gerne erneut bei uns, dann helfen wir Ihnen weiter.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Montageanleitungen stehen als PDF auf der jeweiligen Produktseite zur Verfügung.",
+    "Der Download der Montageanleitung ist kostenlos."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-025",
+      "zitat": "Montageanleitungen finden Sie als PDF auf der jeweiligen Produktseite."
+    },
+    {
+      "artikel_id": "KB-025",
+      "zitat": "Montageanleitungen: als PDF auf der Produktseite, ohne zusätzliche Kosten."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:46:45+00:00"
+  }
+}

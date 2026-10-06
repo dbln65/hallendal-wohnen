@@ -1,0 +1,53 @@
+{
+  "ticket_id": "T-024",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-013;KB-027;KB-026",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Lieferung an Packstation gewünscht, Bezahlung auf Rechnung geplant (Bestellwert ca. 200 €): Was geht, was nicht, welche Alternativen gibt es?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich bin ziemlich genervt gerade! Ich wollte mein Paket mit dem neuen Schreibtisch und dem Bürostuhl an meine Packstation liefern lassen, weil ich tagsüber nie zuhause bin. Gleichzeitig wollte ich auf Rechnung zahlen, der Bestellwert liegt bei rund 200 Euro. Jetzt sagt mir eure Webseite beim Bestellvorgang irgendwas von \"nicht möglich\" und ich verstehe nicht warum. Geht das wirklich nicht zusammen oder mache ich etwas falsch? Was für Alternativen habe ich denn jetzt, wenn ich trotzdem beides irgendwie hinbekommen möchte?",
+  "musterantwort": "Guten Tag,\n\nich verstehe Ihren Ärger und erkläre Ihnen gerne, woran es liegt. Eine Lieferung an die Packstation ist grundsätzlich möglich, allerdings nur für Paketsendungen innerhalb Deutschlands. Bei Zahlung per Kauf auf Rechnung ist eine Lieferung an eine Packstation jedoch ausgeschlossen, da die Rechnungsadresse mit der Lieferadresse übereinstimmen muss. Beides zusammen funktioniert also leider nicht.\n\nSie haben zwei Möglichkeiten: Entweder Sie lassen die Lieferung an eine normale Adresse gehen und zahlen weiterhin auf Rechnung, oder Sie behalten die Packstation als Lieferadresse und wählen eine andere Zahlungsart wie PayPal, Kreditkarte oder Apple Pay, die in allen Liefergebieten verfügbar sind. Der Kauf auf Rechnung selbst wäre bei Ihrem Bestellwert von rund 200 Euro grundsätzlich möglich, da der maximale Bestellwert hierfür bei 1.500 € liegt.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Zustellung an Packstation oder Postfiliale ist nur für Paketware und nur innerhalb Deutschlands möglich.",
+    "Bei Kauf auf Rechnung ist eine Lieferung an eine Packstation nicht möglich.",
+    "Bei Kauf auf Rechnung müssen Rechnungs- und Lieferadresse identisch sein.",
+    "Als Alternative stehen PayPal, Kreditkarte und Apple Pay in allen Liefergebieten zur Verfügung.",
+    "Der Kauf auf Rechnung ist bis zu einem maximalen Bestellwert von 1.500 € möglich."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-013",
+      "zitat": "Die Zustellung an Packstation oder Postfiliale ist ausschließlich für Paketware möglich und gilt nur für Deutschland."
+    },
+    {
+      "artikel_id": "KB-013",
+      "zitat": "Bei Kauf auf Rechnung ist eine Lieferung an eine Packstation ebenfalls nicht möglich."
+    },
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Rechnungsadresse muss mit der Lieferadresse übereinstimmen"
+    },
+    {
+      "artikel_id": "KB-026",
+      "zitat": "PayPal, Kreditkarte (Visa, Mastercard, American Express) und Apple Pay: verfügbar in allen Märkten."
+    },
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Maximaler Bestellwert: 1.500 €"
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:40:22+00:00"
+  }
+}

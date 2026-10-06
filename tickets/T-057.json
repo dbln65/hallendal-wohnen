@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-057",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Showroom oder Abholung/Rückgabe im Lager",
+    "stil": "veraergert",
+    "szenario": "Gibt es eine Filiale, in der Rücksendungen abgegeben werden können?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich muss mein Sofa zurückgeben und habe echt keine Lust, das selbst einzupacken und zu DHL zu schleppen. Gibt es irgendwo einen Laden oder ein Lager von Ihnen, wo ich das einfach persönlich abgeben kann? Das wäre doch viel unkomplizierter als dieser ganze Online-Kram! Bitte um schnelle Antwort, das nervt mich schon seit Tagen.",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihre Geduld. Ich verstehe gut, dass Sie sich eine unkomplizierte, persönliche Abgabe Ihrer Rücksendung wünschen. Zu dieser konkreten Frage, ob es eine Filiale oder ein Lager gibt, bei dem Rücksendungen direkt abgegeben werden können, liegen mir leider keine gesicherten Informationen vor, daher kann ich Ihnen dazu aktuell keine verbindliche Auskunft geben.\n\nDamit wir das für Sie zuverlässig klären können, wende ich mich an das zuständige Team und melde mich mit einer verbindlichen Antwort bei Ihnen zurück. Könnten Sie mir dafür bitte kurz mitteilen, um welchen Artikel bzw. welche Bestellung es sich handelt und in welchem Land Sie sich befinden? So kann ich die Rückfrage gezielt weiterleiten und Ihnen schnellstmöglich eine passende Lösung nennen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:45:27+00:00"
+  }
+}

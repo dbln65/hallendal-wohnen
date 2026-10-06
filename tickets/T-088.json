@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-088",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Garantieverlängerung",
+    "stil": "umgangssprachlich",
+    "szenario": "Kann die Garantie gegen Aufpreis verlängert werden?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hi, ich hab vor kurzem ein Sofa bei euch bestellt und überleg jetzt ob ich die Garantie verlängern kann, gibts sowas gegen Aufpreis? Würd das gern machen falls möglich. Danke und Gruß, Melanie",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihr Interesse an einer verlängerten Garantie für Ihr Sofa. Zu einer kostenpflichtigen Garantieverlängerung liegen mir leider keine gesicherten Informationen vor, daher kann ich Ihnen dazu aktuell keine verbindliche Auskunft geben. Damit wir Ihr Anliegen klären können, wenden Sie sich bitte direkt an unseren Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon. Bitte halten Sie dafür Ihre Bestellnummer sowie die genaue Produktbezeichnung Ihres Sofas bereit, damit Ihr Anliegen schnell bearbeitet werden kann. Unser Team kann Ihnen dann mitteilen, ob und unter welchen Bedingungen eine Verlängerung möglich ist.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:50:06+00:00"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "ticket_id": "T-078",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-024;KB-023",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "HD-Basics-Tisch nach 4 Jahren mit Materialfehler, Garantie nie registriert.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich bin ziemlich sauer gerade. Mein Esstisch von HD Basics hat nach knapp 4 Jahren plötzlich einen Materialfehler in der Platte bekommen, obwohl ich ihn immer pfleglich behandelt habe. Jetzt lese ich, dass es wohl eine Garantie gibt, aber ich habe nie irgendetwas registriert - heißt das, ich hab jetzt Pech gehabt? Ich erwarte, dass das Problem gelöst wird, schließlich war der Tisch nicht gerade billig. Viele Grüße, Jonas",
+  "musterantwort": "Guten Tag,\n\nes tut uns leid zu hören, dass Ihr Tisch von HD Basics einen Materialfehler aufweist, und wir verstehen Ihren Ärger gut. Gute Nachricht: Auf Möbel unserer Eigenmarke HD Basics erhalten Sie eine 5-Jahre Herstellergarantie, eine Registrierung ist dafür nicht nötig. Ihre Rechnung genügt als Nachweis, Sie haben also nichts falsch gemacht. Da Ihr Tisch mit 4 Jahren noch innerhalb dieser 5 Jahre liegt, können Sie die Garantie geltend machen, sofern der Mangel das Möbelstück selbst betrifft und nicht Bezüge, Polster oder Verschleißteile. Bitte kontaktieren Sie unseren Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon und legen Sie Ihre Rechnung vor. Dort wird dann das weitere Vorgehen mit Ihnen besprochen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Auf HD-Basics-Möbel gilt eine 5-Jahre Herstellergarantie ab Lieferung.",
+    "Eine Registrierung ist nicht erforderlich, die Rechnung genügt als Nachweis.",
+    "Die Garantie gilt nicht für Bezüge, Polster und Verschleißteile.",
+    "Zur Geltendmachung soll der Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon mit Vorlage der Rechnung kontaktiert werden."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Auf Möbel unserer Eigenmarke HD Basics erhalten Sie eine 5-Jahre Herstellergarantie."
+    },
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Eine Registrierung ist nicht nötig, Ihre Rechnung genügt als Nachweis."
+    },
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Die Garantie gilt nicht für Bezüge, Polster und Verschleißteile."
+    },
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Kontaktieren Sie den Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon und legen Sie die Rechnung vor."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:48:05+00:00"
+  }
+}

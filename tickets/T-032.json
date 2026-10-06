@@ -1,0 +1,47 @@
+{
+  "ticket_id": "T-032",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-015",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Wie meldet man eine Paket-Retoure an?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich möchte ein Paket zurückschicken, weiß aber nicht genau, wie ich das anmelden soll. Könnt ihr mir kurz sagen, wo ich das machen muss?",
+  "musterantwort": "Guten Tag,\n\ngerne erklären wir Ihnen, wie Sie Ihre Rücksendung anmelden können. Wenn Sie ein Kundenkonto haben, melden Sie die Retoure bequem über das Retourenportal in Ihrem Konto an. Haben Sie ohne Kundenkonto bestellt, funktioniert die Anmeldung ebenfalls, dann benötigen Sie lediglich Ihre Bestellnummer und Ihre Postleitzahl. Im Anschluss wählen Sie die zurückzusendenden Artikel aus und drucken sich ein Retourenlabel aus. Die Ware sollte ungebraucht sein, die Originalverpackung ist erwünscht, aber nicht zwingend erforderlich. Verpacken Sie die Artikel und geben Sie das Paket anschließend einfach bei DHL ab. Sobald die Sendung bei uns im Lager eingegangen ist, erfolgt die Erstattung innerhalb von 14 Tagen auf Ihr ursprüngliches Zahlungsmittel.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Retoure wird über das Retourenportal im Kundenkonto angemeldet, bei Gastbestellung über Bestellnummer und Postleitzahl.",
+    "Nach Auswahl der Artikel wird ein Retourenlabel gedruckt und das Paket bei DHL abgegeben.",
+    "Die Ware muss ungebraucht sein; die Originalverpackung ist erwünscht, aber nicht Pflicht."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Melden Sie sich im Kundenkonto an oder rufen Sie das Retourenportal als Gast mit Bestellnummer und Postleitzahl auf."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Drucken Sie das Retourenlabel aus."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Geben Sie das Paket bei DHL ab."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Verpacken Sie die Ware; die Originalverpackung ist erwünscht, aber nicht Pflicht."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:41:22+00:00"
+  }
+}

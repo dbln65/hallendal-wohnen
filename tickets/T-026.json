@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-026",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Lieferung auf Nordsee- und Ostseeinseln",
+    "stil": "umgangssprachlich",
+    "szenario": "Sofa per Spedition auf eine Ostfriesische Insel (z. B. Norderney).",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich hab vor kurzem ein Ecksofa bestellt, das per Spedition kommt. Jetzt wohn ich aber auf Norderney und frag mich ob die Spedition da überhaupt hinliefert oder ob das extra kostet bzw länger dauert. Könnt ihr mir da kurz was zu sagen?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihr Interesse an unserem Ecksofa. Zur Lieferung auf Nordsee- oder Ostseeinseln wie Norderney liegen uns aktuell leider keine gesicherten Informationen vor, insbesondere nicht zu möglichen Einschränkungen, zusätzlichen Kosten oder einer abweichenden Lieferzeit bei einer Lieferung per Spedition. Damit wir Ihnen hierzu eine verbindliche Auskunft geben können, empfehlen wir, sich direkt an unseren Kundenservice zu wenden. Bitte teilen Sie uns dafür Ihre genaue Lieferadresse sowie die gewünschte Bestellung mit, damit das zuständige Team die Lieferbarkeit für Ihre Insel prüfen kann.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:40:41+00:00"
+  }
+}

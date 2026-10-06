@@ -1,0 +1,34 @@
+{
+  "ticket_id": "T-006",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-010",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Kundin in der Schweiz fürchtet Zollnachzahlung bei Zustellung.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hoi zäme, ich hab mir letzte Woche ein Regal bestellt, das jetzt in die Schweiz geliefert wird. Muss ich bei der Zustellung noch extra Zoll oder Steuern nachzahlen? Hab da schon so schlechte Sachen gehört :/ Liebe Grüsse, Nadine",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihre Frage zur Lieferung in die Schweiz. Sie können beruhigt sein: Der Versandpreis von 14,90 CHF deckt Zoll und Einfuhrsteuer bereits vollständig ab. Bei der Zustellung entstehen daher keine Nachforderungen für Sie. Die Lieferzeit beträgt in der Regel 4–8 Werktage. Nach dem Versand erhalten Sie zudem eine Versandbestätigung mit einem Tracking-Link, über den Sie die Sendung bis zur Zustellung verfolgen können.\n\nFalls Sie noch weitere Fragen zu Ihrer Bestellung haben, melden Sie sich gerne jederzeit bei uns.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Der Versandpreis in die Schweiz enthält bereits Zoll und Einfuhrsteuer.",
+    "Bei der Zustellung entstehen keine zusätzlichen Nachforderungen."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-010",
+      "zitat": "Der im Preis enthaltene Betrag deckt Zoll und Einfuhrsteuer ab; bei der Zustellung entstehen keine Nachforderungen."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:37:11+00:00"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "ticket_id": "T-091",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-026",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Welche Zahlungsarten gibt es?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich steh gerade an der Kasse im Online-Shop und weiß nicht mal, mit was ich überhaupt bezahlen kann bei euch! Auf der Seite steht nichts Vernünftiges dazu. Könnt ihr mir endlich mal sagen, welche Zahlungsarten es gibt?",
+  "musterantwort": "Guten Tag,\n\nes tut mir leid, wenn Ihnen diese Information auf der Seite nicht klar ersichtlich war, ich kläre das gerne für Sie auf. Bei uns können Sie in allen Liefergebieten mit PayPal, Kreditkarte oder Apple Pay bezahlen. In Deutschland und Österreich steht Ihnen zusätzlich der Kauf auf Rechnung zur Verfügung, und in Deutschland können Sie außerdem den Ratenkauf nutzen. Bei der Kreditkartenzahlung ist eine 3-D-Secure-Freigabe erforderlich. Der Kauf auf Rechnung hat ein Zahlungsziel von 30 Tagen ab Versand und ist bis zu einem Bestellwert von 1.500 € möglich, der Ratenkauf ist ab einem Bestellwert von 200 € mit einer Laufzeit von 6, 12 oder 24 Monaten verfügbar. Für die Schweiz stehen PayPal, Kreditkarte und Apple Pay zur Verfügung. Ich hoffe, das hilft Ihnen weiter.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "In allen Liefergebieten stehen PayPal, Kreditkarte und Apple Pay zur Verfügung.",
+    "In Deutschland und Österreich ist zusätzlich der Kauf auf Rechnung möglich.",
+    "In Deutschland steht zusätzlich der Ratenkauf zur Verfügung.",
+    "Für die Schweiz stehen PayPal, Kreditkarte und Apple Pay zur Verfügung."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-026",
+      "zitat": "PayPal, Kreditkarte (Visa, Mastercard, American Express) und Apple Pay: verfügbar in allen Märkten."
+    },
+    {
+      "artikel_id": "KB-026",
+      "zitat": "Kauf auf Rechnung: über einen Zahlungspartner, Zahlungsziel 30 Tage ab Versand, maximal 1.500 € Bestellwert, nur DE und AT; Rechnungs- und Lieferadresse müssen identisch sein; nicht bei Packstation."
+    },
+    {
+      "artikel_id": "KB-026",
+      "zitat": "Ratenkauf: ab 200 € Bestellwert, Laufzeit 6, 12 oder 24 Monate, nur DE."
+    },
+    {
+      "artikel_id": "KB-026",
+      "zitat": "Für die Schweiz stehen PayPal, Kreditkarte und Apple Pay zur Verfügung."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:50:25+00:00"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-096",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-029",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Fallen Gebühren an, wenn zu spät gezahlt wird?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich habe meine Rechnung für die letzte Bestellung leider nicht pünktlich bezahlt. Kommen da jetzt zusätzliche Kosten auf mich zu? Viele Grüße, Sandra",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Bei einer verspäteten Zahlung erhalten Sie zunächst 7 Tage nach Fälligkeit eine Zahlungserinnerung, die kostenlos ist. Sollte die Zahlung danach weiterhin ausbleiben, wird ab der 1. Mahnung eine Mahngebühr von 5 € erhoben. Um weitere Kosten zu vermeiden, empfehlen wir Ihnen, den offenen Betrag möglichst zeitnah zu begleichen. Bei Fragen zur Rechnung selbst können Sie sich gerne jederzeit über Kontaktformular, E-Mail, Live-Chat oder Telefon an uns wenden.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Zahlungserinnerung erfolgt 7 Tage nach Fälligkeit und ist kostenlos",
+    "Ab der 1. Mahnung wird eine Mahngebühr von 5 € erhoben"
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-029",
+      "zitat": "Zahlungserinnerung: 7 Tage nach Fälligkeit, kostenlos."
+    },
+    {
+      "artikel_id": "KB-029",
+      "zitat": "Ab der 1. Mahnung: 5 € Mahngebühr."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:51:02+00:00"
+  }
+}

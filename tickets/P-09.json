@@ -1,0 +1,26 @@
+{
+  "ticket_id": "P-09",
+  "plan": {
+    "set": "pilot",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Nachhaltigkeit, CO₂-Bilanz und Herkunft der Materialien",
+    "stil": "umgangssprachlich",
+    "szenario": "Woher stammt das Holz der HD-Basics-Möbel und ist es zertifiziert?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich überlege mir ein Regal aus der HD Basics Reihe zu kaufen. Weiß jemand, wo das Holz dafür eigentlich herkommt? Und ist das Holz zertifiziert, also so FSC oder sowas? Würd mich einfach interessieren wegen Nachhaltigkeit. Danke schonmal, Steffi",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihr Interesse an unseren HD-Basics-Möbeln und Ihre Frage zur Herkunft des verwendeten Holzes sowie zu möglichen Zertifizierungen wie FSC. Zu diesem Thema liegen uns aktuell leider keine gesicherten Informationen vor, die wir Ihnen verlässlich mitteilen können. Damit wir Ihre Frage korrekt beantworten können, leiten wir Ihr Anliegen gerne an das zuständige Fachteam weiter, das sich mit Materialherkunft und Nachhaltigkeit befasst. Falls Sie möchten, teilen Sie uns noch mit, um welches konkrete Produkt es sich handelt, damit wir die Anfrage möglichst genau zuordnen können. Wir melden uns dann mit einer verbindlichen Auskunft bei Ihnen zurück.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:55:58+00:00"
+  }
+}

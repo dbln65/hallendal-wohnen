@@ -1,0 +1,38 @@
+{
+  "ticket_id": "P-05",
+  "plan": {
+    "set": "pilot",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-023",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Gilt die Gewährleistung auch in der Schweiz?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hi, ich hab vor ein paar Monaten einen Schrank bestellt, wohn aber in der Schweiz. Gilt die gesetzliche Gewährleistung da auch oder nur in Deutschland? Danke und LG, Fabienne",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Die gesetzliche Gewährleistung gilt auch für Kundinnen und Kunden in der Schweiz, denn sie gilt einheitlich in allen Märkten – also in Deutschland, Österreich und der Schweiz gleichermaßen. Die Gewährleistung beträgt 2 Jahre ab Lieferung Ihres Schrankes.\n\nSollten Sie einen Mangel an Ihrem Schrank feststellen, kontaktieren Sie uns gerne über Kontaktformular, E-Mail, Live-Chat oder Telefon, beschreiben Sie den Mangel kurz und halten Sie Ihre Bestellnummer bereit. Wir besprechen dann mit Ihnen das weitere Vorgehen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die gesetzliche Gewährleistung gilt einheitlich in Deutschland, Österreich und der Schweiz.",
+    "Die Gewährleistungsfrist beträgt 2 Jahre ab Lieferung."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-023",
+      "zitat": "Auf alle bei Hallendal Wohnen gekauften Artikel gilt die gesetzliche Gewährleistung von 2 Jahren ab Lieferung."
+    },
+    {
+      "artikel_id": "KB-023",
+      "zitat": "Dies gilt einheitlich in allen Märkten."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:55:13+00:00"
+  }
+}

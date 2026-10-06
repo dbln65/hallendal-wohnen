@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-030",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Lieferung am Wochenende oder zu Wunschterminen",
+    "stil": "umgangssprachlich",
+    "szenario": "Speditionslieferung abends nach 19 Uhr wegen Berufstätigkeit gewünscht.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hi, ich bekomm bald mein neues Sofa per Spedition geliefert, bin aber bis abends auf Arbeit. Könnt ihr die Lieferung auch für nach 19 Uhr oder ans Wochenende legen? Wäre echt super, sonst muss ich extra Urlaub nehmen.",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihr Verständnis. Zu Ihrer Frage, ob eine Lieferung nach 19 Uhr oder am Wochenende möglich ist, liegen uns leider keine gesicherten Informationen vor, die wir Ihnen verbindlich mitteilen könnten. Damit wir Ihr Anliegen klären können, empfehlen wir Ihnen, sich direkt an unseren Kundenservice zu wenden, sobald die Spedition Kontakt zu Ihnen aufnimmt, um die genauen Möglichkeiten für einen individuellen Liefertermin zu besprechen. Gerne können Sie uns auch vorab Ihre Bestellnummer sowie Ihre zeitlichen Einschränkungen mitteilen, damit wir das an das zuständige Team weiterleiten können.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:41:06+00:00"
+  }
+}

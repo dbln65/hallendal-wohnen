@@ -1,0 +1,39 @@
+{
+  "ticket_id": "T-067",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-024",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Muss die HD-Basics-Garantie registriert werden?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe mir vor Kurzem ein Regal von HD Basics gekauft und möchte die 5-Jahres-Garantie in Anspruch nehmen können, falls mal etwas kaputtgeht. Muss ich das Produkt dafür irgendwo registrieren? Viele Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\neine Registrierung Ihres HD-Basics-Möbelstücks ist nicht notwendig. Ihre Rechnung genügt als Nachweis für die 5-Jahres-Garantie, die ab Lieferung gilt. Bewahren Sie diese also gut auf, falls Sie die Garantie einmal in Anspruch nehmen möchten. Sollte ein Mangel an Ihrem Regal auftreten, wenden Sie sich bitte über Kontaktformular, E-Mail, Live-Chat oder Telefon an unseren Kundenservice und legen die Rechnung vor. Bitte beachten Sie, dass die Garantie nicht für Bezüge, Polster und Verschleißteile gilt. Bei Bedarf können über den Kundenservice auch Ersatzteile mit Angabe der Artikelnummer angefragt werden.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Eine Registrierung ist für die HD-Basics-Garantie nicht erforderlich.",
+    "Die Rechnung genügt als Nachweis.",
+    "Die Garantie gilt 5 Jahre ab Lieferung."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Eine Registrierung ist nicht nötig, Ihre Rechnung genügt als Nachweis."
+    },
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Die Garantie gilt 5 Jahre ab Lieferung auf Möbel der Eigenmarke HD Basics."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:46:38+00:00"
+  }
+}

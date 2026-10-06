@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-090",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Garantieverlängerung",
+    "stil": "veraergert",
+    "szenario": "Gibt es eine Garantie von 10 Jahren auf HD-Basics-Möbel?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich habe vor Kurzem ein Sideboard von HD Basics gekauft und jetzt im Internet gelesen, dass manche Shops 10 Jahre Garantie auf Möbel geben. Gibt es bei Ihnen auch eine 10-Jahres-Garantie auf HD-Basics-Möbel? Ich finde dazu nichts Klares und das ärgert mich, bevor ich eine teure Anschaffung mache. Bitte um eine klare Antwort, nicht nur Standardfloskeln.",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihr Interesse an den Möbeln von HD Basics. Ich verstehe, dass Sie vor einer größeren Anschaffung Klarheit über die Garantiebedingungen haben möchten. Zu einer möglichen Garantieverlängerung auf 10 Jahre liegen mir aktuell keine gesicherten Informationen vor, sodass ich Ihnen dazu leider keine verbindliche Auskunft geben kann.\n\nDamit Sie eine verlässliche Antwort erhalten, leite ich Ihre Frage gerne an das zuständige Team weiter, das sich mit den aktuellen Garantiebedingungen befasst. Falls Sie möchten, teilen Sie mir noch mit, um welches konkrete HD-Basics-Produkt es sich handelt, damit die Klärung möglichst zielgerichtet erfolgen kann.\n\nIch melde mich bei Ihnen, sobald mir eine verbindliche Information vorliegt.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:50:17+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "ticket_id": "T-053",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-017;KB-016;KB-018;KB-027",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Sessel (Sperrgut) aus Österreich nach 10 Tagen zurückgeben, auf Rechnung gekauft: Ablauf, Kosten und Auswirkung auf die Rechnung.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich bin ziemlich genervt gerade. Ich habe vor 10 Tagen einen Sessel geliefert bekommen, der per Spedition kam, weil er wohl zu groß für ein normales Paket war. Das Ding gefällt mir überhaupt nicht und ich will es zurückgeben, aber ich finde nirgends im Konto eine Möglichkeit, das anzumelden! Ich wohne in Österreich und habe den Sessel auf Rechnung gekauft. Wie läuft das jetzt ab, was kostet mich das Ganze und was passiert mit meiner offenen Rechnung, wenn ich den Sessel zurückschicke? Ich will nicht am Ende noch draufzahlen oder eine Mahnung bekommen, nur weil ich das Teil zurückgebe.",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihr Verständnis, dass wir Ihnen die Rückgabe gerne erklären. Da es sich bei Ihrem Sessel um Speditionsware handelt, ist eine Anmeldung über das Retourenportal nicht möglich; die Rückgabe melden Sie bitte ausschließlich über unseren Kundenservice an. Die gesetzliche Widerrufsfrist beträgt 14 Tage ab Erhalt, Sie liegen mit 10 Tagen also noch innerhalb der Frist. Bitte stellen Sie den Sessel zerlegt und abholbereit im Erdgeschoss bereit, damit die Spedition ihn abholen kann. Für den Rücktransport aus Österreich fallen 69 € an. Nach Eingang der Ware in unserem Lager erfolgt die Erstattung innerhalb von 14 Tagen; da Sie auf Rechnung bezahlt haben, wird der entsprechende Rechnungsbetrag reduziert, sodass Ihnen dadurch keine Mahnung droht, solange der verbleibende Betrag fristgerecht beglichen wird.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Retourenanmeldung für Speditionsware erfolgt ausschließlich über den Kundenservice, nicht über das Retourenportal.",
+    "Die Widerrufsfrist für Speditionsware beträgt 14 Tage ab Erhalt; 10 Tage liegen innerhalb dieser Frist.",
+    "Die Ware muss zerlegt und abholbereit im Erdgeschoss bereitgestellt werden.",
+    "Der Rücktransport von Speditionsware aus Österreich kostet 69 €.",
+    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager; bei Rechnungskauf wird der Rechnungsbetrag reduziert."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Die Anmeldung erfolgt ausschließlich über den Kundenservice, nicht über das Retourenportal."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Widerrufsfrist: 14 Tage ab Erhalt."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Zustand der Ware: zerlegt und abholbereit im Erdgeschoss."
+    },
+    {
+      "artikel_id": "KB-017",
+      "zitat": "Rücktransport Speditionsware Österreich: 69 €."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lager."
+    },
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Begleichen Sie den Rechnungsbetrag innerhalb des Zahlungsziels von 30 Tagen ab Versand."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Bei Rechnungskauf: der Rechnungsbetrag wird reduziert."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:44:44+00:00"
+  }
+}

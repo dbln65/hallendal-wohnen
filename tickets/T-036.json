@@ -1,0 +1,34 @@
+{
+  "ticket_id": "T-036",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-017",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Was kostet die Rücksendung eines Pakets aus der Schweiz?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich möchte ein Paket zurückschicken, die Lieferung war in die Schweiz. Was kostet mich das denn?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Für die Rücksendung eines Pakets aus der Schweiz fallen 9,90 CHF an, die bei der Erstattung von Ihrem Rückzahlungsbetrag abgezogen werden. Melden Sie die Retoure bitte über das Retourenportal in Ihrem Kundenkonto an oder, falls Sie als Gast bestellt haben, mit Ihrer Bestellnummer und Postleitzahl. Anschließend drucken Sie das Retourenlabel aus und geben das Paket bei DHL ab. Die Ware sollte dabei ungebraucht sein. Nach Eingang der Ware in unserem Lager erhalten Sie die Erstattung innerhalb von 14 Tagen auf Ihr ursprüngliches Zahlungsmittel.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Rücksendekosten für Paketware aus der Schweiz betragen 9,90 CHF.",
+    "Die Rücksendekosten werden von der Erstattung abgezogen."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-017",
+      "zitat": "Rücksendekosten Paketware Schweiz: 9,90 CHF, werden von der Erstattung abgezogen."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:41:55+00:00"
+  }
+}

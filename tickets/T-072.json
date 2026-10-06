@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-072",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-023;KB-024",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Bezug eines HD-Basics-Sofas nach 3 Jahren gerissen.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich hab vor ca. 3 Jahren das HD Basics Ecksofa gekauft und jetzt ist der Bezug an einer Naht aufgerissen. Ich dachte es gäbe da eine längere Garantie drauf, stimmt das? Bin mir nicht sicher ob ich da noch was machen kann. Danke und LG, Sabine",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und es tut uns leid, dass der Bezug Ihres HD-Basics-Sofas beschädigt ist. Auf Möbel unserer Eigenmarke HD Basics gilt zwar eine 5-Jahre Herstellergarantie, diese gilt jedoch nicht für Bezüge, Polster und Verschleißteile. Da es sich bei dem aufgerissenen Bezug um ein Polster- bzw. Bezugsteil handelt, ist dieser Schaden leider nicht von der Garantie abgedeckt.\n\nAuch die gesetzliche Gewährleistung, die für alle bei uns gekauften Artikel 2 Jahre ab Lieferung gilt, greift in Ihrem Fall nicht mehr, da seit dem Kauf bereits 3 Jahre vergangen sind.\n\nEine Erstattung oder ein kostenloser Austausch ist in diesem Fall daher leider nicht möglich.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die 5-Jahres-Garantie für HD Basics gilt nicht für Bezüge, Polster und Verschleißteile.",
+    "Die gesetzliche Gewährleistung beträgt 2 Jahre ab Lieferung und gilt einheitlich in allen Märkten."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Die Garantie gilt nicht für Bezüge, Polster und Verschleißteile."
+    },
+    {
+      "artikel_id": "KB-023",
+      "zitat": "Auf alle bei Hallendal Wohnen gekauften Artikel gilt die gesetzliche Gewährleistung von 2 Jahren ab Lieferung."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:47:12+00:00"
+  }
+}

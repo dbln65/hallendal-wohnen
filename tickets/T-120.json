@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-120",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Nachträgliche Preiserstattung bei Preissenkung",
+    "stil": "sachlich",
+    "szenario": "Kurz nach der Bestellung startet ein Sale: Gilt der neue Preis nachträglich?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe vor zwei Tagen ein Ecksofa bestellt und jetzt gesehen, dass genau dieses Modell seit heute im Sale 15% günstiger ist. Bekomme ich den reduzierten Preis nachträglich erstattet oder gilt für mich der Preis von meiner Bestellung? Viele Grüße, Sandra",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und herzlichen Glückwunsch zu Ihrem neuen Ecksofa. Ihre Frage, ob Ihnen nach Bestellabschluss eine Preissenkung durch eine spätere Sale-Aktion nachträglich erstattet wird, kann ich Ihnen anhand der mir vorliegenden Informationen leider nicht eindeutig beantworten, da hierzu keine gesicherte Regelung vorliegt.\n\nDamit wir das für Sie klären können, wenden Sie sich bitte direkt an unseren Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon und halten Sie Ihre Bestellnummer sowie das Bestelldatum bereit. So kann das zuständige Team Ihren Einzelfall prüfen und Ihnen eine verbindliche Rückmeldung geben.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:54:32+00:00"
+  }
+}

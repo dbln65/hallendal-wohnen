@@ -1,0 +1,39 @@
+{
+  "ticket_id": "T-074",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-021;KB-011",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Speditionslieferung: Karton bei Übergabe eingedrückt, Inhalt erst später geprüft.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich bin ziemlich genervt: Letzte Woche wurde mein neuer Schrank per Spedition geliefert, und der Karton war schon bei der Übergabe sichtbar eingedrückt. Leider habe ich das erst beim Auspacken ein paar Tage später bemerkt und den Schaden damals nicht auf dem Lieferschein vermerkt. Jetzt stelle ich fest, dass eine Seitenwand des Schranks einen Riss hat. Was soll ich jetzt tun? Viele Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\ndas tut uns leid zu hören, und wir verstehen Ihren Ärger. Bei Speditionslieferungen ist es vorgesehen, sichtbare Schäden direkt bei der Übergabe auf dem Lieferschein zu vermerken. Da Sie den Schaden erst beim Auspacken bemerkt haben, handelt es sich um einen verdeckten Schaden, den Sie innerhalb von 7 Tagen nach Erhalt mit Fotos über unser Kontaktformular melden können. Bitte reichen Sie die Meldung möglichst zeitnah ein, damit wir den Vorgang bearbeiten können. Nach Prüfung bieten wir Ihnen nach Wahl eine Ersatzlieferung oder eine Erstattung an. Eine Rücksendung bzw. Abholung des beschädigten Schranks erfolgt in diesem Fall kostenlos für Sie.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Sichtbare Schäden bei Speditionsware sollten bereits bei der Übergabe auf dem Lieferschein vermerkt werden",
+    "Verdeckte Schäden können innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular gemeldet werden",
+    "Die Lösung erfolgt nach Wahl per Ersatzlieferung oder Erstattung, Rücksendung bzw. Abholung ist kostenlos"
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Bei Speditionsware vermerken Sie sichtbare Schäden bereits bei der Übergabe auf dem Lieferschein; verdeckte Schäden melden Sie ebenfalls innerhalb von 7 Tagen mit Fotos."
+    },
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Lösung: nach Wahl Ersatzlieferung oder Erstattung; Rücksendung bzw. Abholung kostenlos."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:47:24+00:00"
+  }
+}

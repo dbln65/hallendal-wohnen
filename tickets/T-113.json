@@ -1,0 +1,52 @@
+{
+  "ticket_id": "T-113",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-031;KB-026;KB-027",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Kartenzahlung wegen 3-D Secure fehlgeschlagen, anschließend Rechnungskauf abgelehnt: Wie kann die Bestellung noch bezahlt werden?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich wollte gestern mein neues Ecksofa bestellen und mit Kreditkarte zahlen, aber die Zahlung ist iwie fehlgeschlagen. Dann hab ich's mit Rechnungskauf probiert und das wurde auch abgelehnt, keine Ahnung warum. Jetzt weiß ich nicht wie ich das Teil noch bezahlen soll, ist die Bestellung überhaupt noch gültig? Bitte um kurze Hilfe, Gruß Tom",
+  "musterantwort": "Guten Tag,\n\neine fehlgeschlagene Kartenzahlung liegt meist an einer fehlenden 3-D-Secure-Freigabe, zum Beispiel wenn die Bestätigung per App oder SMS nicht abgeschlossen wurde. Ihre Bestellung bleibt davon unberührt: Sie bleibt 48 Stunden reserviert, sodass Sie in Ihrem Kundenkonto erneut bezahlen können. Prüfen Sie dabei bitte, ob die 3-D-Secure-Freigabe diesmal vollständig durchgeführt wird.\n\nBeim Kauf auf Rechnung erfolgt die Prüfung ausschließlich durch unseren Zahlungspartner. Uns liegen die genauen Ablehnungsgründe leider nicht vor, weshalb wir die Entscheidung auch nicht ändern können. In diesem Fall empfehlen wir Ihnen, eine andere Zahlungsart zu wählen, etwa PayPal, Kreditkarte oder Apple Pay, die in allen Liefergebieten verfügbar sind. Je nach Bestellwert käme in Deutschland zudem ein Ratenkauf in Frage.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Fehlgeschlagene Kartenzahlung liegt meist an fehlender 3-D-Secure-Freigabe.",
+    "Die Bestellung bleibt 48 Stunden reserviert, Zahlung kann im Kundenkonto erneut gestartet werden.",
+    "Ablehnung des Rechnungskaufs erfolgt durch den Zahlungspartner, Gründe sind Hallendal Wohnen nicht bekannt und können nicht geändert werden.",
+    "Bei Ablehnung sollte eine andere Zahlungsart gewählt werden, z. B. PayPal, Kreditkarte oder Apple Pay."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Eine fehlgeschlagene Kartenzahlung liegt meist an einer fehlenden 3-D-Secure-Freigabe."
+    },
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Ihre Bestellung bleibt 48 Stunden reserviert, sodass Sie im Kundenkonto erneut bezahlen können."
+    },
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Hallendal Wohnen kennt die Ablehnungsgründe nicht und kann die Entscheidung nicht ändern."
+    },
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Wurde ein Kauf auf Rechnung oder ein Ratenkauf abgelehnt, wählen Sie im Bestellprozess eine andere Zahlungsart."
+    },
+    {
+      "artikel_id": "KB-026",
+      "zitat": "PayPal, Kreditkarte (Visa, Mastercard, American Express) und Apple Pay: verfügbar in allen Märkten."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:53:40+00:00"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "ticket_id": "T-108",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-026;KB-010",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Bestellung in die Schweiz: Zahlung auf Rechnung möglich und was kostet der Versand?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich möchte eine Bestellung in die Schweiz aufgeben und wollte vorher fragen, ob ich da auch auf Rechnung bezahlen kann. Außerdem würde mich interessieren, was der Versand in die Schweiz überhaupt kostet. Danke und viele Grüße, Nadine",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage. Der Kauf auf Rechnung steht leider nur für Deutschland und Österreich zur Verfügung, für Lieferungen in die Schweiz ist diese Zahlungsart somit nicht möglich. Sie können stattdessen mit PayPal, Kreditkarte oder Apple Pay bezahlen, diese Zahlarten stehen in allen Liefergebieten zur Verfügung.\n\nZu den Versandkosten: In die Schweiz liefern wir ausschließlich Paketware, der Versand kostet 14,90 CHF, eine Gratisgrenze gibt es nicht. Die Lieferzeit beträgt 4–8 Werktage. Der Versandpreis deckt bereits Zoll und Einfuhrsteuer ab, sodass bei der Zustellung keine weiteren Kosten auf Sie zukommen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Kauf auf Rechnung ist nur in Deutschland und Österreich verfügbar, nicht in der Schweiz.",
+    "Für die Schweiz stehen PayPal, Kreditkarte und Apple Pay zur Verfügung.",
+    "In die Schweiz wird ausschließlich Paketware geliefert, der Versand kostet 14,90 CHF ohne Gratisgrenze.",
+    "Die Lieferzeit in die Schweiz beträgt 4–8 Werktage.",
+    "Der Versandpreis deckt Zoll und Einfuhrsteuer ab, es entstehen keine Nachforderungen bei Zustellung."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-026",
+      "zitat": "Kauf auf Rechnung: über einen Zahlungspartner, Zahlungsziel 30 Tage ab Versand, maximal 1.500 € Bestellwert, nur DE und AT; Rechnungs- und Lieferadresse müssen identisch sein; nicht bei Packstation."
+    },
+    {
+      "artikel_id": "KB-026",
+      "zitat": "Für die Schweiz stehen PayPal, Kreditkarte und Apple Pay zur Verfügung."
+    },
+    {
+      "artikel_id": "KB-010",
+      "zitat": "In die Schweiz liefern wir ausschließlich Paketware. Der Versand kostet 14,90 CHF, eine Gratisgrenze gibt es nicht. Die Lieferzeit beträgt 4–8 Werktage."
+    },
+    {
+      "artikel_id": "KB-010",
+      "zitat": "Der im Preis enthaltene Betrag deckt Zoll und Einfuhrsteuer ab; bei der Zustellung entstehen keine Nachforderungen."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:52:42+00:00"
+  }
+}

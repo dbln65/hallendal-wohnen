@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-065",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-023",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Wie lange gilt die Gewährleistung?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich wollte mal fragen, wie lange eigentlich die Gewährleistung bei euch gilt. Hab vor ein paar Monaten was bei euch bestellt. Danke schon mal!",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachfrage zur Gewährleistung. Auf alle bei Hallendal Wohnen gekauften Artikel gilt die gesetzliche Gewährleistung von 2 Jahren ab Lieferung, und zwar einheitlich in allen Märkten. Sollten Sie innerhalb dieses Zeitraums einen Mangel an Ihrem Artikel feststellen, wenden Sie sich gerne über Kontaktformular, E-Mail, Live-Chat oder Telefon an unseren Kundenservice. Halten Sie dabei bitte Ihre Bestellnummer bereit, damit wir Ihr Anliegen schnell bearbeiten können. Falls es sich um ein Möbelstück unserer Eigenmarke HD Basics handelt, gilt zusätzlich eine längere Herstellergarantie, zu der wir Sie bei Bedarf gesondert informieren.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die gesetzliche Gewährleistung beträgt 2 Jahre ab Lieferung.",
+    "Dies gilt einheitlich in allen Märkten (Deutschland, Österreich, Schweiz)."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-023",
+      "zitat": "Auf alle bei Hallendal Wohnen gekauften Artikel gilt die gesetzliche Gewährleistung von 2 Jahren ab Lieferung."
+    },
+    {
+      "artikel_id": "KB-023",
+      "zitat": "Dies gilt einheitlich in allen Märkten."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:46:22+00:00"
+  }
+}

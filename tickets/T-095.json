@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-095",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-028",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Ab welchem Bestellwert und mit welchen Laufzeiten ist Ratenkauf möglich?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich wollte mir eine neue Couch per Ratenzahlung bestellen, aber auf eurer Seite steht nirgends klar, ab wann das überhaupt geht und wie lange man zahlen kann! Könnt ihr mir das endlich mal genau sagen, bevor ich mir woanders was kaufe?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihre Geduld. Ich kann Ihnen die Konditionen zum Ratenkauf gerne genau erläutern. Der Ratenkauf steht Ihnen ab einem Bestellwert von 200 € zur Verfügung. Dabei können Sie zwischen drei Laufzeiten wählen: 6, 12 oder 24 Monate. Bitte beachten Sie, dass diese Zahlungsart ausschließlich in Deutschland angeboten wird.\n\nSollte der Ratenkauf im Bestellprozess einmal abgelehnt werden, erfolgt die Prüfung durch unseren Zahlungspartner; die genauen Gründe dafür sind uns leider nicht bekannt und wir können die Entscheidung nicht beeinflussen. In diesem Fall könnten Sie eine andere Zahlungsart wählen.\n\nIch hoffe, das hilft Ihnen weiter, und wünsche Ihnen viel Freude mit Ihrer neuen Couch.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Ratenkauf ist ab einem Bestellwert von 200 € möglich.",
+    "Die Laufzeit beträgt 6, 12 oder 24 Monate.",
+    "Der Ratenkauf ist nur in Deutschland verfügbar."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-028",
+      "zitat": "Den Ratenkauf können Sie ab einem Bestellwert von 200 € nutzen."
+    },
+    {
+      "artikel_id": "KB-028",
+      "zitat": "Sie wählen eine Laufzeit von 6, 12 oder 24 Monaten."
+    },
+    {
+      "artikel_id": "KB-028",
+      "zitat": "Der Ratenkauf steht nur in Deutschland zur Verfügung."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:50:54+00:00"
+  }
+}

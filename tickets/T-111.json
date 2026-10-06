@@ -1,0 +1,53 @@
+{
+  "ticket_id": "T-111",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-026;KB-027;KB-028",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Kundin in Österreich, Sofa ca. 600 €: Raten oder Rechnung, Bedingungen.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich bin ziemlich genervt, weil ich einfach keine klare Info finde, wie ich mein neues Ecksofa für rund 600 Euro bezahlen kann. Ich wohne in Österreich und wollte eigentlich in Raten zahlen, aber beim Bestellvorgang wird mir das gar nicht angeboten. Geht das bei euch überhaupt, oder nur auf Rechnung? Und wenn Rechnung möglich ist, welche Bedingungen muss ich da beachten? Ich will nicht am Ende böse überrascht werden. LG Martina",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihr Verständnis für die etwas unübersichtliche Lage beim Bestellvorgang. Der Ratenkauf steht leider ausschließlich in Deutschland zur Verfügung, daher wird er Ihnen in Österreich nicht angeboten. Der Kauf auf Rechnung ist dagegen auch in Österreich möglich. Dabei gilt ein Zahlungsziel von 30 Tagen ab Versand, der maximale Bestellwert liegt bei 1.500 €, womit Ihr Sofa im Wert von rund 600 € problemlos passt. Bitte beachten Sie, dass die Rechnungsadresse mit der Lieferadresse übereinstimmen muss und eine Lieferung an eine Packstation bei dieser Zahlungsart nicht möglich ist. Die Zahlung wird über einen Zahlungspartner geprüft; sollte dieser den Kauf auf Rechnung ablehnen, kennen wir die Gründe dafür leider nicht und bitten Sie in diesem Fall, eine andere Zahlungsart zu wählen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Der Ratenkauf ist nur in Deutschland verfügbar, nicht in Österreich.",
+    "Kauf auf Rechnung ist in Deutschland und Österreich verfügbar.",
+    "Beim Kauf auf Rechnung beträgt das Zahlungsziel 30 Tage ab Versand.",
+    "Der maximale Bestellwert beim Kauf auf Rechnung liegt bei 1.500 €.",
+    "Rechnungs- und Lieferadresse müssen beim Kauf auf Rechnung identisch sein, eine Lieferung an eine Packstation ist nicht möglich."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-028",
+      "zitat": "Der Ratenkauf ist nur in Deutschland verfügbar."
+    },
+    {
+      "artikel_id": "KB-026",
+      "zitat": "Kauf auf Rechnung: über einen Zahlungspartner, Zahlungsziel 30 Tage ab Versand, maximal 1.500 € Bestellwert, nur DE und AT; Rechnungs- und Lieferadresse müssen identisch sein; nicht bei Packstation."
+    },
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Zahlungsziel: 30 Tage ab Versand"
+    },
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Maximaler Bestellwert: 1.500 €"
+    },
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Eine Lieferung an eine Packstation ist bei dieser Zahlungsart nicht möglich"
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:53:14+00:00"
+  }
+}

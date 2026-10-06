@@ -1,0 +1,53 @@
+{
+  "ticket_id": "T-041",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-015",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Als Gast ohne Kundenkonto bestellt: Wie wird die Retoure angemeldet?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Ich hab bei Ihnen ohne Konto ein Regal bestellt und möchte es jetzt zurückschicken, weil es mir einfach nicht gefällt. Jetzt weiß ich aber gar nicht, wie das ohne Konto überhaupt gehen soll! Das hätte man beim Bestellen auch mal erwähnen können.",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und entschuldigen Sie die Unannehmlichkeiten. Eine Retoure ist auch ohne Kundenkonto problemlos möglich: Sie melden diese über das Retourenportal an, und zwar mit Ihrer Bestellnummer und Ihrer Postleitzahl anstelle eines Logins. Dort wählen Sie die zurückzusendenden Artikel aus und drucken anschließend ein Retourenlabel aus. Die Originalverpackung ist erwünscht, aber nicht zwingend erforderlich, die Ware sollte lediglich ungebraucht sein. Danach geben Sie das Paket einfach bei DHL ab. Die Rücksendung ist in Deutschland kostenlos. Nach Eingang der Ware in unserem Lager erhalten Sie die Erstattung innerhalb von 14 Tagen auf Ihr ursprüngliches Zahlungsmittel zurück.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Retoure wird über das Retourenportal angemeldet, als Gast mit Bestellnummer und Postleitzahl.",
+    "Nach der Auswahl der Artikel wird ein Retourenlabel gedruckt und das Paket bei DHL abgegeben.",
+    "Die Originalverpackung ist erwünscht, aber nicht Pflicht; die Ware muss ungebraucht sein.",
+    "Die Rücksendung ist in Deutschland kostenlos.",
+    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Melden Sie sich im Kundenkonto an oder rufen Sie das Retourenportal als Gast mit Bestellnummer und Postleitzahl auf."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Drucken Sie das Retourenlabel aus."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Verpacken Sie die Ware; die Originalverpackung ist erwünscht, aber nicht Pflicht."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Die Rücksendung ist in Deutschland kostenlos."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel; bei Rechnungskauf wird der Rechnungsbetrag reduziert."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:42:32+00:00"
+  }
+}

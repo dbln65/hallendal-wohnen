@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-098",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-030",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Firmenname soll nachträglich auf die Rechnung.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich habe gestern bestellt aber vergessen meine Firma anzugeben. Kann ich die Rechnung noch auf meinen Firmennamen ändern lassen? Viele Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Leider ist eine nachträgliche Änderung der Rechnungsadresse nicht möglich, es kann lediglich eine Korrektur von Tippfehlern erfolgen. Für eine Firmenrechnung müssen Firmenname und USt-IdNr. bereits vor Abschluss der Bestellung angegeben werden. Da dies bei Ihrer Bestellung nicht erfolgt ist, können wir den Firmennamen leider nicht mehr auf die bestehende Rechnung übernehmen. Bitte achten Sie bei einer zukünftigen Bestellung darauf, diese Angaben direkt im Bestellprozess einzutragen, damit die Firmenrechnung korrekt ausgestellt werden kann.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Eine nachträgliche Änderung der Rechnungsadresse ist nicht möglich, nur eine Korrektur von Tippfehlern.",
+    "Für eine Firmenrechnung müssen Firmenname und USt-IdNr. vor Abschluss der Bestellung angegeben werden."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-030",
+      "zitat": "Eine nachträgliche Änderung der Rechnungsadresse ist nicht möglich, es kann lediglich eine Korrektur von Tippfehlern erfolgen."
+    },
+    {
+      "artikel_id": "KB-030",
+      "zitat": "Für eine Firmenrechnung müssen Firmenname und USt-IdNr. vor Abschluss der Bestellung angegeben werden."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:51:15+00:00"
+  }
+}

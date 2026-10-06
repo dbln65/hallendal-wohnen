@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-086",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Ersatzteile für Fremdmarken",
+    "stil": "veraergert",
+    "szenario": "Ersatzfuß für ein Sofa einer Fremdmarke.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, an meinem Sofa (nicht von Hallendal, sondern eine andere Marke, die ich bei Ihnen gekauft habe) ist einer der Plastikfüße abgebrochen. Ich brauche dringend Ersatz, aber auf der Produktseite finde ich nichts dazu. Können Sie mir sagen, ob ich bei Ihnen einen Ersatzfuß bestellen kann? Ich warte jetzt schon ewig auf eine Lösung und bin ziemlich genervt.",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihre Geduld. Ich verstehe gut, dass es ärgerlich ist, wenn ein Teil Ihres Sofas beschädigt ist und Sie schnell eine Lösung brauchen. Zu Ersatzteilen für Möbel anderer Marken, die nicht aus unserer Eigenmarke HD Basics stammen, liegen mir leider keine gesicherten Informationen vor, daher kann ich Ihnen dazu aktuell keine verbindliche Auskunft geben. Damit wir Ihr Anliegen klären können, wenden Sie sich bitte direkt an unseren Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon und teilen Sie uns die genaue Artikelbezeichnung sowie möglichst Ihre Bestellnummer mit. So kann das zuständige Team prüfen, ob und wie in Ihrem Fall eine Lösung möglich ist.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:49:54+00:00"
+  }
+}

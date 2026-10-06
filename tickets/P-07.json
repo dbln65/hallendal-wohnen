@@ -1,0 +1,43 @@
+{
+  "ticket_id": "P-07",
+  "plan": {
+    "set": "pilot",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-028",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Ist Ratenkauf über 24 Monate möglich?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich wollte mein neues Sofa bezahlen und frage mich jetzt total genervt, ob ich das Ganze auch über 24 Monate in Raten abstottern kann oder ob da wieder irgendwelche Einschränkungen kommen. Bitte mal eine klare Antwort, Thomas.",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und bitte entschuldigen Sie den Ärger. Ich kann Ihnen hier aber eine klare Antwort geben: Eine Ratenzahlung über 24 Monate ist bei uns möglich. Sie können beim Ratenkauf zwischen einer Laufzeit von 6, 12 oder 24 Monaten wählen. Voraussetzung ist ein Bestellwert von mindestens 200 €. Bitte beachten Sie außerdem, dass der Ratenkauf nur innerhalb Deutschlands angeboten wird. Wählen Sie dazu im Bestellprozess einfach „Ratenkauf“ als Zahlungsart und anschließend die gewünschte Laufzeit von 24 Monaten aus.\n\nSollten Sie noch weitere Fragen zu Ihrer Bestellung haben, melden Sie sich gerne jederzeit bei uns.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Der Ratenkauf steht mit Laufzeiten von 6, 12 oder 24 Monaten zur Verfügung.",
+    "Der Ratenkauf setzt einen Mindestbestellwert von 200 € voraus.",
+    "Der Ratenkauf ist nur in Deutschland verfügbar."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-028",
+      "zitat": "Sie wählen eine Laufzeit von 6, 12 oder 24 Monaten."
+    },
+    {
+      "artikel_id": "KB-028",
+      "zitat": "Den Ratenkauf können Sie ab einem Bestellwert von 200 € nutzen."
+    },
+    {
+      "artikel_id": "KB-028",
+      "zitat": "Der Ratenkauf ist nur in Deutschland verfügbar."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:55:29+00:00"
+  }
+}

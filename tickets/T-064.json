@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-064",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-022",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Ein bestellter Artikel fehlt in der Lieferung.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, hab gestern mein Paket bekommen aber da fehlt ein Teil! Hab 2 Nachttische bestellt und nur einen bekommen, was mach ich da jetzt?",
+  "musterantwort": "Guten Tag,\n\nes tut uns leid, dass ein Artikel in Ihrer Lieferung gefehlt hat. Bitte melden Sie sich mit dieser Angabe innerhalb von 14 Tagen bei uns, damit wir den fehlenden Nachttisch nachliefern können. Die Nachlieferung des korrekten Artikels ist für Sie kostenlos. Halten Sie dafür am besten Ihre Bestellnummer bereit, damit wir Ihr Anliegen schnell zuordnen können. Wir kümmern uns dann umgehend darum, dass Ihnen der zweite Nachttisch schnellstmöglich zugestellt wird.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Ein fehlender Artikel muss innerhalb von 14 Tagen gemeldet werden",
+    "Die Nachlieferung des korrekten Artikels ist kostenlos"
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Meldung muss innerhalb von 14 Tagen erfolgen."
+    },
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Nachlieferung ist kostenlos, die Abholung eines falsch gelieferten Artikels ist ebenfalls kostenlos."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:46:16+00:00"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-069",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-025",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Ersatzschraube für ein HD-Basics-Möbelstück benötigt.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, bei einem meiner Regale von HD Basics fehlt eine kleine Schraube. Wie komme ich an Ersatz?",
+  "musterantwort": "Guten Tag,\n\nfür Möbel der Eigenmarke HD Basics erhalten Sie Ersatzteile über unseren Kundenservice. Bitte kontaktieren Sie uns über Kontaktformular, E-Mail, Live-Chat oder Telefon und geben Sie dabei die Artikelnummer Ihres Regals an, damit wir die passende Ersatzschraube ermitteln können. Innerhalb der Garantie sind Ersatzteile für HD Basics kostenlos. Zusätzlich finden Sie auf der jeweiligen Produktseite die Montageanleitung als PDF, falls Sie diese für den Einbau benötigen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Ersatzteile für HD-Basics-Möbel erhält man über den Kundenservice unter Angabe der Artikelnummer.",
+    "Innerhalb der Garantie sind Ersatzteile für HD Basics kostenlos."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-025",
+      "zitat": "Benötigen Sie ein Ersatzteil für ein HD-Basics-Möbelstück, kontaktieren Sie den Kundenservice und geben Sie die Artikelnummer an."
+    },
+    {
+      "artikel_id": "KB-025",
+      "zitat": "Ersatzteile: nur für HD Basics, über den Kundenservice mit Artikelnummer erhältlich; innerhalb der Garantie kostenlos."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:46:51+00:00"
+  }
+}

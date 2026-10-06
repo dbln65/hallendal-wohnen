@@ -1,0 +1,39 @@
+{
+  "ticket_id": "T-062",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-021",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Bei Transportschaden: Ersatz oder Geld zurück, und wer trägt die Rücksendekosten?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Mein neues Regal ist beim Transport ziemlich zerkratzt und an einer Ecke eingedellt angekommen, das ärgert mich wirklich! Ich will wissen, ob ich jetzt Ersatz bekomme oder mein Geld zurück - und wer zahlt eigentlich die Rücksendung, wenn ich das beschädigte Teil zurückschicken muss? Viele Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\ndas tut uns leid, es ist wirklich ärgerlich, wenn ein neues Möbelstück beschädigt ankommt. Bitte fotografieren Sie den Schaden und melden Sie ihn innerhalb von 7 Tagen nach Erhalt über unser Kontaktformular, damit wir Ihnen schnell weiterhelfen können.\n\nSie haben die Wahl zwischen einer Ersatzlieferung oder einer Erstattung des Artikels. Die Rücksendung bzw. Abholung des beschädigten Regals ist für Sie kostenlos, es entstehen Ihnen also keine Kosten dafür. Bitte halten Sie Ihre Bestellnummer bereit, damit wir den Vorgang zuordnen können. Sobald uns Ihre Meldung mit Fotos vorliegt, besprechen wir mit Ihnen das weitere Vorgehen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Transportschaden bei Paketware muss innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular gemeldet werden.",
+    "Der Kunde kann zwischen Ersatzlieferung oder Erstattung wählen.",
+    "Die Rücksendung bzw. Abholung ist kostenlos."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Transportschaden Paket: innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular melden."
+    },
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Lösung: nach Wahl Ersatzlieferung oder Erstattung; Rücksendung bzw. Abholung kostenlos."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:45:59+00:00"
+  }
+}

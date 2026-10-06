@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-107",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-030;KB-027",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Firma bestellt auf Rechnung: Angabe der USt-IdNr. und Zahlungsziel.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Guten Tag, mein Name ist Markus, ich bestelle für meine Firma regelmäßig bei Ihnen auf Rechnung. Bei meiner letzten Bestellung habe ich vergessen, unsere USt-IdNr. anzugeben, und jetzt kann ich das offenbar nicht mehr nachtragen – das finde ich wirklich ärgerlich! Außerdem will ich endlich mal genau wissen, wie viel Zeit ich eigentlich habe, um die Rechnung zu bezahlen. Können Sie mir das bitte klar beantworten?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihre Geduld.\n\nFür eine Firmenrechnung müssen Firmenname und USt-IdNr. bereits vor Abschluss der Bestellung angegeben werden. Eine nachträgliche Änderung der Rechnungsadresse ist leider nicht möglich, lediglich die Korrektur von Tippfehlern kann vorgenommen werden. Ich kann daher nachvollziehen, dass es ärgerlich ist, dass die USt-IdNr. nicht mehr ergänzt werden kann – achten Sie bitte bei zukünftigen Bestellungen darauf, diese Angabe direkt im Bestellprozess zu machen.\n\nZum Zahlungsziel: Beim Kauf auf Rechnung beträgt das Zahlungsziel 30 Tage ab Versand. Die Rechnung erhalten Sie als PDF per E-Mail zusammen mit der Versandbestätigung und können sie zusätzlich jederzeit in Ihrem Kundenkonto einsehen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Für eine Firmenrechnung müssen Firmenname und USt-IdNr. vor Abschluss der Bestellung angegeben werden.",
+    "Eine nachträgliche Änderung der Rechnungsadresse ist nicht möglich, nur Tippfehler können korrigiert werden.",
+    "Das Zahlungsziel beim Kauf auf Rechnung beträgt 30 Tage ab Versand."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-030",
+      "zitat": "Für eine Firmenrechnung müssen Firmenname und USt-IdNr. vor Abschluss der Bestellung angegeben werden."
+    },
+    {
+      "artikel_id": "KB-030",
+      "zitat": "Eine nachträgliche Änderung der Rechnungsadresse ist nicht möglich, es kann lediglich eine Korrektur von Tippfehlern erfolgen."
+    },
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Zahlungsziel: 30 Tage ab Versand"
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:52:30+00:00"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-027",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Lieferung auf Nordsee- und Ostseeinseln",
+    "stil": "unvollstaendig",
+    "szenario": "Gibt es Aufpreis oder längere Lieferzeit für Inseladressen (z. B. Borkum)?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, wir ziehen bald nach Borkum und wollte fragen, ob es für die Lieferung dahin extra kostet oder länger dauert. Fahren eure Spediteure da überhaupt hin?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und herzlichen Glückwunsch zum bevorstehenden Umzug. Zu Lieferungen auf Nordsee- oder Ostseeinseln wie Borkum liegen uns leider keine gesicherten Informationen vor, insbesondere ob dafür ein Aufpreis anfällt oder sich die Lieferzeit verlängert. Damit wir Ihnen eine verlässliche Auskunft geben können, empfehlen wir Ihnen, sich direkt an unseren Kundenservice zu wenden. Teilen Sie uns dort gerne Ihre genaue Lieferadresse sowie die gewünschten Artikel mit, damit das zuständige Team die Möglichkeiten für Ihre Insel-Adresse im Detail prüfen kann.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:40:47+00:00"
+  }
+}

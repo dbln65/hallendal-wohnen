@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-100",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-031",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Warum wurde der Kauf auf Rechnung abgelehnt?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich wollte mein neues Bücherregal per Rechnung bezahlen, aber im Bestellprozess kam die Meldung, dass das leider nicht möglich ist. Können Sie mir sagen, woran das liegt? Viele Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\ndanke für Ihre Nachricht. Der Kauf auf Rechnung läuft über einen externen Zahlungspartner, der jede Bestellung individuell prüft und über die Freigabe entscheidet. Leider liegen uns die genauen Gründe für eine Ablehnung nicht vor, sodass wir dazu keine Auskunft geben und die Entscheidung auch nicht ändern können.\n\nBitte wählen Sie für Ihre Bestellung eine andere Zahlungsart, zum Beispiel PayPal, Kreditkarte oder Apple Pay. Diese stehen Ihnen problemlos zur Verfügung. Sollte der Kauf auf Rechnung grundsätzlich möglich sein, achten Sie zudem darauf, dass der Bestellwert 1.500 € nicht übersteigt und Rechnungs- sowie Lieferadresse identisch sind.\n\nIch hoffe, das hilft Ihnen weiter. Bei weiteren Fragen stehen wir Ihnen gerne zur Verfügung.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Bei einem abgelehnten Kauf auf Rechnung entscheidet ausschließlich der Zahlungspartner.",
+    "Hallendal Wohnen kennt die Ablehnungsgründe nicht und kann die Entscheidung nicht ändern.",
+    "Der Kunde sollte in diesem Fall eine andere Zahlungsart wählen."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Bei einem abgelehnten Rechnungs- oder Ratenkauf entscheidet ausschließlich der Zahlungspartner."
+    },
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Hallendal Wohnen kennt die Ablehnungsgründe nicht und kann die Entscheidung nicht ändern."
+    },
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Wurde ein Kauf auf Rechnung oder ein Ratenkauf abgelehnt, wählen Sie im Bestellprozess eine andere Zahlungsart."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:51:32+00:00"
+  }
+}

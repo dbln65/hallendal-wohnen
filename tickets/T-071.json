@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-071",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-021",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Was ist bei der Übergabe von Speditionsware mit sichtbarem Schaden zu tun?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, heute wurde mein neuer Schrank per Spedition geliefert, und ich habe schon beim Abladen einen deutlichen Kratzer bzw. eine Delle an der Seite entdeckt. Was muss ich jetzt tun, damit das als Schaden anerkannt wird?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und es tut uns leid, dass Ihr Schrank beschädigt angekommen ist. Wichtig ist, dass Sie sichtbare Schäden bereits bei der Übergabe direkt auf dem Lieferschein vermerken, bevor Sie diesen unterschreiben. So ist der Schaden dokumentiert und kann anschließend bearbeitet werden. Fotografieren Sie den Schaden zusätzlich, damit wir uns ein genaues Bild machen können. Sollten Sie später noch weitere, zunächst nicht sichtbare Schäden feststellen, melden Sie diese bitte innerhalb von 7 Tagen mit Fotos über das Kontaktformular. Nach Prüfung bieten wir Ihnen nach Wahl eine Ersatzlieferung oder eine Erstattung an, eine Rücksendung bzw. Abholung erfolgt dabei kostenlos.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Sichtbare Schäden bei Speditionsware müssen bei der Übergabe auf dem Lieferschein vermerkt werden.",
+    "Verdeckte bzw. zusätzlich festgestellte Schäden sind innerhalb von 7 Tagen mit Fotos über das Kontaktformular zu melden.",
+    "Als Lösung wird nach Wahl eine Ersatzlieferung oder eine Erstattung angeboten, Rücksendung bzw. Abholung sind kostenlos."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Bei Speditionsware: Vermerken Sie sichtbare Schäden sofort auf dem Lieferschein."
+    },
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Stellen Sie bei Speditionsware später verdeckte Schäden fest, fotografieren Sie diese und melden Sie sie innerhalb von 7 Tagen über das Kontaktformular."
+    },
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Lösung: nach Wahl Ersatzlieferung oder Erstattung; Rücksendung bzw. Abholung kostenlos."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:47:03+00:00"
+  }
+}

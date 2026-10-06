@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-038",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-019",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Kissen in anderer Farbe gewünscht: Kann direkt umgetauscht werden?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich habe mir ein Kissen bestellt, möchte es aber lieber in einer anderen Farbe haben. Kann ich es einfach direkt umtauschen, ohne es erst zurückzuschicken? Viele Grüße, Nina",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Einen direkten Umtausch können wir leider nicht anbieten, da es bei Hallendal Wohnen generell keinen direkten Umtausch gibt. Möchten Sie das Kissen in einer anderen Farbe erhalten, senden Sie bitte den ursprünglichen Artikel als Retoure zurück und geben Sie den gewünschten Artikel anschließend als neue, separate Bestellung auf. Die Rücksendung melden Sie ganz normal über Ihr Kundenkonto oder, falls Sie als Gast bestellt haben, mit Bestellnummer und Postleitzahl an. Für die neue Bestellung gelten die üblichen Preise und Konditionen, da sie als eigenständiger Kauf behandelt wird. Die Erstattung für die Rücksendung erhalten Sie innerhalb von 14 Tagen nach Wareneingang im Lager auf Ihr ursprüngliches Zahlungsmittel.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Ein direkter Umtausch ist bei Hallendal Wohnen nicht möglich.",
+    "Stattdessen muss der Artikel zurückgesendet und ein neuer Artikel separat neu bestellt werden.",
+    "Die neue Bestellung wird als eigenständiger Kauf behandelt."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-019",
+      "zitat": "Bei Hallendal Wohnen gibt es keinen direkten Umtausch."
+    },
+    {
+      "artikel_id": "KB-019",
+      "zitat": "Möchten Sie einen Artikel gegen ein anderes Modell, eine andere Größe oder Farbe tauschen, senden Sie den ursprünglichen Artikel zurück und geben Sie eine neue Bestellung auf."
+    },
+    {
+      "artikel_id": "KB-019",
+      "zitat": "Die neue Bestellung wird als eigenständiger Kauf behandelt und separat berechnet."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:42:09+00:00"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-081",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-022;KB-021;KB-011",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Speditionslieferung Schrank: ein Paket fehlt, Kratzer an der Tür beim Auspacken nach 2 Tagen entdeckt.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, vor ein paar Tagen wurde mein neuer Schrank per Spedition geliefert. Beim Auspacken heute ist mir aufgefallen, dass die Tür einen deutlichen Kratzer hat, und außerdem fehlt ein Paket mit Teilen für den Schrank. Die Lieferung ist jetzt schon zwei Tage her. Was muss ich jetzt tun, um das zu melden? Viele Grüße, Sabine",
+  "musterantwort": "Guten Tag,\n\nes tut uns leid, dass Ihr Schrank nicht vollständig und zudem beschädigt bei Ihnen angekommen ist. Für den fehlenden Karton gilt: Bitte melden Sie dies innerhalb von 14 Tagen nach Erhalt bei unserem Kundenservice, die Nachlieferung des fehlenden Teils erfolgt dann kostenlos.\n\nFür den Kratzer an der Tür gilt, da es sich um eine Speditionslieferung handelt: Sichtbare Schäden sollten eigentlich schon bei der Übergabe auf dem Lieferschein vermerkt werden. Da Sie den Schaden erst beim Auspacken nach zwei Tagen entdeckt haben, handelt es sich um einen verdeckten Schaden. Diesen melden Sie bitte ebenfalls innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular. Unser Kundenservice meldet sich anschließend mit den weiteren Schritten, etwa zu Ersatzlieferung oder Erstattung.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Ein fehlender Artikel/Paket muss innerhalb von 14 Tagen gemeldet werden, Nachlieferung erfolgt kostenlos.",
+    "Bei Speditionsware werden sichtbare Schäden bei Übergabe auf dem Lieferschein vermerkt.",
+    "Verdeckte Schäden bei Speditionsware müssen innerhalb von 7 Tagen mit Fotos gemeldet werden."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Meldung muss innerhalb von 14 Tagen erfolgen."
+    },
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Nachlieferung ist kostenlos, die Abholung eines falsch gelieferten Artikels ist ebenfalls kostenlos."
+    },
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Bei Speditionsware vermerken Sie sichtbare Schäden bereits bei der Übergabe auf dem Lieferschein; verdeckte Schäden melden Sie ebenfalls innerhalb von 7 Tagen mit Fotos."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:48:52+00:00"
+  }
+}

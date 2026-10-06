@@ -1,0 +1,39 @@
+{
+  "ticket_id": "T-063",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-022",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Falscher Artikel geliefert.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Guten Tag, ich habe gestern meine Bestellung erhalten, aber statt des bestellten Beistelltisches ist ein komplett anderes Regal angekommen. Wie kann ich das klären und wann bekomme ich den richtigen Artikel?",
+  "musterantwort": "Guten Tag,\n\ndas tut uns leid, bitte entschuldigen Sie die Verwechslung. Bitte melden Sie uns den falsch gelieferten Artikel innerhalb von 14 Tagen nach Erhalt, damit wir die weiteren Schritte einleiten können. Der korrekte Artikel wird Ihnen anschließend kostenlos nachgeliefert. Den falsch gelieferten Artikel holen wir ebenfalls kostenlos bei Ihnen ab; den genauen Abholtermin vereinbaren wir gemeinsam mit Ihnen. Sie müssen sich also um nichts weiter kümmern, außer uns kurz Bescheid zu geben und den Artikel für die Abholung bereitzuhalten. Sollten Sie noch Ihre Bestellnummer zur Hand haben, hilft uns das bei der schnelleren Bearbeitung.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Meldung eines falschen Artikels muss innerhalb von 14 Tagen erfolgen.",
+    "Die Nachlieferung des korrekten Artikels ist kostenlos.",
+    "Die Abholung des falsch gelieferten Artikels ist kostenlos."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Meldung muss innerhalb von 14 Tagen erfolgen."
+    },
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Nachlieferung ist kostenlos, die Abholung eines falsch gelieferten Artikels ist ebenfalls kostenlos."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:46:09+00:00"
+  }
+}

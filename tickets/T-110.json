@@ -1,0 +1,47 @@
+{
+  "ticket_id": "T-110",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-027;KB-028;KB-031",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Bestellung über ca. 1.800 € (DE), Zahlung nicht sofort gewünscht: Optionen und Bedingungen.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich habe gerade eine größere Bestellung für mein Wohnzimmer zusammengestellt, der Betrag liegt bei etwa 1.800 €. Ich würde aber ungern sofort das ganze Geld auf einmal zahlen. Gibt es da Möglichkeiten und was müsste ich dabei beachten? Danke und Grüße, Melanie",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Für eine Zahlung ohne sofortige vollständige Belastung stehen Ihnen grundsätzlich zwei Optionen zur Verfügung: der Kauf auf Rechnung und der Ratenkauf.\n\nBeim Kauf auf Rechnung beträgt das Zahlungsziel 30 Tage ab Versand, allerdings ist dieser nur bis zu einem Bestellwert von 1.500 € möglich. Da Ihre Bestellung mit rund 1.800 € darüber liegt, kommt diese Option für Sie voraussichtlich nicht in Frage.\n\nDer Ratenkauf steht dagegen ab einem Bestellwert von 200 € zur Verfügung, eine Obergrenze ist uns hierzu nicht bekannt. Sie können zwischen einer Laufzeit von 6, 12 oder 24 Monaten wählen. Beide Zahlungsarten werden über einen Zahlungspartner geprüft und freigegeben; die Gründe für eine mögliche Ablehnung kennen wir nicht und können die Entscheidung nicht beeinflussen. Sollte eine Zahlungsart abgelehnt werden, wählen Sie im Bestellprozess bitte eine andere Option.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Kauf auf Rechnung ist nur bis zu einem maximalen Bestellwert von 1.500 € möglich.",
+    "Der Ratenkauf steht ab einem Bestellwert von 200 € zur Verfügung mit Laufzeiten von 6, 12 oder 24 Monaten.",
+    "Beide Zahlungsarten werden über einen Zahlungspartner geprüft, dessen Entscheidung Hallendal Wohnen nicht beeinflussen kann."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Maximaler Bestellwert: 1.500 €"
+    },
+    {
+      "artikel_id": "KB-028",
+      "zitat": "Den Ratenkauf können Sie ab einem Bestellwert von 200 € nutzen."
+    },
+    {
+      "artikel_id": "KB-028",
+      "zitat": "Sie wählen eine Laufzeit von 6, 12 oder 24 Monaten."
+    },
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Hallendal Wohnen kennt die Ablehnungsgründe nicht und kann die Entscheidung nicht ändern."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:53:03+00:00"
+  }
+}

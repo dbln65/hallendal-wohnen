@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-103",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-027;KB-029",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Rechnung vergessen, 35 Tage nach Versand: Was passiert jetzt?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich bin ziemlich sauer gerade! Ich habe die Rechnung für meine Bestellung komplett vergessen und jetzt sind schon 35 Tage seit dem Versand vergangen. Kriege ich jetzt Ärger oder zusätzliche Kosten, weil ich zu spät zahle? Das hätte mir ja wenigstens mal jemand in Erinnerung rufen können!",
+  "musterantwort": "Guten Tag,\n\nich verstehe, dass die Situation für Sie ärgerlich ist, und erkläre Ihnen gerne, wie es jetzt weitergeht. Das Zahlungsziel beim Kauf auf Rechnung beträgt 30 Tage ab Versand, dieses ist in Ihrem Fall also bereits überschritten. Normalerweise wird 7 Tage nach Fälligkeit zunächst eine kostenlose Zahlungserinnerung verschickt. Sollte die Zahlung danach weiterhin nicht erfolgen, wird ab der 1. Mahnung eine Mahngebühr von 5 € erhoben. Ich empfehle Ihnen daher, den offenen Rechnungsbetrag möglichst zeitnah zu begleichen, um weitere Kosten zu vermeiden. Die Rechnung finden Sie als PDF in Ihrem Kundenkonto. Bei Fragen zur genauen Höhe oder zum aktuellen Status Ihrer Mahnung wenden Sie sich gerne direkt an unseren Kundenservice.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Das Zahlungsziel beim Kauf auf Rechnung beträgt 30 Tage ab Versand.",
+    "7 Tage nach Fälligkeit erfolgt eine kostenlose Zahlungserinnerung.",
+    "Ab der 1. Mahnung wird eine Mahngebühr von 5 € erhoben."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Zahlungsziel: 30 Tage ab Versand"
+    },
+    {
+      "artikel_id": "KB-029",
+      "zitat": "Bei Kauf auf Rechnung erhalten Sie 7 Tage nach Fälligkeit eine kostenlose Zahlungserinnerung."
+    },
+    {
+      "artikel_id": "KB-029",
+      "zitat": "Zahlen Sie danach weiterhin nicht, fällt ab der 1. Mahnung eine Mahngebühr von 5 € an."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:51:54+00:00"
+  }
+}

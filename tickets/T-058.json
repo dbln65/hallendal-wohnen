@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-058",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Kein Drucker für das Retourenlabel",
+    "stil": "sachlich",
+    "szenario": "Kein Drucker vorhanden: Wie kommt das Retourenlabel aufs Paket?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich möchte mein neues Ecksofa zurückschicken, habe aber leider keinen Drucker zuhause, um das Retourenlabel auszudrucken. Wie bekomme ich das Label trotzdem aufs Paket? Viele Grüße, Jana",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihr Verständnis. Sie möchten Ihr Ecksofa zurücksenden, haben aber keine Möglichkeit, das Retourenlabel selbst auszudrucken. Dazu kann ich Ihnen momentan leider keine verbindliche Information geben, da uns dazu keine gesicherte Regelung vorliegt.\n\nDamit wir Ihnen schnell und individuell weiterhelfen können, wenden Sie sich bitte direkt an unseren Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon. Teilen Sie uns dabei gerne Ihre Bestellnummer mit, damit wir Ihr Anliegen zuordnen können. Unser Team prüft dann, welche Möglichkeiten es gibt, damit das Label dennoch auf Ihr Paket gelangt, und meldet sich zeitnah bei Ihnen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:45:35+00:00"
+  }
+}

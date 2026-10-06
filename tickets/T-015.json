@@ -1,0 +1,44 @@
+{
+  "ticket_id": "T-015",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-009;KB-011",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Sofa nach Österreich: Kosten, Lieferzeit und Ablauf der Speditionslieferung.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich überlege mir ein größeres Sofa zu bestellen, das dann wohl per Spedition kommt, und das soll nach Österreich geliefert werden. Könnt ihr mir sagen, was das ungefähr kostet, wie lange das dauert und wie das mit der Anlieferung dann abläuft? Danke und Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage. Für die Lieferung von Speditionsware nach Österreich fällt pauschal ein Betrag von 69 € an. Die Lieferzeit beträgt dabei 10–18 Werktage.\n\nZum Ablauf: Die Spedition meldet sich 1–2 Werktage vor der Lieferung telefonisch bei Ihnen und vereinbart mit Ihnen ein Zeitfenster von 4 Stunden. Die Lieferung erfolgt standardmäßig bis zur ersten verschließbaren Tür im Erdgeschoss. Bitte prüfen Sie die Ware bei der Übergabe und vermerken Sie sichtbare Schäden direkt auf dem Lieferschein.\n\nFalls Sie wünschen, dass die Spedition das Sofa auch in Ihre Wohnung trägt, ist dies als Zusatzleistung buchbar, allerdings nur innerhalb Deutschlands verfügbar und somit für Österreich nicht möglich.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Speditionsware nach Österreich kostet pauschal 69 €.",
+    "Die Lieferzeit für Speditionsware nach Österreich beträgt 10–18 Werktage.",
+    "Die Spedition meldet sich 1–2 Werktage vor der Lieferung telefonisch und vereinbart ein Zeitfenster von 4 Stunden.",
+    "Die Lieferung erfolgt standardmäßig bis zur ersten verschließbaren Tür im Erdgeschoss."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-009",
+      "zitat": "Spedition (Sperrgut): 69 € pauschal, Lieferzeit 10–18 Werktage."
+    },
+    {
+      "artikel_id": "KB-011",
+      "zitat": "Bei Sperrgut meldet sich die Spedition 1–2 Werktage vor der Lieferung telefonisch und vereinbart ein Zeitfenster von 4 Stunden."
+    },
+    {
+      "artikel_id": "KB-011",
+      "zitat": "Die Lieferung erfolgt standardmäßig bis zur ersten verschließbaren Tür im Erdgeschoss."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:38:29+00:00"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "ticket_id": "T-017",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-010;KB-013",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Paket in die Schweiz: Lieferzeit, Sendungsverfolgung und Lieferung an eine Packstation.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Guten Tag, ich habe vor Kurzem einige Deko-Artikel in die Schweiz bestellt und wüsste gerne, wie lange die Lieferung ungefähr dauert. Außerdem würde mich interessieren, wie ich die Sendung verfolgen kann. Zusätzlich möchte ich fragen, ob ich meine nächste Bestellung an eine Packstation liefern lassen kann, da ich tagsüber selten zu Hause bin. Vielen Dank und viele Grüße, Michael",
+  "musterantwort": "Guten Tag, vielen Dank für Ihre Anfrage. Lieferungen in die Schweiz werden ausschließlich als Paketversand abgewickelt, die Lieferzeit beträgt dabei 4–8 Werktage. Sobald Ihre Bestellung versandt wurde, erhalten Sie eine Versandbestätigung per E-Mail mit einem Tracking-Link, über den Sie die Sendung bei DHL bis zur Zustellung verfolgen können. Zur Packstation müssen wir Sie leider enttäuschen: Diese Zustelloption steht ausschließlich für Lieferungen innerhalb Deutschlands zur Verfügung und ist für die Schweiz nicht möglich. Für Ihre Bestellung in die Schweiz müsste daher eine reguläre Lieferadresse angegeben werden. Bei weiteren Fragen stehen wir Ihnen gerne zur Verfügung. Viele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "In die Schweiz wird ausschließlich Paketware geliefert, die Lieferzeit beträgt 4-8 Werktage.",
+    "Nach dem Versand erhält man eine Versandbestätigung mit Tracking-Link zur Sendungsverfolgung bei DHL.",
+    "Die Zustellung an eine Packstation ist ausschließlich für Deutschland möglich, nicht für die Schweiz."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-010",
+      "zitat": "In die Schweiz liefern wir ausschließlich Paketware."
+    },
+    {
+      "artikel_id": "KB-010",
+      "zitat": "Lieferzeit: 4–8 Werktage."
+    },
+    {
+      "artikel_id": "KB-013",
+      "zitat": "Nach dem Versand erhalten Sie eine Versandbestätigung mit Tracking-Link, um den aktuellen Sendungsstatus bei DHL einzusehen."
+    },
+    {
+      "artikel_id": "KB-013",
+      "zitat": "Die Zustellung an Packstation oder Postfiliale ist ausschließlich für Paketware möglich und gilt nur für Deutschland."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:38:50+00:00"
+  }
+}

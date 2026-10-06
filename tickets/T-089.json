@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-089",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Garantieverlängerung",
+    "stil": "unvollstaendig",
+    "szenario": "Zusatzgarantie beim Kauf eines Sofas abschließbar?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich möchte mir ein neues Sofa bestellen und frage mich, ob man beim Kauf noch eine Zusatzgarantie dazu buchen kann, falls später mal was kaputt geht. Gibt es sowas bei euch?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Frage zur Garantie bei Ihrem neuen Sofa. Ob eine zusätzliche, kostenpflichtige Garantieverlängerung beim Kauf hinzugebucht werden kann, kann ich Ihnen aus den mir vorliegenden Informationen leider nicht eindeutig beantworten. Damit Sie dazu eine verlässliche Auskunft erhalten, leite ich Ihre Anfrage gerne an unser zuständiges Team weiter. Alternativ können Sie sich auch direkt über unser Kontaktformular, per E-Mail, im Live-Chat oder telefonisch an unseren Kundenservice wenden. Es wäre hilfreich, wenn Sie dabei kurz angeben, um welches Sofa-Modell es sich handelt, damit die Kolleginnen und Kollegen Ihr Anliegen gezielt prüfen können.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:50:12+00:00"
+  }
+}

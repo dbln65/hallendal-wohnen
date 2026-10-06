@@ -1,0 +1,38 @@
+{
+  "ticket_id": "P-01",
+  "plan": {
+    "set": "pilot",
+    "kategorie": "Versand",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-009",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Wie lange dauert eine Speditionslieferung nach Österreich?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hi, ich will mir ein größeres Sideboard liefern lassen, das muss per Spedition kommen, weil's zu groß fürs Paket ist. Liefert ihr sowas auch nach Österreich und wie lang dauert das ungefähr? Danke schon mal! LG Tobias",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage. Ja, eine Lieferung nach Österreich ist auch mit Speditionsware wie Ihrem Sideboard möglich. Die Lieferzeit beträgt dabei 10–18 Werktage. Die Spedition meldet sich 1–2 Werktage vor dem Liefertermin telefonisch bei Ihnen, um ein Zeitfenster von 4 Stunden zu vereinbaren. Die Standard-Lieferung erfolgt bis zur ersten verschließbaren Tür im Erdgeschoss. Für diese Art der Lieferung fällt ein pauschaler Versandkostenbetrag von 69 € an.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Speditionslieferung nach Österreich ist möglich.",
+    "Die Lieferzeit für Speditionsware nach Österreich beträgt 10–18 Werktage."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-009",
+      "zitat": "Nach Österreich liefern wir sowohl Paketware als auch Speditionsware."
+    },
+    {
+      "artikel_id": "KB-009",
+      "zitat": "Spedition (Sperrgut): 69 € pauschal, Lieferzeit 10–18 Werktage."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:54:38+00:00"
+  }
+}

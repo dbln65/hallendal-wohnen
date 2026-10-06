@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-012",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-007;KB-039",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Club-Mitglied bestellt Paketware für ca. 30 € nach Deutschland: Fallen Versandkosten an?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich bin seit Monaten Mitglied im Hallendal Club und verstehe nicht, warum mir jetzt bei meiner Bestellung Versandkosten berechnet werden sollen! Ich habe für etwa 30 Euro ein paar Kissenbezüge bestellt und dachte, als Club-Mitglied zahle ich sowieso keinen Versand. Jetzt steht im Warenkorb trotzdem ein Betrag für den Versand. Können Sie mir erklären, ob das ein Fehler ist?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihre Treue als Hallendal-Club-Mitglied. Wir können Sie beruhigen: Mitglieder des Hallendal Club zahlen für den Standardversand von Paketware in Deutschland keine Versandkosten, und zwar unabhängig vom Bestellwert. Das bedeutet, dass Ihre Bestellung über ca. 30 € ebenfalls kostenlos versendet werden sollte, da ansonsten erst ab einem Bestellwert von 49 € versandkostenfrei geliefert wird. Sollte im Warenkorb dennoch ein Versandkostenbetrag angezeigt werden, prüfen Sie bitte, ob Ihr Club-Status im Kundenkonto korrekt hinterlegt ist, oder wenden Sie sich mit Ihrer Bestellnummer erneut an uns, damit wir das für Sie klären können.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Mitglieder des Hallendal Club zahlen für Paket Standard in Deutschland keine Versandkosten, unabhängig vom Bestellwert.",
+    "Ohne Club-Mitgliedschaft wäre der Paketversand in Deutschland erst ab 49 € Bestellwert kostenlos."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-039",
+      "zitat": "Mitglieder zahlen für Paket Standard in Deutschland keine Versandkosten, unabhängig vom Bestellwert."
+    },
+    {
+      "artikel_id": "KB-007",
+      "zitat": "Paket Standard: 4,95 €, kostenlos ab 49 € Bestellwert, Lieferzeit 2–4 Werktage."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:37:58+00:00"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "ticket_id": "T-020",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-007;KB-039;KB-011",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Club-Mitglied bestellt Kissen (Paket) und Sessel (Sperrgut) nach Deutschland: Versandkosten je Warenart, Lieferung zusammen oder getrennt, Lieferzeiten.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich bin seit Monaten im Hallendal Club und finde es wirklich ärgerlich, dass bei meiner letzten Bestellung nicht klar wird, was ich jetzt an Versandkosten zahle! Ich habe ein paar Kissen und einen Sessel bestellt, Lieferung nach Deutschland. Werden die beiden Sachen zusammen geliefert oder getrennt? Und wie lange muss ich jeweils auf die Kissen und auf den Sessel warten? Als Club-Mitglied dachte ich, der Versand wäre bei mir sowieso kostenlos, aber im Warenkorb wurde trotzdem was berechnet. Bitte klären Sie das endlich auf!",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihre Geduld. Da Ihre Bestellung sowohl Paketware (Kissen) als auch Speditionsware (Sessel, Sperrgut) enthält, erfolgt die Lieferung getrennt: Die Kissen kommen als Paket, der Sessel per Spedition. Als Mitglied im Hallendal Club zahlen Sie für den Paketversand in Deutschland keine Versandkosten, unabhängig vom Bestellwert – dieser Vorteil gilt jedoch nicht für Speditionsware. Für den Sessel fallen daher pauschal 39,00 € Versandkosten an. Die Lieferzeit für die Kissen beträgt 2–4 Werktage, der Sessel wird innerhalb von 7–14 Werktagen geliefert. Bei der Speditionslieferung meldet sich der Spediteur 1–2 Werktage vor dem Termin telefonisch bei Ihnen, um ein 4-Stunden-Zeitfenster zu vereinbaren.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Kissen (Paketware) und Sessel (Speditionsware) werden getrennt geliefert.",
+    "Club-Mitglieder zahlen für Paket Standard in Deutschland keine Versandkosten, unabhängig vom Bestellwert; dies gilt nicht für Speditionsware.",
+    "Speditionsware kostet pauschal 39 € pro Bestellung.",
+    "Lieferzeit Paketware: 2–4 Werktage; Lieferzeit Speditionsware: 7–14 Werktage.",
+    "Die Spedition ruft 1–2 Werktage vorher an und vereinbart ein Zeitfenster von 4 Stunden."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-007",
+      "zitat": "Enthält Ihre Bestellung sowohl Paket- als auch Speditionsware, erhalten Sie beide Lieferungen getrennt."
+    },
+    {
+      "artikel_id": "KB-039",
+      "zitat": "Mitglieder des Hallendal Club zahlen für Paket Standard in Deutschland keine Versandkosten, unabhängig vom Bestellwert."
+    },
+    {
+      "artikel_id": "KB-039",
+      "zitat": "Für Express, Speditionsware sowie Bestellungen nach Österreich oder in die Schweiz gilt dieser Vorteil nicht."
+    },
+    {
+      "artikel_id": "KB-007",
+      "zitat": "Spedition (Sperrgut): 39 € pauschal pro Bestellung, Lieferzeit 7–14 Werktage."
+    },
+    {
+      "artikel_id": "KB-007",
+      "zitat": "Paket Standard: 4,95 €, kostenlos ab 49 € Bestellwert, Lieferzeit 2–4 Werktage."
+    },
+    {
+      "artikel_id": "KB-011",
+      "zitat": "Die Spedition ruft 1–2 Werktage vorher an und vereinbart ein Zeitfenster von 4 Stunden."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:39:24+00:00"
+  }
+}

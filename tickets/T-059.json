@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-059",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Kein Drucker für das Retourenlabel",
+    "stil": "umgangssprachlich",
+    "szenario": "Kann das Retourenlabel als QR-Code auf dem Handy vorgezeigt werden?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich muss mein Sofakissen-Set zurückschicken, hab aber grad keinen Drucker zuhause. Kann ich das Retourenlabel auch einfach als QR-Code am Handy vorzeigen bei DHL? Wäre super wenn das gehen würde, dann muss ich nicht extra wo hin zum Drucken. Danke und Grüße, Lea",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Sie möchten wissen, ob Sie das Retourenlabel statt in ausgedruckter Form auch als QR-Code auf dem Handy bei DHL vorzeigen können. Dazu liegt uns leider keine gesicherte Information vor, da dies nicht eindeutig geregelt ist. Damit wir Ihnen hierzu eine verbindliche Auskunft geben können, wenden Sie sich bitte an unser zuständiges Team über Kontaktformular, E-Mail, Live-Chat oder Telefon. Gerne können Sie uns dafür auch Ihre Bestellnummer mitteilen, damit wir Ihr Anliegen schnell zuordnen können.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:45:41+00:00"
+  }
+}

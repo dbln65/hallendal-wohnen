@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-061",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-021",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Paket beschädigt angekommen: Was ist zu tun?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, mein Paket ist heute angekommen und der Karton war ziemlich eingedrückt, der Inhalt sieht beschädigt aus. Was muss ich jetzt tun? Viele Grüße, Sandra",
+  "musterantwort": "Guten Tag,\n\ndas tut uns leid zu hören, dass Ihr Paket beschädigt bei Ihnen angekommen ist. Bitte melden Sie den Transportschaden innerhalb von 7 Tagen nach Erhalt über unser Kontaktformular und fügen Sie dabei Fotos des beschädigten Pakets sowie des Inhalts bei. Nach Eingang Ihrer Meldung meldet sich unser Kundenservice bei Ihnen und bespricht die weitere Vorgehensweise mit Ihnen. Als Lösung ist je nach Ihrer Wahl eine Ersatzlieferung oder eine Erstattung möglich, eine eventuell nötige Rücksendung ist für Sie kostenlos.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Transportschäden bei Paketware müssen innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular gemeldet werden.",
+    "Als Lösung ist nach Wahl eine Ersatzlieferung oder Erstattung möglich, Rücksendung bzw. Abholung ist kostenlos."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Bei Paketware melden Sie einen Transportschaden innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular."
+    },
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Lösung: nach Wahl Ersatzlieferung oder Erstattung; Rücksendung bzw. Abholung kostenlos."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:45:52+00:00"
+  }
+}

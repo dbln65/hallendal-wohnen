@@ -1,0 +1,35 @@
+{
+  "ticket_id": "T-070",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-025",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Was kostet der Montageservice?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe mir gerade den neuen Kleiderschrank bestellt und wollte direkt den Aufbau dazu buchen, aber nirgends steht, was das eigentlich kostet! Das finde ich ziemlich ärgerlich, dass man das nicht einfach sieht. Können Sie mir sagen, was der Montageservice kostet?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihr Verständnis für die Unklarheit. Ich kann Ihnen die Kosten gerne nennen: Der Montageservice kostet 59 € pro Schrank oder Bett. Bitte beachten Sie, dass dieser Service nur in Deutschland verfügbar ist und ausschließlich direkt bei der Bestellung hinzugebucht werden kann, eine nachträgliche Buchung ist leider nicht möglich. Falls Sie den Service für Ihren Kleiderschrank noch benötigen, müssten Sie ihn daher jetzt im Bestellprozess mit auswählen. Sollte Ihre Bestellung bereits abgeschlossen sein, melden Sie sich gerne bei uns, damit wir gemeinsam schauen, was möglich ist.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Der Montageservice kostet 59 € pro Schrank/Bett.",
+    "Der Montageservice ist nur in Deutschland verfügbar.",
+    "Der Montageservice muss bereits bei der Bestellung gebucht werden, eine nachträgliche Buchung ist nicht möglich."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-025",
+      "zitat": "Montageservice: 59 € pro Schrank/Bett, nur in Deutschland, nur bei Bestellung buchbar, nicht nachträglich."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:46:56+00:00"
+  }
+}

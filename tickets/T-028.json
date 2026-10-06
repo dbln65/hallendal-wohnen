@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-028",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Lieferung am Wochenende oder zu Wunschterminen",
+    "stil": "veraergert",
+    "szenario": "Speditionslieferung an einem Samstag gewünscht.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich bin ziemlich genervt. Ich habe ein großes Regal bestellt, das per Spedition geliefert wird, und ich arbeite unter der Woche bis abends. Kann ich bitte einen Liefertermin am Samstag bekommen? Es kann doch nicht sein, dass ich extra Urlaub nehmen muss, nur damit jemand mein Regal abliefert!",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihre Geduld. Ich verstehe gut, dass eine Lieferung außerhalb Ihrer Arbeitszeit für Sie deutlich praktischer wäre. Leider liegt mir dazu keine gesicherte Information vor, ob eine Spedition grundsätzlich auch an Samstagen oder zu individuell gewünschten Terminen liefern kann. Üblicherweise meldet sich die Spedition vorab telefonisch, um einen Termin abzustimmen, doch ob dabei auch Wochenendtermine angeboten werden, kann ich an dieser Stelle nicht verbindlich beantworten.\n\nIch leite Ihr Anliegen gerne an unser zuständiges Team weiter, damit dort geprüft wird, ob für Ihre Bestellung ein Samstagstermin möglich ist. Könnten Sie mir dazu bitte Ihre Bestellnummer mitteilen, damit wir die Anfrage direkt zuordnen können?\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:40:53+00:00"
+  }
+}

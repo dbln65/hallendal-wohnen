@@ -1,0 +1,44 @@
+{
+  "ticket_id": "P-06",
+  "plan": {
+    "set": "pilot",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-022;KB-021",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Falscher Artikel geliefert und dieser zusätzlich beschädigt.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe gestern ein Paket bekommen, aber das ist gar nicht das, was ich bestellt hatte. Zu allem Überfluss ist der falsche Artikel auch noch beschädigt angekommen. Was muss ich jetzt tun? Viele Grüße, Sabine",
+  "musterantwort": "Guten Tag,\n\ndas tut uns leid zu hören – wir kümmern uns gerne darum. Bitte melden Sie uns den falsch gelieferten Artikel innerhalb von 14 Tagen, damit wir die Angelegenheit schnellstmöglich klären können. Die Abholung des falschen Artikels ist für Sie kostenlos, ebenso die Nachlieferung des korrekt bestellten Artikels.\n\nDa der Artikel zusätzlich beschädigt ist, bitten wir Sie, den Schaden innerhalb von 7 Tagen nach Erhalt mit Fotos über unser Kontaktformular zu melden. Bitte halten Sie dafür Ihre Bestellnummer bereit, damit wir Ihren Vorgang schnell zuordnen können. Nach Eingang Ihrer Meldung informieren wir Sie über das weitere Vorgehen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Ein falsch gelieferter Artikel muss innerhalb von 14 Tagen gemeldet werden.",
+    "Die Abholung des falsch gelieferten Artikels ist kostenlos.",
+    "Die Nachlieferung des korrekten Artikels ist kostenlos.",
+    "Ein Transportschaden bei Paketware muss innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular gemeldet werden."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Meldung muss innerhalb von 14 Tagen erfolgen."
+    },
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Nachlieferung ist kostenlos, die Abholung eines falsch gelieferten Artikels ist ebenfalls kostenlos."
+    },
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Transportschaden Paket: innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular melden."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:55:19+00:00"
+  }
+}

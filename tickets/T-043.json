@@ -1,0 +1,53 @@
+{
+  "ticket_id": "T-043",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-017;KB-016",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Sessel (Speditionsware) aus Österreich zurückgeben: Ablauf und Kosten.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich hab vor ein paar Tagen meinen neuen Sessel bekommen, der musste ja extra mit Spedition geliefert werden, und leider gefällt er uns farblich doch nicht so gut. Ich wohne in Österreich und wollte fragen, wie ich den jetzt zurückschicken kann und was das kostet. Reicht es, wenn ich das einfach online im Kundenkonto anmelde so wie bei anderen Sachen? Danke schon mal, Lukas",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Da es sich bei Ihrem Sessel um Speditionsware handelt, können Sie diesen leider nicht über das Retourenportal anmelden, sondern ausschließlich über unseren Kundenservice. Bitte kontaktieren Sie uns dafür innerhalb von 14 Tagen ab Erhalt der Ware, damit wir mit Ihnen einen Abholtermin vereinbaren können. Der Sessel muss zu diesem Termin zerlegt und abholbereit im Erdgeschoss bereitstehen.\n\nFür den Rücktransport aus Österreich fallen 69 € an. Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang in unserem Lager auf Ihr ursprüngliches Zahlungsmittel.\n\nMelden Sie sich gerne telefonisch, per E-Mail, Kontaktformular oder im Live-Chat bei uns, um den Abholtermin zu vereinbaren.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Anmeldung der Retoure für Speditionsware aus Österreich erfolgt ausschließlich über den Kundenservice, nicht über das Retourenportal.",
+    "Die Widerrufsfrist für Speditionsware beträgt 14 Tage ab Erhalt.",
+    "Die Ware muss zerlegt und abholbereit im Erdgeschoss übergeben werden.",
+    "Der Rücktransport von Speditionsware aus Österreich kostet 69 €.",
+    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-017",
+      "zitat": "Speditionsware (nur Österreich): Retoure telefonisch, per E-Mail, Kontaktformular oder Live-Chat beim Kundenservice anmelden."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Widerrufsfrist: 14 Tage ab Erhalt."
+    },
+    {
+      "artikel_id": "KB-017",
+      "zitat": "Speditionsware muss zerlegt und abholbereit im Erdgeschoss übergeben werden."
+    },
+    {
+      "artikel_id": "KB-017",
+      "zitat": "Rücktransport Speditionsware Österreich: 69 €."
+    },
+    {
+      "artikel_id": "KB-017",
+      "zitat": "Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lager, auf das ursprüngliche Zahlungsmittel; bei Rechnungskauf wird der Rechnungsbetrag reduziert."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:42:57+00:00"
+  }
+}

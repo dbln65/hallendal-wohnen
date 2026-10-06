@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-018",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-012;KB-025",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Kleiderschrank (DE): Lieferung in die Wohnung und Montage gewünscht – welche Kosten fallen an?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich hab mir gerade einen Kleiderschrank bei euch bestellt und überleg jetzt noch, ob ich die Lieferung bis in die Wohnung und auch den Aufbau dazubuchen soll. Was würde das beides zusammen ungefähr kosten? Und geht das jetzt noch nachträglich oder hätte ich das gleich mitbestellen müssen? Danke und Grüße, Tim",
+  "musterantwort": "Guten Tag,\n\ngerne erläutere ich Ihnen die Kosten für die gewünschten Zusatzleistungen zu Ihrem Kleiderschrank. Die Lieferung in die Wohnung kostet 49 €. Darin enthalten ist das Tragen in den Aufstellraum sowie die Mitnahme der Verpackung. Für den Aufbau können Sie zusätzlich den Montageservice buchen, der 59 € pro Schrank bzw. Bett kostet.\n\nBitte beachten Sie: Beide Leistungen müssen bereits bei der Bestellung ausgewählt werden, eine nachträgliche Buchung ist leider nicht möglich. Da Sie Ihre Bestellung nach Ihrer Nachricht bereits aufgegeben haben, kontaktieren Sie am besten zeitnah unseren Kundenservice, um zu klären, ob die Leistungen noch hinzugefügt werden können, da der Status Ihrer Bestellung dafür entscheidend ist.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Lieferung in die Wohnung kostet 49 € und umfasst das Tragen in den Aufstellraum sowie die Mitnahme der Verpackung.",
+    "Der Montageservice kostet 59 € pro Schrank/Bett.",
+    "Beide Zusatzleistungen müssen bereits bei der Bestellung gebucht werden, eine nachträgliche Buchung ist nicht möglich."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-012",
+      "zitat": "Lieferung in die Wohnung: 49 €, inkl. Tragen in den Aufstellraum und Verpackungsmitnahme."
+    },
+    {
+      "artikel_id": "KB-025",
+      "zitat": "Montageservice: 59 € pro Schrank/Bett, nur in Deutschland, nur bei Bestellung buchbar, nicht nachträglich."
+    },
+    {
+      "artikel_id": "KB-012",
+      "zitat": "Beide Leistungen sind nur bei der Bestellung buchbar, eine nachträgliche Buchung ist nicht möglich."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:39:02+00:00"
+  }
+}

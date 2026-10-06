@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-085",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Ersatzteile für Fremdmarken",
+    "stil": "unvollstaendig",
+    "szenario": "Ersatzglas für eine Leuchte eines anderen Herstellers.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, bei meiner Stehlampe (nicht von euch, eine andere Marke) ist das Glas kaputtgegangen. Könnt ihr mir da ein Ersatzglas besorgen? Viele Grüße, Jana",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht bezüglich des Ersatzglases für Ihre Leuchte eines anderen Herstellers. Zu Ersatzteilen für Produkte, die nicht aus unserem eigenen Sortiment stammen, liegt uns leider keine gesicherte Information vor, die wir Ihnen verlässlich mitteilen können. Damit wir Ihr Anliegen dennoch klären können, wenden Sie sich bitte direkt an unseren Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon und schildern Sie dort noch einmal genau, um welche Leuchte und welchen Hersteller es sich handelt. Unser Team kann dann prüfen, ob und wie Ihnen in diesem Fall geholfen werden kann.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:49:49+00:00"
+  }
+}

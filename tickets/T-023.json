@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-023",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-012;KB-025;KB-011",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Lieferung in die Wohnung bereits gebucht; nachträglich Altmöbelmitnahme für das alte Sofa und Montage des neuen Sofas gewünscht.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich hatte bei meiner letzten Bestellung schon die Lieferung in die Wohnung gebucht. Jetzt würde ich gerne noch nachträglich mein altes Sofa mitnehmen lassen und außerdem das neue Sofa gleich vor Ort aufbauen lassen. Geht das noch, obwohl ich das nicht direkt bei der Bestellung angegeben habe? Wie müsste ich das jetzt noch anmelden?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Leider müssen sowohl die Altmöbelmitnahme als auch die Lieferung in die Wohnung bereits bei der Bestellung gebucht werden, eine nachträgliche Buchung ist nicht möglich. Da Sie die Lieferung in die Wohnung bereits gebucht haben, hätte die Altmöbelmitnahme ebenfalls zu diesem Zeitpunkt mit angegeben werden müssen.\n\nZum gewünschten Aufbau des neuen Sofas: Der Montageservice ist laut unseren Informationen ausschließlich für Schränke und Betten vorgesehen und kostet 59 € pro Stück, nur innerhalb Deutschlands buchbar. Ob dieser Service auch für ein Sofa angeboten werden kann, ist aus unseren Unterlagen nicht eindeutig ersichtlich. Bitte wenden Sie sich hierzu direkt an unseren Kundenservice, damit dort im Einzelfall geprüft werden kann, ob eine Lösung möglich ist.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Altmöbelmitnahme muss bereits bei der Bestellung gebucht werden, eine nachträgliche Buchung ist nicht möglich.",
+    "Die Lieferung in die Wohnung muss ebenfalls bei der Bestellung gebucht werden, eine nachträgliche Buchung ist nicht möglich.",
+    "Der Montageservice kostet 59 € pro Schrank/Bett, ist nur in Deutschland verfügbar und muss bei der Bestellung gebucht werden, nicht nachträglich."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-012",
+      "zitat": "Beide Leistungen sind nur bei der Bestellung buchbar, eine nachträgliche Buchung ist nicht möglich."
+    },
+    {
+      "artikel_id": "KB-011",
+      "zitat": "Beide Leistungen müssen bereits bei der Bestellung gewählt werden."
+    },
+    {
+      "artikel_id": "KB-025",
+      "zitat": "Montageservice: 59 € pro Schrank/Bett, nur in Deutschland, nur bei Bestellung buchbar, nicht nachträglich."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:40:08+00:00"
+  }
+}

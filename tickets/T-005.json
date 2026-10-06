@@ -1,0 +1,34 @@
+{
+  "ticket_id": "T-005",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-009",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Lieferung nach Österreich: Was kostet der Paketversand und ab welchem Bestellwert ist er kostenlos?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich möchte ein paar Sachen nach Österreich bestellen. Was kostet da der Versand und ab welchem Bestellwert ist er kostenlos? Danke und Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage zur Lieferung nach Österreich. Der Versand von Paketware kostet 6,95 €. Ab einem Bestellwert von 79 € liefern wir versandkostenfrei. Die Lieferzeit für Paketware beträgt in der Regel 3–6 Werktage.\n\nFalls Ihre Bestellung auch sperrige Artikel per Spedition enthält, gelten dafür andere Konditionen: Hier liegen die Kosten pauschal bei 69 € pro Bestellung, unabhängig vom Bestellwert. Bei gemischten Bestellungen aus beiden Warenarten werden die Artikel getrennt geliefert, und es fallen beide Versandkosten jeweils an.\n\nFür weitere Fragen stehen wir Ihnen gerne zur Verfügung.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Der Versand von Paketware nach Österreich kostet 6,95 €.",
+    "Ab einem Bestellwert von 79 € ist der Versand kostenlos."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-009",
+      "zitat": "Paket Standard: 6,95 €, kostenlos ab 79 €, Lieferzeit 3–6 Werktage."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:37:05+00:00"
+  }
+}

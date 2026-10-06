@@ -1,0 +1,48 @@
+{
+  "ticket_id": "T-066",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-024",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "HD-Basics-Regal wackelt nach 3 Jahren durch einen Materialfehler.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich bin ziemlich sauer: Mein HD-Basics-Regal wackelt nach gerade mal 3 Jahren total, das kann doch nicht sein! Das muss ein Materialfehler sein, so eine Qualität erwarte ich nicht von Hallendal. Was machen Sie da jetzt für mich?",
+  "musterantwort": "Guten Tag,\n\ndas tut uns leid zu hören, und wir verstehen Ihren Ärger über das wackelnde Regal. Für Möbel unserer Eigenmarke HD Basics gilt eine 5-Jahre Herstellergarantie, Ihr Regal ist also noch innerhalb dieser Garantiezeit. Eine Registrierung ist nicht nötig, Ihre Rechnung genügt als Nachweis. Bitte beachten Sie, dass die Garantie das Möbelstück selbst betrifft, jedoch nicht für Bezüge, Polster und Verschleißteile gilt.\n\nKontaktieren Sie uns bitte über Kontaktformular, E-Mail, Live-Chat oder Telefon und legen Sie dabei Ihre Rechnung vor. Falls sich herausstellt, dass lediglich ein Ersatzteil benötigt wird, können Sie dieses über den Kundenservice unter Angabe der Artikelnummer anfragen; Ersatzteile sind innerhalb der Garantie kostenlos.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Auf HD-Basics-Möbel gilt eine 5-Jahre Herstellergarantie ab Lieferung, das Regal ist nach 3 Jahren noch innerhalb der Garantiezeit.",
+    "Eine Registrierung ist nicht nötig, die Rechnung genügt als Nachweis.",
+    "Die Garantie gilt nicht für Bezüge, Polster und Verschleißteile.",
+    "Ersatzteile für HD Basics sind innerhalb der Garantie kostenlos über den Kundenservice erhältlich."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Auf Möbel unserer Eigenmarke HD Basics erhalten Sie eine 5-Jahre Herstellergarantie."
+    },
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Eine Registrierung ist nicht nötig, Ihre Rechnung genügt als Nachweis."
+    },
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Die Garantie gilt nicht für Bezüge, Polster und Verschleißteile."
+    },
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Ersatzteile für HD Basics sind innerhalb der Garantie kostenlos."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:46:28+00:00"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "ticket_id": "P-04",
+  "plan": {
+    "set": "pilot",
+    "kategorie": "Retoure",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-017;KB-018",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Retoure aus Österreich: Wann und in welcher Höhe kommt das Geld zurück?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe vor ein paar Tagen zwei Stehlampen zurückgeschickt, die ich nach Österreich geliefert bekommen habe. Mich würde interessieren, wann ich mit der Rückerstattung rechnen kann und ob da irgendwelche Kosten abgezogen werden. Die Lampen waren mit normaler Paketlieferung unterwegs, falls das wichtig ist. Danke schon mal für die Info! Viele Grüße, Sabine",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager, und zwar auf das ursprüngliche Zahlungsmittel. Bei einem Kauf auf Rechnung wird stattdessen der Rechnungsbetrag entsprechend reduziert.\n\nBei Rücksendungen aus Österreich fallen Rücksendekosten in Höhe von 5,95 € an, die von der Erstattung abgezogen werden. Bitte beachten Sie außerdem, dass die Versandkosten der ursprünglichen Lieferung nur erstattet werden, wenn Sie die komplette Bestellung widerrufen – bei einer Teilretoure werden diese nicht erstattet.\n\nSobald Ihre Lampen bei uns im Lager eingegangen sind, wird die Erstattung automatisch angestoßen. Sollten Sie nach Ablauf der 14 Tage noch keine Gutschrift sehen, melden Sie sich gerne erneut bei uns.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel.",
+    "Bei Rücksendungen von Paketware aus Österreich werden 5,95 € Rücksendekosten von der Erstattung abgezogen.",
+    "Versandkosten der Hinsendung werden nur bei vollständigem Widerruf erstattet."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lager."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Zahlungsweg: auf das ursprüngliche Zahlungsmittel."
+    },
+    {
+      "artikel_id": "KB-017",
+      "zitat": "Rücksendekosten Paketware Österreich: 5,95 €, werden von der Erstattung abgezogen."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Versandkosten der Hinsendung werden nur bei vollständigem Widerruf erstattet."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:55:02+00:00"
+  }
+}

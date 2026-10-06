@@ -1,0 +1,48 @@
+{
+  "ticket_id": "T-112",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-030;KB-027;KB-029",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Rechnungs-E-Mail nie erhalten, Zahlungsziel läuft: Wo ist die Rechnung, bis wann zahlen, drohen Gebühren?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe vor einiger Zeit einen neuen Schreibtisch auf Rechnung bestellt, aber bisher keine Rechnungs-E-Mail erhalten – auch nicht im Spam-Ordner. Die Ware ist schon angekommen, aber ich weiß nicht, wo ich die Rechnung finde und bis wann ich eigentlich zahlen muss. Ich möchte ungern eine Frist verpassen und Zusatzkosten riskieren. Könnten Sie mir sagen, was passiert, wenn ich zu spät zahle? Viele Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Die Rechnung zu Ihrer Bestellung wird als PDF zusammen mit der Versandbestätigung per E-Mail verschickt und steht Ihnen zusätzlich jederzeit in Ihrem Kundenkonto zur Verfügung. Bitte prüfen Sie dort, ob die Rechnung bereits hinterlegt ist, falls die E-Mail nicht angekommen sein sollte.\n\nDas Zahlungsziel beim Kauf auf Rechnung beträgt 30 Tage ab Versand. Sollten Sie diese Frist überschreiten, erhalten Sie 7 Tage nach Fälligkeit zunächst eine kostenlose Zahlungserinnerung. Erst wenn danach weiterhin nicht gezahlt wird, fällt ab der ersten Mahnung eine Mahngebühr von 5 € an. Solange Sie also innerhalb der 30 Tage zahlen oder zeitnah nach einer Erinnerung reagieren, entstehen Ihnen keine zusätzlichen Kosten.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Rechnung wird als PDF mit der Versandbestätigung per E-Mail versendet und ist zusätzlich im Kundenkonto abrufbar.",
+    "Das Zahlungsziel beim Kauf auf Rechnung beträgt 30 Tage ab Versand.",
+    "7 Tage nach Fälligkeit erfolgt eine kostenlose Zahlungserinnerung.",
+    "Ab der 1. Mahnung wird eine Mahngebühr von 5 € erhoben."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-030",
+      "zitat": "Ihre Rechnung erhalten Sie als PDF per E-Mail zusammen mit der Versandbestätigung und finden sie zusätzlich jederzeit in Ihrem Kundenkonto."
+    },
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Zahlungsziel: 30 Tage ab Versand"
+    },
+    {
+      "artikel_id": "KB-029",
+      "zitat": "Zahlungserinnerung: 7 Tage nach Fälligkeit, kostenlos."
+    },
+    {
+      "artikel_id": "KB-029",
+      "zitat": "Ab der 1. Mahnung: 5 € Mahngebühr."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:53:27+00:00"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "ticket_id": "T-076",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-022;KB-016",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Falscher Schrank (Speditionsware) geliefert: Fallen die 49 € Rücktransport an?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, bei uns wurde letzte Woche der Schrank geliefert, aber es ist das komplette falsche Modell - wir hatten einen anderen bestellt. Der Schrank kam per Spedition, war also recht sperrig. Muss ich jetzt für den Rücktransport zahlen, ich hab gelesen das kostet bei Sperrgut 49 Euro? Wäre super wenn ihr das kurz klärt, Grüße Tom",
+  "musterantwort": "Guten Tag,\n\nes tut uns leid, dass Sie den falschen Schrank erhalten haben. In diesem Fall handelt es sich nicht um eine reguläre Retoure, sondern um eine Falschlieferung. Bitte melden Sie dies innerhalb von 14 Tagen unserem Kundenservice. Die Abholung des falsch gelieferten Schranks erfolgt in diesem Fall kostenlos für Sie, ebenso wird Ihnen der korrekt bestellte Artikel kostenlos nachgeliefert. Die sonst bei Speditionsware anfallenden Rücktransportkosten von 49 € gelten für diesen Fall nicht, da es sich um unseren Fehler handelt. Kontaktieren Sie uns bitte zeitnah, damit wir die Abholung des falschen Schranks sowie die Nachlieferung des richtigen Modells für Sie organisieren können.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Meldung eines falschen Artikels muss innerhalb von 14 Tagen erfolgen.",
+    "Die Abholung eines falsch gelieferten Artikels ist kostenlos.",
+    "Die Nachlieferung des korrekten Artikels ist kostenlos.",
+    "Die 49 € Rücktransportkosten für Speditionsware gelten für reguläre Retouren, nicht für diesen Fall der Falschlieferung."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Meldung muss innerhalb von 14 Tagen erfolgen."
+    },
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Nachlieferung ist kostenlos, die Abholung eines falsch gelieferten Artikels ist ebenfalls kostenlos."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Rücktransportkosten Deutschland: 49 €, wird von der Erstattung abgezogen."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:47:45+00:00"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-106",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-037;KB-038",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Geschenkgutschein und Aktionscode in einer Bestellung kombinieren.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich möchte bei meiner nächsten Bestellung einen Geschenkgutschein und einen Rabattcode gleichzeitig einsetzen. Geht das überhaupt, oder muss ich mich für eins von beidem entscheiden? Freue mich über eine kurze Info dazu.",
+  "musterantwort": "Guten Tag,\n\ngerne beantworten wir Ihre Frage zur Kombination von Geschenkgutschein und Aktionscode. Ein Aktionscode lässt sich grundsätzlich mit einem Geschenkgutschein kombinieren, Sie können also beides in derselben Bestellung einsetzen. Bitte beachten Sie dabei, dass pro Bestellung nur 1 Aktionscode eingelöst werden kann und dieser nicht mit einem weiteren Aktionscode kombinierbar ist. Außerdem gilt der Aktionscode nicht für bereits reduzierte Artikel – prüfen Sie also, dass sich keine reduzierten Artikel in Ihrem Warenkorb befinden, wenn Sie den Code nutzen möchten. Geben Sie beide Codes im Bestellprozess im dafür vorgesehenen Feld ein, der Rabatt wird dann automatisch verrechnet.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Ein Aktionscode ist mit einem Geschenkgutschein kombinierbar.",
+    "Pro Bestellung kann nur 1 Aktionscode eingelöst werden.",
+    "Der Aktionscode ist nicht auf bereits reduzierte Artikel anwendbar."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-038",
+      "zitat": "Aktionscode mit Geschenkgutschein kombinierbar"
+    },
+    {
+      "artikel_id": "KB-038",
+      "zitat": "1 Code pro Bestellung"
+    },
+    {
+      "artikel_id": "KB-038",
+      "zitat": "Aktionscode nicht auf reduzierte Artikel anwendbar"
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:52:22+00:00"
+  }
+}

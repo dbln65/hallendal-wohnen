@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-039",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-020",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Vorhang nach Maß soll zurückgegeben werden.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hi, ich hab mir Vorhänge extra nach Maß anfertigen lassen, aber die Farbe passt doch nicht so recht ins Zimmer. Kann ich die trotzdem zurückschicken?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Leider muss ich Ihnen mitteilen, dass nach Maß gefertigte Vorhänge von der Rückgabe ausgeschlossen sind. Für diese Artikel ist weder ein Widerruf noch eine freiwillige Rückgabe möglich, da sie individuell für Sie gefertigt werden. Eine Rücksendung über das Retourenportal oder den Kundenservice ist für Maßanfertigungen daher leider nicht vorgesehen, unabhängig davon, ob Ihnen die Farbe im Nachhinein nicht gefällt. Diese Regelung gilt einheitlich in Deutschland, Österreich und der Schweiz. Für alle anderen Artikel aus unserem Sortiment gelten hingegen die regulären Bestimmungen zu Widerruf und Rückgabe. Bei weiteren Fragen zu Ihrer Bestellung stehen wir Ihnen gerne über unseren Kundenservice zur Verfügung.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Maßanfertigungen wie Vorhänge nach Maß sind von der Rückgabe ausgeschlossen.",
+    "Für Maßanfertigungen besteht weder ein Widerrufsrecht noch eine freiwillige Rückgabemöglichkeit.",
+    "Diese Regelung gilt einheitlich in Deutschland, Österreich und der Schweiz."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-020",
+      "zitat": "Maßanfertigungen wie Vorhänge und Teppiche nach Maß, Geschenkgutscheine sowie Stoffmuster sind von der Rückgabe ausgeschlossen."
+    },
+    {
+      "artikel_id": "KB-020",
+      "zitat": "Für diese Artikel ist weder ein Widerruf noch eine freiwillige Rückgabe möglich."
+    },
+    {
+      "artikel_id": "KB-020",
+      "zitat": "Der Ausschluss gilt einheitlich in Deutschland, Österreich und der Schweiz."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:42:17+00:00"
+  }
+}

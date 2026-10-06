@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-010",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-013",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Wo findet man die Sendungsverfolgung für ein Paket?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hey, ich hab vorgestern n Paket bestellt und frag mich grad wo ich eigentlich nachschauen kann wo das Ding gerade ist? Gibts da nen Link oder so? LG Petra",
+  "musterantwort": "Guten Tag,\n\nden Tracking-Link zur Sendungsverfolgung finden Sie in Ihrer Versandbestätigung, die Sie per E-Mail erhalten, sobald Ihr Paket verschickt wurde. Über diesen Link können Sie den aktuellen Status Ihrer Sendung direkt bei DHL einsehen und bis zur Zustellung verfolgen. Für die Sendungsverfolgung selbst fallen keine zusätzlichen Kosten an. Sollten Sie die Versandbestätigung noch nicht erhalten haben, prüfen Sie bitte zunächst, ob Ihre Bestellung bereits versendet wurde.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Der Tracking-Link zur Sendungsverfolgung steht in der Versandbestätigung per E-Mail",
+    "Über den Tracking-Link kann der Sendungsstatus bei DHL eingesehen werden",
+    "Die Sendungsverfolgung ist kostenlos"
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-013",
+      "zitat": "Den Tracking-Link zur Sendungsverfolgung finden Sie in der Versandbestätigung."
+    },
+    {
+      "artikel_id": "KB-013",
+      "zitat": "Öffnen Sie den darin enthaltenen Tracking-Link, um den aktuellen Sendungsstatus bei DHL einzusehen."
+    },
+    {
+      "artikel_id": "KB-013",
+      "zitat": "Für die Sendungsverfolgung selbst fallen keine zusätzlichen Kosten an."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:37:44+00:00"
+  }
+}

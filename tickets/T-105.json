@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-105",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-037;KB-026",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Kundin in der Schweiz möchte mit Geschenkgutschein bezahlen.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo zusammen, ich wohne in der Schweiz und wollte meine nächste Bestellung mit einem Geschenkgutschein von euch bezahlen, den ich geschenkt bekommen hab. Geht das bei mir überhaupt, oder nur wenn man in Deutschland oder Österreich wohnt? Und falls das nicht klappt, mit was kann ich sonst noch bezahlen? Danke und liebe Grüße, Martina",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Geschenkgutscheine von Hallendal Wohnen sind leider ausschließlich in Deutschland und Österreich erhältlich und einlösbar. Für Bestellungen in die Schweiz können Sie den Gutschein daher derzeit nicht nutzen.\n\nFür Ihre Bezahlung in der Schweiz stehen Ihnen aber PayPal, Kreditkarte oder Apple Pay zur Verfügung. Bei Zahlung per Kreditkarte ist eine 3-D-Secure-Freigabe erforderlich. Kauf auf Rechnung oder Ratenkauf sind für die Schweiz nicht möglich.\n\nWir hoffen, diese Informationen helfen Ihnen weiter.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Geschenkgutscheine sind nur in Deutschland und Österreich erhältlich und einlösbar, nicht in der Schweiz.",
+    "In der Schweiz stehen als Zahlungsarten PayPal, Kreditkarte und Apple Pay zur Verfügung."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-037",
+      "zitat": "Geschenkgutscheine sind ausschließlich in Deutschland und Österreich erhältlich und einlösbar."
+    },
+    {
+      "artikel_id": "KB-026",
+      "zitat": "Für die Schweiz stehen PayPal, Kreditkarte und Apple Pay zur Verfügung."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:52:13+00:00"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-060",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Kein Drucker für das Retourenlabel",
+    "stil": "unvollstaendig",
+    "szenario": "Kann ein gedrucktes Retourenlabel per Post zugeschickt werden?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich habe gerade keinen Drucker zuhause und müsste meine Lieferung zurückschicken. Kann mir das Retourenlabel auch einfach per Post zugeschickt werden? Danke und Grüße, Melanie",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Ich kann gut nachvollziehen, dass es ohne Drucker zuhause umständlich ist, ein Retourenlabel auszudrucken. Dazu liegt mir aktuell leider keine gesicherte Information vor, ob und wie Ihnen ein Label postalisch zugesendet werden kann. Damit wir das für Sie klären können, wenden Sie sich bitte direkt an unseren Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon. Dort kann man Ihnen individuell weiterhelfen und prüfen, welche Möglichkeiten in Ihrem Fall bestehen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:45:47+00:00"
+  }
+}

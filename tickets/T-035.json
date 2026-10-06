@@ -1,0 +1,39 @@
+{
+  "ticket_id": "T-035",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-016",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Was kostet der Rücktransport von Speditionsware in Deutschland?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich muss mein Sperrgut-Sofa leider zurückschicken und wollte fragen, was mich das an Rücktransportkosten in Deutschland kostet? Danke und Grüße, Melanie",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage. Für die Rückgabe von Speditionsware (Sperrgut) in Deutschland fallen Rücktransportkosten in Höhe von 49 € an. Dieser Betrag wird von Ihrer Erstattung abgezogen.\n\nBitte beachten Sie, dass die Anmeldung der Rücksendung bei Speditionsware ausschließlich über unseren Kundenservice erfolgt, nicht über das Retourenportal. Die Widerrufsfrist beträgt 14 Tage ab Erhalt der Ware. Zudem muss die Ware zerlegt und abholbereit im Erdgeschoss bereitgestellt werden, damit die Spedition sie abholen kann.\n\nMelden Sie sich gerne bei uns, um die Abholung Ihres Sofas zu vereinbaren.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Rücktransportkosten für Speditionsware in Deutschland betragen 49 €.",
+    "Der Betrag wird von der Erstattung abgezogen.",
+    "Die Anmeldung erfolgt ausschließlich über den Kundenservice."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Rücktransportkosten Deutschland: 49 €, wird von der Erstattung abgezogen."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Anmeldung: nur über den Kundenservice."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:41:48+00:00"
+  }
+}

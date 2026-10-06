@@ -1,0 +1,43 @@
+{
+  "ticket_id": "P-02",
+  "plan": {
+    "set": "pilot",
+    "kategorie": "Versand",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-010;KB-008",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Expressversand in die Schweiz möglich, und wie lange dauert der Standardversand?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich überlege ein Regal zu bestellen, die Lieferung soll in die Schweiz gehen. Gibt es da auch einen Expressversand? Und falls nicht, wie lange dauert die normale Lieferung ungefähr?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage. Für Lieferungen in die Schweiz bieten wir ausschließlich den Versand als Paketware an, ein Expressversand steht für dieses Liefergebiet leider nicht zur Verfügung, da der Expressversand ausschließlich in Deutschland angeboten wird.\n\nDie reguläre Lieferzeit in die Schweiz beträgt 4–8 Werktage. Der Versand kostet 14,90 CHF, eine Gratisgrenze gibt es dabei nicht. Sobald Ihre Bestellung versendet wurde, erhalten Sie eine Versandbestätigung mit einem Tracking-Link, über den Sie die Sendung bis zur Zustellung verfolgen können.\n\nWir hoffen, diese Informationen helfen Ihnen weiter, und stehen bei weiteren Fragen gerne zur Verfügung.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Expressversand steht ausschließlich in Deutschland zur Verfügung, nicht in die Schweiz.",
+    "In die Schweiz wird nur Paketware mit einer Lieferzeit von 4–8 Werktagen geliefert.",
+    "Der Versand in die Schweiz kostet 14,90 CHF ohne Gratisgrenze."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-008",
+      "zitat": "Der Expressversand steht ausschließlich in Deutschland zur Verfügung."
+    },
+    {
+      "artikel_id": "KB-010",
+      "zitat": "Lieferzeit: 4–8 Werktage."
+    },
+    {
+      "artikel_id": "KB-010",
+      "zitat": "Versandkosten Paket Standard: 14,90 CHF, keine Gratisgrenze."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:54:44+00:00"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-031",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-014",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Wie lange hat man Zeit, Paketware zurückzuschicken?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hi, ich hab vor kurzem ein Paket bei euch bestellt (so ne Deko und Kissen) und frag mich grad wie lang ich eigentlich Zeit hab das zurückzuschicken falls es mir nicht gefällt? LG Mareike",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage. Für Artikel, die als Paket versendet werden, gilt zunächst das gesetzliche Widerrufsrecht von 14 Tagen ab Erhalt der Ware. Zusätzlich räumen wir Ihnen bei dieser Warenart ein freiwilliges Rückgaberecht von 30 Tagen ab Erhalt ein, sodass Ihnen insgesamt deutlich mehr Zeit für eine Rücksendung bleibt. Die Ware sollte dabei ungebraucht sein; die Originalverpackung ist erwünscht, aber nicht zwingend erforderlich. Bitte beachten Sie, dass bestimmte Artikel wie Maßanfertigungen, Geschenkgutscheine oder Stoffmuster von der Rückgabe ausgeschlossen sind. Die Erstattung erfolgt dann innerhalb von 14 Tagen nach Eingang der Ware bei uns im Lager, auf Ihr ursprüngliches Zahlungsmittel.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Für Paketware gilt ein gesetzliches Widerrufsrecht von 14 Tagen ab Erhalt.",
+    "Für Paketware gilt zusätzlich ein freiwilliges Rückgaberecht von 30 Tagen ab Erhalt.",
+    "Die Ware muss ungebraucht sein; Originalverpackung ist erwünscht, aber nicht Pflicht."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-014",
+      "zitat": "Gesetzliches Widerrufsrecht: 14 Tage ab Erhalt, gilt für Paketware und Speditionsware."
+    },
+    {
+      "artikel_id": "KB-014",
+      "zitat": "Freiwilliges Rückgaberecht: 30 Tage ab Erhalt, gilt zusätzlich, aber nur für Paketware, nicht bei Sperrgut."
+    },
+    {
+      "artikel_id": "KB-014",
+      "zitat": "Bereiten Sie die Ware vor: Sie muss ungebraucht sein, bei Paketware ist die Originalverpackung erwünscht, aber nicht Pflicht; bei Speditionsware muss die Ware zerlegt und abholbereit im Erdgeschoss stehen."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:41:12+00:00"
+  }
+}

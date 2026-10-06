@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-118",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Nachträgliche Preiserstattung bei Preissenkung",
+    "stil": "unvollstaendig",
+    "szenario": "Preis eine Woche nach dem Kauf gesenkt: Wird die Differenz erstattet?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe letzte Woche einen Sessel bestellt und jetzt gesehen, dass er im Shop günstiger geworden ist. Bekomme ich die Differenz irgendwie erstattet?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Sie möchten wissen, ob Ihnen die Preisdifferenz erstattet wird, nachdem der Sessel kurz nach Ihrem Kauf günstiger geworden ist. Dazu liegt uns leider keine gesicherte Information vor, die wir Ihnen hier verbindlich mitteilen können. Damit wir Ihr Anliegen klären können, wenden Sie sich bitte direkt an unseren Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon. Teilen Sie uns dabei gerne Ihre Bestellnummer und den Bestellzeitpunkt mit, damit das zuständige Team Ihren Fall prüfen und Ihnen eine verbindliche Auskunft geben kann.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:54:20+00:00"
+  }
+}

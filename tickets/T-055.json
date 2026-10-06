@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-055",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Showroom oder Abholung/Rückgabe im Lager",
+    "stil": "umgangssprachlich",
+    "szenario": "Retoure persönlich im Lager oder Showroom abgeben statt per Post.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hi, ich muss mein neues Regal leider zurückgeben, wohn aber quasi um die Ecke von eurem Lager. Kann ich das Teil da nicht einfach persönlich vorbeibringen statt es umständlich per Post zu verschicken? Wäre super, wenn das gehen würde.",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihr Verständnis. Ob eine persönliche Abgabe Ihres Regals bei uns im Lager oder in einem Showroom möglich ist, kann ich Ihnen anhand der mir vorliegenden Informationen leider nicht sicher beantworten, da uns dazu keine gesicherte Regelung vorliegt. Damit wir Ihnen hierzu eine verlässliche Auskunft geben können, leite ich Ihre Anfrage gerne an das zuständige Team weiter. Könnten Sie mir dafür noch Ihre Bestellnummer sowie Ihren ungefähren Standort mitteilen? So können wir prüfen, ob es in Ihrem Fall eine passende Möglichkeit gibt, und melden uns anschließend bei Ihnen zurück.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:45:15+00:00"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ticket_id": "T-102",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-026;KB-028",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Kunde in Österreich möchte in Raten zahlen; welche Alternative gibt es?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich wollte eigentlich meine Bestellung in Raten bezahlen, wohne aber in Österreich. Geht das irgendwie, oder gibt's da eine andere Lösung für mich? Liebe Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Der Ratenkauf steht leider nur in Deutschland zur Verfügung, daher können wir ihn für eine Bestellung in Österreich nicht anbieten.\n\nAls Alternative steht Ihnen in Österreich der Kauf auf Rechnung zur Verfügung. Dabei erfolgt die Zahlung über einen Zahlungspartner, das Zahlungsziel beträgt 30 Tage ab Versand, und der maximale Bestellwert liegt bei 1.500 €. Bitte beachten Sie, dass Rechnungs- und Lieferadresse dabei identisch sein müssen und eine Lieferung an eine Packstation nicht möglich ist.\n\nDarüber hinaus stehen Ihnen wie gewohnt PayPal, Kreditkarte und Apple Pay zur Verfügung.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Der Ratenkauf ist nur in Deutschland verfügbar, nicht in Österreich.",
+    "Als Alternative steht in Österreich der Kauf auf Rechnung zur Verfügung.",
+    "Beim Kauf auf Rechnung beträgt das Zahlungsziel 30 Tage ab Versand, maximaler Bestellwert 1.500 €."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-028",
+      "zitat": "Der Ratenkauf ist nur in Deutschland verfügbar."
+    },
+    {
+      "artikel_id": "KB-026",
+      "zitat": "Kauf auf Rechnung: über einen Zahlungspartner, Zahlungsziel 30 Tage ab Versand, maximal 1.500 € Bestellwert, nur DE und AT; Rechnungs- und Lieferadresse müssen identisch sein; nicht bei Packstation."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:51:46+00:00"
+  }
+}

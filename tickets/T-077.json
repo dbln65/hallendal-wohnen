@@ -1,0 +1,44 @@
+{
+  "ticket_id": "T-077",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-022;KB-040",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Falscher Artikel geliefert, Kunde will am Samstag anrufen: Frist und Erreichbarkeit.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, bei meiner letzten Lieferung war ein falscher Artikel dabei, statt dem Teil was ich bestellt hab. Ich wollte deswegen am Samstag mal anrufen, geht das und bis wann muss ich das eigentlich melden?",
+  "musterantwort": "Guten Tag,\n\nes tut uns leid, dass Sie einen falschen Artikel erhalten haben. Bitte melden Sie dies innerhalb von 14 Tagen bei unserem Kundenservice. Die Nachlieferung des korrekten Artikels erfolgt kostenlos, ebenso wird der falsch gelieferte Artikel kostenlos bei Ihnen abgeholt.\n\nEin Anruf am Samstag ist möglich: Unser Kundenservice ist telefonisch Mo–Fr von 8–18 Uhr und Sa von 9–14 Uhr erreichbar. Alternativ können Sie uns auch über das Kontaktformular, per E-Mail oder im Live-Chat kontaktieren. Halten Sie für eine schnellere Bearbeitung möglichst Ihre Bestellnummer bereit.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Ein falsch gelieferter Artikel muss innerhalb von 14 Tagen gemeldet werden.",
+    "Die Nachlieferung des korrekten Artikels ist kostenlos.",
+    "Die Abholung des falsch gelieferten Artikels ist kostenlos.",
+    "Der Kundenservice ist samstags von 9–14 Uhr telefonisch erreichbar."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Meldung muss innerhalb von 14 Tagen erfolgen."
+    },
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Nachlieferung ist kostenlos, die Abholung eines falsch gelieferten Artikels ist ebenfalls kostenlos."
+    },
+    {
+      "artikel_id": "KB-040",
+      "zitat": "Chat und Telefon stehen Ihnen Mo–Fr von 8–18 Uhr und Sa von 9–14 Uhr zur Verfügung."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:47:57+00:00"
+  }
+}

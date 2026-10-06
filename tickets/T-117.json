@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-117",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "B2B-Konditionen und Mengenrabatte",
+    "stil": "umgangssprachlich",
+    "szenario": "Innenarchitekt fragt nach Händler- bzw. Wiederverkäuferrabatt.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich bin Innenarchitektin und bestelle öfter größere Mengen für meine Projekte bei euch. Gibt's da eigentlich besondere Konditionen oder Rabatte für Gewerbekunden bzw. wenn man gleich mehrere Stücke von einem Möbel ordert? Würd mich freuen wenn da was geht, LG Sabine",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage zu Händler- bzw. Gewerbekonditionen und Mengenrabatten. Dazu liegen uns aktuell leider keine gesicherten Informationen vor, die wir Ihnen verlässlich mitteilen können. Damit wir Ihr Anliegen klären können, geben wir Ihre Anfrage gerne an das zuständige Team weiter. Könnten Sie uns dafür kurz mitteilen, um welche Art von Projekten und Bestellmengen es sich üblicherweise handelt, damit die Kolleginnen und Kollegen Ihr Anliegen besser einordnen können? Wir melden uns dann mit weiteren Informationen bei Ihnen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:54:14+00:00"
+  }
+}

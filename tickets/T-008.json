@@ -1,0 +1,39 @@
+{
+  "ticket_id": "T-008",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-011",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Speditionslieferung: Wann meldet sich die Spedition und wie wird der Liefertermin festgelegt?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Ich warte auf die Lieferung meiner neuen Eckbank und weiß immer noch nicht, wann die eigentlich kommt! Ruft da vorher noch jemand an, um einen Termin auszumachen, oder steht die Spedition einfach unangekündigt vor der Tür? Langsam finde ich das echt unmöglich, dass ich keine klare Info dazu bekomme.",
+  "musterantwort": "Guten Tag,\n\nwir verstehen Ihren Unmut und möchten Ihnen die Abläufe gerne erklären. Bei einer Lieferung durch die Spedition meldet sich diese 1–2 Werktage vor dem Liefertermin telefonisch bei Ihnen, um mit Ihnen ein Zeitfenster von 4 Stunden zu vereinbaren. Es handelt sich also nicht um eine unangekündigte Zustellung, sondern Sie werden vorab kontaktiert und können den Termin gemeinsam abstimmen. Standardmäßig erfolgt die Lieferung bis zur ersten verschließbaren Tür im Erdgeschoss. Sollten Sie innerhalb der üblichen Lieferzeit noch keinen Anruf erhalten haben, wenden Sie sich gerne mit Ihrer Bestellnummer an unseren Kundenservice, damit wir den aktuellen Status für Sie prüfen können.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Spedition meldet sich 1–2 Werktage vor der Lieferung telefonisch, um einen Termin zu vereinbaren.",
+    "Dabei wird ein Zeitfenster von 4 Stunden vereinbart.",
+    "Die Lieferung erfolgt standardmäßig bis zur ersten verschließbaren Tür im Erdgeschoss."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-011",
+      "zitat": "Bei Sperrgut meldet sich die Spedition 1–2 Werktage vor der Lieferung telefonisch und vereinbart ein Zeitfenster von 4 Stunden."
+    },
+    {
+      "artikel_id": "KB-011",
+      "zitat": "Die Lieferung erfolgt standardmäßig bis zur ersten verschließbaren Tür im Erdgeschoss."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:37:27+00:00"
+  }
+}

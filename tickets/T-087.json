@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-087",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Ersatzteile für Fremdmarken",
+    "stil": "sachlich",
+    "szenario": "Schrauben für einen Stuhl eines anderen Herstellers.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, mir fehlen zwei kleine Schrauben für einen Stuhl, den ich bei Ihnen gekauft habe, der aber von einem anderen Hersteller ist, nicht von Ihrer Eigenmarke. Können Sie mir solche Ersatzschrauben zuschicken? Viele Grüße, Mareike",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht bezüglich der fehlenden Schrauben für Ihren Stuhl. Für Möbel anderer Hersteller, die nicht zu unserer Eigenmarke HD Basics gehören, liegt mir leider keine gesicherte Information vor, ob und wie wir einzelne Ersatzteile wie Schrauben zur Verfügung stellen können. Damit ich Ihnen hier wirklich weiterhelfen kann, leite ich Ihre Anfrage an das zuständige Team weiter. Könnten Sie mir dafür bitte die genaue Produktbezeichnung oder Artikelnummer des Stuhls sowie Ihre Bestellnummer mitteilen? So können wir am besten prüfen, welche Möglichkeiten es in Ihrem Fall gibt und uns zeitnah bei Ihnen melden.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:50:01+00:00"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "ticket_id": "T-045",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-018;KB-038",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Bestellung mit Aktionscode, ein Teil wird zurückgeschickt: Wie wird der Rabatt verrechnet?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich bin ziemlich sauer! Ich hatte bei meiner letzten Bestellung einen Rabattcode genutzt und jetzt einen Teil der Sachen zurückgeschickt, weil die Kissenbezüge farblich gar nicht gepasst haben. Jetzt wurde mir überhaupt nicht erklärt, was mit meinem Rabatt passiert, wenn ich nur einen Teil zurücksende! Wird der einfach von meiner Erstattung abgezogen oder wie läuft das? Ich finde es eine Frechheit, dass man das nirgends klar nachlesen kann.",
+  "musterantwort": "Guten Tag,\n\nwir verstehen Ihren Ärger und möchten das gerne aufklären. Wenn Sie einen Teil einer Bestellung zurücksenden, bei der ein Aktionscode eingelöst wurde, wird der Rabatt anteilig verrechnet. Fällt der verbleibende Warenwert nach der Teilretoure unter den Mindestbestellwert des Codes, wird der Rabatt von Ihrer Erstattung abgezogen.\n\nDie Erstattung selbst erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager und wird auf Ihr ursprüngliches Zahlungsmittel gebucht. Bei einem Kauf auf Rechnung wird stattdessen der Rechnungsbetrag entsprechend reduziert. Bitte beachten Sie zudem, dass Versandkosten der Hinsendung nur bei einem vollständigen Widerruf erstattet werden, nicht bei einer Teilretoure.\n\nSollten Sie weitere Fragen zu Ihrer konkreten Erstattung haben, melden Sie sich gerne erneut bei uns mit Ihrer Bestellnummer.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Bei einer Teilretoure mit Aktionscode wird der Rabatt anteilig verrechnet.",
+    "Fällt der Restwert nach der Teilretoure unter den Mindestbestellwert des Codes, wird der Rabatt von der Erstattung abgezogen.",
+    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel.",
+    "Versandkosten der Hinsendung werden nur bei vollständigem Widerruf erstattet, nicht bei einer Teilretoure."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-038",
+      "zitat": "Bei Retoure mit Aktionscode wird der Rabatt anteilig verrechnet; fällt der Restwert unter den Mindestbestellwert des Codes, wird der Rabatt von der Erstattung abgezogen."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lager."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Zahlungsweg: auf das ursprüngliche Zahlungsmittel."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Bei einer Teilretoure werden die Versandkosten der Hinsendung nicht erstattet, da diese nur bei vollständigem Widerruf zurückerstattet werden."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:43:18+00:00"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "ticket_id": "T-003",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-007",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Sofa nach Deutschland bestellt: Was kostet die Speditionslieferung und wie lange dauert sie?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe mir vor Kurzem ein Sofa bestellt, das per Spedition geliefert werden soll. Was kostet das und wie lange dauert die Lieferung ungefähr? Viele Grüße, Nina",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Bei einer Lieferung per Spedition innerhalb Deutschlands fallen für Ihr Sofa 39 € pauschal pro Bestellung an. Die Lieferzeit beträgt in diesem Fall 7–14 Werktage. Die Spedition meldet sich dabei 1–2 Werktage vor dem Liefertermin telefonisch bei Ihnen und vereinbart mit Ihnen ein Zeitfenster von 4 Stunden. Standardmäßig erfolgt die Lieferung bis zur ersten verschließbaren Tür im Erdgeschoss. Sollten Sie eine Lieferung bis in die Wohnung wünschen, ist dies gegen einen Aufpreis von 49 € als Zusatzleistung buchbar, muss aber bereits bei der Bestellung angegeben werden.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Speditionslieferung (Sperrgut) nach Deutschland kostet 39 € pauschal pro Bestellung.",
+    "Die Lieferzeit bei Speditionsware nach Deutschland beträgt 7–14 Werktage."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-007",
+      "zitat": "Spedition (Sperrgut): 39 € pauschal pro Bestellung, Lieferzeit 7–14 Werktage."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:36:49+00:00"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-025",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Lieferung auf Nordsee- und Ostseeinseln",
+    "stil": "sachlich",
+    "szenario": "Paketlieferung auf eine Nordseeinsel (z. B. Föhr): Möglich und zu welchen Kosten?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Guten Tag, ich möchte gerne ein paar Deko-Artikel bestellen, die Lieferadresse liegt aber auf Föhr. Ist eine Lieferung dorthin überhaupt möglich und falls ja, mit welchen zusätzlichen Kosten müsste ich rechnen? Viele Grüße, Thorben",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage zur Lieferung auf die Insel Föhr. Zu Lieferungen auf Nordsee- oder Ostseeinseln liegen mir leider keine gesicherten Informationen vor, insbesondere nicht dazu, ob eine solche Lieferung grundsätzlich möglich ist und welche zusätzlichen Kosten dabei anfallen würden. Damit ich Ihnen hierzu eine verlässliche Auskunft geben kann, meldet sich unser zuständiges Team bei Ihnen. Könnten Sie mir dafür bitte Ihre genaue Lieferadresse sowie die gewünschten Artikel mitteilen, damit wir die Lieferbarkeit und mögliche Konditionen für Sie prüfen können?\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:40:36+00:00"
+  }
+}

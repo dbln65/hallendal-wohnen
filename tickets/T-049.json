@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-049",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-020;KB-006",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Bestellte Stoffmuster sollen zurückgeschickt werden.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich bin ziemlich genervt: Ich habe mir vor ein paar Tagen Stoffmuster bestellt, um die Farben für mein neues Sofa zu prüfen, aber die Farben treffen es überhaupt nicht und ich möchte die Muster einfach zurückschicken. Wie soll ich das jetzt machen? Ich finde dazu nirgends eine vernünftige Option im Kundenkonto und bin echt genervt, dass das so kompliziert ist!",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und bitte entschuldigen Sie die Unannehmlichkeiten. Wir können Ihnen hierzu leider keine Rücksendemöglichkeit anbieten: Stoffmuster sind von der Rückgabe ausgeschlossen, weder ein Widerruf noch eine freiwillige Rückgabe ist für diese Artikel vorgesehen. Das ist auch der Grund, warum Sie im Kundenkonto keine entsprechende Option finden.\n\nZur Einordnung: Stoffmuster werden grundsätzlich kostenlos und versandkostenfrei verschickt, damit Sie Farben und Materialien vorab unverbindlich prüfen können. Da hierfür keine Kosten anfallen, entstehen Ihnen durch die nicht passenden Muster auch keine finanziellen Nachteile. Eine Rücksendung ist entsprechend nicht notwendig, Sie müssen die Muster also nicht zurückschicken.\n\nFür Ihr Sofa empfehlen wir, bei Bedarf passende Muster in anderen Farben zu bestellen, um die Auswahl zu erleichtern.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Stoffmuster sind von der Rückgabe ausgeschlossen, eine Rücksendung ist daher nicht möglich.",
+    "Für Stoffmuster ist weder Widerruf noch freiwillige Rückgabe vorgesehen.",
+    "Stoffmuster werden kostenlos und versandkostenfrei verschickt."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-020",
+      "zitat": "Maßanfertigungen wie Vorhänge und Teppiche nach Maß, Geschenkgutscheine sowie Stoffmuster sind von der Rückgabe ausgeschlossen."
+    },
+    {
+      "artikel_id": "KB-020",
+      "zitat": "Für diese Artikel ist weder ein Widerruf noch eine freiwillige Rückgabe möglich."
+    },
+    {
+      "artikel_id": "KB-006",
+      "zitat": "Stoffmuster können Sie kostenlos und versandkostenfrei bestellen, um Farben und Materialien vorab zu prüfen."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:44:03+00:00"
+  }
+}

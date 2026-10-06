@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-056",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Showroom oder Abholung/Rückgabe im Lager",
+    "stil": "unvollstaendig",
+    "szenario": "Sofa selbst zum Lager bringen, um den Rücktransport zu sparen.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich soll mein Ecksofa ja eigentlich zurückschicken lassen, aber da wird ja extra abgeholt und das kostet was. Könnte ich das Sofa nicht einfach selbst bei euch im Lager oder Showroom abgeben, um mir das zu sparen? Würde mich über eine Info freuen.",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihre Idee, das Sofa selbst anzuliefern, um die Rücktransportkosten zu sparen. Dazu liegt uns leider keine gesicherte Information vor, ob eine persönliche Abgabe im Lager oder in einem Showroom grundsätzlich möglich ist. Damit wir das für Sie verlässlich klären können, wenden Sie sich bitte mit Ihrem Anliegen an unser zuständiges Team, am besten mit Angabe Ihrer Bestellnummer und des betroffenen Artikels. So kann individuell geprüft werden, ob und unter welchen Bedingungen eine Selbstanlieferung infrage kommt.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:45:21+00:00"
+  }
+}

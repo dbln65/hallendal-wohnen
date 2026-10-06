@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-109",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-027;KB-018",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Auf Rechnung gekauft, ein Teil der Bestellung zurückgeschickt: Was muss noch bezahlt werden?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich hab vor ein paar Tagen meine Bestellung auf Rechnung bekommen und einen Teil davon jetzt zurückgeschickt (die Stehlampe, der Rest bleibt). Muss ich jetzt trotzdem erstmal die volle Rechnung zahlen oder wird das noch angepasst, bevor die Zahlungsfrist um ist? Bin grad etwas verwirrt, wie das abläuft. Danke, Melanie",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Da Sie einen Teil Ihrer Bestellung auf Rechnung zurückgeschickt haben, wird nach Eingang der retournierten Ware in unserem Lager der Rechnungsbetrag entsprechend reduziert. Die Erstattung bzw. Anpassung erfolgt dabei innerhalb von 14 Tagen nach Wareneingang im Lager. Bitte beachten Sie, dass das Zahlungsziel beim Kauf auf Rechnung grundsätzlich 30 Tage ab Versand beträgt. Sollte die Anpassung der Rechnung erst nach Ablauf dieser Frist erfolgen, empfehlen wir Ihnen, den aktuellen Stand im Blick zu behalten bzw. sich bei Unsicherheiten rechtzeitig bei uns zu melden, damit es nicht zu einer unnötigen Zahlungserinnerung kommt. Den verbleibenden, reduzierten Betrag begleichen Sie dann wie gewohnt innerhalb Ihres Zahlungsziels.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Nach Rücksendung wird der Rechnungsbetrag entsprechend reduziert.",
+    "Die Erstattung/Anpassung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager.",
+    "Das Zahlungsziel beim Kauf auf Rechnung beträgt 30 Tage ab Versand."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Bei Rechnungskauf wird der Rechnungsbetrag entsprechend reduziert."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lager."
+    },
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Zahlungsziel: 30 Tage ab Versand"
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:52:52+00:00"
+  }
+}

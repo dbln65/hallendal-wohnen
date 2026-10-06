@@ -1,0 +1,33 @@
+{
+  "ticket_id": "T-002",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-007",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Wie lange dauert die Lieferung von Paketware innerhalb Deutschlands?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hey, ich hab mir letztens ne neue Kommode bestellt, Lieferung nach Deutschland. Weiß jemand wie lang das ca dauert bis die ankommt? Danke schonmal, Lisa",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Für Lieferungen innerhalb Deutschlands beträgt die Lieferzeit bei paketfähigen Artikeln wie einer Kommode in der Regel 2–4 Werktage. Die Versandkosten liegen bei 4,95 €, ab einem Bestellwert von 49 € ist der Versand kostenlos. Sobald Ihre Bestellung versendet wurde, erhalten Sie eine Versandbestätigung mit einem Tracking-Link, über den Sie die Sendung verfolgen können.\n\nSollten Sie weitere Fragen zu Ihrer Lieferung haben, melden Sie sich gerne jederzeit bei uns.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Paketware wird innerhalb Deutschlands in 2–4 Werktagen geliefert."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-007",
+      "zitat": "Paket Standard: 4,95 €, kostenlos ab 49 € Bestellwert, Lieferzeit 2–4 Werktage."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:36:42+00:00"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "ticket_id": "T-042",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-014;KB-016",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Kommode (Speditionsware) soll nach 20 Tagen zurückgegeben werden.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, vor 20 Tagen wurde mir eine Kommode per Spedition geliefert, die ich leider zurückgeben möchte, weil sie farblich doch nicht zu meinem Wohnzimmer passt. Wie melde ich die Rücksendung an und ist das nach dieser Zeit überhaupt noch möglich? Viele Grüße, Sandra",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht bezüglich der Kommode. Für Speditionsware gilt ausschließlich das gesetzliche Widerrufsrecht von 14 Tagen ab Erhalt der Ware, ein zusätzliches freiwilliges 30-Tage-Rückgaberecht besteht für diese Warenart nicht, da es nur für Paketware gilt. Da die Lieferung bei Ihnen bereits vor 20 Tagen erfolgt ist, ist die Widerrufsfrist leider schon abgelaufen, sodass eine Rückgabe der Kommode nach den geltenden Regelungen nicht mehr möglich ist. Grundsätzlich wäre die Anmeldung einer Speditionsretoure ausschließlich über unseren Kundenservice erfolgt, nicht über das Retourenportal. Bei Fragen zu einem möglichen Mangel an der Kommode, etwa im Rahmen der gesetzlichen Gewährleistung, können Sie sich jederzeit gerne an uns wenden.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Für Speditionsware gilt ausschließlich die gesetzliche Widerrufsfrist von 14 Tagen ab Erhalt.",
+    "Das freiwillige 30-Tage-Rückgaberecht gilt nicht für Speditionsware (Sperrgut).",
+    "Nach Ablauf der 14-Tage-Frist ist eine Rückgabe der Speditionsware nicht mehr möglich.",
+    "Die Anmeldung einer Speditionsretoure erfolgt ausschließlich über den Kundenservice."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Speditionsware können Sie innerhalb von 14 Tagen ab Erhalt zurückgeben."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Die Anmeldung erfolgt ausschließlich über den Kundenservice, nicht über das Retourenportal."
+    },
+    {
+      "artikel_id": "KB-014",
+      "zitat": "Für Speditionsware gilt ausschließlich das 14-tägige Widerrufsrecht."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Für Speditionsware gilt kein freiwilliges Rückgaberecht, sondern ausschließlich die gesetzliche Widerrufsfrist von 14 Tagen."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:42:42+00:00"
+  }
+}

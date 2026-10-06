@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-092",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-026",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Wird American Express akzeptiert?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich wollte mal fragen, ob ich bei euch auch mit American Express zahlen kann. Finde dazu nichts Genaues im Shop. Danke und viele Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachfrage. Ja, American Express wird bei uns als Kreditkarte akzeptiert, ebenso wie Visa und Mastercard. Bei der Zahlung per Kreditkarte ist eine 3-D-Secure-Freigabe erforderlich, die Sie im Bestellprozess abschließen. Zusätzlich stehen Ihnen PayPal und Apple Pay zur Verfügung, in Deutschland und Österreich auch der Kauf auf Rechnung sowie in Deutschland der Ratenkauf. Wählen Sie die gewünschte Zahlungsart einfach im Bestellprozess aus.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "American Express wird als Zahlungsart akzeptiert.",
+    "Bei Kreditkartenzahlung ist eine 3-D-Secure-Freigabe erforderlich."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-026",
+      "zitat": "PayPal, Kreditkarte (Visa, Mastercard, American Express) und Apple Pay: verfügbar in allen Märkten."
+    },
+    {
+      "artikel_id": "KB-026",
+      "zitat": "Kreditkartenzahlung erfordert eine 3-D-Secure-Freigabe."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:50:34+00:00"
+  }
+}

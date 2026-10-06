@@ -1,0 +1,55 @@
+{
+  "ticket_id": "T-047",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-019;KB-015;KB-018",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Stuhl in anderer Größe gewünscht: Ablauf eines Tauschs und wann das Geld für den ersten Stuhl zurückkommt.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich hab vor ein paar Tagen den Esszimmerstuhl in Größe M bestellt, der ist aber leider zu klein für uns. Gibt es die Möglichkeit den einfach gegen die Variante in Größe L zu tauschen? Und falls ich den alten zurückschicken muss, wann krieg ich dann mein Geld für den wieder?",
+  "musterantwort": "Guten Tag,\n\neinen direkten Umtausch bieten wir leider nicht an. Bitte senden Sie den Stuhl in Größe M wie eine normale Rücksendung zurück und bestellen Sie die gewünschte Größe L separat neu. Die Rücksendung melden Sie über das Retourenportal in Ihrem Kundenkonto an, als Gast funktioniert dies mit Bestellnummer und Postleitzahl. Anschließend drucken Sie ein Retourenlabel aus und geben das Paket bei DHL ab.\n\nDas Geld für den zurückgesendeten Stuhl erhalten Sie innerhalb von 14 Tagen, nachdem die Ware bei uns im Lager eingegangen ist. Die Erstattung erfolgt auf Ihr ursprüngliches Zahlungsmittel, bei Rechnungskauf wird der Rechnungsbetrag entsprechend reduziert. Die neue Bestellung der Größe L wird dabei als eigenständiger Kauf separat berechnet.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Ein direkter Umtausch ist nicht möglich; stattdessen muss der Artikel zurückgesendet und ein neuer Artikel neu bestellt werden.",
+    "Die Retoure wird über das Retourenportal im Kundenkonto oder als Gast mit Bestellnummer und Postleitzahl angemeldet.",
+    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-019",
+      "zitat": "Bei Hallendal Wohnen gibt es keinen direkten Umtausch."
+    },
+    {
+      "artikel_id": "KB-019",
+      "zitat": "Möchten Sie einen Artikel gegen ein anderes Modell, eine andere Größe oder Farbe tauschen, senden Sie den ursprünglichen Artikel zurück und geben Sie eine neue Bestellung auf."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Paketware melden Sie über das Retourenportal in Ihrem Kundenkonto an."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Haben Sie als Gast bestellt, funktioniert die Anmeldung mit Bestellnummer und Postleitzahl."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lager."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Zahlungsweg: auf das ursprüngliche Zahlungsmittel."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:43:42+00:00"
+  }
+}

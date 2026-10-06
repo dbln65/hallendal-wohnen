@@ -1,0 +1,48 @@
+{
+  "ticket_id": "T-084",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-021;KB-022",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Paketlieferung: ein Artikel beschädigt (Geld zurück gewünscht), ein anderer fehlt.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich hab gestern mein Paket bekommen und da ist leider was schiefgelaufen. Der Beistelltisch war beim Auspacken schon ziemlich angeschlagen, eine Ecke ist komplett kaputt. Außerdem fehlt in dem Karton die Vase, die ich mitbestellt hatte, die war gar nicht drin. Ich möchte für den kaputten Tisch gern einfach mein Geld zurück und bräuchte die Vase natürlich trotzdem noch. Wie geh ich da am besten vor? Danke schonmal, Melanie",
+  "musterantwort": "Guten Tag,\n\nes tut uns leid, dass Ihre Lieferung beschädigt und unvollständig bei Ihnen angekommen ist. Für den beschädigten Tisch gilt: Da es sich um einen Transportschaden an einem paketversendeten Artikel handelt, melden Sie diesen bitte innerhalb von 7 Tagen nach Erhalt mit Fotos über unser Kontaktformular. Sie können dabei nach Wahl eine Ersatzlieferung oder eine Erstattung angeben, die Rücksendung ist kostenlos. Für die fehlende Vase gilt: Bitte melden Sie den fehlenden Artikel ebenfalls innerhalb von 14 Tagen bei unserem Kundenservice. Die Nachlieferung des korrekten Artikels erfolgt dann kostenlos. Bitte halten Sie für beide Meldungen Ihre Bestellnummer bereit, damit wir Ihr Anliegen schnell zuordnen können.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Transportschaden bei Paketware innerhalb von 7 Tagen mit Fotos über das Kontaktformular melden",
+    "Bei Transportschaden kann nach Wahl Ersatzlieferung oder Erstattung gewählt werden, Rücksendung ist kostenlos",
+    "Fehlender Artikel muss innerhalb von 14 Tagen gemeldet werden",
+    "Nachlieferung eines fehlenden Artikels ist kostenlos"
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Transportschaden Paket: innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular melden."
+    },
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Lösung: nach Wahl Ersatzlieferung oder Erstattung; Rücksendung bzw. Abholung kostenlos."
+    },
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Meldung muss innerhalb von 14 Tagen erfolgen."
+    },
+    {
+      "artikel_id": "KB-022",
+      "zitat": "Die Nachlieferung ist kostenlos, die Abholung eines falsch gelieferten Artikels ist ebenfalls kostenlos."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:49:37+00:00"
+  }
+}

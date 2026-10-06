@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-029",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Lieferung am Wochenende oder zu Wunschterminen",
+    "stil": "sachlich",
+    "szenario": "Paket soll genau an einem bestimmten Tag (Geburtstag) ankommen.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe meiner Schwester ein neues Stehlampen-Set bestellt und würde mich freuen, wenn es genau an ihrem Geburtstag ankommt, also am kommenden Samstag. Kann ich einen festen Liefertag oder zumindest eine Lieferung am Wochenende vereinbaren? Viele Grüße, Jana",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und den schönen Anlass. Ob eine Lieferung an einem von Ihnen gewünschten Termin oder gezielt am Wochenende möglich ist, kann ich Ihnen anhand unserer vorliegenden Informationen leider nicht zuverlässig beantworten, da uns dazu keine gesicherten Angaben vorliegen. Damit wir Ihnen hier weiterhelfen können, wenden Sie sich bitte mit Ihrer Bestellnummer an unseren Kundenservice, der Ihr Anliegen prüft und Ihnen eine verbindliche Auskunft dazu geben kann. Gerne können Sie uns auch mitteilen, bis wann genau die Lieferung erfolgen soll, damit wir die Möglichkeiten für Sie klären können.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:41:00+00:00"
+  }
+}

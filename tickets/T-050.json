@@ -1,0 +1,53 @@
+{
+  "ticket_id": "T-050",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-014;KB-015;KB-016",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Stehlampe (Paket) und Sofa (Sperrgut) nach 20 Tagen zurückgeben (DE): Was ist noch möglich, wie und zu welchen Kosten?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich habe vor 20 Tagen eine Bestellung erhalten, in der eine Stehlampe und ein großes Ecksofa enthalten waren. Beide Artikel gefallen mir leider doch nicht so gut wie gedacht und ich möchte sie gerne zurückschicken. Geht das bei beiden noch, und falls ja, wie melde ich das an und mit welchen Kosten muss ich rechnen? Die Lieferung kam innerhalb Deutschlands an. Viele Grüße, Jana",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Für die Stehlampe können Sie die Rückgabe noch problemlos vornehmen: Da es sich um Paketware handelt, gilt zusätzlich zum gesetzlichen Widerrufsrecht ein freiwilliges Rückgaberecht von 30 Tagen ab Erhalt, und mit 20 Tagen liegen Sie noch innerhalb dieser Frist. Melden Sie die Rückgabe über das Retourenportal in Ihrem Kundenkonto an, drucken Sie das Retourenlabel aus und geben Sie das Paket bei DHL ab. Die Rücksendung ist in Deutschland kostenlos.\n\nBeim Ecksofa handelt es sich um Speditionsware, für die ausschließlich das gesetzliche Widerrufsrecht von 14 Tagen ab Erhalt gilt. Da seit Erhalt bereits 20 Tage vergangen sind, ist eine Rückgabe des Sofas leider nicht mehr möglich.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Für die Stehlampe (Paketware) gilt zusätzlich zum gesetzlichen Widerrufsrecht ein freiwilliges Rückgaberecht von 30 Tagen ab Erhalt, 20 Tage liegen noch innerhalb dieser Frist.",
+    "Die Rückgabe der Stehlampe erfolgt über das Retourenportal im Kundenkonto, mit Retourenlabel und Abgabe bei DHL.",
+    "Die Rücksendung von Paketware ist in Deutschland kostenlos.",
+    "Für das Sofa (Speditionsware) gilt ausschließlich das gesetzliche Widerrufsrecht von 14 Tagen ab Erhalt, ein freiwilliges Rückgaberecht besteht nicht.",
+    "Da seit Erhalt des Sofas bereits 20 Tage vergangen sind, ist eine Rückgabe nicht mehr möglich."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-014",
+      "zitat": "Bei Paketware kommt zusätzlich ein freiwilliges Rückgaberecht von 30 Tagen ab Erhalt hinzu."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Melden Sie sich im Kundenkonto an oder rufen Sie das Retourenportal als Gast mit Bestellnummer und Postleitzahl auf."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Die Rücksendung ist in Deutschland kostenlos."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Für Speditionsware gilt kein freiwilliges Rückgaberecht, sondern ausschließlich die gesetzliche Widerrufsfrist von 14 Tagen ab Erhalt."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Widerrufsfrist: 14 Tage ab Erhalt."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:44:13+00:00"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ticket_id": "P-03",
+  "plan": {
+    "set": "pilot",
+    "kategorie": "Retoure",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-014",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "In welchem Zustand muss zurückgeschickte Ware sein?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich wollte mein neues Sofakissen-Set zurückschicken, weil mir die Farbe doch nicht gefällt. Jetzt lese ich, dass die Verpackung angeblich noch original sein muss?? Das ist doch lächerlich, ich habe die natürlich geöffnet um zu gucken! Bitte klären Sie mich auf, was jetzt wirklich gilt, bevor ich mich hier noch mehr ärgere!",
+  "musterantwort": "Guten Tag,\n\nwir verstehen Ihren Ärger und möchten das gerne für Sie klären. Für die Rückgabe gilt lediglich, dass die Ware ungebraucht sein muss. Die Originalverpackung ist zwar erwünscht, aber keine Pflicht – Sie müssen sich also keine Sorgen machen, nur weil Sie die Verpackung zum Prüfen geöffnet haben. Wichtig ist, dass das Sofakissen-Set selbst nicht benutzt wurde.\n\nFür Artikel, die wie Pakete versendet werden, gilt zusätzlich zum gesetzlichen Widerrufsrecht von 14 Tagen ein freiwilliges Rückgaberecht von 30 Tagen ab Erhalt. Sie können die Rückgabe also in Ruhe vornehmen, solange der Artikel ungebraucht ist. Bitte beachten Sie, dass Maßanfertigungen, Geschenkgutscheine und Stoffmuster grundsätzlich von der Rückgabe ausgeschlossen sind; das betrifft Ihr Sofakissen-Set jedoch nicht.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Ware muss ungebraucht sein.",
+    "Die Originalverpackung ist erwünscht, aber nicht Pflicht.",
+    "Für Paketware gilt zusätzlich zum 14-tägigen Widerrufsrecht ein freiwilliges 30-Tage-Rückgaberecht ab Erhalt."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-014",
+      "zitat": "Bereiten Sie die Ware vor: Sie muss ungebraucht sein, bei Paketware ist die Originalverpackung erwünscht, aber nicht Pflicht; bei Speditionsware muss die Ware zerlegt und abholbereit im Erdgeschoss stehen."
+    },
+    {
+      "artikel_id": "KB-014",
+      "zitat": "Freiwilliges Rückgaberecht: 30 Tage ab Erhalt, gilt zusätzlich, aber nur für Paketware, nicht bei Sperrgut."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:54:52+00:00"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-099",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-031",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Kartenzahlung ist fehlgeschlagen.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich bin ziemlich genervt: Ich wollte mein neues Ecksofa per Kreditkarte bezahlen, aber die Zahlung ist einfach fehlgeschlagen! Jetzt weiß ich nicht, ob meine Bestellung überhaupt noch gültig ist oder ob ich alles nochmal von vorne machen muss. Das kann doch nicht sein, dass sowas einfach so abbricht!",
+  "musterantwort": "Guten Tag,\n\nes tut uns leid, dass Ihre Kartenzahlung nicht funktioniert hat, das ist natürlich ärgerlich. In den meisten Fällen liegt eine fehlgeschlagene Kartenzahlung an einer fehlenden 3-D-Secure-Freigabe. Ihre Bestellung ist deshalb nicht verloren: Sie bleibt 48 Stunden reserviert, sodass Sie in Ihrem Kundenkonto erneut bezahlen können, ohne die Bestellung neu aufgeben zu müssen. Bitte prüfen Sie dabei, ob die 3-D-Secure-Freigabe, zum Beispiel per App oder SMS, vollständig abgeschlossen wurde.\n\nFalls die Zahlung auch beim erneuten Versuch nicht klappt oder Sie weitere Fragen dazu haben, kontaktieren Sie uns gerne über Kontaktformular, E-Mail, Live-Chat oder Telefon, wir helfen Ihnen dann direkt weiter.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Eine fehlgeschlagene Kartenzahlung liegt meist an einer fehlenden 3-D-Secure-Freigabe.",
+    "Die Bestellung bleibt 48 Stunden reserviert, sodass eine erneute Zahlung im Kundenkonto möglich ist."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Eine fehlgeschlagene Kartenzahlung liegt meist an einer fehlenden 3-D-Secure-Freigabe."
+    },
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Ihre Bestellung bleibt 48 Stunden reserviert, sodass Sie im Kundenkonto erneut bezahlen können."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:51:23+00:00"
+  }
+}

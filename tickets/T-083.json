@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-083",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-021;KB-040",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Paketschaden am Freitagabend bemerkt: Frist, Meldeweg, Antwortzeit und Wahl zwischen Ersatz und Erstattung.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, am Freitagabend habe ich mein neues Regal ausgepackt, das ich per Paket bekommen habe, und dabei eine deutliche Delle und einen Riss im Holz entdeckt. Ich bin unsicher, bis wann ich das überhaupt noch melden kann, da ja Wochenende ist. Auf welchem Weg soll ich den Schaden am besten melden, reicht da eine Nachricht mit Fotos? Und wie lange dauert es ungefähr, bis ich eine Rückmeldung bekomme? Mir ist außerdem wichtig zu wissen, ob ich mir aussuchen kann, ob ich einen Ersatz bekomme oder das Geld zurück. Viele Grüße, Lena",
+  "musterantwort": "Guten Tag,\n\nes tut uns leid, dass Ihr Regal beschädigt bei Ihnen angekommen ist. Da es sich um eine Paketlieferung handelt, können Sie den Transportschaden innerhalb von 7 Tagen nach Erhalt melden. Bitte fotografieren Sie die Schäden und senden Sie uns diese über unser Kontaktformular. Da das Wochenende dazwischenliegt, hindert Sie das nicht an der Meldung – wichtig ist nur, dass die Meldung innerhalb der 7-Tage-Frist bei uns eingeht. Anfragen über das Kontaktformular beantworten wir innerhalb von 24 Stunden an Werktagen. Nach der Meldung können Sie wählen, ob Sie eine Ersatzlieferung oder eine Erstattung wünschen; die Rücksendung bzw. Abholung des beschädigten Artikels ist für Sie kostenlos.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Transportschaden bei Paketware muss innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular gemeldet werden.",
+    "Anfragen per Kontaktformular werden innerhalb von 24 Stunden an Werktagen beantwortet.",
+    "Kundin kann zwischen Ersatzlieferung und Erstattung wählen; Rücksendung bzw. Abholung ist kostenlos."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Transportschaden Paket: innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular melden."
+    },
+    {
+      "artikel_id": "KB-040",
+      "zitat": "Für Kontaktformular und E-Mail: Senden Sie Ihre Anfrage jederzeit ab; die Bearbeitung erfolgt innerhalb von 24 Stunden an Werktagen."
+    },
+    {
+      "artikel_id": "KB-021",
+      "zitat": "Lösung: nach Wahl Ersatzlieferung oder Erstattung; Rücksendung bzw. Abholung kostenlos."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:49:22+00:00"
+  }
+}

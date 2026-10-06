@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-119",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Nachträgliche Preiserstattung bei Preissenkung",
+    "stil": "veraergert",
+    "szenario": "Produkt bei einem anderen Shop günstiger: Wird der Preis angepasst?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich habe vor zwei Tagen eine Kommode bei Ihnen bestellt und gestern gesehen, dass genau dieses Modell bei einem anderen Händler 30 Euro günstiger ist. Das ärgert mich schon ziemlich! Bekomme ich jetzt die Differenz erstattet oder wie läuft das bei Ihnen?",
+  "musterantwort": "Guten Tag,\n\ndass Sie sich über den Preisunterschied ärgern, kann ich gut nachvollziehen. Zu einer nachträglichen Erstattung bei Preissenkungen oder günstigeren Angeboten anderer Händler liegen mir leider keine gesicherten Informationen vor, daher kann ich Ihnen dazu aktuell keine verbindliche Auskunft geben. Damit wir Ihr Anliegen klären können, wende ich mich an das zuständige Team und bitte um Rückmeldung, ob in Ihrem Fall eine Anpassung möglich ist. Dafür wäre es hilfreich, wenn Sie mir Ihre Bestellnummer sowie einen Link oder Nachweis zum günstigeren Angebot zukommen lassen könnten. Sobald ich eine Antwort erhalten habe, melde ich mich umgehend bei Ihnen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:54:25+00:00"
+  }
+}

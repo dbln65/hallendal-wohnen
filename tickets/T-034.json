@@ -1,0 +1,53 @@
+{
+  "ticket_id": "T-034",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-016",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Wie gibt man ein Sofa (Speditionsware) zurück?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe vor zwei Wochen ein Sofa bei Ihnen bestellt, das per Spedition geliefert wurde, aber es gefällt mir leider doch nicht. Wie läuft die Rücksendung in so einem Fall ab? Viele Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Da es sich bei Ihrem Sofa um Speditionsware handelt, können Sie es innerhalb von 14 Tagen ab Erhalt zurückgeben. Die Anmeldung erfolgt ausschließlich über unseren Kundenservice und nicht über das Retourenportal. Bitte kontaktieren Sie uns dafür innerhalb dieser Frist, damit wir gemeinsam einen Abholtermin mit der Spedition vereinbaren können. Für die Abholung müssen Sie das Sofa zerlegen und abholbereit im Erdgeschoss bereitstellen. Bitte beachten Sie, dass für Speditionsware kein freiwilliges Rückgaberecht gilt, sondern ausschließlich die gesetzliche Widerrufsfrist von 14 Tagen greift. In Deutschland werden für den Rücktransport 49 € berechnet, die von der Erstattung abgezogen werden. Die Erstattung erfolgt dann innerhalb von 14 Tagen nach Wareneingang im Lager auf Ihr ursprüngliches Zahlungsmittel.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Anmeldung der Rücksendung von Speditionsware erfolgt ausschließlich über den Kundenservice, nicht über das Retourenportal.",
+    "Die Widerrufsfrist für Speditionsware beträgt 14 Tage ab Erhalt, ein freiwilliges Rückgaberecht gilt hier nicht.",
+    "Die Ware muss zerlegt und abholbereit im Erdgeschoss bereitgestellt werden.",
+    "Die Rücktransportkosten für Speditionsware in Deutschland betragen 49 €, die von der Erstattung abgezogen werden.",
+    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Die Anmeldung erfolgt ausschließlich über den Kundenservice, nicht über das Retourenportal."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Für Speditionsware gilt kein freiwilliges Rückgaberecht, sondern ausschließlich die gesetzliche Widerrufsfrist von 14 Tagen."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Zerlegen Sie die Ware und stellen Sie sie abholbereit im Erdgeschoss bereit."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Rücktransportkosten Deutschland: 49 €, wird von der Erstattung abgezogen."
+    },
+    {
+      "artikel_id": "KB-016",
+      "zitat": "Widerrufsfrist: 14 Tage ab Erhalt."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:41:38+00:00"
+  }
+}

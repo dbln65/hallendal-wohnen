@@ -1,0 +1,44 @@
+{
+  "ticket_id": "T-009",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-012",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Was kostet die Mitnahme eines alten Möbelstücks bei der Lieferung?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich bekomme demnächst einen neuen Schrank per Spedition geliefert und möchte dabei gleich mein altes Möbelstück loswerden. Was würde es kosten, wenn die Lieferanten das alte Stück gleich mitnehmen?",
+  "musterantwort": "Guten Tag,\n\ndie Mitnahme eines Altmöbelstücks ist als Zusatzleistung zur Lieferung in die Wohnung buchbar. Die Altmöbelmitnahme kostet 29 € pro Stück und kann nur zusammen mit der Lieferung in die Wohnung gebucht werden, die selbst 49 € kostet und das Tragen in den Aufstellraum sowie die Mitnahme der Verpackung umfasst. Beide Leistungen müssen bereits bei der Bestellung ausgewählt werden, eine nachträgliche Buchung ist leider nicht möglich. Bitte denken Sie also daran, diese Optionen gleich beim Bestellvorgang mit anzugeben, wenn Sie Ihr altes Möbelstück bei der Lieferung mitgeben möchten.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Altmöbelmitnahme kostet 29 € pro Stück.",
+    "Die Altmöbelmitnahme ist nur in Verbindung mit der Lieferung in die Wohnung buchbar.",
+    "Die Lieferung in die Wohnung kostet 49 € und umfasst Tragen in den Aufstellraum sowie Verpackungsmitnahme.",
+    "Beide Leistungen müssen bereits bei der Bestellung gebucht werden, eine nachträgliche Buchung ist nicht möglich."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-012",
+      "zitat": "Altmöbelmitnahme: 29 € pro Stück, nur in Verbindung mit der Lieferung in die Wohnung buchbar."
+    },
+    {
+      "artikel_id": "KB-012",
+      "zitat": "Lieferung in die Wohnung: 49 €, inkl. Tragen in den Aufstellraum und Verpackungsmitnahme."
+    },
+    {
+      "artikel_id": "KB-012",
+      "zitat": "Beide Leistungen sind nur bei der Bestellung buchbar, eine nachträgliche Buchung ist nicht möglich."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:37:36+00:00"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "ticket_id": "T-046",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-018;KB-014",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Gesamte Bestellung innerhalb von 14 Tagen widerrufen: Werden auch die Versandkosten der Hinsendung erstattet?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Guten Tag, ich möchte meine komplette Bestellung von letzter Woche zurückgeben – es ist noch keine 14 Tage her, seit alles angekommen ist. Da ich wirklich alle Artikel zurückschicken möchte, würde mich interessieren, ob ich dann auch die Versandkosten für den Hinweg erstattet bekomme. Über eine kurze Info würde ich mich freuen. Viele Grüße, Thomas",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Für Ihre gesamte Bestellung gilt innerhalb von 14 Tagen ab Erhalt das gesetzliche Widerrufsrecht, das Sie somit fristgerecht nutzen können. Da Sie die komplette Bestellung zurücksenden möchten, handelt es sich um einen vollständigen Widerruf: In diesem Fall werden auch die Versandkosten der Hinsendung erstattet. Die Erstattung erfolgt insgesamt innerhalb von 14 Tagen nach Wareneingang in unserem Lager und wird auf Ihr ursprüngliches Zahlungsmittel vorgenommen; bei einem Rechnungskauf wird der Rechnungsbetrag entsprechend reduziert. Bitte melden Sie die Rückgabe wie gewohnt über das Retourenportal bzw. den entsprechenden Kanal für Ihre Warenart an.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Das gesetzliche Widerrufsrecht beträgt 14 Tage ab Erhalt.",
+    "Bei vollständigem Widerruf der gesamten Bestellung werden die Versandkosten der Hinsendung erstattet.",
+    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-014",
+      "zitat": "Gesetzliches Widerrufsrecht: 14 Tage ab Erhalt, gilt für Paketware und Speditionsware."
+    },
+    {
+      "artikel_id": "KB-014",
+      "zitat": "Versandkosten der Hinsendung werden nur bei vollständigem Widerruf erstattet."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lager."
+    },
+    {
+      "artikel_id": "KB-018",
+      "zitat": "Zahlungsweg: auf das ursprüngliche Zahlungsmittel."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:43:32+00:00"
+  }
+}

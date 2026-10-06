@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-019",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-008;KB-009",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Kunde in Österreich möchte Expressversand; alternativ Standardlieferzeit und -kosten.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich wollte für meine Bestellung eigentlich den schnellsten Versand nach Österreich buchen, finde aber keine Express-Option mehr im Bestellprozess. Geht das bei mir gar nicht, und wie lange und teuer wäre dann die normale Lieferung? Danke, Sabine",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Der Expressversand steht leider ausschließlich für Lieferungen innerhalb Deutschlands zur Verfügung, daher können Sie ihn für eine Lieferung nach Österreich nicht buchen.\n\nFür die reguläre Lieferung nach Österreich gilt: Paketware kostet 6,95 €, ist ab einem Bestellwert von 79 € kostenlos, und die Lieferzeit beträgt 3–6 Werktage. Handelt es sich bei Ihrer Bestellung um Speditionsware, kostet diese pauschal 69 € und die Lieferzeit liegt bei 10–18 Werktagen.\n\nSollten Sie mir mitteilen, um welche Art von Artikel es sich handelt, kann ich Ihnen die genauen Angaben noch einmal gezielt bestätigen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Der Expressversand ist ausschließlich in Deutschland verfügbar, nicht für Österreich.",
+    "Paketware nach Österreich kostet 6,95 €, ab 79 € Bestellwert kostenlos, Lieferzeit 3–6 Werktage.",
+    "Speditionsware nach Österreich kostet pauschal 69 €, Lieferzeit 10–18 Werktage."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-008",
+      "zitat": "Der Expressversand steht ausschließlich in Deutschland zur Verfügung."
+    },
+    {
+      "artikel_id": "KB-009",
+      "zitat": "Paket Standard: 6,95 €, kostenlos ab 79 €, Lieferzeit 3–6 Werktage."
+    },
+    {
+      "artikel_id": "KB-009",
+      "zitat": "Spedition (Sperrgut): 69 € pauschal, Lieferzeit 10–18 Werktage."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:39:14+00:00"
+  }
+}

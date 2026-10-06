@@ -1,0 +1,53 @@
+{
+  "ticket_id": "T-048",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-015;KB-017",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Paket aus Österreich zurückschicken: Anmeldung und Kosten.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe vor ein paar Tagen ein Paket aus meiner Bestellung in Österreich bekommen, aber die Lampe gefällt mir farblich doch nicht. Wie melde ich das zum Zurückschicken an und was kostet mich das? Danke und viele Grüße, Nina",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Da es sich um eine Paketlieferung handelt, können Sie die Rücksendung ganz einfach über das Retourenportal in Ihrem Kundenkonto anmelden. Falls Sie als Gast bestellt haben, funktioniert die Anmeldung auch mit Bestellnummer und Postleitzahl. Anschließend drucken Sie das Retourenlabel aus und geben das Paket bei DHL ab.\n\nFür Rücksendungen aus Österreich fallen Kosten von 5,95 € an, die von der Erstattung abgezogen werden. Die Ware sollte ungebraucht sein; die Originalverpackung ist erwünscht, aber nicht zwingend erforderlich. Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang in unserem Lager auf Ihr ursprüngliches Zahlungsmittel.\n\nViele Grüße,\nIhr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Paketware wird über das Retourenportal im Kundenkonto oder als Gast mit Bestellnummer und Postleitzahl angemeldet.",
+    "Nach der Anmeldung wird ein Retourenlabel gedruckt und das Paket bei DHL abgegeben.",
+    "Für Rücksendungen aus Österreich fallen Kosten von 5,95 € an, die von der Erstattung abgezogen werden.",
+    "Die Ware muss ungebraucht sein; Originalverpackung ist erwünscht, aber nicht Pflicht.",
+    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Melden Sie sich im Kundenkonto an oder rufen Sie das Retourenportal als Gast mit Bestellnummer und Postleitzahl auf."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Drucken Sie das Retourenlabel aus."
+    },
+    {
+      "artikel_id": "KB-017",
+      "zitat": "Rücksendekosten Paketware Österreich: 5,95 €, werden von der Erstattung abgezogen."
+    },
+    {
+      "artikel_id": "KB-017",
+      "zitat": "Für Paketware muss der Zustand ungebraucht sein; die Originalverpackung ist erwünscht, aber nicht Pflicht."
+    },
+    {
+      "artikel_id": "KB-017",
+      "zitat": "Nach Eingang der Ware im Lager erfolgt die Erstattung innerhalb von 14 Tagen auf das ursprüngliche Zahlungsmittel."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:43:52+00:00"
+  }
+}

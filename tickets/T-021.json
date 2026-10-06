@@ -1,0 +1,45 @@
+{
+  "ticket_id": "T-021",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-009",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Kundin in Österreich bestellt Teppich (Paket, ca. 70 €) und Kommode (Sperrgut): Versandkosten je Warenart, Gratisgrenze, Lieferzeiten, getrennte Lieferung.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe vor kurzem einen Teppich (ca. 70 €) und eine Kommode bestellt, Lieferadresse ist in Österreich. Die Kommode ist laut Shop ein Sperrgut-Artikel, der Teppich wird wohl als normales Paket verschickt. Jetzt bin ich mir unsicher, was das an Versandkosten bedeutet – gilt für den Teppich schon die versandkostenfreie Grenze? Und wie lange dauert die Lieferung bei den beiden Artikeln jeweils? Kommt am Ende alles in einem Paket oder bekomme ich zwei getrennte Lieferungen? Danke und liebe Grüße, Petra",
+  "musterantwort": "Guten Tag,\n\ngerne erläutere ich Ihnen die Versandkonditionen für Ihre Bestellung nach Österreich. Der Teppich wird als Paketware versendet: Hierfür fallen 6,95 € Versandkosten an, kostenlos ist der Versand erst ab einem Bestellwert von 79 €. Da Ihr Teppich mit ca. 70 € darunter liegt, werden die 6,95 € berechnet. Die Lieferzeit für Paketware beträgt 3–6 Werktage. Die Kommode gilt als Speditionsware (Sperrgut); hierfür fällt eine Versandpauschale von 69 € an, die Lieferzeit beträgt 10–18 Werktage. Bei Speditionsware meldet sich die Spedition 1–2 Werktage vor der Lieferung telefonisch, um mit Ihnen ein Zeitfenster von 4 Stunden zu vereinbaren. Da Ihre Bestellung sowohl Paket- als auch Speditionsware enthält, erhalten Sie beide Lieferungen getrennt, und es fallen auch beide Versandkosten getrennt an.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Paketware nach Österreich kostet 6,95 €, ab 79 € Bestellwert kostenlos.",
+    "Der Teppich (ca. 70 €) liegt unter der Gratisgrenze, daher fallen 6,95 € Versandkosten an.",
+    "Die Lieferzeit für Paketware nach Österreich beträgt 3–6 Werktage.",
+    "Die Kommode als Speditionsware kostet pauschal 69 €, Lieferzeit 10–18 Werktage.",
+    "Bei gemischten Bestellungen werden Paket- und Speditionsware getrennt geliefert und beide Versandkosten fallen getrennt an."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-009",
+      "zitat": "Paket Standard: 6,95 €, kostenlos ab 79 €, Lieferzeit 3–6 Werktage."
+    },
+    {
+      "artikel_id": "KB-009",
+      "zitat": "Spedition (Sperrgut): 69 € pauschal, Lieferzeit 10–18 Werktage."
+    },
+    {
+      "artikel_id": "KB-009",
+      "zitat": "Bei gemischten Bestellungen aus Paket- und Speditionsware werden beide Warenarten getrennt geliefert, und es fallen beide Versandkosten an."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:39:39+00:00"
+  }
+}

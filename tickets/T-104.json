@@ -1,0 +1,51 @@
+{
+  "ticket_id": "T-104",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-031;KB-028",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Kauf auf Rechnung abgelehnt, Bestellwert ca. 300 €: Gründe und Alternativen.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich wollte meine Bestellung über ca. 300 € per Rechnung bezahlen, aber das wurde leider abgelehnt. Können Sie mir sagen, woran das liegen könnte und was ich stattdessen machen kann? Viele Grüße, Jonas",
+  "musterantwort": "Guten Tag,\n\ndie Prüfung und Entscheidung beim Kauf auf Rechnung übernimmt ausschließlich unser Zahlungspartner. Leider kennen wir die genauen Gründe für eine Ablehnung nicht und können die Entscheidung auch nicht ändern. Dies gilt unabhängig vom Bestellwert, auch wenn Ihre Bestellung mit ca. 300 € grundsätzlich innerhalb des möglichen Rahmens von bis zu 1.500 € liegt.\n\nAls Alternative können Sie im Bestellprozess eine andere Zahlungsart wählen, zum Beispiel PayPal, Kreditkarte oder Apple Pay, die in allen Liefergebieten verfügbar sind. Da Ihr Bestellwert bei etwa 300 € liegt, käme bei Bedarf auch der Ratenkauf in Frage, der ab einem Bestellwert von 200 € mit einer Laufzeit von 6, 12 oder 24 Monaten möglich ist, allerdings nur innerhalb Deutschlands.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Prüfung und Entscheidung beim Kauf auf Rechnung erfolgt ausschließlich durch den Zahlungspartner, Hallendal kennt die Gründe nicht und kann die Entscheidung nicht ändern.",
+    "Bei Ablehnung sollte eine andere Zahlungsart gewählt werden.",
+    "Der Ratenkauf steht ab einem Bestellwert von 200 € mit Laufzeiten von 6, 12 oder 24 Monaten zur Verfügung, nur in Deutschland."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Die Prüfung eines Rechnungs- oder Ratenkaufs übernimmt der Zahlungspartner."
+    },
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Hallendal Wohnen kennt die Ablehnungsgründe nicht und kann die Entscheidung nicht ändern."
+    },
+    {
+      "artikel_id": "KB-031",
+      "zitat": "Wurde ein Kauf auf Rechnung oder ein Ratenkauf abgelehnt, wählen Sie im Bestellprozess eine andere Zahlungsart."
+    },
+    {
+      "artikel_id": "KB-028",
+      "zitat": "Den Ratenkauf können Sie ab einem Bestellwert von 200 € nutzen."
+    },
+    {
+      "artikel_id": "KB-028",
+      "zitat": "Sie wählen eine Laufzeit von 6, 12 oder 24 Monaten."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:52:03+00:00"
+  }
+}

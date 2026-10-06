@@ -1,0 +1,57 @@
+{
+  "ticket_id": "T-007",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-010",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Kunde in der Schweiz möchte ein Sofa bestellen: Ist das möglich?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich wohne in der Schweiz und würde gerne ein Sofa bei Ihnen bestellen. Geht das überhaupt zu mir?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage. Eine Lieferung in die Schweiz ist grundsätzlich möglich, allerdings liefern wir dorthin ausschließlich Paketware. Ob Ihr gewünschtes Sofa als Paketware versendet werden kann, hängt von der Größe bzw. Art des Artikels ab, da Speditionsware bzw. Sperrgut für die Schweiz leider nicht verfügbar ist. Der Versand kostet 14,90 CHF, eine Gratisgrenze gibt es nicht, und die Lieferzeit beträgt 4–8 Werktage. Im Versandpreis sind Zoll und Einfuhrsteuer bereits enthalten, sodass bei der Zustellung keine Nachforderungen entstehen. Bitte prüfen Sie auf der Produktseite des Sofas, als welche Versandart es gelistet ist, oder kontaktieren Sie uns bei Unsicherheiten gerne erneut.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "In die Schweiz liefern wir ausschließlich Paketware.",
+    "Speditionsware/Sperrgut ist für die Schweiz nicht verfügbar.",
+    "Die Versandkosten betragen 14,90 CHF ohne Gratisgrenze.",
+    "Die Lieferzeit beträgt 4–8 Werktage.",
+    "Im Preis sind Zoll und Einfuhrsteuer enthalten, es entstehen keine Nachforderungen."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-010",
+      "zitat": "In die Schweiz liefern wir ausschließlich Paketware."
+    },
+    {
+      "artikel_id": "KB-010",
+      "zitat": "In die Schweiz kann nur Paketware geliefert werden."
+    },
+    {
+      "artikel_id": "KB-010",
+      "zitat": "Speditionsware bzw. Sperrgut ist für dieses Liefergebiet nicht verfügbar."
+    },
+    {
+      "artikel_id": "KB-010",
+      "zitat": "Der Versand kostet 14,90 CHF, eine Gratisgrenze gibt es nicht."
+    },
+    {
+      "artikel_id": "KB-010",
+      "zitat": "Die Lieferzeit beträgt 4–8 Werktage."
+    },
+    {
+      "artikel_id": "KB-010",
+      "zitat": "Der im Preis enthaltene Betrag deckt Zoll und Einfuhrsteuer ab; bei der Zustellung entstehen keine Nachforderungen."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:37:19+00:00"
+  }
+}

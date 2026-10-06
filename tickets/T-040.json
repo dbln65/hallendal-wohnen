@@ -1,0 +1,39 @@
+{
+  "ticket_id": "T-040",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-015",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Originalverpackung bereits entsorgt: Ist eine Rücksendung trotzdem möglich?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich möchte mein neues Sofa-Kissen-Set zurückschicken, habe aber die Verpackung schon weggeworfen. Geht die Rücksendung trotzdem?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Keine Sorge, eine Rücksendung ist auch ohne die Originalverpackung möglich: Diese ist zwar erwünscht, aber nicht Pflicht. Wichtig ist nur, dass die Ware ungebraucht ist. Verpacken Sie den Artikel einfach anderweitig gut, damit er sicher transportiert werden kann.\n\nFür die Anmeldung der Retoure nutzen Sie bitte das Retourenportal in Ihrem Kundenkonto oder, falls Sie als Gast bestellt haben, die Anmeldung mit Bestellnummer und Postleitzahl. Anschließend drucken Sie das Retourenlabel aus und geben das Paket bei DHL ab.\n\nFalls Sie uns Ihre Bestellnummer mitteilen, prüfen wir gerne auch die weiteren Details für Sie.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Eine Rücksendung ist auch ohne Originalverpackung möglich.",
+    "Die Originalverpackung ist erwünscht, aber nicht Pflicht.",
+    "Die Ware muss ungebraucht sein."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Verpacken Sie die Ware; die Originalverpackung ist erwünscht, aber nicht Pflicht."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Die Ware muss ungebraucht sein."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:42:25+00:00"
+  }
+}

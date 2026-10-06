@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-014",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-007;KB-011",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Bestellung mit Stehlampe und Sofa (DE): Kommt alles zusammen und wie läuft die Lieferung des Sofas ab?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich hab vor kurzem eine Stehlampe und ein Sofa bestellt, beides in einer Bestellung. Kommt das jetzt zusammen bei mir an oder getrennt? Und wie läuft das eigentlich genau mit der Lieferung vom Sofa ab, muss ich da zuhause sein oder wie funktioniert das? Danke schonmal, Melanie",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Da Ihre Bestellung sowohl aus einem Paket-Artikel (Stehlampe) als auch aus Sperrgut (Sofa) besteht, werden beide getrennt voneinander geliefert, und es fallen für beide Versandarten jeweils eigene Versandkosten an.\n\nFür das Sofa gilt: Die Spedition meldet sich 1–2 Werktage vor der Lieferung telefonisch bei Ihnen und vereinbart mit Ihnen ein Zeitfenster von 4 Stunden. Zum vereinbarten Termin sollte jemand die Ware entgegennehmen können. Standardmäßig erfolgt die Lieferung bis zur ersten verschließbaren Tür im Erdgeschoss. Prüfen Sie die Ware bei der Übergabe bitte direkt und vermerken Sie eventuelle sichtbare Schäden auf dem Lieferschein.\n\nFalls Sie möchten, dass das Sofa direkt in Ihre Wohnung getragen wird, können Sie diese Zusatzleistung übrigens bei künftigen Bestellungen hinzubuchen; nachträglich ist das allerdings nicht mehr möglich.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Bei gemischten Bestellungen aus Paket- und Speditionsware erfolgt die Lieferung getrennt, und beide Versandkosten fallen an.",
+    "Die Spedition meldet sich 1–2 Werktage vor der Lieferung telefonisch und vereinbart ein Zeitfenster von 4 Stunden.",
+    "Die Standardlieferung bei Speditionsware erfolgt bis zur ersten verschließbaren Tür im Erdgeschoss."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-007",
+      "zitat": "Bei gemischten Bestellungen (Paket- und Speditionsware) fallen beide Versandkosten getrennt an."
+    },
+    {
+      "artikel_id": "KB-011",
+      "zitat": "Die Spedition ruft 1–2 Werktage vorher an und vereinbart ein Zeitfenster von 4 Stunden."
+    },
+    {
+      "artikel_id": "KB-011",
+      "zitat": "Standard ist die Lieferung bis zur ersten verschließbaren Tür im Erdgeschoss."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:38:17+00:00"
+  }
+}

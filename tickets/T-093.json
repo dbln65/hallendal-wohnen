@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-093",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-027",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Bis wann muss eine Rechnung bezahlt werden?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich hab mein Sofa auf Rechnung bestellt und wollte fragen, bis wann ich die denn bezahlen muss? Finde grad nix dazu in meinen Unterlagen. Danke und LG, Timo",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Beim Kauf auf Rechnung beträgt das Zahlungsziel 30 Tage ab Versand. Die Rechnung erhalten Sie als PDF per E-Mail zusammen mit der Versandbestätigung, zusätzlich steht sie Ihnen jederzeit in Ihrem Kundenkonto zur Verfügung. Bitte begleichen Sie den Rechnungsbetrag innerhalb dieser 30 Tage. Sollten Sie die Zahlung einmal nicht rechtzeitig vornehmen, erfolgt 7 Tage nach Fälligkeit zunächst eine kostenlose Zahlungserinnerung, bevor ab der ersten Mahnung eine Mahngebühr von 5 € anfällt. Es lohnt sich also, das Zahlungsziel im Blick zu behalten.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Das Zahlungsziel beim Kauf auf Rechnung beträgt 30 Tage ab Versand.",
+    "Die Rechnung wird als PDF per E-Mail zusammen mit der Versandbestätigung verschickt und ist zusätzlich im Kundenkonto abrufbar."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Zahlungsziel: 30 Tage ab Versand"
+    },
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Nach erfolgreichem Versand erhalten Sie die Rechnung als PDF per E-Mail zusammen mit der Versandbestätigung."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:50:40+00:00"
+  }
+}

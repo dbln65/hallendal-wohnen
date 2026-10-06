@@ -1,0 +1,48 @@
+{
+  "ticket_id": "T-004",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-008",
+    "gap_thema": "",
+    "stil": "veraergert",
+    "szenario": "Expressversand: Bis wann muss bestellt werden, was kostet er und wie schnell kommt die Ware?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Ich wollte meine Bestellung mit Express verschicken lassen, weil ich die Ware dringend brauche, aber auf der Seite stand nirgends klar, bis wann ich bestellen muss! Was kostet das überhaupt und wie schnell kommt das Paket dann wirklich an? Das muss doch klar kommuniziert werden, so eine Unsicherheit beim Bestellen ist echt ärgerlich.",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Entschuldigung für die Unklarheit. Gerne erläutere ich Ihnen die Details zum Expressversand: Damit die schnellere Lieferung gilt, muss Ihre Bestellung bis 12 Uhr eingehen. Die Lieferzeit beträgt dann 1–2 Werktage. Der Expressversand kostet 9,95 € zusätzlich zu den regulären Versandkosten. Bitte beachten Sie, dass diese Option ausschließlich für Paketware innerhalb Deutschlands verfügbar ist; für Speditionsware ist sie nicht buchbar. Nach Abschluss Ihrer Bestellung erhalten Sie wie gewohnt eine Versandbestätigung mit Tracking-Link, über den Sie die Sendung verfolgen können.\n\nIch hoffe, das hilft Ihnen weiter, und Sie können Ihre Bestellung nun problemlos planen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Die Bestellung muss bis 12 Uhr eingehen, damit die Expresslieferzeit gilt.",
+    "Der Expressversand kostet 9,95 € zusätzlich zu den regulären Versandkosten.",
+    "Die Lieferzeit beträgt 1–2 Werktage.",
+    "Der Expressversand ist nur in Deutschland und nur für Paketware verfügbar."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-008",
+      "zitat": "Schließen Sie die Bestellung bis 12 Uhr ab, damit die Lieferzeit von 1–2 Werktagen gilt."
+    },
+    {
+      "artikel_id": "KB-008",
+      "zitat": "Der Expressversand kostet 9,95 € zusätzlich zu den regulären Versandkosten."
+    },
+    {
+      "artikel_id": "KB-008",
+      "zitat": "Die Lieferzeit beträgt 1–2 Werktage, sofern die Bestellung bis 12 Uhr eingegangen ist."
+    },
+    {
+      "artikel_id": "KB-008",
+      "zitat": "Der Expressversand steht ausschließlich in Deutschland zur Verfügung."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:36:55+00:00"
+  }
+}

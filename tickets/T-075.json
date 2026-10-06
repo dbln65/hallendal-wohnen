@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-075",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "mittel",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-023;KB-024",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Stehleuchte (keine HD-Basics-Ware) nach 1 Jahr defekt: Welche Ansprüche bestehen?",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Guten Tag, ich hatte mir vor etwa einem Jahr eine Stehleuchte bei Ihnen bestellt, es war kein Produkt Ihrer Eigenmarke HD Basics. Jetzt funktioniert sie leider nicht mehr, der Schalter reagiert nicht mehr und die Leuchte lässt sich nicht einschalten. Welche Ansprüche habe ich in diesem Fall und wie gehe ich am besten vor? Vielen Dank und viele Grüße, Markus",
+  "musterantwort": "Guten Tag,\n\nes tut uns leid, dass Ihre Stehleuchte nicht mehr funktioniert. Da es sich nicht um ein Möbelstück unserer Eigenmarke HD Basics handelt, kommt hier die gesetzliche Gewährleistung zum Tragen: Diese gilt 2 Jahre ab Lieferung und somit auch für Ihre Leuchte, da der Defekt nach etwa einem Jahr aufgetreten ist.\n\nBitte kontaktieren Sie unseren Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon und beschreiben Sie den Mangel möglichst genau. Halten Sie dafür bitte Ihre Bestellnummer bereit, damit wir Ihr Anliegen schnell zuordnen können. Unser Kundenservice bespricht dann mit Ihnen das weitere Vorgehen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Für die Stehleuchte (kein HD-Basics-Artikel) gilt die gesetzliche Gewährleistung von 2 Jahren ab Lieferung.",
+    "Da der Defekt nach etwa einem Jahr auftrat, liegt er innerhalb der Gewährleistungsfrist.",
+    "Zur Klärung ist der Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon zu kontaktieren, mit Beschreibung des Mangels und Bestellnummer."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-023",
+      "zitat": "Auf alle bei Hallendal Wohnen gekauften Artikel gilt die gesetzliche Gewährleistung von 2 Jahren ab Lieferung."
+    },
+    {
+      "artikel_id": "KB-023",
+      "zitat": "Kontaktieren Sie den Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon."
+    },
+    {
+      "artikel_id": "KB-023",
+      "zitat": "Beschreiben Sie den Mangel und halten Sie Ihre Bestellnummer bereit."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:47:36+00:00"
+  }
+}

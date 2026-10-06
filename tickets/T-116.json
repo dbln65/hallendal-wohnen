@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-116",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "B2B-Konditionen und Mengenrabatte",
+    "stil": "sachlich",
+    "szenario": "Gibt es besondere Konditionen oder einen Rahmenvertrag für Gewerbekunden?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Guten Tag, wir möchten für unser Büro regelmäßig größere Mengen an Möbeln bei Ihnen bestellen. Gibt es für Gewerbekunden spezielle Konditionen, Mengenrabatte oder die Möglichkeit eines Rahmenvertrags? Viele Grüße, Thomas",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihr Interesse an einer regelmäßigen Zusammenarbeit mit Hallendal Wohnen für Ihr Büro. Zu speziellen Konditionen für Gewerbekunden, Mengenrabatten oder der Möglichkeit eines Rahmenvertrags liegen mir leider keine gesicherten Informationen vor, daher kann ich Ihnen hierzu aktuell keine verbindliche Auskunft geben.\n\nDamit wir Ihr Anliegen klären können, leite ich Ihre Anfrage gerne an das zuständige Team weiter. Könnten Sie mir dazu kurz mitteilen, welches Bestellvolumen bzw. welche Artikelmengen Sie regelmäßig benötigen und in welchem Land Ihr Unternehmen ansässig ist? So kann das zuständige Team Ihre Anfrage gezielt prüfen und sich bei Ihnen melden.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:54:08+00:00"
+  }
+}

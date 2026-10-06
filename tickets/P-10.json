@@ -1,0 +1,26 @@
+{
+  "ticket_id": "P-10",
+  "plan": {
+    "set": "pilot",
+    "kategorie": "Sonstiges",
+    "schwierigkeit": "kb_gap",
+    "kb_abdeckung": "gap",
+    "ziel_artikel": "",
+    "gap_thema": "Bewerbungen und Kooperationsanfragen",
+    "stil": "unvollstaendig",
+    "szenario": "Anfrage zu einer Influencer-Kooperation.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich betreibe einen kleinen Einrichtungs-Blog und würde gerne mit euch als Marke zusammenarbeiten, z.B. für eine Produktvorstellung. An wen kann ich mich da wenden?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihr Interesse an einer Zusammenarbeit mit Hallendal Wohnen. Zu Kooperations- und Influencer-Anfragen liegen mir leider keine gesicherten Informationen vor, daher kann ich Ihnen dazu aktuell keine verbindliche Auskunft geben. Damit Ihre Anfrage an die richtige Stelle weitergeleitet werden kann, bitte ich Sie, uns kurz mitzuteilen, worum es bei Ihrer Kooperationsidee genau geht, sowie einen Link zu Ihrem Blog oder Kanal anzugeben. Wir leiten Ihre Anfrage dann intern an das zuständige Team weiter, das sich im Anschluss direkt mit Ihnen in Verbindung setzt.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "rueckfrage",
+  "kernaussagen": [],
+  "belege": [],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:56:04+00:00"
+  }
+}

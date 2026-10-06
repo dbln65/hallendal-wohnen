@@ -1,0 +1,44 @@
+{
+  "ticket_id": "T-011",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Versand",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-013",
+    "gap_thema": "",
+    "stil": "unvollstaendig",
+    "szenario": "Kann ein Paket an eine Packstation geliefert werden?",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich möchte mein nächstes Paket einfach an eine Packstation schicken lassen, weil ich tagsüber selten zuhause bin. Geht das bei euch?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Die Lieferung an eine Packstation ist bei uns möglich, allerdings ausschließlich für Paketware und nur innerhalb Deutschlands. Geben Sie die Packstation einfach bereits bei der Bestellung als Lieferadresse an, dann erfolgt die Zustellung automatisch dorthin. Bitte beachten Sie, dass diese Option bei Speditionsware bzw. Sperrgut nicht zur Verfügung steht. Auch wenn Sie per Kauf auf Rechnung bezahlen möchten, ist eine Lieferung an eine Packstation leider nicht möglich – in diesem Fall müsste eine andere Zahlungsart gewählt werden.\n\nFür die Sendungsverfolgung erhalten Sie nach dem Versand eine Versandbestätigung mit Tracking-Link, über den Sie den Status jederzeit einsehen können.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Eine Lieferung an Packstation oder Postfiliale ist möglich.",
+    "Diese Option gilt ausschließlich für Paketware.",
+    "Diese Option gilt ausschließlich für Lieferungen innerhalb Deutschlands.",
+    "Bei Kauf auf Rechnung ist eine Lieferung an eine Packstation nicht möglich."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-013",
+      "zitat": "Als Zustelloption stehen Packstation und Postfiliale zur Verfügung, allerdings nur für Paketware und nur für Lieferungen innerhalb Deutschlands."
+    },
+    {
+      "artikel_id": "KB-013",
+      "zitat": "Die Zustellung an Packstation oder Postfiliale ist ausschließlich für Paketware möglich und gilt nur für Deutschland."
+    },
+    {
+      "artikel_id": "KB-013",
+      "zitat": "Bei Kauf auf Rechnung ist eine Lieferung an eine Packstation ebenfalls nicht möglich."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:37:50+00:00"
+  }
+}

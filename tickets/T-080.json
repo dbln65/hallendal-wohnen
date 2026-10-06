@@ -1,0 +1,56 @@
+{
+  "ticket_id": "T-080",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Reklamation/Garantie",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-024;KB-023;KB-025",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "HD-Basics-Bett nach 3 Jahren: Halterung des Lattenrosts gebrochen und Polster des Kopfteils durchgesessen.",
+    "human_rating": "ja"
+  },
+  "ticket_text": "Hallo, ich hab vor gut 3 Jahren das HD Basics Bett bei euch gekauft und jetzt ist die Halterung vom Lattenrost einfach abgebrochen. Außerdem ist das Polster im Kopfteil total durchgesessen, sieht nicht mehr schön aus. Ist das noch über Garantie abgedeckt oder muss ich das selber reparieren lassen? Und falls ich ein Ersatzteil brauche, wie komm ich da dran? Danke und viele Grüße, Jana",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Auf Möbel unserer Eigenmarke HD Basics erhalten Sie eine 5-Jahre Herstellergarantie ab Lieferung, eine Registrierung ist dafür nicht nötig, Ihre Rechnung genügt als Nachweis. Die gebrochene Halterung des Lattenrosts betrifft das Möbelstück selbst und fällt damit grundsätzlich unter diese Garantie. Für das durchgesessene Polster im Kopfteil gilt die Garantie leider nicht, da Bezüge, Polster und Verschleißteile ausdrücklich davon ausgenommen sind. Die gesetzliche Gewährleistung von 2 Jahren ab Lieferung ist bei einem 3 Jahre alten Bett bereits abgelaufen und greift hier nicht mehr. Für ein Ersatzteil zur Lattenrost-Halterung wenden Sie sich bitte mit Ihrer Rechnung und der Artikelnummer an unseren Kundenservice über Kontaktformular, E-Mail, Live-Chat oder Telefon; innerhalb der Garantie ist das Ersatzteil kostenlos.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "HD Basics Möbel erhalten eine 5-Jahre Herstellergarantie ab Lieferung, Registrierung nicht nötig, Rechnung genügt",
+    "Die Garantie gilt nicht für Bezüge, Polster und Verschleißteile",
+    "Die gesetzliche Gewährleistung beträgt 2 Jahre ab Lieferung und gilt einheitlich in allen Märkten",
+    "Ersatzteile für HD Basics sind über den Kundenservice mit Artikelnummer erhältlich und innerhalb der Garantie kostenlos"
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Auf Möbel unserer Eigenmarke HD Basics erhalten Sie eine 5-Jahre Herstellergarantie."
+    },
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Eine Registrierung ist nicht nötig, Ihre Rechnung genügt als Nachweis."
+    },
+    {
+      "artikel_id": "KB-024",
+      "zitat": "Die Garantie gilt nicht für Bezüge, Polster und Verschleißteile."
+    },
+    {
+      "artikel_id": "KB-023",
+      "zitat": "Auf alle bei Hallendal Wohnen gekauften Artikel gilt die gesetzliche Gewährleistung von 2 Jahren ab Lieferung."
+    },
+    {
+      "artikel_id": "KB-025",
+      "zitat": "Benötigen Sie ein Ersatzteil für ein HD-Basics-Möbelstück, kontaktieren Sie den Kundenservice und geben Sie die Artikelnummer an."
+    },
+    {
+      "artikel_id": "KB-025",
+      "zitat": "Innerhalb der Garantiezeit sind Ersatzteile kostenlos."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:48:34+00:00"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "ticket_id": "T-054",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Retoure",
+    "schwierigkeit": "komplex",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-015;KB-020;KB-014",
+    "gap_thema": "",
+    "stil": "sachlich",
+    "szenario": "Als Gast bestellt: Teppich nach Maß und zwei Kissen sollen zurückgeschickt werden.",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hallo, ich habe vor ein paar Tagen als Gast bei Ihnen bestellt, also ohne Kundenkonto. Dabei waren ein Teppich, der extra nach meinen Maßen angefertigt wurde, und zwei Kissen. Leider gefallen mir die Kissen farblich doch nicht und auch der Teppich passt nicht so recht in den Raum, deshalb möchte ich beides zurückschicken. Wie melde ich die Rücksendung ohne Kundenkonto an, und bekomme ich für den Teppich auch mein Geld zurück? Viele Grüße, Jonas",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Da Sie als Gast bestellt haben, können Sie die Rücksendung der beiden Kissen ganz einfach über das Retourenportal anmelden – dafür benötigen Sie lediglich Ihre Bestellnummer und Ihre Postleitzahl anstelle eines Kundenkontos. Anschließend drucken Sie ein Retourenlabel aus und geben das Paket bei DHL ab; die Originalverpackung ist dabei erwünscht, aber nicht zwingend erforderlich.\n\nFür den nach Maß gefertigten Teppich müssen wir Ihnen leider mitteilen, dass Maßanfertigungen wie Vorhänge und Teppiche nach Maß von der Rückgabe ausgeschlossen sind. Eine Rücksendung oder Erstattung ist für diesen Artikel daher nicht möglich.\n\nFür die Kissen erfolgt die Erstattung innerhalb von 14 Tagen nach Wareneingang im Lager auf Ihr ursprüngliches Zahlungsmittel.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Rücksendung ohne Kundenkonto erfolgt über Bestellnummer und Postleitzahl im Retourenportal.",
+    "Originalverpackung ist bei der Rücksendung erwünscht, aber nicht Pflicht.",
+    "Teppiche nach Maß sind von der Rückgabe ausgeschlossen.",
+    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Melden Sie sich im Kundenkonto an oder rufen Sie das Retourenportal als Gast mit Bestellnummer und Postleitzahl auf."
+    },
+    {
+      "artikel_id": "KB-015",
+      "zitat": "Verpacken Sie die Ware; die Originalverpackung ist erwünscht, aber nicht Pflicht."
+    },
+    {
+      "artikel_id": "KB-020",
+      "zitat": "Maßanfertigungen wie Vorhänge und Teppiche nach Maß, Geschenkgutscheine sowie Stoffmuster sind von der Rückgabe ausgeschlossen."
+    },
+    {
+      "artikel_id": "KB-014",
+      "zitat": "Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lager, auf das ursprüngliche Zahlungsmittel; bei Rechnungskauf wird der Rechnungsbetrag reduziert."
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:45:01+00:00"
+  }
+}

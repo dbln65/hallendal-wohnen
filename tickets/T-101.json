@@ -1,0 +1,34 @@
+{
+  "ticket_id": "T-101",
+  "plan": {
+    "set": "haupt",
+    "kategorie": "Zahlung",
+    "schwierigkeit": "einfach",
+    "kb_abdeckung": "gedeckt",
+    "ziel_artikel": "KB-027",
+    "gap_thema": "",
+    "stil": "umgangssprachlich",
+    "szenario": "Auf Rechnung bestellen, aber an eine andere Adresse liefern lassen (Geschenk).",
+    "human_rating": "nein"
+  },
+  "ticket_text": "Hi, ich möchte mein neues Bücherregal auf Rechnung kaufen, aber als Geschenk direkt an meine Schwester schicken lassen, also andere Lieferadresse als meine. Geht das so?",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Beim Kauf auf Rechnung muss die Rechnungsadresse leider mit der Lieferadresse übereinstimmen. Eine Lieferung an eine andere Adresse, zum Beispiel als Geschenk an Ihre Schwester, ist bei dieser Zahlungsart daher nicht möglich. Möchten Sie die Bestellung dennoch an eine andere Adresse liefern lassen, wählen Sie bitte eine andere Zahlungsart wie PayPal, Kreditkarte oder Apple Pay.\n\nZur Einordnung: Der Kauf auf Rechnung steht ohnehin nur in Deutschland und Österreich zur Verfügung, das Zahlungsziel beträgt 30 Tage ab Versand und der maximale Bestellwert liegt bei 1.500 €.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "antworttyp": "sachantwort",
+  "kernaussagen": [
+    "Bei Kauf auf Rechnung muss die Rechnungsadresse mit der Lieferadresse übereinstimmen.",
+    "Eine Lieferung an eine abweichende Adresse ist beim Kauf auf Rechnung somit nicht möglich."
+  ],
+  "belege": [
+    {
+      "artikel_id": "KB-027",
+      "zitat": "Rechnungsadresse muss mit der Lieferadresse übereinstimmen"
+    }
+  ],
+  "meta": {
+    "model": "claude-sonnet-5",
+    "effort": "medium",
+    "prompt_hash": "b5b99c0c0a389d41",
+    "kb_hash": "763f052769bf516d",
+    "generated_at": "2026-10-06T11:51:40+00:00"
+  }
+}
