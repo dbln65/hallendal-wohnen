@@ -1,7 +1,6 @@
 ticket_id,level,check,detail
 P-01,HINWEIS,Relevanz,"Fakt aus KB-009 auch in KB-011: „Spedition (Sperrgut): 69 € pauschal, Lieferzeit 10–18 Werkta…“"
 P-01,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 1, 2, 4"
-P-02,HINWEIS,Relevanz,Fakt aus KB-010 auch in KB-013: „Lieferzeit: 4–8 Werktage.…“
 P-03,HINWEIS,Relevanz,"Fakt aus KB-014 auch in KB-017: „Freiwilliges Rückgaberecht: 30 Tage ab Erhalt, gilt zusätzli…“"
 P-03,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 14"
 P-04,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-014: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
@@ -10,7 +9,6 @@ P-04,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-017: „Erstattung: innerhalb v
 P-04,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-019: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 P-04,HINWEIS,Relevanz,"Fakt aus KB-017 auch in KB-015: „Rücksendekosten Paketware Österreich: 5,95 €, werden von der…“"
 P-07,HINWEIS,Relevanz,Fakt aus KB-028 auch in KB-031: „Den Ratenkauf können Sie ab einem Bestellwert von 200 € nutz…“
-P-08,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-029: „Zahlungsziel: 30 Tage ab Versand…“
 T-003,HINWEIS,Relevanz,"Fakt aus KB-007 auch in KB-011: „Spedition (Sperrgut): 39 € pauschal pro Bestellung, Lieferze…“"
 T-003,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 1, 2, 4, 49"
 T-005,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 69"
@@ -21,7 +19,6 @@ T-009,HINWEIS,Relevanz,"Fakt aus KB-012 auch in KB-011: „Lieferung in die Wohn
 T-013,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 4"
 T-014,HINWEIS,Relevanz,Fakt aus KB-011 auch in KB-012: „Die Spedition ruft 1–2 Werktage vorher an und vereinbart ein…“
 T-015,HINWEIS,Relevanz,"Fakt aus KB-009 auch in KB-011: „Spedition (Sperrgut): 69 € pauschal, Lieferzeit 10–18 Werkta…“"
-T-017,HINWEIS,Relevanz,Fakt aus KB-010 auch in KB-013: „Lieferzeit: 4–8 Werktage.…“
 T-017,FEHLER,Beleg,Zitat nicht wörtlich in KB-013: „Nach dem Versand erhalten Sie eine Versandbestätigung mit Tracking-Lin…“
 T-018,HINWEIS,Relevanz,"Fakt aus KB-012 auch in KB-011: „Lieferung in die Wohnung: 49 €, inkl. Tragen in den Aufstell…“"
 T-019,HINWEIS,Relevanz,"Fakt aus KB-009 auch in KB-011: „Spedition (Sperrgut): 69 € pauschal, Lieferzeit 10–18 Werkta…“"
@@ -33,7 +30,6 @@ T-021,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 1, 2, 4"
 T-021,WARNUNG,Fachbegriff,im Ticket: sperrgut
 T-022,HINWEIS,Relevanz,Fakt aus KB-010 auch in KB-013: „Die Lieferzeit beträgt 4–8 Werktage.…“
 T-023,WARNUNG,Überlappung,5 Wörter in Folge identisch mit KB-012
-T-024,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-031: „Maximaler Bestellwert: 1.500 €…“
 T-031,HINWEIS,Relevanz,"Fakt aus KB-014 auch in KB-016: „Gesetzliches Widerrufsrecht: 14 Tage ab Erhalt, gilt für Pak…“"
 T-031,HINWEIS,Relevanz,"Fakt aus KB-014 auch in KB-017: „Gesetzliches Widerrufsrecht: 14 Tage ab Erhalt, gilt für Pak…“"
 T-031,HINWEIS,Relevanz,"Fakt aus KB-014 auch in KB-017: „Freiwilliges Rückgaberecht: 30 Tage ab Erhalt, gilt zusätzli…“"
@@ -62,7 +58,6 @@ T-044,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-015: „Erstattung: innerhalb 
 T-044,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-017: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-044,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-019: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-044,WARNUNG,Zielartikel,nicht zitiert: KB-027
-T-045,FEHLER,Beleg,Zitat nicht wörtlich in KB-038: „Bei Retoure mit Aktionscode wird der Rabatt anteilig verrechnet; fällt…“
 T-045,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-014: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-045,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-015: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-045,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-017: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
@@ -83,7 +78,6 @@ T-051,HINWEIS,Relevanz,"Fakt aus KB-014 auch in KB-017: „Gesetzliches Widerruf
 T-051,HINWEIS,Relevanz,"Fakt aus KB-017 auch in KB-015: „Rücksendekosten Paketware Schweiz: 9,90 CHF, werden von der …“"
 T-051,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-015: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-051,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-019: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
-T-052,FEHLER,Beleg,Zitat nicht wörtlich in KB-038: „Bei Retoure mit Aktionscode wird der Rabatt anteilig verrechnet; fällt…“
 T-052,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-014: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-052,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-017: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-052,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-019: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
@@ -108,63 +102,18 @@ T-082,HINWEIS,Relevanz,"Fakt aus KB-009 auch in KB-011: „Spedition (Sperrgut):
 T-082,WARNUNG,Überlappung,5 Wörter in Folge identisch mit KB-025
 T-091,HINWEIS,Relevanz,"Fakt aus KB-026 auch in KB-028: „Ratenkauf: ab 200 € Bestellwert, Laufzeit 6, 12 oder 24 Mona…“"
 T-091,HINWEIS,Relevanz,"Fakt aus KB-026 auch in KB-031: „Ratenkauf: ab 200 € Bestellwert, Laufzeit 6, 12 oder 24 Mona…“"
-T-091,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 3"
-T-093,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-026: „Zahlungsziel: 30 Tage ab Versand…“
-T-093,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-029: „Zahlungsziel: 30 Tage ab Versand…“
-T-093,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-031: „Zahlungsziel: 30 Tage ab Versand…“
 T-093,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 5, 7"
 T-095,HINWEIS,Relevanz,Fakt aus KB-028 auch in KB-031: „Den Ratenkauf können Sie ab einem Bestellwert von 200 € nutz…“
-T-096,HINWEIS,Relevanz,Fakt aus KB-029 auch in KB-027: „Ab der 1. Mahnung: 5 € Mahngebühr.…“
 T-100,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 1500"
 T-101,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 30, 1500"
-T-103,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-026: „Zahlungsziel: 30 Tage ab Versand…“
-T-103,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-029: „Zahlungsziel: 30 Tage ab Versand…“
-T-103,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-031: „Zahlungsziel: 30 Tage ab Versand…“
 T-104,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 1500"
-T-105,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 3"
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-001: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-002: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-003: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-004: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-005: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-006: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-007: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-008: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-009: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-010: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-011: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-012: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-013: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-014: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-019: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-020: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-025: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-028: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-030: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-031: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-037: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-039: „1 Code pro Bestellung…“
-T-106,HINWEIS,Relevanz,Fakt aus KB-038 auch in KB-040: „1 Code pro Bestellung…“
 T-106,WARNUNG,Zielartikel,nicht zitiert: KB-037
-T-107,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-026: „Zahlungsziel: 30 Tage ab Versand…“
-T-107,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-029: „Zahlungsziel: 30 Tage ab Versand…“
-T-107,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-031: „Zahlungsziel: 30 Tage ab Versand…“
 T-109,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-014: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-109,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-015: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-109,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-017: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-109,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-019: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
-T-109,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-026: „Zahlungsziel: 30 Tage ab Versand…“
-T-109,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-029: „Zahlungsziel: 30 Tage ab Versand…“
-T-109,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-031: „Zahlungsziel: 30 Tage ab Versand…“
-T-110,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-031: „Maximaler Bestellwert: 1.500 €…“
 T-110,HINWEIS,Relevanz,Fakt aus KB-028 auch in KB-031: „Den Ratenkauf können Sie ab einem Bestellwert von 200 € nutz…“
 T-110,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 30"
-T-111,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-029: „Zahlungsziel: 30 Tage ab Versand…“
-T-111,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-031: „Zahlungsziel: 30 Tage ab Versand…“
-T-111,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-031: „Maximaler Bestellwert: 1.500 €…“
-T-112,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-026: „Zahlungsziel: 30 Tage ab Versand…“
-T-112,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-029: „Zahlungsziel: 30 Tage ab Versand…“
-T-112,HINWEIS,Relevanz,Fakt aus KB-027 auch in KB-031: „Zahlungsziel: 30 Tage ab Versand…“
 T-113,WARNUNG,Zielartikel,nicht zitiert: KB-027
 T-114,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-014: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“
 T-114,HINWEIS,Relevanz,Fakt aus KB-018 auch in KB-015: „Erstattung: innerhalb von 14 Tagen nach Wareneingang im Lage…“

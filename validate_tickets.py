@@ -21,7 +21,12 @@ from collections import Counter
 from itertools import combinations
 from pathlib import Path
 
-from validate_kb import extract_numbers  # gleiche Zahlenlogik wie bei der KB
+from validate_kb import extract_numbers as _extract_numbers  # gleiche Zahlenlogik wie bei der KB
+
+
+def extract_numbers(text: str) -> set[str]:
+    """Wie bei der KB, aber ohne die „3“ aus „3-D-Secure“."""
+    return _extract_numbers(re.sub(r"3-D-Secure", " ", text, flags=re.I))
 
 BASE = Path(__file__).parent
 PLAN = BASE / "tickets_plan.csv"
@@ -40,7 +45,7 @@ def norm(text: str) -> str:
     text = re.sub(r"(?m)^\s*(?:[-*]|\d+\.)\s+", "", text)
     text = re.sub(r"[*_`#|]", " ", text)
     text = text.replace("„", '"').replace("“", '"').replace("”", '"').replace("–", "-").replace("—", "-")
-    return re.sub(r"\s+", " ", text).strip().casefold()
+    return re.sub(r"\s+", " ", text).strip().rstrip(".;:,!").strip().casefold()
 
 
 def words(text: str) -> list[str]:
@@ -128,7 +133,7 @@ def main() -> None:
                 add(tid, "FEHLER", "Beleg", f"Zitat nicht wörtlich in {aid}{hint}: „{b['zitat'][:70]}…“")
             # Kandidaten: andere Artikel mit denselben Zahlen und weitgehend gleichen Inhaltswörtern
             nums, cw = extract_numbers(b["zitat"]), content_words(b["zitat"])
-            if nums and cw:
+            if nums and len(cw) >= 3:  # kurze Zitate wie „1 Code pro Bestellung“ sind zu unspezifisch
                 for k, v in kb_raw.items():
                     if k == aid or k in zitiert:
                         continue
