@@ -1,0 +1,72 @@
+ticket_id,artikel_id,entscheidung,begruendung
+P-01,KB-011,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+P-03,KB-017,verworfen,Rückgabefristen sind keine Kernaussage des Tickets
+P-04,KB-014,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+P-04,KB-015,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+P-04,KB-019,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+P-07,KB-031,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-003,KB-011,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-009,KB-011,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-014,KB-012,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-018,KB-011,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-019,KB-011,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-020,KB-012,verworfen,Terminvereinbarung der Spedition ist keine Kernaussage des Tickets
+T-021,KB-011,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-022,KB-013,verworfen,Lieferzeit ist keine Kernaussage des Tickets
+T-031,KB-016,verworfen,KB-016 nennt die 14-Tage-Frist nur für Speditionsware; Ticket betrifft Paketware
+T-031,KB-017,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-036,KB-015,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-037,KB-014,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-037,KB-015,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-037,KB-017,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-037,KB-019,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-041,KB-014,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-041,KB-017,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-041,KB-018,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-042,KB-017,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-043,KB-014,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-043,KB-015,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-043,KB-018,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-044,KB-014,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-044,KB-015,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-044,KB-017,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-044,KB-019,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-045,KB-014,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-045,KB-015,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-045,KB-017,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-045,KB-019,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-046,KB-015,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-046,KB-016,verworfen,KB-016 nennt die 14-Tage-Frist nur für Speditionsware; Ticket betrifft keine Speditionsware
+T-046,KB-017,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-046,KB-019,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-047,KB-014,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-047,KB-017,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-048,KB-014,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-048,KB-018,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-048,KB-019,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-051,KB-015,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-051,KB-016,verworfen,KB-016 nennt die 14-Tage-Frist nur für Speditionsware; Ticket betrifft Paketware
+T-051,KB-019,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-052,KB-014,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-052,KB-017,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-052,KB-019,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-053,KB-014,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-053,KB-015,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-053,KB-019,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-054,KB-017,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-054,KB-018,verworfen,Erstattungsfrist ist keine Kernaussage des Tickets
+T-067,KB-023,verworfen,Treffer nur in der Verweisliste; Garantiedauer ist keine Kernaussage des Tickets
+T-067,KB-025,verworfen,Treffer nur in der Verweisliste; Garantiedauer ist keine Kernaussage des Tickets
+T-082,KB-007,verworfen,Terminvereinbarung der Spedition ist keine Kernaussage des Tickets
+T-082,KB-011,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-091,KB-028,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-091,KB-031,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-095,KB-031,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-109,KB-014,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-109,KB-015,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-109,KB-017,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-109,KB-019,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-114,KB-014,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-114,KB-015,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-114,KB-017,bestaetigt,enthält denselben Fakt zu einer Kernaussage
+T-114,KB-019,bestaetigt,enthält denselben Fakt zu einer Kernaussage

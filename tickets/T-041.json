@@ -11,15 +11,12 @@
     "szenario": "Als Gast ohne Kundenkonto bestellt: Wie wird die Retoure angemeldet?",
     "human_rating": "nein"
   },
-  "ticket_text": "Ich hab bei Ihnen ohne Konto ein Regal bestellt und möchte es jetzt zurückschicken, weil es mir einfach nicht gefällt. Jetzt weiß ich aber gar nicht, wie das ohne Konto überhaupt gehen soll! Das hätte man beim Bestellen auch mal erwähnen können.",
+  "ticket_text": "Ich hab bei Ihnen ohne Konto ein kleines Wandregal bestellt, das als Paket kam, und möchte es jetzt zurückschicken, weil es mir einfach nicht gefällt. Jetzt weiß ich aber gar nicht, wie das ohne Konto überhaupt gehen soll! Das hätte man beim Bestellen auch mal erwähnen können.",
   "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und entschuldigen Sie die Unannehmlichkeiten. Eine Retoure ist auch ohne Kundenkonto problemlos möglich: Sie melden diese über das Retourenportal an, und zwar mit Ihrer Bestellnummer und Ihrer Postleitzahl anstelle eines Logins. Dort wählen Sie die zurückzusendenden Artikel aus und drucken anschließend ein Retourenlabel aus. Die Originalverpackung ist erwünscht, aber nicht zwingend erforderlich, die Ware sollte lediglich ungebraucht sein. Danach geben Sie das Paket einfach bei DHL ab. Die Rücksendung ist in Deutschland kostenlos. Nach Eingang der Ware in unserem Lager erhalten Sie die Erstattung innerhalb von 14 Tagen auf Ihr ursprüngliches Zahlungsmittel zurück.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
   "antworttyp": "sachantwort",
   "kernaussagen": [
     "Die Retoure wird über das Retourenportal angemeldet, als Gast mit Bestellnummer und Postleitzahl.",
-    "Nach der Auswahl der Artikel wird ein Retourenlabel gedruckt und das Paket bei DHL abgegeben.",
-    "Die Originalverpackung ist erwünscht, aber nicht Pflicht; die Ware muss ungebraucht sein.",
-    "Die Rücksendung ist in Deutschland kostenlos.",
-    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel."
+    "Nach der Auswahl der Artikel wird ein Retourenlabel gedruckt und das Paket bei DHL abgegeben."
   ],
   "belege": [
     {

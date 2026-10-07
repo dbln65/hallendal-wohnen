@@ -12,12 +12,11 @@
     "human_rating": "ja"
   },
   "ticket_text": "Hallo, ich hatte vor ein paar Wochen ein paar Möbelstücke auf Rechnung bestellt und jetzt alles komplett zurückgeschickt, weil es doch nicht gepasst hat. Muss ich die Rechnung trotzdem bezahlen oder passiert das automatisch? Bin mir unsicher, wie das jetzt läuft. Danke schon mal! Grüße, Jana",
-  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Wenn Sie Ihre komplette Bestellung zurückgeschickt haben, müssen Sie die offene Rechnung nicht in voller Höhe begleichen: Nach Eingang der Ware in unserem Lager erhalten Sie innerhalb von 14 Tagen eine Erstattung. Da Sie auf Rechnung bezahlt haben, erfolgt diese Erstattung in Form einer Reduzierung des Rechnungsbetrags, nicht als klassische Gutschrift auf ein Zahlungsmittel. Bitte begleichen Sie den ursprünglichen Rechnungsbetrag daher nicht vollständig, sondern warten Sie die Anpassung ab bzw. zahlen Sie erst, wenn der reduzierte Betrag feststeht. Sollte die Rücksendung vollständig gewesen sein, werden auch die Versandkosten der Hinsendung erstattet. Prüfen Sie am besten in Ihrem Kundenkonto, ob die reduzierte Rechnung bereits hinterlegt ist, sobald die Ware bei uns eingegangen ist.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Wenn Sie Ihre komplette Bestellung zurückgeschickt haben, müssen Sie die offene Rechnung nicht in voller Höhe begleichen: Nach Eingang der Ware in unserem Lager erhalten Sie innerhalb von 14 Tagen eine Erstattung. Da Sie auf Rechnung bezahlt haben, erfolgt diese Erstattung in Form einer Reduzierung des Rechnungsbetrags, nicht als klassische Gutschrift auf ein Zahlungsmittel.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
   "antworttyp": "sachantwort",
   "kernaussagen": [
     "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager.",
-    "Bei Rechnungskauf wird der Rechnungsbetrag reduziert statt auf ein Zahlungsmittel erstattet.",
-    "Versandkosten der Hinsendung werden nur bei vollständigem Widerruf erstattet."
+    "Bei Rechnungskauf wird der Rechnungsbetrag reduziert statt auf ein Zahlungsmittel erstattet."
   ],
   "belege": [
     {
@@ -27,10 +26,6 @@
     {
       "artikel_id": "KB-018",
       "zitat": "Bei Rechnungskauf: der Rechnungsbetrag wird reduziert."
-    },
-    {
-      "artikel_id": "KB-018",
-      "zitat": "Versandkosten der Hinsendung werden nur bei vollständigem Widerruf erstattet."
     }
   ],
   "meta": {

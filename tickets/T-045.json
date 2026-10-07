@@ -16,9 +16,7 @@
   "antworttyp": "sachantwort",
   "kernaussagen": [
     "Bei einer Teilretoure mit Aktionscode wird der Rabatt anteilig verrechnet.",
-    "Fällt der Restwert nach der Teilretoure unter den Mindestbestellwert des Codes, wird der Rabatt von der Erstattung abgezogen.",
-    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel.",
-    "Versandkosten der Hinsendung werden nur bei vollständigem Widerruf erstattet, nicht bei einer Teilretoure."
+    "Fällt der Restwert nach der Teilretoure unter den Mindestbestellwert des Codes, wird der Rabatt von der Erstattung abgezogen."
   ],
   "belege": [
     {

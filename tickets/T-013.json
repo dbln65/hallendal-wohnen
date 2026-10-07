@@ -11,13 +11,12 @@
     "szenario": "Club-Mitglied möchte Expressversand: Ist dieser durch die Club-Mitgliedschaft kostenlos?",
     "human_rating": "ja"
   },
-  "ticket_text": "Hallo, ich bin Mitglied im Hallendal Club und möchte meine neue Kommode möglichst schnell bekommen, deshalb würde ich gerne den Expressversand wählen. Da ich ja durch die Mitgliedschaft normalerweise keine Versandkosten zahle, wollte ich fragen, ob das auch für den Expressversand gilt. Liefern Sie innerhalb Deutschlands. Viele Grüße, Sandra",
-  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihr Interesse am Expressversand für Ihre Kommode.\n\nIhre Hallendal-Club-Mitgliedschaft bringt Ihnen kostenlosen Standardversand für Paketware in Deutschland, unabhängig vom Bestellwert. Dieser Vorteil gilt jedoch ausschließlich für den Standardversand und nicht für den Expressversand. Für den Expressversand fallen daher weiterhin 9,95 € zusätzlich zu den regulären Versandkosten an. Dafür wird Ihre Bestellung in 1–2 Werktagen geliefert, sofern sie bis 12 Uhr bei uns eingeht.\n\nSollten Sie auf den Expresszuschlag verzichten möchten, steht Ihnen über Ihre Club-Mitgliedschaft der kostenlose Standardversand mit einer Lieferzeit von 2–4 Werktagen zur Verfügung.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "ticket_text": "Hallo, ich bin Mitglied im Hallendal Club und möchte meine neue Tischlampe, die als normales Paket verschickt wird, möglichst schnell bekommen, deshalb würde ich gerne den Expressversand wählen. Da ich ja durch die Mitgliedschaft normalerweise keine Versandkosten zahle, wollte ich fragen, ob das auch für den Expressversand gilt. Liefern Sie innerhalb Deutschlands. Viele Grüße, Sandra",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihr Interesse am Expressversand für Ihre Tischlampe.\n\nIhre Hallendal-Club-Mitgliedschaft bringt Ihnen kostenlosen Standardversand für Paketware in Deutschland, unabhängig vom Bestellwert. Dieser Vorteil gilt jedoch ausschließlich für den Standardversand und nicht für den Expressversand. Für den Expressversand fallen daher weiterhin 9,95 € zusätzlich zu den regulären Versandkosten an. Dafür wird Ihre Bestellung in 1–2 Werktagen geliefert, sofern sie bis 12 Uhr bei uns eingeht.\n\nSollten Sie auf den Expresszuschlag verzichten möchten, steht Ihnen über Ihre Club-Mitgliedschaft der kostenlose Standardversand mit einer Lieferzeit von 2–4 Werktagen zur Verfügung.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
   "antworttyp": "sachantwort",
   "kernaussagen": [
     "Der Expressversand kostet 9,95 € zusätzlich zu den regulären Versandkosten.",
-    "Der kostenlose Versandvorteil der Hallendal-Club-Mitgliedschaft gilt nur für Paket Standard in Deutschland, nicht für Express.",
-    "Der Expressversand liefert in 1–2 Werktagen, sofern die Bestellung bis 12 Uhr eingeht."
+    "Der kostenlose Versandvorteil der Hallendal-Club-Mitgliedschaft gilt nur für Paket Standard in Deutschland, nicht für Express."
   ],
   "belege": [
     {

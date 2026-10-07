@@ -11,14 +11,13 @@
     "szenario": "Kunde in Österreich möchte Schrank mit Montage und Lieferung in die Wohnung.",
     "human_rating": "nein"
   },
-  "ticket_text": "Hallo, ich bin stinksauer! Ich wollte einen großen Kleiderschrank bestellen und wollte dabei auch gleich die Lieferung in die Wohnung und den Montageservice dazubuchen, aber bei mir in Österreich findet sich dafür einfach keine Option im Bestellprozess! Wird das bei euch einfach vergessen oder funktioniert das bei uns generell nicht? Ich will den Schrank nicht selbst zusammenbauen und erst recht nicht alleine durchs Treppenhaus schleppen. Bitte klärt mich endlich auf, was in Österreich überhaupt möglich ist und was das kostet. Viele Grüße, Markus",
+  "ticket_text": "Hallo, ich bin stinksauer! Ich wollte einen großen Kleiderschrank bestellen, der per Spedition kommt, und wollte dabei auch gleich die Lieferung in die Wohnung und den Montageservice dazubuchen, aber bei mir in Österreich findet sich dafür einfach keine Option im Bestellprozess! Wird das bei euch einfach vergessen oder funktioniert das bei uns generell nicht? Ich will den Schrank nicht selbst zusammenbauen und erst recht nicht alleine durchs Treppenhaus schleppen. Bitte klärt mich endlich auf, was in Österreich überhaupt möglich ist und was das kostet. Viele Grüße, Markus",
   "musterantwort": "Guten Tag,\n\nwir verstehen Ihren Ärger und möchten die Situation gerne aufklären. Der Montageservice für Schränke und Betten sowie die Zusatzleistung „Lieferung in die Wohnung“ inklusive Tragen in den Aufstellraum sind leider ausschließlich in Deutschland verfügbar. Für Österreich können wir diese beiden Leistungen daher aktuell nicht anbieten, es handelt sich nicht um ein Versehen in Ihrer Bestellung.\n\nIhr Schrank wird als Speditionsware nach Österreich geliefert, die Spedition meldet sich 1–2 Werktage vor dem Termin telefonisch und vereinbart ein Zeitfenster von 4 Stunden. Die Standard-Lieferung erfolgt bis zur ersten verschließbaren Tür im Erdgeschoss. Die Speditionskosten betragen pauschal 69 €. Eine Montageanleitung als PDF finden Sie auf der Produktseite des Schranks, falls Sie den Aufbau selbst übernehmen möchten.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
   "antworttyp": "sachantwort",
   "kernaussagen": [
     "Der Montageservice ist nur in Deutschland verfügbar.",
     "Die Zusatzleistung „Lieferung in die Wohnung“ ist nur in Deutschland verfügbar.",
     "Speditionsware nach Österreich wird standardmäßig bis zur ersten verschließbaren Tür im Erdgeschoss geliefert.",
-    "Die Spedition meldet sich 1–2 Werktage vor der Lieferung und vereinbart ein Zeitfenster von 4 Stunden.",
     "Speditionsware nach Österreich kostet pauschal 69 €."
   ],
   "belege": [

@@ -11,15 +11,14 @@
     "szenario": "Kunde in der Schweiz möchte Sofa und Lampe bestellen und fragt nach Express, Kosten und Zoll.",
     "human_rating": "nein"
   },
-  "ticket_text": "Hallo zusammen, ich wohne in der Schweiz und möchte ein Sofa und eine Lampe bei euch bestellen. Gibt es für die Schweiz auch Express-Versand, damit es schneller geht? Und was kostet der Versand generell, bzw ab wann ist er gratis? Außerdem mach ich mir Sorgen wegen Zoll, muss ich da bei Lieferung noch extra was nachzahlen? Danke schonmal, Lara",
-  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage. In die Schweiz liefern wir ausschließlich Paketware, Speditionsware bzw. Sperrgut ist für dieses Liefergebiet leider nicht verfügbar. Das betrifft auch den Expressversand: Dieser steht ausschließlich in Deutschland zur Verfügung und kann für Bestellungen in die Schweiz nicht gebucht werden.\n\nDer Versand kostet pauschal 14,90 CHF, eine Gratisgrenze gibt es nicht. Die Lieferzeit beträgt 4–8 Werktage. Der im Preis enthaltene Betrag deckt Zoll und Einfuhrsteuer bereits ab, sodass bei der Zustellung keine Nachforderungen entstehen.\n\nBitte prüfen Sie vorab, ob das von Ihnen gewünschte Sofa als Paketware geliefert werden kann, da für die Schweiz keine andere Versandart möglich ist. Bei Fragen zu einem konkreten Artikel helfen wir gerne weiter.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "ticket_text": "Hallo zusammen, ich wohne in der Schweiz und möchte ein Sofa (kommt laut Shop per Spedition) und eine Lampe bei euch bestellen. Gibt es für die Schweiz auch Express-Versand, damit es schneller geht? Und was kostet der Versand generell, bzw ab wann ist er gratis? Außerdem mach ich mir Sorgen wegen Zoll, muss ich da bei Lieferung noch extra was nachzahlen? Danke schonmal, Lara",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage. In die Schweiz liefern wir ausschließlich Paketware, Speditionsware bzw. Sperrgut ist für dieses Liefergebiet leider nicht verfügbar. Das Sofa können wir Ihnen daher nicht in die Schweiz liefern, die Lampe dagegen schon, sofern sie als Paket versendet wird. Auch der Expressversand steht ausschließlich in Deutschland zur Verfügung und kann für Bestellungen in die Schweiz nicht gebucht werden.\n\nDer Versand kostet pauschal 14,90 CHF, eine Gratisgrenze gibt es nicht. Die Lieferzeit beträgt 4–8 Werktage. Der im Preis enthaltene Betrag deckt Zoll und Einfuhrsteuer bereits ab, sodass bei der Zustellung keine Nachforderungen entstehen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
   "antworttyp": "sachantwort",
   "kernaussagen": [
     "In die Schweiz wird ausschließlich Paketware geliefert, Speditionsware ist nicht verfügbar.",
     "Expressversand steht nur in Deutschland zur Verfügung, nicht in der Schweiz.",
     "Der Versand in die Schweiz kostet 14,90 CHF ohne Gratisgrenze.",
-    "Die Lieferzeit in die Schweiz beträgt 4–8 Werktage.",
-    "Der Versandpreis deckt Zoll und Einfuhrsteuer ab, es entstehen keine Nachforderungen bei Zustellung."
+    "Zoll und Einfuhrsteuer sind im Preis enthalten, bei der Zustellung entstehen keine Nachforderungen."
   ],
   "belege": [
     {

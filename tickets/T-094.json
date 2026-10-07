@@ -12,11 +12,10 @@
     "human_rating": "ja"
   },
   "ticket_text": "Hallo, ich möchte eine größere Bestellung aufgeben, der Warenkorb liegt bei etwa 2.000 Euro. Geht das auch auf Rechnung? Viele Grüße, Markus",
-  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage zum Kauf auf Rechnung. Diese Zahlungsart steht grundsätzlich in Deutschland und Österreich zur Verfügung, ist jedoch auf einen maximalen Bestellwert von 1.500 € begrenzt. Da Ihr Warenkorb mit etwa 2.000 € über dieser Grenze liegt, ist ein Kauf auf Rechnung in diesem Fall leider nicht möglich.\n\nBitte beachten Sie außerdem, dass die Freigabe des Kaufs auf Rechnung über einen Zahlungspartner erfolgt, der die Bonität prüft, und dass Rechnungs- und Lieferadresse übereinstimmen müssen. Für eine Bestellung in dieser Höhe empfehlen wir Ihnen, eine andere Zahlungsart wie PayPal, Kreditkarte oder Apple Pay zu wählen, die in allen Liefergebieten verfügbar sind.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage zum Kauf auf Rechnung. Diese Zahlungsart steht grundsätzlich in Deutschland und Österreich zur Verfügung, ist jedoch auf einen maximalen Bestellwert von 1.500 € begrenzt. Da Ihr Warenkorb mit etwa 2.000 € über dieser Grenze liegt, ist ein Kauf auf Rechnung in diesem Fall leider nicht möglich.\n\nBitte beachten Sie außerdem, dass die Freigabe des Kaufs auf Rechnung über einen Zahlungspartner erfolgt und dass Rechnungs- und Lieferadresse übereinstimmen müssen. Für eine Bestellung in dieser Höhe empfehlen wir Ihnen, eine andere Zahlungsart wie PayPal, Kreditkarte oder Apple Pay zu wählen, die in allen Liefergebieten verfügbar sind.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
   "antworttyp": "sachantwort",
   "kernaussagen": [
     "Der Kauf auf Rechnung ist auf einen maximalen Bestellwert von 1.500 € begrenzt.",
-    "Der Kauf auf Rechnung ist nur in Deutschland und Österreich verfügbar.",
     "Eine Bestellung über 2.000 € kann daher nicht per Kauf auf Rechnung bezahlt werden."
   ],
   "belege": [

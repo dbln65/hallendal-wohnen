@@ -70,6 +70,7 @@ P-01 bis P-10 dienen ausschließlich der Abstimmung von Prompt, Chunking und Ret
 | `tickets/<ID>.json` | Ticket, Musterantwort, Antworttyp, Kernaussagen, Belege (wörtliche Zitate) und Metadaten |
 | `ticket_generation_log.jsonl` | Modell, Effort, Tokens, Cache, Dauer, Prompt- und KB-Hash je Aufruf |
 | `validate_tickets.py` | Prüfung gegen Plan und KB, Bericht `ticket_validation_report.csv`; `--export` schreibt `tickets.jsonl` |
+| `relevanz_review.csv` | Entscheidung je Relevanz-Hinweis (`bestaetigt`/`verworfen`) mit Begründung |
 
 Ablauf:
 
@@ -82,7 +83,7 @@ python validate_tickets.py
 python validate_tickets.py --export                          # nach dem Review
 ```
 
-Kurze Musterantworten bei Gap-Tickets und Längenwarnungen sind Hinweise für das Review. Hinweise vom Typ „Relevanz“ nennen weitere Artikel mit demselben Fakt; sie erscheinen im Export als `weitere_kandidaten` und werden im Review bestätigt oder verworfen.
+Kurze Musterantworten bei Gap-Tickets und Längenwarnungen sind Hinweise für das Review. Hinweise vom Typ „Relevanz“ nennen weitere Artikel mit demselben Fakt. Sie werden im Review in `relevanz_review.csv` bestätigt oder verworfen (eine Zeile pro Ticket und Artikel). Bestätigt wird ein Artikel nur, wenn er denselben Fakt unter denselben Bedingungen (Land, Warenart) enthält und dieser Fakt zu einer Kernaussage des Tickets gehört. Nur bestätigte Artikel erscheinen im Export als `weitere_kandidaten`; der Export bricht ab, solange ein Hinweis ohne Entscheidung ist.
 
 ## Teilstichprobe Human-Rating
 

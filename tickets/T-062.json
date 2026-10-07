@@ -11,11 +11,10 @@
     "szenario": "Bei Transportschaden: Ersatz oder Geld zurück, und wer trägt die Rücksendekosten?",
     "human_rating": "ja"
   },
-  "ticket_text": "Mein neues Regal ist beim Transport ziemlich zerkratzt und an einer Ecke eingedellt angekommen, das ärgert mich wirklich! Ich will wissen, ob ich jetzt Ersatz bekomme oder mein Geld zurück - und wer zahlt eigentlich die Rücksendung, wenn ich das beschädigte Teil zurückschicken muss? Viele Grüße, Markus",
+  "ticket_text": "Mein neues Regal, das als Paket kam, ist beim Transport ziemlich zerkratzt und an einer Ecke eingedellt angekommen, das ärgert mich wirklich! Ich will wissen, ob ich jetzt Ersatz bekomme oder mein Geld zurück - und wer zahlt eigentlich die Rücksendung, wenn ich das beschädigte Teil zurückschicken muss? Viele Grüße, Markus",
   "musterantwort": "Guten Tag,\n\ndas tut uns leid, es ist wirklich ärgerlich, wenn ein neues Möbelstück beschädigt ankommt. Bitte fotografieren Sie den Schaden und melden Sie ihn innerhalb von 7 Tagen nach Erhalt über unser Kontaktformular, damit wir Ihnen schnell weiterhelfen können.\n\nSie haben die Wahl zwischen einer Ersatzlieferung oder einer Erstattung des Artikels. Die Rücksendung bzw. Abholung des beschädigten Regals ist für Sie kostenlos, es entstehen Ihnen also keine Kosten dafür. Bitte halten Sie Ihre Bestellnummer bereit, damit wir den Vorgang zuordnen können. Sobald uns Ihre Meldung mit Fotos vorliegt, besprechen wir mit Ihnen das weitere Vorgehen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
   "antworttyp": "sachantwort",
   "kernaussagen": [
-    "Transportschaden bei Paketware muss innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular gemeldet werden.",
     "Der Kunde kann zwischen Ersatzlieferung oder Erstattung wählen.",
     "Die Rücksendung bzw. Abholung ist kostenlos."
   ],

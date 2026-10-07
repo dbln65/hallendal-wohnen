@@ -11,13 +11,12 @@
     "szenario": "Wann kommt das Geld nach einer Retoure zurück und auf welchem Weg?",
     "human_rating": "ja"
   },
-  "ticket_text": "Ich habe mein Paket vor zwei Wochen zurückgeschickt und bis heute keinen Cent gesehen! Langsam reicht es mir, das Geld ist seit Tagen im Lager angekommen laut Tracking. Wann bekomme ich endlich mein Geld zurück und auf welche Weise?",
+  "ticket_text": "Ich habe mein Paket vor zwei Wochen zurückgeschickt und bis heute keinen Cent gesehen! Langsam reicht es mir, das Paket ist laut Tracking seit Tagen im Lager angekommen. Wann bekomme ich endlich mein Geld zurück und auf welche Weise?",
   "musterantwort": "Guten Tag,\n\nich kann gut verstehen, dass Sie verärgert sind, wenn Sie noch auf Ihre Erstattung warten. Grundsätzlich erfolgt die Rückzahlung innerhalb von 14 Tagen nach Wareneingang im Lager, nicht ab dem Versanddatum der Retoure. Die Gutschrift geht dabei auf das ursprüngliche Zahlungsmittel, mit dem Sie bezahlt haben. Sollten Sie per Rechnung bezahlt haben, wird stattdessen der Rechnungsbetrag entsprechend reduziert.\n\nBitte prüfen Sie, wann genau die Ware laut Tracking im Lager eingegangen ist, damit wir die 14-Tage-Frist korrekt einordnen können. Liegt diese Frist bereits deutlich zurück, melden Sie sich gerne mit Ihrer Bestellnummer erneut bei uns, damit wir den Vorgang im Detail prüfen können.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
   "antworttyp": "sachantwort",
   "kernaussagen": [
     "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager.",
-    "Die Gutschrift erfolgt auf das ursprüngliche Zahlungsmittel.",
-    "Bei Rechnungskauf wird der Rechnungsbetrag entsprechend reduziert."
+    "Die Gutschrift erfolgt auf das ursprüngliche Zahlungsmittel."
   ],
   "belege": [
     {

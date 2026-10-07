@@ -11,15 +11,14 @@
     "szenario": "Club-Mitglied bestellt Kissen (Paket) und Sessel (Sperrgut) nach Deutschland: Versandkosten je Warenart, Lieferung zusammen oder getrennt, Lieferzeiten.",
     "human_rating": "ja"
   },
-  "ticket_text": "Hallo, ich bin seit Monaten im Hallendal Club und finde es wirklich ärgerlich, dass bei meiner letzten Bestellung nicht klar wird, was ich jetzt an Versandkosten zahle! Ich habe ein paar Kissen und einen Sessel bestellt, Lieferung nach Deutschland. Werden die beiden Sachen zusammen geliefert oder getrennt? Und wie lange muss ich jeweils auf die Kissen und auf den Sessel warten? Als Club-Mitglied dachte ich, der Versand wäre bei mir sowieso kostenlos, aber im Warenkorb wurde trotzdem was berechnet. Bitte klären Sie das endlich auf!",
+  "ticket_text": "Hallo, ich bin seit Monaten im Hallendal Club und finde es wirklich ärgerlich, dass bei meiner letzten Bestellung nicht klar wird, was ich jetzt an Versandkosten zahle! Ich habe ein paar Kissen und einen Sessel bestellt, der Sessel kommt per Spedition, Lieferung nach Deutschland. Werden die beiden Sachen zusammen geliefert oder getrennt? Und wie lange muss ich jeweils auf die Kissen und auf den Sessel warten? Als Club-Mitglied dachte ich, der Versand wäre bei mir sowieso kostenlos, aber im Warenkorb wurde trotzdem was berechnet. Bitte klären Sie das endlich auf!",
   "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und Ihre Geduld. Da Ihre Bestellung sowohl Paketware (Kissen) als auch Speditionsware (Sessel, Sperrgut) enthält, erfolgt die Lieferung getrennt: Die Kissen kommen als Paket, der Sessel per Spedition. Als Mitglied im Hallendal Club zahlen Sie für den Paketversand in Deutschland keine Versandkosten, unabhängig vom Bestellwert – dieser Vorteil gilt jedoch nicht für Speditionsware. Für den Sessel fallen daher pauschal 39,00 € Versandkosten an. Die Lieferzeit für die Kissen beträgt 2–4 Werktage, der Sessel wird innerhalb von 7–14 Werktagen geliefert. Bei der Speditionslieferung meldet sich der Spediteur 1–2 Werktage vor dem Termin telefonisch bei Ihnen, um ein 4-Stunden-Zeitfenster zu vereinbaren.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
   "antworttyp": "sachantwort",
   "kernaussagen": [
     "Kissen (Paketware) und Sessel (Speditionsware) werden getrennt geliefert.",
     "Club-Mitglieder zahlen für Paket Standard in Deutschland keine Versandkosten, unabhängig vom Bestellwert; dies gilt nicht für Speditionsware.",
     "Speditionsware kostet pauschal 39 € pro Bestellung.",
-    "Lieferzeit Paketware: 2–4 Werktage; Lieferzeit Speditionsware: 7–14 Werktage.",
-    "Die Spedition ruft 1–2 Werktage vorher an und vereinbart ein Zeitfenster von 4 Stunden."
+    "Lieferzeit Paketware: 2–4 Werktage; Lieferzeit Speditionsware: 7–14 Werktage."
   ],
   "belege": [
     {

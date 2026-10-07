@@ -16,9 +16,7 @@
   "antworttyp": "sachantwort",
   "kernaussagen": [
     "Bei einer Teilretoure mit Aktionscode wird der Rabatt anteilig verrechnet.",
-    "Fällt der Restwert unter den Mindestbestellwert des Codes, wird der Rabatt von der Erstattung abgezogen.",
-    "Die Retoure wird über das Retourenportal im Kundenkonto oder als Gast mit Bestellnummer und Postleitzahl angemeldet.",
-    "Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel."
+    "Fällt der Restwert unter den Mindestbestellwert des Codes, wird der Rabatt von der Erstattung abgezogen."
   ],
   "belege": [
     {

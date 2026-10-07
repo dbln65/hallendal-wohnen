@@ -6,10 +6,12 @@ FEHLER    Felder/Antworttyp passen nicht zur KB-Abdeckung; Zitat steht nicht wö
 WARNUNG   Zielartikel nicht zitiert; Zahl der Musterantwort nicht in den Belegen; Gap-Antwort
           mit Zahlen; Ticket übernimmt Wortfolgen (>= 5 Wörter) oder Fachbegriffe aus der KB;
           Längen außerhalb der Vorgaben; sehr ähnliche Tickets
-HINWEIS   weitere Artikel, die denselben Fakt enthalten (Kandidaten für relevante Artikel)
+HINWEIS   weitere Artikel, die denselben Fakt enthalten (Kandidaten für relevante Artikel);
+          Entscheidung im Review in relevanz_review.csv (bestaetigt/verworfen)
 
     python validate_tickets.py
-    python validate_tickets.py --export     # schreibt tickets.jsonl (nur ohne Fehler und vollständig)
+    python validate_tickets.py --export     # schreibt tickets.jsonl (nur ohne Fehler, vollständig und
+                                            # mit Entscheidung zu allen Relevanz-Hinweisen)
 """
 
 import argparse
@@ -34,6 +36,7 @@ KB_DIR = BASE / "kb"
 TICKET_DIR = BASE / "tickets"
 REPORT = BASE / "ticket_validation_report.csv"
 EXPORT = BASE / "tickets.jsonl"
+RELEVANZ = BASE / "relevanz_review.csv"  # Entscheidungen zu den Relevanz-Hinweisen
 
 DEMI_SOLL = {"einfach": 11, "mittel": 8, "komplex": 5, "kb_gap": 6}  # je Kategorie
 FACHBEGRIFFE = ["paketware", "speditionsware", "sperrgut", "retourenportal", "aktionscode", "zahlungspartner"]
@@ -217,17 +220,39 @@ def main() -> None:
         for tid, level, check, detail in rows:
             if level == "HINWEIS":
                 kandidaten.setdefault(tid, set()).add(re.search(r"auch in (KB-\d{3})", detail).group(1))
+        belegartikel_je = {
+            tid: sorted({b["artikel_id"] for b in t["belege"]} | {a for a in plan[tid]["ziel_artikel"].split(";") if a})
+            for tid, t in tickets.items()
+        }
+        # Relevanz-Hinweise müssen im Review bestätigt oder verworfen sein (relevanz_review.csv)
+        entscheidung = {}
+        if RELEVANZ.exists():
+            with RELEVANZ.open(encoding="utf-8") as f:
+                for r in csv.DictReader(f):
+                    if r["entscheidung"] not in ("bestaetigt", "verworfen"):
+                        sys.exit(f"Export abgebrochen: ungültige Entscheidung in {RELEVANZ.name}: {r}")
+                    entscheidung[(r["ticket_id"], r["artikel_id"])] = r["entscheidung"]
+        offen_kand = {(tid, k) for tid in tickets for k in kandidaten.get(tid, set()) - set(belegartikel_je[tid])}
+        offen = sorted(offen_kand - set(entscheidung))
+        if offen:
+            sys.exit(f"Export abgebrochen: {len(offen)} Relevanz-Hinweise ohne Entscheidung in {RELEVANZ.name}: "
+                     + ", ".join(f"{t}/{k}" for t, k in offen))
+        veraltet = sorted(set(entscheidung) - offen_kand)
+        if veraltet:
+            print(f"Hinweis: {len(veraltet)} Einträge in {RELEVANZ.name} passen zu keinem aktuellen Hinweis: "
+                  + ", ".join(f"{t}/{k}" for t, k in veraltet))
         with EXPORT.open("w", encoding="utf-8") as f:
             for tid in sorted(tickets):
                 t, p = tickets[tid], plan[tid]
-                belegartikel = sorted({b["artikel_id"] for b in t["belege"]} | {a for a in p["ziel_artikel"].split(";") if a})
+                belegartikel = belegartikel_je[tid]
+                bestaetigt = {k for k in kandidaten.get(tid, set()) if entscheidung.get((tid, k)) == "bestaetigt"}
                 f.write(json.dumps({
                     "ticket_id": tid, "set": p["set"], "kategorie": p["kategorie"],
                     "schwierigkeit": p["schwierigkeit"], "kb_abdeckung": p["kb_abdeckung"],
                     "gap_thema": p["gap_thema"], "stil": p["stil"], "human_rating": p["human_rating"],
                     "ticket_text": t["ticket_text"], "musterantwort": t["musterantwort"],
                     "antworttyp": t["antworttyp"], "kernaussagen": t["kernaussagen"], "belege": t["belege"],
-                    "belegartikel": belegartikel, "weitere_kandidaten": sorted(kandidaten.get(tid, set()) - set(belegartikel)),
+                    "belegartikel": belegartikel, "weitere_kandidaten": sorted(bestaetigt - set(belegartikel)),
                 }, ensure_ascii=False) + "\n")
         print(f"Export: {EXPORT.name} ({len(tickets)} Tickets)")
 

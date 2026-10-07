@@ -12,8 +12,7 @@ P-07,HINWEIS,Relevanz,Fakt aus KB-028 auch in KB-031: „Den Ratenkauf können S
 T-003,HINWEIS,Relevanz,"Fakt aus KB-007 auch in KB-011: „Spedition (Sperrgut): 39 € pauschal pro Bestellung, Lieferze…“"
 T-003,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 1, 2, 4, 49"
 T-005,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 69"
-T-006,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 4, 8, 14.9"
-T-007,HINWEIS,Relevanz,Fakt aus KB-010 auch in KB-013: „Die Lieferzeit beträgt 4–8 Werktage.…“
+T-006,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 4, 8"
 T-009,HINWEIS,Relevanz,"Fakt aus KB-012 auch in KB-011: „Altmöbelmitnahme: 29 € pro Stück, nur in Verbindung mit der …“"
 T-009,HINWEIS,Relevanz,"Fakt aus KB-012 auch in KB-011: „Lieferung in die Wohnung: 49 €, inkl. Tragen in den Aufstell…“"
 T-013,WARNUNG,Zahlen,"in der Antwort, aber nicht in den Belegen: 4"

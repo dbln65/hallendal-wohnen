@@ -11,8 +11,8 @@
     "szenario": "Wie lange dauert die Lieferung von Paketware innerhalb Deutschlands?",
     "human_rating": "ja"
   },
-  "ticket_text": "Hey, ich hab mir letztens ne neue Kommode bestellt, Lieferung nach Deutschland. Weiß jemand wie lang das ca dauert bis die ankommt? Danke schonmal, Lisa",
-  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Für Lieferungen innerhalb Deutschlands beträgt die Lieferzeit bei paketfähigen Artikeln wie einer Kommode in der Regel 2–4 Werktage. Die Versandkosten liegen bei 4,95 €, ab einem Bestellwert von 49 € ist der Versand kostenlos. Sobald Ihre Bestellung versendet wurde, erhalten Sie eine Versandbestätigung mit einem Tracking-Link, über den Sie die Sendung verfolgen können.\n\nSollten Sie weitere Fragen zu Ihrer Lieferung haben, melden Sie sich gerne jederzeit bei uns.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "ticket_text": "Hey, ich hab mir letztens ne neue Stehlampe bestellt, kommt als normales Paket, Lieferung nach Deutschland. Weiß jemand wie lang das ca dauert bis die ankommt? Danke schonmal, Lisa",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht. Für Lieferungen innerhalb Deutschlands beträgt die Lieferzeit für Paketware wie Ihre Stehlampe 2–4 Werktage. Die Versandkosten liegen bei 4,95 €, ab einem Bestellwert von 49 € ist der Versand kostenlos. Sobald Ihre Bestellung versendet wurde, erhalten Sie eine Versandbestätigung mit einem Tracking-Link, über den Sie die Sendung verfolgen können.\n\nSollten Sie weitere Fragen zu Ihrer Lieferung haben, melden Sie sich gerne jederzeit bei uns.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
   "antworttyp": "sachantwort",
   "kernaussagen": [
     "Paketware wird innerhalb Deutschlands in 2–4 Werktagen geliefert."

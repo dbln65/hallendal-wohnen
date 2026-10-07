@@ -12,14 +12,12 @@
     "human_rating": "nein"
   },
   "ticket_text": "Hallo, ich möchte eine Bestellung in die Schweiz aufgeben und wollte vorher fragen, ob ich da auch auf Rechnung bezahlen kann. Außerdem würde mich interessieren, was der Versand in die Schweiz überhaupt kostet. Danke und viele Grüße, Nadine",
-  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage. Der Kauf auf Rechnung steht leider nur für Deutschland und Österreich zur Verfügung, für Lieferungen in die Schweiz ist diese Zahlungsart somit nicht möglich. Sie können stattdessen mit PayPal, Kreditkarte oder Apple Pay bezahlen, diese Zahlarten stehen in allen Liefergebieten zur Verfügung.\n\nZu den Versandkosten: In die Schweiz liefern wir ausschließlich Paketware, der Versand kostet 14,90 CHF, eine Gratisgrenze gibt es nicht. Die Lieferzeit beträgt 4–8 Werktage. Der Versandpreis deckt bereits Zoll und Einfuhrsteuer ab, sodass bei der Zustellung keine weiteren Kosten auf Sie zukommen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Anfrage. Der Kauf auf Rechnung steht leider nur für Deutschland und Österreich zur Verfügung, für Lieferungen in die Schweiz ist diese Zahlungsart somit nicht möglich. Sie können stattdessen mit PayPal, Kreditkarte oder Apple Pay bezahlen, diese Zahlarten stehen in allen Liefergebieten zur Verfügung.\n\nZu den Versandkosten: In die Schweiz liefern wir ausschließlich Paketware, der Versand kostet 14,90 CHF, eine Gratisgrenze gibt es nicht. Die Lieferzeit beträgt 4–8 Werktage. Zoll und Einfuhrsteuer sind im Preis bereits enthalten, sodass bei der Zustellung keine weiteren Kosten auf Sie zukommen.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
   "antworttyp": "sachantwort",
   "kernaussagen": [
     "Kauf auf Rechnung ist nur in Deutschland und Österreich verfügbar, nicht in der Schweiz.",
     "Für die Schweiz stehen PayPal, Kreditkarte und Apple Pay zur Verfügung.",
-    "In die Schweiz wird ausschließlich Paketware geliefert, der Versand kostet 14,90 CHF ohne Gratisgrenze.",
-    "Die Lieferzeit in die Schweiz beträgt 4–8 Werktage.",
-    "Der Versandpreis deckt Zoll und Einfuhrsteuer ab, es entstehen keine Nachforderungen bei Zustellung."
+    "In die Schweiz wird ausschließlich Paketware geliefert, der Versand kostet 14,90 CHF ohne Gratisgrenze."
   ],
   "belege": [
     {

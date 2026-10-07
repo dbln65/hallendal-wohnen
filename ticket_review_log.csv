@@ -1,131 +1,166 @@
 ticket_id,review_minuten,fehlerart,ursache,beschreibung,korrektur,final
-T-001,,,,,,nein
-T-002,,,,,,nein
-T-003,,,,,,nein
-T-004,,,,,,nein
-T-005,,,,,,nein
-T-006,,,,,,nein
-T-007,,,,,,nein
-T-008,,,,,,nein
-T-009,,,,,,nein
-T-010,,,,,,nein
-T-011,,,,,,nein
-T-012,,,,,,nein
-T-013,,,,,,nein
-T-014,,,,,,nein
-T-015,,,,,,nein
-T-016,,,,,,nein
-T-017,4,BELEG,MODELL,Beleg-Zitat nicht wörtlich in KB-013; durch zwei Originalsätze aus KB-013 ersetzt,MANUELL,nein
-T-018,,,,,,nein
-T-019,,,,,,nein
-T-020,5,BELEG,MODELL,"Zitat KB-039 zugeordnet, steht aber in KB-007; artikel_id korrigiert",MANUELL,nein
-T-021,5,TICKET,MODELL,KB-Fachbegriff „Sperrgut“ im Tickettext durch „per Spedition“ ersetzt,MANUELL,nein
-T-022,,,,,,nein
-T-023,,,,,,nein
-T-024,,,,,,nein
-T-025,,,,,,nein
-T-026,,,,,,nein
-T-027,,,,,,nein
-T-028,,,,,,nein
-T-029,,,,,,nein
-T-030,,,,,,nein
-T-031,,,,,,nein
-T-032,,,,,,nein
-T-033,,,,,,nein
-T-034,,,,,,nein
-T-035,5,TICKET,MODELL,KB-Fachbegriff „Sperrgut“ im Tickettext durch Umschreibung ersetzt,MANUELL,nein
-T-036,,,,,,nein
-T-037,,,,,,nein
-T-038,,,,,,nein
-T-039,,,,,,nein
-T-040,,,,,,nein
-T-041,,,,,,nein
-T-042,,,,,,nein
-T-043,,,,,,nein
-T-044,,,,,,nein
-T-045,,,,,,nein
-T-046,,,,,,nein
-T-047,,,,,,nein
-T-048,,,,,,nein
-T-049,,,,,,nein
-T-050,5,BELEG,MODELL,Beleg-Zitat nicht wörtlich im Artikel; durch Originalsatz ersetzt,MANUELL,nein
-T-051,,,,,,nein
-T-052,5,TICKET,MODELL,KB-Fachbegriff „Aktionscode“ im Tickettext durch „Rabattcode“ ersetzt,MANUELL,nein
-T-053,,,,,,nein
-T-054,,,,,,nein
-T-055,,,,,,nein
-T-056,,,,,,nein
-T-057,,,,,,nein
-T-058,,,,,,nein
-T-059,,,,,,nein
-T-060,,,,,,nein
-T-061,,,,,,nein
-T-062,,,,,,nein
-T-063,,,,,,nein
-T-064,,,,,,nein
-T-065,,,,,,nein
-T-066,,,,,,nein
-T-067,,,,,,nein
-T-068,,,,,,nein
-T-069,,,,,,nein
-T-070,,,,,,nein
-T-071,,,,,,nein
-T-072,,,,,,nein
-T-073,,,,,,nein
-T-074,,,,,,nein
-T-075,,,,,,nein
-T-076,5,TICKET,MODELL,KB-Fachbegriff „Sperrgut“ im Tickettext durch „großen Möbeln“ ersetzt,MANUELL,nein
-T-077,,,,,,nein
-T-078,,,,,,nein
-T-079,,,,,,nein
-T-080,,,,,,nein
-T-081,,,,,,nein
-T-082,,,,,,nein
-T-083,,,,,,nein
-T-084,,,,,,nein
-T-085,,,,,,nein
-T-086,,,,,,nein
-T-087,,,,,,nein
-T-088,,,,,,nein
-T-089,,,,,,nein
-T-090,,,,,,nein
-T-091,,,,,,nein
-T-092,,,,,,nein
-T-093,,,,,,nein
-T-094,,,,,,nein
-T-095,,,,,,nein
-T-096,,,,,,nein
-T-097,,,,,,nein
-T-098,,,,,,nein
-T-099,,,,,,nein
-T-100,,,,,,nein
-T-101,,,,,,nein
-T-102,,,,,,nein
-T-103,,,,,,nein
-T-104,,,,,,nein
-T-105,,,,,,nein
-T-106,,,,,,nein
-T-107,,,,,,nein
-T-108,,,,,,nein
-T-109,,,,,,nein
-T-110,,,,,,nein
-T-111,,,,,,nein
-T-112,,,,,,nein
-T-113,,,,,,nein
-T-114,,,,,,nein
-T-115,,,,"Validator-Warnung „Zahl 2“ stammt aus „B2B“; Rückfrage ohne Fakten, keine Änderung",KEINE,nein
-T-116,,,,,,nein
-T-117,,,,,,nein
-T-118,,,,,,nein
-T-119,,,,,,nein
-T-120,,,,,,nein
-P-01,,,,,,nein
-P-02,,,,,,nein
-P-03,,,,,,nein
-P-04,,,,,,nein
-P-05,,,,,,nein
-P-06,,,,,,nein
-P-07,,,,,,nein
-P-08,,,,,,nein
-P-09,,,,,,nein
-P-10,,,,,,nein
+T-001,5,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Lieferzeit),MANUELL,ja
+T-002,5,TICKET,VORLAGE,"Warenart im Ticket ergänzt (Kommode durch Stehlampe als Paket ersetzt, Antwort angepasst); KB legt die Sperrgut-Zuordnung nicht fest",MANUELL,ja
+T-003,2,,,,,ja
+T-004,5,STIL,MODELL,"Versandbestätigung kommt nach dem Versand, nicht nach Bestellabschluss; Formulierung korrigiert",MANUELL,ja
+T-004,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Verfügbarkeit nur DE und Paketware),MANUELL,ja
+T-005,2,,,,,ja
+T-006,5,ZAHL_ZUORDNUNG,MODELL,"Zoll und Einfuhrsteuer dem Versandpreis von 14,90 CHF zugeordnet; laut KB im Preis enthalten; Antwort und Kernaussage korrigiert",MANUELL,ja
+T-007,5,TICKET,VORLAGE,Warenart im Ticket ergänzt (Sofa per Spedition); KB legt die Sperrgut-Zuordnung nicht fest,MANUELL,ja
+T-007,,FAKT_ERFUNDEN,MODELL,"Hinweis, die Versandart auf der Produktseite zu prüfen, nicht in KB; Antwort mit klarer Absage für Speditionsware neu gefasst, Belege zu Preis, Lieferzeit und Zoll entfernt",MANUELL,ja
+T-007,,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (Versandkosten, Lieferzeit, Zoll)",MANUELL,ja
+T-008,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Lieferung bis Erdgeschoss),MANUELL,ja
+T-009,2,,,,,ja
+T-010,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Sendungsverfolgung kostenlos),MANUELL,ja
+T-011,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Packstation bei Rechnungskauf),MANUELL,ja
+T-012,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Gratisgrenze ohne Club-Mitgliedschaft),MANUELL,ja
+T-013,5,TICKET,VORLAGE,"Warenart im Ticket ergänzt (Kommode durch Tischlampe als Paket ersetzt, da Express nur für Paketware); KB legt die Sperrgut-Zuordnung nicht fest",MANUELL,ja
+T-013,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Lieferzeit Express),MANUELL,ja
+T-014,6,TICKET,VORLAGE,Warenart im Ticket ergänzt (Sofa per Spedition); KB legt die Sperrgut-Zuordnung nicht fest,MANUELL,ja
+T-014,,KERNAUSSAGE,MODELL,"Kernaussage auf die gestellte Frage (getrennte Lieferung) reduziert, Versandkosten ungefragt; passender Beleg aus KB-007 ergänzt",MANUELL,ja
+T-015,2,,,,,ja
+T-016,6,TICKET,VORLAGE,Warenart im Ticket ergänzt (Regal als Paket); KB legt die Sperrgut-Zuordnung nicht fest,MANUELL,ja
+T-016,,FAKT_ERFUNDEN,MODELL,"Packstation-Ausschluss beim Rechnungskauf kausal mit der Adressgleichheit begründet; nicht in KB, als zwei getrennte Regeln formuliert",MANUELL,ja
+T-016,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Packstation nur Paketware und DE),MANUELL,ja
+T-017,4,BELEG,MODELL,Beleg-Zitat nicht wörtlich in KB-013; durch zwei Originalsätze aus KB-013 ersetzt,MANUELL,ja
+T-018,4,FAKT_ERFUNDEN,MODELL,Schlusssatz (Kundenservice prüft nachträgliche Buchung) widerspricht KB (nicht nachträglich buchbar); ersetzt,MANUELL,ja
+T-019,2,,,,,ja
+T-020,7,BELEG,MODELL,"Zitat KB-039 zugeordnet, steht aber in KB-007; artikel_id korrigiert",MANUELL,ja
+T-020,,TICKET,VORLAGE,Warenart im Ticket ergänzt (Sessel per Spedition); KB legt die Sperrgut-Zuordnung nicht fest,MANUELL,ja
+T-020,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Terminvereinbarung der Spedition),MANUELL,ja
+T-021,5,TICKET,MODELL,KB-Fachbegriff „Sperrgut“ im Tickettext durch „per Spedition“ ersetzt,MANUELL,ja
+T-022,7,TICKET,VORLAGE,Warenart im Ticket ergänzt (Sofa per Spedition); KB legt die Sperrgut-Zuordnung nicht fest,MANUELL,ja
+T-022,,FAKT_ERFUNDEN,MODELL,"Aufforderung, die Versandart des Sofas selbst zu prüfen, nicht in KB; durch klare Aussage zu Sofa und Lampe ersetzt",MANUELL,ja
+T-022,,KERNAUSSAGE,MODELL,Kernaussage ordnete Zoll und Einfuhrsteuer dem Versandpreis zu; an KB angepasst (im Preis enthalten),MANUELL,ja
+T-022,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Lieferzeit),MANUELL,ja
+T-023,5,FAKT_FEHLT,MODELL,"Hinweis fehlte, dass auch der Montageservice nur bei der Bestellung buchbar ist; Absatz neu gefasst, Einschränkung „ausschließlich für Schränke und Betten“ entfernt",MANUELL,ja
+T-023,,KERNAUSSAGE,MODELL,"Ungefragte Kernaussage entfernt (Buchung Lieferung in die Wohnung, bereits gebucht); Kernaussage zum Montageservice angepasst",MANUELL,ja
+T-024,5,FAKT_ERFUNDEN,MODELL,"Packstation-Ausschluss beim Rechnungskauf kausal mit der Adressgleichheit begründet; nicht in KB, als zwei getrennte Regeln formuliert",MANUELL,ja
+T-024,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Packstation nur Paketware und DE),MANUELL,ja
+T-025,1,,,,,ja
+T-026,2,,,,,ja
+T-027,2,,,,,ja
+T-028,5,GAP,MODELL,KB-Fakt (Spedition meldet sich vorab telefonisch) in der Rückfrage; Satz entfernt,MANUELL,ja
+T-029,2,,,,,ja
+T-030,2,,,,,ja
+T-031,3,KERNAUSSAGE,MODELL,"Ungefragte Kernaussage entfernt (Zustand der Ware, Verpackung)",MANUELL,ja
+T-032,3,KERNAUSSAGE,MODELL,"Ungefragte Kernaussage entfernt (Zustand der Ware, Verpackung)",MANUELL,ja
+T-033,4,STIL,MODELL,Einleitung „Verständnis für die kurze Rückfrage“ passt nicht zum Ticket; gekürzt,MANUELL,ja
+T-034,5,TICKET,MODELL,„Vor zwei Wochen bestellt“ liegt an der 14-Tage-Grenze und ist mehrdeutig; zu „vor einer Woche geliefert“ geändert,MANUELL,ja
+T-034,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Erstattung),MANUELL,ja
+T-035,6,TICKET,MODELL,KB-Fachbegriff „Sperrgut“ im Tickettext durch Umschreibung ersetzt,MANUELL,ja
+T-035,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Anmeldung über Kundenservice),MANUELL,ja
+T-036,2,,,,,ja
+T-037,5,TICKET,MODELL,Inhaltlicher Fehler im Tickettext („das Geld ist im Lager angekommen“); zu „das Paket“ korrigiert,MANUELL,ja
+T-037,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Rechnungskauf),MANUELL,ja
+T-038,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Neubestellung als eigenständiger Kauf),MANUELL,ja
+T-039,3,KERNAUSSAGE,MODELL,"Ungefragte Kernaussage entfernt (Geltung in DE, AT, CH)",MANUELL,ja
+T-040,2,,,,,ja
+T-041,5,TICKET,VORLAGE,Warenart im Ticket ergänzt (kleines Wandregal als Paket); KB legt die Sperrgut-Zuordnung nicht fest,MANUELL,ja
+T-041,,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (Verpackung, Rücksendekosten, Erstattung)",MANUELL,ja
+T-042,2,,,,,ja
+T-043,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Erstattung),MANUELL,ja
+T-044,5,FAKT_ERFUNDEN,MODELL,"Zahlungshinweise (Rechnung nicht vollständig begleichen, reduzierte Rechnung im Kundenkonto prüfen) und Erstattung der Hinsendekosten bei vollständiger Rücksendung nicht durch KB gedeckt; Sätze und zugehöriger Beleg entfernt",MANUELL,ja
+T-044,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Hinsendekosten),MANUELL,ja
+T-045,4,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (Erstattung, Hinsendekosten)",MANUELL,ja
+T-046,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Erstattung),MANUELL,ja
+T-047,5,TICKET,VORLAGE,Warenart im Ticket ergänzt (Stuhl als Paket); KB legt die Sperrgut-Zuordnung nicht fest,MANUELL,ja
+T-047,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Anmeldung der Retoure),MANUELL,ja
+T-048,2,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (Zustand der Ware, Erstattung)",MANUELL,ja
+T-049,5,FAKT_ERFUNDEN,MODELL,Aussagen „keine finanziellen Nachteile“ und „Muster müssen nicht zurückgeschickt werden“ nicht in KB; entfernt,MANUELL,ja
+T-049,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Stoffmuster kostenlos),MANUELL,ja
+T-050,5,BELEG,MODELL,Beleg-Zitat nicht wörtlich im Artikel; durch Originalsatz ersetzt,MANUELL,ja
+T-050,,TICKET,VORLAGE,"Warenart im Ticket ergänzt (Stehlampe als Paket, Ecksofa per Spedition); KB legt die Sperrgut-Zuordnung nicht fest",MANUELL,ja
+T-051,1,,,,,ja
+T-052,6,TICKET,MODELL,KB-Fachbegriff „Aktionscode“ im Tickettext durch „Rabattcode“ ersetzt,MANUELL,ja
+T-052,,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (Anmeldung der Retoure, Erstattung)",MANUELL,ja
+T-053,6,FAKT_ERFUNDEN,MODELL,"Zusicherung „keine Mahnung, solange der Restbetrag fristgerecht beglichen wird“ nicht in KB; durch offenen Hinweis zum Zahlungsziel ersetzt",MANUELL,ja
+T-053,,STIL,MODELL,"Einleitung „Verständnis, dass wir Ihnen die Rückgabe erklären“ unpassend; gekürzt",MANUELL,ja
+T-054,3,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (Verpackung, Erstattung)",MANUELL,ja
+T-055,2,,,,,ja
+T-056,2,,,,,ja
+T-057,5,GAP,MODELL,"Sofa wird laut KB per Spedition abgeholt, Frage nach DHL-Abgabe damit per KB korrigierbar; Produkt auf Paketware geändert",MANUELL,ja
+T-058,5,GAP,MODELL,"Ecksofa braucht laut KB kein Retourenlabel (Abholung per Spedition), Ticket damit per KB beantwortbar; Produkt auf Paketware geändert",MANUELL,ja
+T-059,2,,,,,ja
+T-060,2,,,,,ja
+T-061,2,,,,,ja
+T-062,5,TICKET,VORLAGE,Warenart im Ticket ergänzt (Regal als Paket); KB legt die Sperrgut-Zuordnung nicht fest,MANUELL,ja
+T-062,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Meldefrist und Fotos),MANUELL,ja
+T-063,2,,,,,ja
+T-064,2,,,,,ja
+T-065,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Geltung in allen Märkten),MANUELL,ja
+T-066,3,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (Ausschluss Bezüge/Polster, Ersatzteile)",MANUELL,ja
+T-067,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Garantiedauer),MANUELL,ja
+T-068,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Download kostenlos),MANUELL,ja
+T-069,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Ersatzteile innerhalb der Garantie kostenlos),MANUELL,ja
+T-070,6,TICKET,MODELL,„Bereits bestellt“ widerspricht der Antwortlogik (Montage nur bei Bestellung buchbar); zu „gerade beim Bestellen“ geändert,MANUELL,ja
+T-070,,FAKT_ERFUNDEN,MODELL,"Angebot „gemeinsam schauen, was möglich ist“ widerspricht KB (nicht nachträglich buchbar); ersetzt",MANUELL,ja
+T-070,,STIL,MODELL,Einleitung „Verständnis für die Unklarheit“ unpassend; umformuliert,MANUELL,ja
+T-070,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (nur Deutschland),MANUELL,ja
+T-071,4,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (verdeckte Schäden, Lösung)",MANUELL,ja
+T-072,4,KERNAUSSAGE,MODELL,Kernaussage zur Gewährleistung auf den Fall bezogen; ungefragte Angabe „einheitlich in allen Märkten“ entfernt,MANUELL,ja
+T-073,5,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (Registrierung, Ausschluss Bezüge/Polster)",MANUELL,ja
+T-074,2,,,,,ja
+T-075,2,,,,,ja
+T-076,5,TICKET,MODELL,KB-Fachbegriff „Sperrgut“ im Tickettext durch „großen Möbeln“ ersetzt,MANUELL,ja
+T-077,2,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (Nachlieferung, Abholung)",MANUELL,ja
+T-078,5,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Ausschluss Bezüge/Polster),MANUELL,ja
+T-079,5,ZAHL_ZUORDNUNG,MODELL,"7-Tage-Meldefrist mit Fotos gilt laut KB nur für verdeckte Schäden, hier sichtbarer und bereits vermerkter Schaden; Satz und Beleg entfernt",MANUELL,ja
+T-079,,FAKT_ERFUNDEN,MODELL,"Bedingung „zerlegt und abholbereit im Erdgeschoss“ stammt aus der Widerrufsregel, nicht aus der Transportschadenregel; Satz ersetzt",MANUELL,ja
+T-079,,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (Vermerk auf Lieferschein, Meldefrist)",MANUELL,ja
+T-080,2,KERNAUSSAGE,MODELL,Kernaussage zur Gewährleistung auf den Fall bezogen; ungefragte Angabe „einheitlich in allen Märkten“ entfernt,MANUELL,ja
+T-081,2,,,,,ja
+T-082,5,TICKET,VORLAGE,Warenart im Ticket ergänzt (Kleiderschrank per Spedition); KB legt die Sperrgut-Zuordnung nicht fest,MANUELL,ja
+T-082,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Terminvereinbarung der Spedition),MANUELL,ja
+T-083,2,,,,,ja
+T-084,2,,,,,ja
+T-085,2,,,,,ja
+T-086,2,,,,,ja
+T-087,2,,,,,ja
+T-088,2,,,,,ja
+T-089,2,,,,,ja
+T-090,5,GAP,VORLAGE,"KB nennt 5 Jahre Garantie, Frage nach einer 10-Jahres-Garantie damit teilweise per KB beantwortbar; auf Garantieverlängerung umformuliert",MANUELL,ja
+T-091,2,,,,,ja
+T-092,2,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (3-D-Secure),MANUELL,ja
+T-093,4,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Rechnungsversand),MANUELL,ja
+T-094,5,FAKT_ERFUNDEN,MODELL,Bonitätsprüfung durch den Zahlungspartner nicht in KB; entfernt,MANUELL,ja
+T-094,,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Verfügbarkeit DE/AT),MANUELL,ja
+T-095,2,,,,,ja
+T-096,2,,,,,ja
+T-097,2,,,,,ja
+T-098,2,,,,,ja
+T-099,2,,,,,ja
+T-100,2,,,,,ja
+T-101,2,,,,,ja
+T-102,4,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Zahlungsziel und Höchstbetrag),MANUELL,ja
+T-103,2,,,,,ja
+T-104,2,,,,,ja
+T-105,2,,,,,ja
+T-106,2,,,,,ja
+T-107,2,,,,,ja
+T-108,5,ZAHL_ZUORDNUNG,MODELL,Zoll und Einfuhrsteuer dem Versandpreis zugeordnet; laut KB im Preis enthalten; korrigiert,MANUELL,ja
+T-108,,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (Lieferzeit, Zoll)",MANUELL,ja
+T-109,2,,,,,ja
+T-110,2,,,,,ja
+T-111,2,STIL,MODELL,Einleitung „Verständnis für die unübersichtliche Lage“ unpassend; umformuliert,MANUELL,ja
+T-112,2,,,,,ja
+T-113,2,,,,,ja
+T-114,6,FAKT_FEHLT,MODELL,"Frage, ob der Gutschein wieder aufgeladen wird, unbeantwortet; KB regelt das nicht eindeutig, in der Antwort offen benannt",MANUELL,ja
+T-114,,KERNAUSSAGE,MODELL,"Ungefragte Kernaussagen entfernt (Kombinierbarkeit, Restguthaben, Hinsendekosten)",MANUELL,ja
+T-115,2,,,"Validator-Warnung „Zahl 2“ stammt aus „B2B“; Rückfrage ohne Fakten, keine Änderung",KEINE,ja
+T-116,2,,,,,ja
+T-117,2,,,,,ja
+T-118,2,,,,,ja
+T-119,2,,,,,ja
+T-120,2,,,,,ja
+P-01,2,,,,,ja
+P-02,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Versandkosten),MANUELL,ja
+P-03,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Rückgabefristen),MANUELL,ja
+P-04,3,KERNAUSSAGE,MODELL,Ungefragte Kernaussage entfernt (Hinsendekosten),MANUELL,ja
+P-05,2,,,,,ja
+P-06,2,,,,,ja
+P-07,2,,,,,ja
+P-08,3,ZAHL_ZUORDNUNG,MODELL,"48-Stunden-Reservierung gilt laut KB für fehlgeschlagene Kartenzahlung, nicht ausdrücklich für Apple Pay; offen benannt, Antwort und Kernaussage angepasst",MANUELL,ja
+P-09,2,,,,,ja
+P-10,2,,,,,ja
+,,,,,,

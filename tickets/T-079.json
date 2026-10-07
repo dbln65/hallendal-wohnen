@@ -12,11 +12,9 @@
     "human_rating": "ja"
   },
   "ticket_text": "Hallo, mein neues Ecksofa wurde letzte Woche von der Spedition geliefert, aber es hatte an einer Seite einen deutlichen Kratzer und eine Delle. Ich habe das direkt beim Fahrer auf dem Lieferschein vermerkt. Jetzt möchte ich das Sofa zurückgeben und frage mich, ob für die Abholung Kosten auf mich zukommen. Können Sie mir dazu kurz Bescheid geben? Viele Grüße, Jonas",
-  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und es tut uns leid, dass Ihr Ecksofa beschädigt bei Ihnen angekommen ist. Da Sie den Schaden bereits bei der Übergabe auf dem Lieferschein vermerkt haben, ist alles Weitere unkompliziert möglich. Für einen Transportschaden bei Speditionsware können Sie zwischen einer Ersatzlieferung oder einer Erstattung wählen, und die Abholung der beschädigten Ware erfolgt in diesem Fall kostenlos für Sie.\n\nBitte melden Sie den Schaden zusätzlich mit Fotos innerhalb von 7 Tagen nach Erhalt über unser Kontaktformular, damit wir die Abholung bzw. Ersatzlieferung für Sie veranlassen können. Wenn Sie sich für eine Rücksendung entscheiden, muss die Ware zerlegt und abholbereit im Erdgeschoss stehen.\n\nSagen Sie uns gerne, ob Sie eine Ersatzlieferung oder eine Erstattung wünschen, dann kümmern wir uns umgehend darum.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
+  "musterantwort": "Guten Tag,\n\nvielen Dank für Ihre Nachricht und es tut uns leid, dass Ihr Ecksofa beschädigt bei Ihnen angekommen ist. Da Sie den Schaden bereits bei der Übergabe auf dem Lieferschein vermerkt haben, ist alles Weitere unkompliziert möglich. Für einen Transportschaden bei Speditionsware können Sie zwischen einer Ersatzlieferung oder einer Erstattung wählen, und die Abholung der beschädigten Ware erfolgt in diesem Fall kostenlos für Sie.\n\nDie Rücktransportpauschale, die bei einer regulären Rückgabe von Speditionsware anfällt, wird Ihnen daher nicht berechnet.\n\nSagen Sie uns gerne, ob Sie eine Ersatzlieferung oder eine Erstattung wünschen, dann kümmern wir uns umgehend darum.\n\nViele Grüße, Ihr Hallendal-Wohnen-Team",
   "antworttyp": "sachantwort",
   "kernaussagen": [
-    "Bei Speditionsware werden sichtbare Schäden bereits bei der Übergabe auf dem Lieferschein vermerkt.",
-    "Verdeckte bzw. gemeldete Transportschäden müssen innerhalb von 7 Tagen mit Fotos über das Kontaktformular gemeldet werden.",
     "Bei einem Transportschaden kann zwischen Ersatzlieferung oder Erstattung gewählt werden.",
     "Die Abholung bzw. Rücksendung bei einem Transportschaden ist kostenlos."
   ],
@@ -24,10 +22,6 @@
     {
       "artikel_id": "KB-021",
       "zitat": "Bei Speditionsware: Vermerken Sie sichtbare Schäden sofort auf dem Lieferschein."
-    },
-    {
-      "artikel_id": "KB-021",
-      "zitat": "Transportschaden Spedition: sichtbare Schäden bei Übergabe auf dem Lieferschein vermerken; verdeckte Schäden innerhalb von 7 Tagen mit Fotos melden."
     },
     {
       "artikel_id": "KB-021",
