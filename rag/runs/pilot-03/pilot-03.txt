@@ -1,0 +1,256 @@
+
+====================================================================================================
+P-01 | Versand | einfach | gedeckt
+Ticket: Hi, ich will mir ein größeres Sideboard liefern lassen, das muss per Spedition kommen, weil's zu groß fürs Paket ist. Liefert ihr sowas auch nach Österreich und wie lang dauert das ungefähr? Danke schon mal! LG Tobias
+Kernaussagen (Musterantwort): Speditionslieferung nach Österreich ist möglich. || Die Lieferzeit für Speditionsware nach Österreich beträgt 10–18 Werktage.
+
+--- RAG (Position 1, 163 Tokens, 2613 ms)
+Passagen: KB-009#1 (0.89), KB-011#2 (0.84), KB-011#1 (0.27)
+Guten Tag,
+
+ja, wir liefern Speditionsware wie größere Sideboards auch nach Österreich [KB-009]. Die Lieferzeit für Speditionsware nach Österreich beträgt etwa 10 bis 18 Werktage [KB-009][KB-011]. Die Spedition wird sich 1 bis 2 Werktage vor der Lieferung telefonisch bei Ihnen melden, um ein Zeitfenster von 4 Stunden zu vereinbaren [KB-011]. Die Lieferung erfolgt standardmäßig bis zur ersten verschließbaren Tür im Erdgeschoss [KB-011]. Die Speditionskosten für Österreich betragen pauschal 69 Euro [KB-009][KB-011].
+
+Falls Sie weitere Fragen haben oder Unterstützung bei der Bestellung benötigen, helfen wir Ihnen gerne weiter.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+--- LLM (Position 2, 121 Tokens, 1256 ms)
+Guten Tag,
+
+vielen Dank für Ihre Anfrage. Wir liefern größere Möbelstücke wie Sideboards, die per Spedition versendet werden, grundsätzlich auch nach Österreich. Die genaue Lieferzeit kann je nach Verfügbarkeit und Versandort variieren. Um Ihnen eine verbindliche Auskunft zu geben, benötigen wir bitte die genaue Artikelbezeichnung oder Bestellnummer des gewünschten Sideboards. Gerne prüfen wir dann die Liefermöglichkeiten und die voraussichtliche Lieferdauer für Sie.
+
+Bitte lassen Sie uns diese Informationen zukommen, damit wir Ihnen weiterhelfen können.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+====================================================================================================
+P-02 | Versand | mittel | gedeckt
+Ticket: Hallo, ich überlege ein Regal zu bestellen, die Lieferung soll in die Schweiz gehen. Gibt es da auch einen Expressversand? Und falls nicht, wie lange dauert die normale Lieferung ungefähr?
+Kernaussagen (Musterantwort): Expressversand steht ausschließlich in Deutschland zur Verfügung, nicht in die Schweiz. || In die Schweiz wird nur Paketware mit einer Lieferzeit von 4–8 Werktagen geliefert.
+
+--- RAG (Position 1, 137 Tokens, 2189 ms)
+Passagen: KB-010#1 (0.79), KB-008#1 (0.45), KB-013#2 (0.11)
+Guten Tag,
+
+für Lieferungen in die Schweiz bieten wir keinen Expressversand an, da diese Option ausschließlich für Deutschland verfügbar ist [KB-008]. Die reguläre Lieferung von Paketware in die Schweiz dauert etwa 4 bis 8 Werktage [KB-010]. Bitte beachten Sie, dass wir in die Schweiz nur Paketware versenden können, keine Speditionsware oder Sperrgut [KB-010]. Die Versandkosten betragen 14,90 CHF, und es gibt keine Gratisgrenze [KB-010].
+
+Wenn Sie weitere Fragen haben oder Unterstützung bei Ihrer Bestellung benötigen, helfen wir Ihnen gerne weiter.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+--- LLM (Position 2, 151 Tokens, 1342 ms)
+Guten Tag,
+
+vielen Dank für Ihre Anfrage zu einer Lieferung in die Schweiz. Gerne informieren wir Sie, dass wir grundsätzlich auch Lieferungen in die Schweiz anbieten. Ob ein Expressversand möglich ist, hängt vom jeweiligen Produkt und den Versandbedingungen ab. Leider können wir Ihnen ohne Angabe des gewünschten Regals keine verbindliche Auskunft geben.
+
+Die reguläre Lieferzeit in die Schweiz beträgt in der Regel etwas länger als innerhalb Deutschlands, genaue Angaben können wir Ihnen gerne nach Auswahl des Produkts mitteilen. Bitte teilen Sie uns mit, welches Regal Sie bestellen möchten, damit wir die Versandoptionen und Lieferzeiten für Sie prüfen können.
+
+Wir freuen uns auf Ihre Rückmeldung und helfen Ihnen gerne weiter.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+====================================================================================================
+P-03 | Retoure | einfach | gedeckt
+Ticket: Hallo, ich wollte mein neues Sofakissen-Set zurückschicken, weil mir die Farbe doch nicht gefällt. Jetzt lese ich, dass die Verpackung angeblich noch original sein muss?? Das ist doch lächerlich, ich habe die natürlich geöffnet um zu gucken! Bitte klären Sie mich auf, was jetzt wirklich gilt, bevor ich mich hier noch mehr ärgere!
+Kernaussagen (Musterantwort): Die Ware muss ungebraucht sein. || Die Originalverpackung ist erwünscht, aber nicht Pflicht.
+
+--- RAG (Position 1, 199 Tokens, 2692 ms)
+Passagen: KB-019#1 (0.01), KB-015#1 (0.01), KB-015#2 (0.00)
+Guten Tag,
+
+vielen Dank für Ihre Nachricht. Für eine Rücksendung ist es nicht zwingend erforderlich, dass die Originalverpackung erhalten bleibt; diese ist erwünscht, aber nicht verpflichtend [KB-015]. Wichtig ist, dass die Ware ungebraucht ist, damit eine Rückgabe möglich ist [KB-015]. Das bedeutet, dass das Sofakissen-Set nicht benutzt oder beschädigt sein darf. 
+
+Bitte melden Sie die Retoure über das Retourenportal in Ihrem Kundenkonto oder als Gast mit Bestellnummer und Postleitzahl an, drucken Sie das Retourenlabel aus und senden Sie die Ware an uns zurück [KB-015]. Nach Eingang und Prüfung der Rücksendung erstatten wir den Kaufbetrag innerhalb von 14 Tagen auf das ursprüngliche Zahlungsmittel [KB-015].
+
+Sollten Sie weitere Fragen haben oder Unterstützung bei der Rücksendung benötigen, helfen wir Ihnen gerne weiter.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+--- LLM (Position 2, 162 Tokens, 1391 ms)
+Guten Tag,
+
+vielen Dank für Ihre Nachricht. Wir verstehen, dass es ärgerlich sein kann, wenn die Farbe nicht den Erwartungen entspricht. Grundsätzlich ist es wichtig, dass die Ware für eine Rückgabe in einem wiederverkaufsfähigen Zustand ist. Das bedeutet, dass die Verpackung idealerweise unversehrt sein sollte, um das Produkt bestmöglich schützen zu können. Allerdings ist es nachvollziehbar, dass Sie das Sofakissen-Set öffnen mussten, um die Farbe zu prüfen.
+
+Bitte teilen Sie uns mit, ob das Set unbenutzt und vollständig ist. Gerne prüfen wir dann gemeinsam, wie wir in Ihrem Fall weiter vorgehen können. Sollten Sie weitere Fragen haben oder Unterstützung benötigen, stehen wir Ihnen selbstverständlich zur Verfügung.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+====================================================================================================
+P-04 | Retoure | mittel | gedeckt
+Ticket: Hallo, ich habe vor ein paar Tagen zwei Stehlampen zurückgeschickt, die ich nach Österreich geliefert bekommen habe. Mich würde interessieren, wann ich mit der Rückerstattung rechnen kann und ob da irgendwelche Kosten abgezogen werden. Die Lampen waren mit normaler Paketlieferung unterwegs, falls das wichtig ist. Danke schon mal für die Info! Viele Grüße, Sabine
+Kernaussagen (Musterantwort): Die Erstattung erfolgt innerhalb von 14 Tagen nach Wareneingang im Lager auf das ursprüngliche Zahlungsmittel. || Bei Rücksendungen von Paketware aus Österreich werden 5,95 € Rücksendekosten von der Erstattung abgezogen.
+
+--- RAG (Position 2, 162 Tokens, 2587 ms)
+Passagen: KB-017#2 (0.83), KB-015#1 (0.68), KB-017#1 (0.58)
+Guten Tag,
+
+für die Rückerstattung Ihrer zurückgesendeten Stehlampen aus Österreich können Sie mit einer Bearbeitungszeit von bis zu 14 Tagen nach Eingang der Ware in unserem Lager rechnen [KB-017]. Da es sich um Paketware handelt, fallen Rücksendekosten in Höhe von 5,95 € an, die von der Erstattung abgezogen werden [KB-017]. 
+
+Bitte beachten Sie, dass die Ware ungebraucht sein muss, damit die Rückgabe akzeptiert wird [KB-017]. Die Rücksendung sollte über das Retourenportal angemeldet worden sein, um den Prozess zu erleichtern [KB-017]. 
+
+Sollten Sie weitere Fragen haben oder Unterstützung benötigen, stehen wir Ihnen gerne zur Verfügung.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+--- LLM (Position 1, 155 Tokens, 1420 ms)
+Guten Tag,
+
+vielen Dank für Ihre Nachricht. Sobald die zurückgesendeten Stehlampen bei uns eingegangen und geprüft wurden, erfolgt die Rückerstattung in der Regel zeitnah. Die genaue Dauer kann jedoch variieren, abhängig von der Bearbeitungszeit und der Bank. Ob Kosten abgezogen werden, hängt von den jeweiligen Rückgabebedingungen ab, insbesondere ob die Rücksendung kostenfrei ist oder nicht. Da Ihre Bestellung nach Österreich geliefert wurde, könnten besondere Regelungen gelten.
+
+Um Ihnen eine verbindliche Auskunft geben zu können, prüfen wir gerne den Status Ihrer Rücksendung und informieren Sie über eventuelle Abzüge. Bitte teilen Sie uns dazu Ihre Bestellnummer oder weitere Details mit.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+====================================================================================================
+P-05 | Reklamation/Garantie | einfach | gedeckt
+Ticket: Hi, ich hab vor ein paar Monaten einen Schrank bestellt, wohn aber in der Schweiz. Gilt die gesetzliche Gewährleistung da auch oder nur in Deutschland? Danke und LG, Fabienne
+Kernaussagen (Musterantwort): Die gesetzliche Gewährleistung gilt einheitlich in Deutschland, Österreich und der Schweiz. || Die Gewährleistungsfrist beträgt 2 Jahre ab Lieferung.
+
+--- RAG (Position 2, 114 Tokens, 2354 ms)
+Passagen: KB-023#1 (0.44), KB-025#2 (0.07), KB-013#2 (0.04)
+Guten Tag,
+
+für alle bei Hallendal Wohnen gekauften Artikel gilt die gesetzliche Gewährleistung von 2 Jahren ab Lieferung, und zwar einheitlich in allen Märkten, also auch in der Schweiz [KB-023]. Sie können sich bei einem Mangel gerne an unseren Kundenservice wenden und Ihre Bestellnummer bereithalten, damit wir das weitere Vorgehen mit Ihnen besprechen können [KB-023].
+
+Falls Sie noch weitere Fragen haben oder Unterstützung benötigen, stehen wir Ihnen gerne zur Verfügung.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+--- LLM (Position 1, 152 Tokens, 1347 ms)
+Guten Tag,
+
+vielen Dank für Ihre Anfrage. Grundsätzlich gilt die gesetzliche Gewährleistung für alle Kunden, die bei uns bestellen, unabhängig vom Wohnsitz. Da Sie in der Schweiz wohnen, können jedoch besondere Regelungen oder Einschränkungen gelten, die sich aus internationalen Versand- und Handelsbestimmungen ergeben. Um Ihnen eine verbindliche Auskunft geben zu können, benötige ich noch einige Informationen zu Ihrem konkreten Fall, zum Beispiel das genaue Bestelldatum und die Art des Mangels. Gerne klären wir dann, wie die Gewährleistung in Ihrem Fall gehandhabt wird.
+
+Bitte melden Sie sich bei uns mit den fehlenden Angaben, damit wir Ihnen weiterhelfen können.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+====================================================================================================
+P-06 | Reklamation/Garantie | mittel | gedeckt
+Ticket: Hallo, ich habe gestern ein Paket bekommen, aber das ist gar nicht das, was ich bestellt hatte. Zu allem Überfluss ist der falsche Artikel auch noch beschädigt angekommen. Was muss ich jetzt tun? Viele Grüße, Sabine
+Kernaussagen (Musterantwort): Ein falsch gelieferter Artikel muss innerhalb von 14 Tagen gemeldet werden. || Die Abholung des falsch gelieferten Artikels ist kostenlos. || Die Nachlieferung des korrekten Artikels ist kostenlos. || Ein Transportschaden bei Paketware muss innerhalb von 7 Tagen nach Erhalt mit Fotos über das Kontaktformular gemeldet werden.
+
+--- RAG (Position 2, 146 Tokens, 2129 ms)
+Passagen: KB-022#1 (0.46), KB-021#1 (0.02), KB-015#1 (0.01)
+Guten Tag,
+
+wenn Sie einen falschen Artikel erhalten haben, melden Sie dies bitte innerhalb von 14 Tagen, damit wir Ihnen den korrekten Artikel nachliefern können. Die Abholung des falsch gelieferten Artikels erfolgt für Sie kostenlos [KB-022]. Da der Artikel zudem beschädigt angekommen ist, sollten Sie den Transportschaden ebenfalls melden. Bitte fotografieren Sie den Schaden und senden Sie die Bilder innerhalb von 7 Tagen über das Kontaktformular an uns [KB-021]. So können wir den Schaden dokumentieren und die weitere Vorgehensweise mit Ihnen klären.
+
+Gerne unterstützen wir Sie bei der Abwicklung, sobald wir Ihre Meldungen erhalten haben.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+--- LLM (Position 1, 133 Tokens, 1328 ms)
+Guten Tag,
+
+vielen Dank für Ihre Nachricht. Es tut uns sehr leid, dass Sie einen falschen und beschädigten Artikel erhalten haben. Damit wir den Vorfall schnellstmöglich klären und eine Lösung finden können, bitten wir Sie, uns Ihre Bestellnummer sowie Fotos des erhaltenen Artikels und der Beschädigung zuzusenden. 
+
+Sobald wir diese Informationen haben, kümmern wir uns um den Austausch oder eine andere passende Lösung für Sie. Selbstverständlich übernehmen wir die Kosten für den Rückversand des falschen Artikels.
+
+Sollten Sie weitere Fragen haben, stehen wir Ihnen gerne zur Verfügung.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+====================================================================================================
+P-07 | Zahlung | einfach | gedeckt
+Ticket: Hallo, ich wollte mein neues Sofa bezahlen und frage mich jetzt total genervt, ob ich das Ganze auch über 24 Monate in Raten abstottern kann oder ob da wieder irgendwelche Einschränkungen kommen. Bitte mal eine klare Antwort, Thomas.
+Kernaussagen (Musterantwort): Der Ratenkauf steht mit Laufzeiten von 6, 12 oder 24 Monaten zur Verfügung. || Der Ratenkauf setzt einen Mindestbestellwert von 200 € voraus. || Der Ratenkauf ist nur in Deutschland verfügbar.
+
+--- RAG (Position 1, 146 Tokens, 2169 ms)
+Passagen: KB-028#1 (0.12), KB-031#2 (0.01), KB-026#2 (0.01)
+Guten Tag,
+
+Sie können den Ratenkauf für Ihre Bestellung ab einem Bestellwert von 200 € nutzen und dabei eine Laufzeit von 6, 12 oder 24 Monaten wählen. Der Ratenkauf ist allerdings nur innerhalb Deutschlands verfügbar [KB-028]. Bitte beachten Sie, dass die Entscheidung über die Genehmigung des Ratenkaufs durch unseren Zahlungspartner getroffen wird, und wir keine Auskunft über Ablehnungsgründe geben können. Sollte der Ratenkauf abgelehnt werden, empfehlen wir Ihnen, eine andere Zahlungsart zu wählen [KB-028].
+
+Falls Sie weitere Fragen haben oder Unterstützung benötigen, helfen wir Ihnen gerne weiter.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+--- LLM (Position 2, 137 Tokens, 1218 ms)
+Guten Tag,
+
+vielen Dank für Ihre Anfrage zu den Zahlungsmöglichkeiten. Grundsätzlich bieten wir bei Hallendal Wohnen verschiedene Ratenzahlungsoptionen an, unter anderem auch über 24 Monate. Ob diese Möglichkeit für Ihren konkreten Kauf verfügbar ist, hängt jedoch von verschiedenen Faktoren ab, wie dem Gesamtbetrag und einer Bonitätsprüfung.
+
+Gerne prüfen wir für Sie, ob eine Ratenzahlung über 24 Monate bei Ihrem Sofakauf möglich ist und welche Bedingungen dafür gelten. Bitte teilen Sie uns dazu am besten Ihre Bestellnummer oder weitere Details zum Produkt mit.
+
+Wir freuen uns, Ihnen weiterhelfen zu können.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+====================================================================================================
+P-08 | Zahlung | komplex | gedeckt
+Ticket: Guten Tag, ich wollte meine Bestellung mit Apple Pay bezahlen, aber die Zahlung schlägt jedes Mal fehl. Ich wohne in Österreich und liefere auch dorthin. Könnte ich stattdessen auf Rechnung bestellen, und wenn ja, gibt es da Einschränkungen beim Bestellwert oder der Lieferadresse? Außerdem würde mich interessieren, ob meine ursprüngliche Bestellung jetzt verloren ist oder ob ich sie noch irgendwie abschließen kann. Vielen Dank schon mal für die Hilfe. Viele Grüße, Stefanie
+Kernaussagen (Musterantwort): Apple Pay ist in allen Liefergebieten, einschließlich Österreich, verfügbar. || Bei fehlgeschlagener Kartenzahlung bleibt die Bestellung 48 Stunden reserviert; ob das für Apple Pay gilt, ist nicht eindeutig geregelt. || Kauf auf Rechnung ist in Deutschland und Österreich verfügbar, mit Zahlungsziel 30 Tage ab Versand und maximalem Bestellwert 1.500 €. || Rechnungs- und Lieferadresse müssen beim Kauf auf Rechnung übereinstimmen, und eine Lieferung an eine Packstation ist dabei nicht möglich. || Bei Ablehnung des Kaufs auf Rechnung kennt Hallendal Wohnen die Gründe nicht und kann die Entscheidung nicht ändern.
+
+--- RAG (Position 1, 176 Tokens, 2568 ms)
+Passagen: KB-026#1 (0.58), KB-027#1 (0.55), KB-026#2 (0.42)
+Guten Tag,
+
+Apple Pay steht in Österreich als Zahlungsmethode zur Verfügung, daher sollte die Zahlung grundsätzlich möglich sein [KB-026]. Wenn die Zahlung mit Apple Pay wiederholt fehlschlägt, könnten technische Probleme vorliegen. Gerne können wir dies gemeinsam prüfen.
+
+Alternativ ist der Kauf auf Rechnung in Österreich ebenfalls möglich. Dabei gilt ein maximaler Bestellwert von 1.500 Euro, und die Rechnungsadresse muss mit der Lieferadresse übereinstimmen. Eine Lieferung an eine Packstation ist bei dieser Zahlungsart nicht möglich [KB-026, KB-027].
+
+Bezüglich Ihrer aktuellen Bestellung können wir ohne weitere Angaben nicht sicher sagen, ob diese noch aktiv ist oder storniert wurde. Bitte teilen Sie uns Ihre Bestellnummer mit, damit wir den Status prüfen und Ihnen weiterhelfen können.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+--- LLM (Position 2, 160 Tokens, 1509 ms)
+Guten Tag,
+
+vielen Dank für Ihre Nachricht. Es tut uns leid zu hören, dass die Zahlung mit Apple Pay nicht funktioniert hat. Gerne prüfen wir, ob eine Zahlung auf Rechnung für Sie möglich ist. In der Regel gibt es bei der Zahlung auf Rechnung bestimmte Voraussetzungen, zum Beispiel hinsichtlich des Bestellwerts oder der Lieferadresse. Da Sie aus Österreich bestellen, klären wir gern, ob dies in Ihrem Fall möglich ist.
+
+Bezüglich Ihrer ursprünglichen Bestellung können wir gerne prüfen, ob diese noch aktiv ist oder ob Sie eine neue Bestellung aufgeben sollten. Bitte teilen Sie uns dazu Ihre Bestellnummer oder weitere Details mit, damit wir Ihnen schnell weiterhelfen können.
+
+Wir freuen uns auf Ihre Rückmeldung und helfen Ihnen gerne weiter.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+====================================================================================================
+P-09 | Reklamation/Garantie | kb_gap | gap
+Ticket: Hallo, ich überlege mir ein Regal aus der HD Basics Reihe zu kaufen. Weiß jemand, wo das Holz dafür eigentlich herkommt? Und ist das Holz zertifiziert, also so FSC oder sowas? Würd mich einfach interessieren wegen Nachhaltigkeit. Danke schonmal, Steffi
+Kernaussagen (Musterantwort): – (Rückfrage erwartet)
+
+--- RAG (Position 2, 108 Tokens, 2148 ms)
+Passagen: KB-024#1 (0.04), KB-023#1 (0.04), KB-025#2 (0.02)
+Guten Tag,
+
+vielen Dank für Ihr Interesse an unseren HD Basics Möbeln. Zu Ihrer Frage bezüglich der Herkunft und Zertifizierung des Holzes kann ich Ihnen leider keine konkreten Informationen geben, da diese Details in unseren verfügbaren Unterlagen nicht enthalten sind.
+
+Falls Sie weitere Fragen zur Nachhaltigkeit oder zu anderen Aspekten unserer Produkte haben, können wir gerne versuchen, diese für Sie zu klären. Bitte lassen Sie uns wissen, wenn wir Ihnen dabei behilflich sein dürfen.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+--- LLM (Position 1, 158 Tokens, 1458 ms)
+Guten Tag,
+
+vielen Dank für Ihre Anfrage zu den Regalen aus der HD Basics Reihe. Wir freuen uns, dass Ihnen das Thema Nachhaltigkeit wichtig ist. Das Holz für unsere Möbel stammt aus verantwortungsvoll bewirtschafteten Wäldern. Viele unserer Produkte sind mit Zertifizierungen wie FSC oder PEFC ausgezeichnet, die nachhaltige Forstwirtschaft garantieren. 
+
+Für das genaue Regal aus der HD Basics Reihe kann ich Ihnen gerne die spezifischen Informationen zur Holzherkunft und Zertifizierung heraussuchen. Bitte teilen Sie mir dazu die genaue Produktbezeichnung oder Artikelnummer mit, damit ich Ihnen eine verbindliche Auskunft geben kann.
+
+Wir unterstützen nachhaltige Produktion und möchten, dass Sie mit Ihrem Kauf rundum zufrieden sind.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+====================================================================================================
+P-10 | Sonstiges | kb_gap | gap
+Ticket: Hallo, ich betreibe einen kleinen Einrichtungs-Blog und würde gerne mit euch als Marke zusammenarbeiten, z.B. für eine Produktvorstellung. An wen kann ich mich da wenden?
+Kernaussagen (Musterantwort): – (Rückfrage erwartet)
+
+--- RAG (Position 1, 137 Tokens, 2057 ms)
+Passagen: KB-040#1 (0.00), KB-035#1 (0.00), KB-001#1 (0.00)
+Guten Tag,
+
+vielen Dank für Ihr Interesse an einer Zusammenarbeit mit Hallendal Wohnen. Für Kooperationsanfragen können Sie unseren Kundenservice kontaktieren. Sie erreichen uns über das Kontaktformular, per E-Mail, im Live-Chat oder telefonisch. Die Servicezeiten für Chat und Telefon sind Montag bis Freitag von 8 bis 18 Uhr sowie Samstag von 9 bis 14 Uhr. Anfragen per E-Mail oder Kontaktformular werden innerhalb von 24 Stunden an Werktagen beantwortet [KB-040].
+
+Bitte teilen Sie uns gerne weitere Details zu Ihrer Idee mit, damit wir Ihr Anliegen bestmöglich weiterleiten können.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
+
+--- LLM (Position 2, 127 Tokens, 1220 ms)
+Guten Tag,
+
+vielen Dank für Ihr Interesse an einer Zusammenarbeit mit Hallendal Wohnen. Wir freuen uns sehr über Ihre Anfrage und Ihr Engagement für Einrichtungs-Themen. Für Kooperationsanfragen, wie Produktvorstellungen oder ähnliche Projekte, können Sie sich gerne an unser Marketing- oder PR-Team wenden. Bitte teilen Sie uns dazu am besten Ihre Kontaktdaten sowie weitere Informationen zu Ihrem Blog und Ihren Vorstellungen mit, damit wir Ihre Anfrage gezielt weiterleiten und prüfen können.
+
+Sollten Sie weitere Fragen haben oder Unterstützung benötigen, stehen wir Ihnen jederzeit gerne zur Verfügung.
+
+Viele Grüße, Ihr Hallendal-Wohnen-Team
