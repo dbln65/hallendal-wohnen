@@ -45,6 +45,8 @@ def evaluate(retriever: Retriever, tickets: list[dict]) -> dict:
             row[f"{name}_hit"] = any(p["artikel_id"] in relevant for p in items)
             row[f"{name}_belege"] = sum(any(z in tx for tx in texts) for z in zitate)
         row["rr3_zeichen"] = sum(len(p["text"]) for p in res["passages"])  # grobes Maß der Kontextlänge
+        row["rerank_input_tokens_max"] = max((c["rerank_input_tokens"] for c in vec), default=0)
+        row["rerank_gekuerzt"] = sum(c["rerank_gekuerzt"] for c in vec)
         rows.append(row)
 
     n_t, n_b = len(rows), sum(r["n_belege"] for r in rows)
@@ -53,6 +55,9 @@ def evaluate(retriever: Retriever, tickets: list[dict]) -> dict:
         summary[f"artikel_treffer_{name}"] = round(sum(r[f"{name}_hit"] for r in rows) / n_t, 3)
         summary[f"beleg_abdeckung_{name}"] = round(sum(r[f"{name}_belege"] for r in rows) / n_b, 3)
     summary["kontext_zeichen_rr3_mittel"] = round(sum(r["rr3_zeichen"] for r in rows) / n_t)
+    summary["rerank_input_tokens_max"] = max(r["rerank_input_tokens_max"] for r in rows)
+    summary["rerank_paare_gekuerzt"] = sum(r["rerank_gekuerzt"] for r in rows)
+    summary["rerank_paare"] = sum(len(r["vec5_chunks"]) for r in rows)
     return {"summary": summary, "tickets": rows, "n_tickets": n_t, "n_belege": n_b}
 
 
@@ -75,6 +80,10 @@ def print_summary_table(results: list[tuple[str, dict]]) -> None:
               f"{s['kontext_zeichen_rr3_mittel']:>9}")
     print("Treffer = Artikel-Treffer, Belege = Beleg-Abdeckung, V = Vektorsuche, R = nach Reranking, "
           "Kontext = mittlere Zeichenzahl der Top-3-Passagen")
+    for label, res in results:
+        s = res["summary"]
+        print(f"Cross-Encoder {label}: längste Eingabe {s['rerank_input_tokens_max']} Tokens, "
+              f"gekürzt {s['rerank_paare_gekuerzt']} von {s['rerank_paare']} Paaren")
 
 
 def main() -> None:
@@ -97,9 +106,9 @@ def main() -> None:
     print(f"{len(tickets)} KB-gedeckte Tickets ({args.set}); {len(all_tickets) - len(tickets)} Gap-Tickets ohne Belege ausgelassen")
 
     reranker = load_reranker(cfg)
-    print(f"Reranker {cfg['retrieval']['reranker']} @ {reranker[1]}")
+    print(f"Reranker {cfg['retrieval']['reranker']} @ {reranker['revision']} | max_length {cfg['retrieval']['reranker_max_length']}")
     if not cfg["retrieval"].get("reranker_revision"):
-        print(f"Hinweis: Revision in config.yaml fixieren -> reranker_revision: {reranker[1]}")
+        print(f"Hinweis: Revision in config.yaml fixieren -> reranker_revision: {reranker['revision']}")
 
     results = []
     if not args.varianten:
@@ -137,7 +146,8 @@ def main() -> None:
             "collection": collection,
             "set": args.set,
             "reranker": cfg["retrieval"]["reranker"],
-            "reranker_revision": reranker[1],
+            "reranker_revision": reranker["revision"],
+            "reranker_max_length": cfg["retrieval"]["reranker_max_length"],
             **res,
         })
     print("\nProtokolliert in logs/retrieval_eval.jsonl")

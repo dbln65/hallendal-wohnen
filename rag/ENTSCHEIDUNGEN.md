@@ -15,6 +15,9 @@ Jede Designentscheidung mit Datum, Begründung und Bezug zur DEMI. Status „fes
 | E-09 | 2026-10-10 | Suchanfrage ist der unveränderte Tickettext | fest |
 | E-10 | 2026-10-10 | Abstimmung nur mit Pilottickets | fest |
 | E-11 | 2026-10-10 | Umfragetool: SoSci Survey oder vergleichbares Online-Tool | offen |
+| E-12 | 2026-10-10 | Prompt-Gerüst: identisch, Unterschied nur Kontextblock und Belegpflicht | Pilot |
+| E-13 | 2026-10-10 | Belege auf Artikelebene `[KB-xxx]`, automatisch entfernbar | fest |
+| E-14 | 2026-10-10 | Durchführung: Reihenfolge je Ticket zufällig, Aufwärmaufruf, Latenzdefinition | fest |
 
 ## E-01 Repo-Struktur
 
@@ -89,6 +92,8 @@ Lokaler Cross-Encoder `BAAI/bge-reranker-v2-m3`: mehrsprachig (auch Deutsch), fe
 
 Die Modellrevision (Commit auf Hugging Face) ermittelt `eval_retrieval.py` beim ersten Lauf. Sie wird danach in `config.yaml` als `reranker_revision` eingetragen, damit alle weiteren Läufe genau diese Gewichte verwenden. Revision: `953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e` (ermittelt am 2026-10-10).
 
+Änderung 2026-10-10, vor dem ersten Generierungslauf: `reranker_max_length` von 512 auf 1024 erhöht. Gründe: Bei der Variante 400/80 verschlechterte das Reranking die Abdeckung, was auf abgeschnittene Eingaben hindeutet, und Haupttickets sind teils länger als Pilottickets. Seitdem protokolliert `retrieval.py` je Paar die Eingabelänge in Tokens des Cross-Encoders und ob gekürzt wurde. Voraussetzung ist, dass das Modell Eingaben dieser Länge verarbeitet (`max_position_embeddings` ≥ 1024): wird nachgetragen. Kontrolle, ob die Pilotwerte mit 1024 unverändert bleiben: wird nachgetragen.
+
 ## E-07 Generierungsmodell
 
 `gpt-4.1-mini` im datierten Snapshot `gpt-4.1-mini-2025-04-14`, Temperatur 0,2, gleiche maximale Antwortlänge in beiden Bedingungen (DEMI Tabelle 4). Laut OpenAI-Deprecations-Seite ist für gpt-4.1-mini derzeit keine Abschaltung angekündigt (Abruf 2026-10-10). Der Hauptlauf muss trotzdem zeitnah erfolgen, weil sich das ändern kann.
@@ -115,3 +120,35 @@ Chunk-Größe, Überlappung, Prompt und maximale Antwortlänge werden ausschlie�
 ## E-11 Umfragetool
 
 SoSci Survey oder ein vergleichbares Online-Tool. Anforderungen: ausgewogene Zuteilung auf 10 Blöcke (z. B. SoSci-Urnen), Randomisierung der Reihenfolge je Person, Screening-Item S4, Einwilligung, Server in der EU.
+
+## E-12 Prompt-Gerüst
+
+Beide Bedingungen erhalten denselben System-Prompt (`prompts/system.txt`) mit Rolle, Aufgabe und Format. Die Nachricht unterscheidet sich nur im Kontextblock mit den drei KB-Passagen und in der Belegpflicht (`prompts/user_rag.txt` statt `prompts/user_llm.txt`), wie in DEMI 1.3.2 und Tabelle 4 festgelegt.
+
+- **Unternehmenskontext:** nur Name und Branche („Online-Shop für Möbel und Wohnaccessoires“), keine Regeln, Preise oder Fristen. Die LLM-only-Bedingung erhält damit kein Wissen über die KB.
+- **Umgang mit Unsicherheit in beiden Bedingungen:** „Mache keine Angaben, die du nicht sicher weißt … sage das offen und biete an, den Punkt zu klären.“ Eine solche Anweisung ist in einem Agent-Assist-System üblich. Sie steht in beiden Bedingungen, damit ein Unterschied im Rückfrageverhalten (H4) auf den Kontext zurückgeht und nicht auf eine abweichende Anweisung.
+- **Format wie die Musterantworten:** Sie-Form, „Guten Tag,“ … „Viele Grüße, Ihr Hallendal-Wohnen-Team“, höchstens 180 Wörter, Fließtext. Das macht die Entwürfe mit den Musterantworten vergleichbar, und in der Befragung sind beide Bedingungen äußerlich nicht zu unterscheiden.
+- **Belegpflicht (nur RAG):** Jede sachliche Aussage stützt sich ausschließlich auf die Auszüge und erhält direkt dahinter die Artikel-ID. Was die Auszüge nicht abdecken, wird nicht behauptet.
+
+Status „Pilot“: Der Wortlaut wird mit P-01 bis P-10 geprüft. Änderungen werden hier mit Begründung eingetragen, danach wird eingefroren.
+
+## E-13 Belegformat
+
+Belege stehen auf Artikelebene im Format `[KB-017]`, mehrere als `[KB-017, KB-018]`. Die Passagen sind im Prompt mit ihrer Artikel-ID gekennzeichnet. Artikelebene genügt für die Kodierung von C2 (Quellenpassung), weil die übergebenen Passagen je Antwort protokolliert sind.
+
+Für die verblindete Befragung entfernt `generation.strip_citations()` die Belege automatisch (DEMI 2.4). Gespeichert werden beide Fassungen (`antwort`, `antwort_ohne_belege`). Zusätzlich werden protokolliert:
+
+- `zitierte_artikel`: alle zitierten IDs
+- `zitate_ausserhalb_kontext`: zitierte Artikel, die nicht übergeben wurden (Hinweis auf Citation-Fail, F4)
+- `kb_ids_ausserhalb_format`: KB-IDs außerhalb des Belegformats; diese würden beim Entfernen übersehen und müssen vor der Befragung geprüft werden
+
+## E-14 Durchführung
+
+- **Ein Durchlauf je Ticket und Bedingung** (DEMI Tabelle 4).
+- **Reihenfolge der Bedingungen je Ticket zufällig**, festgelegt über `reihenfolge_seed` (DEMI 1.3.1). Sie ist dadurch wiederholbar.
+- **Aufwärmaufruf vor dem ersten protokollierten Aufruf**, nicht protokolliert, damit das Laden des Cross-Encoders und der Verbindungsaufbau die erste Latenzmessung nicht verzerren.
+- **Latenz** (DEMI Tabelle 13, Zeit bis zur vollständigen Antwort): RAG = Embedding + Vektorsuche + Reranking + Generierung; LLM-only = Generierung. Die Teilzeiten werden einzeln protokolliert. Das Reranking läuft lokal auf der CPU, seine Dauer hängt daher von der Hardware ab; der verwendete Rechner wird in der Arbeit angegeben.
+- **Seed und Fingerprint:** Der OpenAI-Parameter `seed` verringert die Zufallsvarianz, garantiert aber keine identischen Antworten. `system_fingerprint` wird protokolliert und zeigt Änderungen auf Anbieterseite an.
+- **`store=False`:** Anfragen werden bei OpenAI nicht als gespeicherte Completions abgelegt.
+- **Fehler und Fortsetzung:** Fehlgeschlagene Aufrufe stehen in `errors.jsonl`. Ein Lauf wird mit derselben `--run-id` fortgesetzt; vorhandene Einträge werden übersprungen.
+- **Hauptlauf** nur mit `--erlaube-haupt` und sauberem Git-Stand (alles committet).

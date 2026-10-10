@@ -1,0 +1,6 @@
+Kundenanfrage:
+<anfrage>
+{ticket_text}
+</anfrage>
+
+Schreibe den Antwortentwurf.

@@ -28,12 +28,15 @@ retrieval:                               # E-06, DEMI Tabelle 4
   reranker: BAAI/bge-reranker-v2-m3
   reranker_revision: 953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e   # fixiert am 2026-10-10 (E-06)
   reranker_device: cpu                   # CPU für reproduzierbare Scores
-  reranker_max_length: 512               # Ticket + Chunk liegen deutlich darunter
+  reranker_max_length: 1024              # vermeidet Kürzung langer Ticket-Chunk-Paare (E-06)
 
-generierung:                             # E-07, DEMI Tabelle 4 (ab Schritt 3)
+generierung:                             # E-07, E-12 bis E-14, DEMI Tabelle 4
   modell: gpt-4.1-mini-2025-04-14
   temperatur: 0.2
   max_output_tokens: 600                 # Pilot; identisch in beiden Bedingungen
+  seed: 20261010                         # OpenAI-Seed; verringert Zufallsvarianz, garantiert sie nicht
+  reihenfolge_seed: 20261010             # Zufallsreihenfolge der Bedingungen je Ticket (DEMI 1.3.1)
+  prompt_verzeichnis: prompts
 
 preise_usd_pro_1m_tokens:                # E-08
   stichtag: "2026-10-10"

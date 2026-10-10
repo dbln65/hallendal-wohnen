@@ -5,7 +5,10 @@ Ablauf je Anfrage:
 2. Qdrant liefert die top_k ähnlichsten Chunks (Vektorsuche, Kosinus)
 3. Der Cross-Encoder bewertet jedes Paar (Tickettext, Chunk) und behält die rerank_top_n besten
 
-Wird von eval_retrieval.py (Pilot) und vom Generierungsskript (Schritt 3) verwendet.
+Zusätzlich wird je Paar die Eingabelänge in Tokens des Cross-Encoders protokolliert. Ist sie länger als
+reranker_max_length, schneidet der Cross-Encoder das Ende ab (`gekuerzt`).
+
+Wird von eval_retrieval.py (Pilot) und von generate.py (Schritt 3) verwendet.
 """
 
 import time
@@ -18,18 +21,22 @@ def resolve_revision(model_name: str) -> str:
     return HfApi().model_info(model_name).sha
 
 
-def load_reranker(cfg: dict):
-    """Lädt den Cross-Encoder in der fixierten Revision. Gibt (Modell, Revision) zurück."""
+def load_reranker(cfg: dict) -> dict:
+    """Lädt Cross-Encoder und zugehörigen Tokenizer in der fixierten Revision."""
     from sentence_transformers import CrossEncoder
+    from transformers import AutoTokenizer
 
     r = cfg["retrieval"]
     revision = r.get("reranker_revision") or resolve_revision(r["reranker"])
-    model = CrossEncoder(r["reranker"], revision=revision, device=r["reranker_device"], max_length=r["reranker_max_length"])
-    return model, revision
+    return {
+        "model": CrossEncoder(r["reranker"], revision=revision, device=r["reranker_device"], max_length=r["reranker_max_length"]),
+        "tokenizer": AutoTokenizer.from_pretrained(r["reranker"], revision=revision),
+        "revision": revision,
+    }
 
 
 class Retriever:
-    def __init__(self, cfg: dict, collection: str | None = None, reranker=None):
+    def __init__(self, cfg: dict, collection: str | None = None, reranker: dict | None = None):
         from openai import OpenAI
         from qdrant_client import QdrantClient
 
@@ -37,7 +44,8 @@ class Retriever:
         self.collection = collection or cfg["qdrant"]["collection"]
         self.openai = OpenAI(max_retries=5)
         self.qdrant = QdrantClient(url=cfg["qdrant"]["url"])
-        self.reranker, self.reranker_revision = reranker or load_reranker(cfg)
+        self.reranker = reranker or load_reranker(cfg)
+        self.reranker_revision = self.reranker["revision"]
 
     def retrieve(self, query: str) -> dict:
         r = self.cfg["retrieval"]
@@ -48,19 +56,24 @@ class Retriever:
             collection_name=self.collection, query=emb.data[0].embedding, limit=r["top_k"], with_payload=True
         ).points
         t2 = time.perf_counter()
-        scores = self.reranker.predict([(query, h.payload["text"]) for h in hits]) if hits else []
+        pairs = [(query, h.payload["text"]) for h in hits]
+        scores = self.reranker["model"].predict(pairs) if hits else []
         t3 = time.perf_counter()
+        n_input = [len(self.reranker["tokenizer"](q, d)["input_ids"]) for q, d in pairs]
 
         candidates = [
             {
                 "chunk_id": h.payload["chunk_id"],
                 "artikel_id": h.payload["artikel_id"],
+                "titel": h.payload["titel"],
                 "rank_vector": i,
                 "score_vector": round(float(h.score), 6),
                 "score_rerank": round(float(s), 6),
+                "rerank_input_tokens": n,
+                "rerank_gekuerzt": n > r["reranker_max_length"],
                 "text": h.payload["text"],
             }
-            for i, (h, s) in enumerate(zip(hits, scores), start=1)
+            for i, (h, s, n) in enumerate(zip(hits, scores, n_input), start=1)
         ]
         # Reranking: höchster Cross-Encoder-Score zuerst; bei Gleichstand entscheidet der Vektorrang
         ranked = sorted(candidates, key=lambda c: (-c["score_rerank"], c["rank_vector"]))

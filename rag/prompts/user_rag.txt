@@ -1,0 +1,11 @@
+Auszüge aus der Wissensdatenbank von Hallendal Wohnen:
+{passagen}
+
+Belegpflicht: Stütze jede sachliche Aussage ausschließlich auf diese Auszüge und setze direkt dahinter die Artikel-ID in eckigen Klammern, z. B. [KB-017]. Was die Auszüge nicht abdecken, behauptest du nicht.
+
+Kundenanfrage:
+<anfrage>
+{ticket_text}
+</anfrage>
+
+Schreibe den Antwortentwurf.

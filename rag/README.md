@@ -82,11 +82,30 @@ Beides jeweils für die Vektorsuche (Top-5, Top-3) und nach dem Reranking (Top-3
 
 Beim ersten Lauf zeigt das Skript die Revision des Cross-Encoders an. Sie wird in `config.yaml` als `reranker_revision` eingetragen (E-06).
 
+## Schritt 3: Generierung
+
+```bash
+python rag/generate.py --set pilot --run-id pilot-01 --dry-run --ids P-04   # Prompts beider Bedingungen ansehen
+python rag/generate.py --set pilot --run-id pilot-01                        # 10 Pilottickets × 2 Bedingungen
+python rag/show_run.py pilot-01                                             # Übersicht und Auffälligkeiten
+python rag/show_run.py pilot-01 --ticket P-04                               # beide Antworten im Wortlaut
+```
+
+Je Ticket laufen beide Bedingungen in zufälliger, per Seed festgelegter Reihenfolge. Vor dem ersten protokollierten Aufruf erfolgt ein Aufwärmaufruf. Ergebnis je Lauf in `runs/<run-id>/`:
+
+| Datei | Inhalt |
+| --- | --- |
+| `run_meta.json` | Konfiguration, Config-, KB- und Prompt-Hash, Reranker-Revision, Git-Stand, Zeitraum, Summen |
+| `responses.jsonl` | ein Eintrag je Ticket und Bedingung nach DEMI 2.2, inkl. Wortlaut der Passagen |
+| `responses.csv` | dieselben Daten als Tabelle für den Anhang |
+| `errors.jsonl` | fehlgeschlagene Aufrufe, falls vorhanden |
+
+Prompts: `prompts/system.txt` (beide Bedingungen), `prompts/user_llm.txt`, `prompts/user_rag.txt`. Begründung in E-12 bis E-14.
+
 ## Weitere Schritte
 
 | Schritt | Inhalt | Status |
 | --- | --- | --- |
-| 3 | Generierung beider Bedingungen, Protokoll nach DEMI 2.2 | folgt |
 | 4 | Pilot P-01 bis P-10, Festlegung der Pilot-Parameter, Tag `rag-v1.0` | folgt |
 | 5 | Hauptlauf: 120 Tickets × 2 Bedingungen | folgt |
 
@@ -103,6 +122,11 @@ Beim ersten Lauf zeigt das Skript die Revision des Cross-Encoders an. Sie wird i
 | `search.py` | Kontrolle der Suche, mit `--rerank` inklusive Cross-Encoder |
 | `retrieval.py` | Schritt 2: Vektorsuche und Reranking, wird auch von der Generierung genutzt |
 | `eval_retrieval.py` | Schritt 2: Retrieval-Test und Variantenvergleich auf den Pilottickets |
+| `generation.py` | Schritt 3: Prompt-Aufbau, Modellaufruf, Belege erkennen und entfernen |
+| `generate.py` | Schritt 3: Lauf über ein Ticketset, Protokoll nach DEMI 2.2 |
+| `show_run.py` | Durchsicht eines Laufs |
+| `prompts/` | System-Prompt und Nachrichtenvorlagen beider Bedingungen |
+| `runs/<run-id>/` | Ergebnisse je Lauf |
 | `data/chunks.jsonl` | entsteht bei der Indexierung: alle Chunks im Wortlaut (Anhang der Arbeit) |
 | `logs/index_log.jsonl` | entsteht bei der Indexierung: Zeitpunkt, Git-Commit, Config- und KB-Hash, Tokens, Kosten |
 | `logs/retrieval_eval.jsonl` | entsteht beim Retrieval-Test: Kennzahlen je Variante und Ticket |
