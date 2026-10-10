@@ -140,6 +140,10 @@ Status „Pilot“: Der Wortlaut wird mit P-01 bis P-10 geprüft. Änderungen we
 | Kein Absatz, alles in einem Block | beide | „Gliedere in Absätze, getrennt durch eine Leerzeile: Anrede, Antwort, Gruß.“ |
 | Belege gesammelt am Ende, teils nach der Grußformel (z. B. P-01, P-07) | RAG | Beleg am Ende jedes Satzes mit sachlicher Aussage, mit Beispiel; „Sammle die Belege nicht am Ende“; Grußformel als letzter Text |
 
+**Änderung nach Pilotlauf `pilot-02` (2026-10-10).** Die Formatfehler aus `pilot-01` sind behoben: Anrede ohne Namen, Absätze und Grußformel als letzter Text in allen 20 Entwürfen, Belege überwiegend satzweise. Neu aufgefallen ist P-09 (RAG): „… da diese Angaben in unseren verfügbaren Wissensdatenbanken nicht enthalten sind“. Ein solcher Verweis gehört nicht in einen Text an die Kundin oder den Kunden. Außerdem würde er in der verblindeten Befragung die RAG-Bedingung verraten (DEMI 2.4). Ergänzt in der Belegpflicht (nur RAG): „Erwähne die Auszüge oder die Wissensdatenbank im Text nicht; die Belege in Klammern genügen.“ `show_run.py` meldet solche Verweise seitdem.
+
+Einzelne Sätze mit sachlicher Aussage ohne Beleg (z. B. P-06, P-08) bleiben bestehen. Die Anweisung ist eindeutig; verbleibende Lücken gehören zum Systemverhalten und werden als Citation-Fail (F4) kodiert.
+
 Nicht geändert wurden unter anderem: Zusatzinformationen über die Frage hinaus (z. B. Kosten in P-01), die vorsichtige, häufig nachfragende Art der LLM-only-Bedingung und Aussagen ohne Deckung durch die Passagen (z. B. P-08, P-10). Diese Befunde gehören zum zu messenden Systemverhalten.
 
 `show_run.py` prüft seitdem automatisch: Anrede, Grußformel am Ende, Absätze, Belege nach der Grußformel und Sätze mit Zahlen ohne Beleg.

@@ -28,6 +28,8 @@ def format_checks(e: dict, gedeckt: bool) -> list[str]:
         notes.append("endet nicht mit der Grußformel")
     if "\n\n" not in text:
         notes.append("keine Absätze")
+    if re.search(r"wissensdatenbank|datenbank|auszüge|auszug|knowledge", e["antwort_ohne_belege"], re.I):
+        notes.append("Verweis auf Wissensdatenbank (gefährdet die Verblindung)")
     if e["bedingung"] == "rag":
         if gedeckt and not e["zitierte_artikel"]:
             notes.append("RAG ohne Beleg")
