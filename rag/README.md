@@ -63,7 +63,7 @@ python rag/search.py --ticket P-04      # Vektorsuche für ein Pilotticket prüf
 
 `index_kb.py` legt die Collection bei jedem Lauf neu an. Damit entspricht der Index immer genau der aktuellen `config.yaml`.
 
-`search.py` markiert mit ✓ Treffer aus Artikeln, die für das Ticket als relevant gelten (`belegartikel` und bestätigte `weitere_kandidaten`). Haupttickets sind gesperrt, solange die Konfiguration nicht eingefroren ist (E-10).
+`search.py` markiert mit ✓ Treffer aus Artikeln, die für das Ticket als relevant gelten (`belegartikel` und bestätigte `weitere_kandidaten`). Haupttickets sind nur mit `--erlaube-haupt` freigegeben (E-10).
 
 ## Schritt 2: Reranking und Retrieval-Test
 
@@ -102,12 +102,15 @@ Je Ticket laufen beide Bedingungen in zufälliger, per Seed festgelegter Reihenf
 
 Prompts: `prompts/system.txt` (beide Bedingungen), `prompts/user_llm.txt`, `prompts/user_rag.txt`. Begründung in E-12 bis E-14.
 
-## Weitere Schritte
+## Schritt 4: Pilot und Einfrieren
 
-| Schritt | Inhalt | Status |
-| --- | --- | --- |
-| 4 | Pilot P-01 bis P-10, Festlegung der Pilot-Parameter, Tag `rag-v1.0` | erledigt (E-15) |
-| 5 | Hauptlauf: 120 Tickets × 2 Bedingungen | folgt |
+```bash
+python rag/generate.py --set pilot --run-id pilot-03                          # neuer Lauf nach jeder Prompt-Anpassung
+python rag/show_run.py pilot-03 --alle > rag/runs/pilot-03/durchsicht.txt
+git tag rag-v1.0 && git push origin rag-v1.0                                  # nach dem letzten Pilotlauf
+```
+
+Die Pilotläufe `pilot-01` bis `pilot-03` dienen nur der Abstimmung des Formats. Nach `pilot-01` und `pilot-02` wurden die Prompts angepasst, nur in der Form, nicht im Inhalt (E-12). Nach `pilot-03` wurde die Konfiguration eingefroren und als `rag-v1.0` getaggt (E-15). Die Pilotläufe gehen in keine Auswertung ein.
 
 ## Schritt 5: Hauptlauf
 
@@ -119,6 +122,17 @@ python rag/show_run.py haupt-01 --alle > rag/runs/haupt-01/durchsicht.txt
 ```
 
 `generate.py` bricht ab, wenn der Git-Stand nicht sauber ist oder der Index nicht zur Konfiguration passt.
+
+## Stand
+
+| Schritt | Inhalt | Status |
+| --- | --- | --- |
+| 1 | Indexierung | erledigt |
+| 2 | Reranking und Retrieval-Test, Festlegung des Chunkings | erledigt (E-05, E-06) |
+| 3 | Generierung | erledigt |
+| 4 | Pilot P-01 bis P-10, Tag `rag-v1.0` | erledigt (E-15) |
+| 5 | Hauptlauf: 120 Tickets × 2 Bedingungen | erledigt (`haupt-01`) |
+| 6 | Online-Befragung vorbereiten | siehe [`../umfrage/README.md`](../umfrage/README.md) |
 
 ## Dateien
 
@@ -137,7 +151,7 @@ python rag/show_run.py haupt-01 --alle > rag/runs/haupt-01/durchsicht.txt
 | `generate.py` | Schritt 3: Lauf über ein Ticketset, Protokoll nach DEMI 2.2 |
 | `show_run.py` | Durchsicht eines Laufs |
 | `prompts/` | System-Prompt und Nachrichtenvorlagen beider Bedingungen |
-| `runs/<run-id>/` | Ergebnisse je Lauf |
+| `runs/<run-id>/` | Ergebnisse je Lauf, dazu `durchsicht.txt` aus `show_run.py --alle` |
 | `data/chunks.jsonl` | entsteht bei der Indexierung: alle Chunks im Wortlaut (Anhang der Arbeit) |
 | `logs/index_log.jsonl` | entsteht bei der Indexierung: Zeitpunkt, Git-Commit, Config- und KB-Hash, Tokens, Kosten |
 | `logs/retrieval_eval.jsonl` | entsteht beim Retrieval-Test: Kennzahlen je Variante und Ticket |

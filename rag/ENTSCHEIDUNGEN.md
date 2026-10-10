@@ -14,7 +14,7 @@ Jede Designentscheidung mit Datum, Begründung und Bezug zur DEMI. Status „fes
 | E-08 | 2026-10-10 | Preise in USD zum Stichtag 2026-10-10 | fest |
 | E-09 | 2026-10-10 | Suchanfrage ist der unveränderte Tickettext | fest |
 | E-10 | 2026-10-10 | Abstimmung nur mit Pilottickets | fest |
-| E-11 | 2026-10-10 | Umfragetool: SoSci Survey oder vergleichbares Online-Tool | offen |
+| E-11 | 2026-10-10 | Umfragetool: SoSci Survey oder vergleichbares Online-Tool | weiter in `umfrage/README.md` (U-06) |
 | E-12 | 2026-10-10 | Prompt-Gerüst: identisch, Unterschied nur Kontextblock und Belegpflicht | fest |
 | E-13 | 2026-10-10 | Belege auf Artikelebene `[KB-xxx]`, automatisch entfernbar | fest |
 | E-14 | 2026-10-10 | Durchführung: Reihenfolge je Ticket zufällig, Aufwärmaufruf, Latenzdefinition | fest |
