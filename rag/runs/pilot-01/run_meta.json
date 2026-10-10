@@ -1,0 +1,77 @@
+{
+  "run_id": "pilot-01",
+  "segmente": [
+    {
+      "start": "2026-10-10T18:33:30+00:00",
+      "git": {
+        "commit": "6aa6519b90b15a99d74113dc0b0a4d5cd0f256cf",
+        "dirty": true
+      },
+      "ids": "alle",
+      "ende": "2026-10-10T18:34:10+00:00"
+    }
+  ],
+  "set": "pilot",
+  "config": {
+    "kb": {
+      "verzeichnis": "kb",
+      "entferne_abschnitte": [
+        "Verwandte Artikel"
+      ]
+    },
+    "chunking": {
+      "tokenizer": "cl100k_base",
+      "chunk_tokens": 300,
+      "overlap_tokens": 60,
+      "titel_voranstellen": false
+    },
+    "embedding": {
+      "modell": "text-embedding-3-small",
+      "dimensionen": 1536
+    },
+    "qdrant": {
+      "url": "http://localhost:6333",
+      "collection": "hallendal_kb",
+      "distanz": "Cosine"
+    },
+    "retrieval": {
+      "top_k": 5,
+      "rerank_top_n": 3,
+      "reranker": "BAAI/bge-reranker-v2-m3",
+      "reranker_revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "reranker_device": "cpu",
+      "reranker_max_length": 1024
+    },
+    "generierung": {
+      "modell": "gpt-4.1-mini-2025-04-14",
+      "temperatur": 0.2,
+      "max_output_tokens": 600,
+      "seed": 20261010,
+      "reihenfolge_seed": 20261010,
+      "prompt_verzeichnis": "prompts"
+    },
+    "preise_usd_pro_1m_tokens": {
+      "stichtag": "2026-10-10",
+      "text-embedding-3-small": {
+        "input": 0.02
+      },
+      "gpt-4.1-mini-2025-04-14": {
+        "input": 0.4,
+        "cached_input": 0.1,
+        "output": 1.6
+      }
+    }
+  },
+  "config_hash": "d80ecb1bca4d1e44",
+  "kb_hash": "763f052769bf516d",
+  "prompt_hash": "f7858fa89cdc2441",
+  "reranker_revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+  "requirements_lock_hash": "7a4b098086191f4f",
+  "summen": {
+    "eintraege": 20,
+    "input_tokens": 12860,
+    "output_tokens": 3081,
+    "embedding_tokens": 695,
+    "kosten_usd": 0.010087
+  }
+}
