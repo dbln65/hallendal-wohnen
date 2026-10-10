@@ -44,21 +44,27 @@ def parse_article(path: Path, remove_sections: list[str]) -> dict:
     }
 
 
-def split_spans(n_tokens: list[int], size: int, overlap: int) -> list[tuple[int, int]]:
-    """Greedy: Wörter auffüllen bis `size` Tokens; der nächste Chunk beginnt `overlap` Tokens vor dem Ende."""
-    spans, start, n = [], 0, len(n_tokens)
+def split_spans(words: list[str], count, size: int, overlap: int) -> list[tuple[int, int]]:
+    """Greedy: so viele Wörter, dass der Text höchstens `size` Tokens hat; der nächste Chunk
+    übernimmt die letzten Wörter des vorherigen mit zusammen höchstens `overlap` Tokens.
+
+    Gezählt wird immer der zusammengesetzte Text. Einzeln gezählte Wörter ergäben zu viele Tokens,
+    weil der Tokenizer Leerzeichen mit dem folgenden Wort zusammenfasst.
+    """
+    def n_tok(s: int, e: int) -> int:
+        return count("".join(words[s:e]).strip())
+
+    spans, start, n = [], 0, len(words)
     while start < n:
-        end, total = start, 0
-        while end < n and (total + n_tokens[end] <= size or end == start):
-            total += n_tokens[end]
+        end = start + 1                                      # mindestens ein Wort je Chunk
+        while end < n and n_tok(start, end + 1) <= size:
             end += 1
         spans.append((start, end))
         if end >= n:
             break
-        back, ov = end, 0
-        while back > start + 1 and ov < overlap:              # mindestens ein Wort Fortschritt
+        back = end
+        while back > start + 1 and n_tok(back - 1, end) <= overlap:   # mindestens ein Wort Fortschritt
             back -= 1
-            ov += n_tokens[back]
         start = back
     return spans
 
@@ -66,7 +72,7 @@ def split_spans(n_tokens: list[int], size: int, overlap: int) -> list[tuple[int,
 def chunk_article(article: dict, cfg: dict, count) -> list[dict]:
     c = cfg["chunking"]
     words = re.findall(r"\S+\s*", article["body"])           # Wort inkl. folgendem Leerraum/Zeilenumbruch
-    spans = split_spans([count(w) for w in words], c["chunk_tokens"], c["overlap_tokens"])
+    spans = split_spans(words, count, c["chunk_tokens"], c["overlap_tokens"])
     chunks = []
     for i, (s, e) in enumerate(spans, start=1):
         body = "".join(words[s:e]).strip()
@@ -119,6 +125,7 @@ def main() -> None:
     sizes = [ch["n_tokens"] for ch in chunks]
     print(f"\n{len(chunks)} Chunks aus {len(per_article)} Artikeln | Tokens je Chunk min {min(sizes)}, "
           f"Median {sorted(sizes)[len(sizes) // 2]}, max {max(sizes)} | gesamt {sum(sizes)}")
+    print("Hinweis: Die Tokenzahlen enthalten den vorangestellten Titel; die Chunk-Größe gilt für den Text ohne Titel.")
 
 
 if __name__ == "__main__":

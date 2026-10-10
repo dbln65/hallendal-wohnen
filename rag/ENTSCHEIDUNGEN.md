@@ -45,6 +45,8 @@ Die KB-Dateien selbst bleiben unverändert. Die Vorverarbeitung betrifft nur den
 
 Endgültige Werte: werden nach dem Pilot eingetragen.
 
+Korrektur 2026-10-10: Die erste Fassung von `chunking.py` zählte die Tokens jedes Wortes einzeln und addierte sie. Weil der Tokenizer ein Leerzeichen mit dem folgenden Wort zu einem Token zusammenfasst, überschätzte das die Länge um rund 50 %. Die Chunks hatten deshalb nur etwa 120–140 statt 200 Tokens (139 statt erwartet rund 90–100 Chunks). Seit der Korrektur wird immer der zusammengesetzte Text gezählt. Der erste Indexlauf steht weiterhin in `logs/index_log.jsonl`, sein Git-Commit verweist auf die alte Fassung.
+
 ## E-06 Reranker
 
 Lokaler Cross-Encoder `BAAI/bge-reranker-v2-m3`: mehrsprachig (auch Deutsch), feste Modellgewichte und damit reproduzierbar, keine API-Kosten, keine Daten bei Dritten. Er ordnet die Top-5 der Vektorsuche neu und behält die besten 3 (DEMI Tabelle 4). Die Modellrevision wird beim ersten Download fixiert und hier nachgetragen.
