@@ -1,9 +1,9 @@
 {
-  "erzeugt": "2026-10-10T20:07:02+00:00",
+  "erzeugt": "2026-10-10T20:14:14+00:00",
   "skript": "umfrage/prepare_survey.py",
   "git": {
-    "commit": "b2bed0b9262c6c97b9f59b99b83f20dce671c6ba",
-    "dirty": true
+    "commit": "1914203058f6d8182577d8d1b9977d08ec34398a",
+    "dirty": false
   },
   "seed": 20261010,
   "lauf": {

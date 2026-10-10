@@ -1,4 +1,4 @@
-Blockbericht Online-Befragung – erzeugt 2026-10-10T20:07:02+00:00 mit umfrage/prepare_survey.py
+Blockbericht Online-Befragung – erzeugt 2026-10-10T20:14:14+00:00 mit umfrage/prepare_survey.py
 Lauf: haupt-01 | Seed: 20261010 | 120 Entwürfe aus 60 Tickets | 10 Blöcke
 
 Prüfungen: alle bestanden (Tickettexte, finish_reason, Belege entfernt, Rahmen, Inhalt unverändert,
