@@ -1,0 +1,42 @@
+# Konfiguration des RAG-Prototyps.
+# Jede Änderung verändert den config_hash, der in jedem Log-Eintrag steht.
+# Werte mit dem Kommentar "Pilot" werden mit P-01 bis P-10 festgelegt und danach eingefroren (Tag rag-v1.0).
+# Begründungen: ENTSCHEIDUNGEN.md
+
+kb:
+  verzeichnis: kb                        # relativ zum Repo-Hauptverzeichnis (Tag kb-v1.0)
+  entferne_abschnitte: ["Verwandte Artikel"]   # E-04
+
+chunking:                                # E-05, DEMI Tabelle 4
+  tokenizer: cl100k_base                 # Tokenizer von text-embedding-3-small
+  chunk_tokens: 200                      # Pilot
+  overlap_tokens: 40                     # Pilot
+  titel_voranstellen: true
+
+embedding:                               # E-03
+  modell: text-embedding-3-small
+  dimensionen: 1536
+
+qdrant:                                  # E-02
+  url: http://localhost:6333
+  collection: hallendal_kb
+  distanz: Cosine
+
+retrieval:                               # E-06, DEMI Tabelle 4
+  top_k: 5
+  rerank_top_n: 3
+  reranker: BAAI/bge-reranker-v2-m3
+
+generierung:                             # E-07, DEMI Tabelle 4 (ab Schritt 3)
+  modell: gpt-4.1-mini-2025-04-14
+  temperatur: 0.2
+  max_output_tokens: 600                 # Pilot; identisch in beiden Bedingungen
+
+preise_usd_pro_1m_tokens:                # E-08
+  stichtag: "2026-10-10"
+  text-embedding-3-small:
+    input: 0.02
+  gpt-4.1-mini-2025-04-14:
+    input: 0.40
+    cached_input: 0.10
+    output: 1.60

@@ -1,0 +1,10 @@
+# Lokale Vektordatenbank für den Prototyp (ENTSCHEIDUNGEN.md, E-02).
+# Start: docker compose up -d   |   Stopp: docker compose down   |   Weboberfläche: http://localhost:6333/dashboard
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.19.2          # feste Version für Reproduzierbarkeit
+    container_name: hallendal-qdrant
+    ports:
+      - "127.0.0.1:6333:6333"             # nur lokal erreichbar
+    volumes:
+      - ./qdrant_storage:/qdrant/storage  # Daten bleiben beim Neustart erhalten (nicht im Git)

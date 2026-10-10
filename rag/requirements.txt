@@ -1,0 +1,5 @@
+# Feste Versionen für Reproduzierbarkeit (Stand 2026-10-10)
+openai==3.28.0
+qdrant-client==1.19.1
+tiktoken==0.14.0
+pyyaml==6.0.3
