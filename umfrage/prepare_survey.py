@@ -125,6 +125,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--run-id", default="haupt-01")
     args = ap.parse_args()
+    git_state = git_info()  # vor dem Schreiben der Ausgaben, sonst zählen sie selbst als Änderung
 
     run_dir = ROOT / "rag" / "runs" / args.run_id
     run_meta = json.loads((run_dir / "run_meta.json").read_text(encoding="utf-8"))
@@ -225,7 +226,7 @@ def main() -> None:
     meta = {
         "erzeugt": now_iso(),
         "skript": "umfrage/prepare_survey.py",
-        "git": git_info(),
+        "git": git_state,
         "seed": SEED,
         "lauf": {"run_id": args.run_id, "responses_sha256": file_hash(run_dir / "responses.jsonl"),
                  "git": run_gits, "config_hash": run_meta.get("config_hash"),
