@@ -44,6 +44,28 @@ def condition_order(seed: int, ticket_id: str) -> list[str]:
     return order
 
 
+def check_index(cfg: dict, retriever) -> dict:
+    """Prüft, ob der Index in Qdrant zur aktuellen Konfiguration und KB passt (letzter Eintrag in index_log.jsonl)."""
+    log = RAG_DIR / "logs" / "index_log.jsonl"
+    if not log.exists():
+        sys.exit("Kein Indexprotokoll gefunden. Zuerst python rag/index_kb.py ausführen.")
+    with log.open(encoding="utf-8") as f:
+        last = [json.loads(line) for line in f][-1]
+    problems = []
+    if last["chunking"] != cfg["chunking"]:
+        problems.append("Chunking-Parameter weichen ab")
+    if last["embedding_model"] != cfg["embedding"]["modell"]:
+        problems.append("Embedding-Modell weicht ab")
+    if last["kb_hash"] != kb_hash(ROOT / cfg["kb"]["verzeichnis"]):
+        problems.append("KB hat sich seit der Indexierung geändert")
+    stored = retriever.qdrant.count(cfg["qdrant"]["collection"], exact=True).count
+    if stored != last["n_chunks"]:
+        problems.append(f"Qdrant enthält {stored} statt {last['n_chunks']} Chunks")
+    if problems:
+        sys.exit("Index passt nicht zur Konfiguration: " + "; ".join(problems) + ". Bitte python rag/index_kb.py ausführen.")
+    return {k: last[k] for k in ("timestamp", "config_hash", "kb_hash", "n_chunks", "git")}
+
+
 def to_csv_row(e: dict) -> dict:
     r = e.get("retrieval") or {"kandidaten": [], "passagen": []}
     row = {k: e.get(k, "") for k in CSV_FIELDS}
@@ -118,6 +140,7 @@ def main() -> None:
 
     client = OpenAI(max_retries=5)
     retriever = Retriever(cfg)
+    index_info = check_index(cfg, retriever)
 
     # Aufwärmaufruf (nicht protokolliert): lädt Modelle und Verbindungen, damit die erste Messung nicht verzerrt ist
     warm = {"ticket_id": "WARMUP", "ticket_text": "Wie lange dauert die Lieferung?"}
@@ -134,6 +157,7 @@ def main() -> None:
         prompt_hash=prompts["hash"],
         reranker_revision=retriever.reranker_revision,
         requirements_lock_hash=sha256(lock.read_text(encoding="utf-8")) if lock.exists() else None,
+        index=index_info,
     )
     segment = {"start": now_iso(), "git": git, "ids": args.ids or "alle"}
     meta["segmente"].append(segment)

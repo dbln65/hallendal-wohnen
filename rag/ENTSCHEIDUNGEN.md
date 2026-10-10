@@ -15,9 +15,10 @@ Jede Designentscheidung mit Datum, Begründung und Bezug zur DEMI. Status „fes
 | E-09 | 2026-10-10 | Suchanfrage ist der unveränderte Tickettext | fest |
 | E-10 | 2026-10-10 | Abstimmung nur mit Pilottickets | fest |
 | E-11 | 2026-10-10 | Umfragetool: SoSci Survey oder vergleichbares Online-Tool | offen |
-| E-12 | 2026-10-10 | Prompt-Gerüst: identisch, Unterschied nur Kontextblock und Belegpflicht | Pilot |
+| E-12 | 2026-10-10 | Prompt-Gerüst: identisch, Unterschied nur Kontextblock und Belegpflicht | fest |
 | E-13 | 2026-10-10 | Belege auf Artikelebene `[KB-xxx]`, automatisch entfernbar | fest |
 | E-14 | 2026-10-10 | Durchführung: Reihenfolge je Ticket zufällig, Aufwärmaufruf, Latenzdefinition | fest |
+| E-15 | 2026-10-10 | Einfrieren der Konfiguration nach `pilot-03` (Tag `rag-v1.0`) | fest |
 
 ## E-01 Repo-Struktur
 
@@ -168,3 +169,17 @@ Für die verblindete Befragung entfernt `generation.strip_citations()` die Beleg
 - **`store=False`:** Anfragen werden bei OpenAI nicht als gespeicherte Completions abgelegt.
 - **Fehler und Fortsetzung:** Fehlgeschlagene Aufrufe stehen in `errors.jsonl`. Ein Lauf wird mit derselben `--run-id` fortgesetzt; vorhandene Einträge werden übersprungen.
 - **Hauptlauf** nur mit `--erlaube-haupt` und sauberem Git-Stand (alles committet).
+- **Indexprüfung vor jedem Lauf:** `generate.py` vergleicht Chunking-Parameter, Embedding-Modell und KB-Hash mit dem letzten Eintrag in `logs/index_log.jsonl` und die Zahl der Chunks in Qdrant. Bei einer Abweichung bricht der Lauf ab. Der verwendete Indexstand steht in `run_meta.json`.
+
+## E-15 Einfrieren der Konfiguration
+
+Nach `pilot-03` (2026-10-10) wird die Konfiguration eingefroren und als `rag-v1.0` getaggt. Ab dann ändern sich `config.yaml`, `prompts/` und der Code der Pipeline nicht mehr. Der Hauptlauf erfolgt mit genau diesem Stand.
+
+Ergebnis von `pilot-03`:
+
+- Format in allen 20 Entwürfen wie vorgegeben (Anrede, Absätze, Grußformel, kein Verweis auf die Wissensdatenbank)
+- Keine Kürzung der Ausgabe (`finish_reason` überall `stop`), im Mittel rund 150 Ausgabe-Tokens bei einer Obergrenze von 600
+- In 4 RAG-Entwürfen je ein Satz mit Zahl ohne Beleg (P-06, P-07, P-08, P-10). Das gehört zum gemessenen Verhalten (E-12) und wird als Citation-Fail kodiert.
+- Kosten je Entwurf rund 0,066 Cent (RAG) bzw. 0,036 Cent (LLM-only); mittlere Latenz rund 2,3 s (RAG) bzw. 1,3 s (LLM-only)
+
+Die Pilotläufe `pilot-01` bis `pilot-03` gehen in keine Auswertung ein (DEMI, TICKETS.md).

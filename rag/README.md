@@ -106,8 +106,19 @@ Prompts: `prompts/system.txt` (beide Bedingungen), `prompts/user_llm.txt`, `prom
 
 | Schritt | Inhalt | Status |
 | --- | --- | --- |
-| 4 | Pilot P-01 bis P-10, Festlegung der Pilot-Parameter, Tag `rag-v1.0` | folgt |
+| 4 | Pilot P-01 bis P-10, Festlegung der Pilot-Parameter, Tag `rag-v1.0` | erledigt (E-15) |
 | 5 | Hauptlauf: 120 Tickets × 2 Bedingungen | folgt |
+
+## Schritt 5: Hauptlauf
+
+```bash
+git status                                                       # muss sauber sein
+python rag/generate.py --set haupt --run-id haupt-01 --erlaube-haupt
+python rag/show_run.py haupt-01
+python rag/show_run.py haupt-01 --alle > rag/runs/haupt-01/durchsicht.txt
+```
+
+`generate.py` bricht ab, wenn der Git-Stand nicht sauber ist oder der Index nicht zur Konfiguration passt.
 
 ## Dateien
 
