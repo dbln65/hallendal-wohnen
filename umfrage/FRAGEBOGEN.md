@@ -20,7 +20,7 @@ vielen Dank für Ihr Interesse an dieser Befragung. Sie ist Teil meiner Bachelor
 
 **Datenverarbeitung und Löschung:** Die Befragung wird mit SoSci Survey durchgeführt. Die Angaben werden ausschließlich für diese Bachelorarbeit ausgewertet und nur zusammengefasst oder als anonymer Datensatz im Anhang der Arbeit dargestellt. Die Rohdaten werden nach Abschluss des Prüfungsverfahrens, spätestens am [01.02.2027], gelöscht. Da keine personenbezogenen Daten erhoben werden, lässt sich ein einzelner Datensatz nach dem Absenden keiner Person zuordnen und daher nicht gezielt löschen.
 
-**Kontakt:** David Kinner, [Digitale Wirtschaft], BHT, [daki9716@bht-berlin.de]
+**Kontakt:** David Kinner, Digitale Wirtschaft, BHT, daki9716@bht-berlin.de
 **Betreuung:** Prof. Dr. Ilona Buchem, BHT
 
 ---
