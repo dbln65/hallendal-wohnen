@@ -151,7 +151,7 @@ python rag/show_run.py haupt-01 --alle > rag/runs/haupt-01/durchsicht.txt
 | `generate.py` | Schritt 3: Lauf über ein Ticketset, Protokoll nach DEMI 2.2 |
 | `show_run.py` | Durchsicht eines Laufs |
 | `prompts/` | System-Prompt und Nachrichtenvorlagen beider Bedingungen |
-| `runs/<run-id>/` | Ergebnisse je Lauf, dazu `durchsicht.txt` aus `show_run.py --alle` |
+| `runs/<run-id>/` | Ergebnisse je Lauf aus `show_run.py --alle` |
 | `data/chunks.jsonl` | entsteht bei der Indexierung: alle Chunks im Wortlaut (Anhang der Arbeit) |
 | `logs/index_log.jsonl` | entsteht bei der Indexierung: Zeitpunkt, Git-Commit, Config- und KB-Hash, Tokens, Kosten |
 | `logs/retrieval_eval.jsonl` | entsteht beim Retrieval-Test: Kennzahlen je Variante und Ticket |
