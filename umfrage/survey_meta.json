@@ -1,0 +1,33 @@
+{
+  "erzeugt": "2026-10-10T20:07:02+00:00",
+  "skript": "umfrage/prepare_survey.py",
+  "git": {
+    "commit": "b2bed0b9262c6c97b9f59b99b83f20dce671c6ba",
+    "dirty": true
+  },
+  "seed": 20261010,
+  "lauf": {
+    "run_id": "haupt-01",
+    "responses_sha256": "819cc178aaf445aa",
+    "git": [
+      {
+        "commit": "5a7485275d12384c43a098fb12ce7c9cb1aaf1ff",
+        "dirty": false
+      }
+    ],
+    "config_hash": "d80ecb1bca4d1e44",
+    "prompt_hash": "884836269b602082",
+    "kb_hash": "763f052769bf516d"
+  },
+  "tickets_plan_sha256": "073e6dbf10167cd9",
+  "tickets_jsonl_sha256": "e065e2fd60dc96e4",
+  "anzahl": {
+    "tickets": 60,
+    "entwuerfe": 120,
+    "bloecke": 10
+  },
+  "ausgaben": {
+    "entwuerfe.csv": "9d15580a5bd43a96",
+    "schluessel.csv": "35cef6d7ca5dcb33"
+  }
+}

@@ -1,0 +1,72 @@
+Blockbericht Online-Befragung – erzeugt 2026-10-10T20:07:02+00:00 mit umfrage/prepare_survey.py
+Lauf: haupt-01 | Seed: 20261010 | 120 Entwürfe aus 60 Tickets | 10 Blöcke
+
+Prüfungen: alle bestanden (Tickettexte, finish_reason, Belege entfernt, Rahmen, Inhalt unverändert,
+           je Block 12 Entwürfe, 6 RAG + 6 LLM, kein Ticket doppelt)
+
+Verteilung je Block
+Block | RAG LLM | einfach  mittel komplex  kb_gap | Reklamat  Retoure  Versand  Zahlung | Wörter RAG/LLM
+    1 |   6   6 |       4       4       2       2 |        3        3        3        3 | 105/98
+    2 |   6   6 |       4       3       3       2 |        3        4        3        2 | 101/107
+    3 |   6   6 |       4       3       3       2 |        3        3        2        4 | 90/100
+    4 |   6   6 |       4       3       2       3 |        4        2        3        3 | 88/103
+    5 |   6   6 |       4       3       2       3 |        2        3        4        3 | 95/105
+    6 |   6   6 |       4       4       2       2 |        3        3        3        3 | 100/96
+    7 |   6   6 |       4       3       3       2 |        3        4        3        2 | 102/108
+    8 |   6   6 |       4       3       3       2 |        3        3        2        4 | 105/103
+    9 |   6   6 |       4       3       2       3 |        4        2        3        3 | 101/85
+   10 |   6   6 |       4       3       2       3 |        2        3        4        3 | 97/103
+
+Blockpaare mit denselben 12 Tickets in getauschter Bedingung: 1/6, 2/7, 3/8, 4/9, 5/10
+
+Länge (Wörter, gesamt): rag: Mittel 98, Min 51, Max 148 | llm: Mittel 101, Min 69, Max 140
+Hinweiswörter (Auszug, Wissensdatenbank, Datenbank, Quelle, KB): rag 0, llm 0
+
+Bereinigung: 47 Entwürfe weichen von antwort_ohne_belege im Lauf ab (U-01)
+  T-002 rag: nur Leerzeichen am Zeilenende
+  T-002 llm: nur Leerzeichen am Zeilenende
+  T-007 rag: nur Leerzeichen am Zeilenende
+  T-010 rag: nur Leerzeichen am Zeilenende
+  T-011 llm: nur Leerzeichen am Zeilenende
+  T-012 rag: nur Leerzeichen am Zeilenende
+  T-014 llm: nur Leerzeichen am Zeilenende
+  T-019 rag: nur Leerzeichen am Zeilenende
+  T-020 llm: nur Leerzeichen am Zeilenende
+  T-023 rag: nur Leerzeichen am Zeilenende
+  T-024 rag: nur Leerzeichen am Zeilenende
+  T-026 llm: nur Leerzeichen am Zeilenende
+  T-027 rag: nur Leerzeichen am Zeilenende
+  T-035 rag: nur Leerzeichen am Zeilenende
+  T-035 llm: nur Leerzeichen am Zeilenende
+  T-036 rag: nur Leerzeichen am Zeilenende
+  T-037 rag: nur Leerzeichen am Zeilenende
+  T-038 rag: nur Leerzeichen am Zeilenende
+  T-043 rag: nur Leerzeichen am Zeilenende
+  T-044 rag: nur Leerzeichen am Zeilenende
+  T-044 llm: nur Leerzeichen am Zeilenende
+  T-047 rag: nur Leerzeichen am Zeilenende
+  T-051 rag: nur Leerzeichen am Zeilenende
+  T-055 rag: nur Leerzeichen am Zeilenende
+  T-055 llm: nur Leerzeichen am Zeilenende
+  T-056 rag: nur Leerzeichen am Zeilenende
+  T-060 rag: nur Leerzeichen am Zeilenende
+  T-062 rag: nur Leerzeichen am Zeilenende
+  T-065 rag: nur Leerzeichen am Zeilenende
+  T-065 llm: nur Leerzeichen am Zeilenende
+  T-069 rag: nur Leerzeichen am Zeilenende
+  T-073 rag: nur Leerzeichen am Zeilenende
+  T-079 rag: nur Leerzeichen am Zeilenende
+  T-084 rag: nur Leerzeichen am Zeilenende
+  T-089 rag: nur Leerzeichen am Zeilenende
+  T-091 rag: nur Leerzeichen am Zeilenende
+  T-094 rag: 'ellwert von 1.500 Euro möglich,. Da Ihr ' -> 'ellwert von 1.500 Euro möglich. Da Ihr W'
+  T-096 rag: nur Leerzeichen am Zeilenende
+  T-098 rag: nur Leerzeichen am Zeilenende
+  T-099 rag: nur Leerzeichen am Zeilenende
+  T-102 llm: nur Leerzeichen am Zeilenende
+  T-104 rag: nur Leerzeichen am Zeilenende
+  T-105 rag: nur Leerzeichen am Zeilenende
+  T-113 rag: nur Leerzeichen am Zeilenende
+  T-115 llm: nur Leerzeichen am Zeilenende
+  T-116 rag: nur Leerzeichen am Zeilenende
+  T-116 llm: nur Leerzeichen am Zeilenende
