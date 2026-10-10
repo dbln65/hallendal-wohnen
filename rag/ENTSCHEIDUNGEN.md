@@ -43,13 +43,28 @@ Die KB-Dateien selbst bleiben unverändert. Die Vorverarbeitung betrifft nur den
 - **Titel jedem Chunk vorangestellt**, damit auch spätere Chunks eines Artikels ihren thematischen Bezug behalten.
 - **Startwerte: 200 Tokens, 40 Tokens Überlappung.** Die Artikel haben rund 120–280 Wörter, das ergibt meist 2–3 Chunks je Artikel.
 
+**Festlegung im Pilot (vorab definiert, 2026-10-10).** Mit `eval_retrieval.py` werden sechs Varianten auf den 8 KB-gedeckten Pilottickets (26 Beleg-Zitate) verglichen. Format: Chunk-Tokens/Überlappung/Titel.
+
+- `150/30/ja`, `200/40/ja`, `300/60/ja`, `400/80/ja` (Überlappung jeweils 20 %)
+- `200/40/nein`, `300/60/nein` (Wirkung des vorangestellten Titels)
+
+Entscheidungsregel, festgelegt vor dem ersten Vergleich:
+
+1. höchste Beleg-Abdeckung@3 nach Reranking, also der Anteil der Beleg-Zitate, die wörtlich in den drei an das Modell übergebenen Passagen stehen;
+2. bei Gleichstand (Unterschied von höchstens einem Zitat) höherer Artikel-Treffer@3 nach Reranking;
+3. danach der kürzere Kontext (geringere Kosten).
+
+Einschränkung: Bei 8 Tickets ist der Vergleich grob. Er dient der begründeten Wahl eines Parameters, nicht dem Nachweis eines Unterschieds.
+
 Endgültige Werte: werden nach dem Pilot eingetragen.
 
 Korrektur 2026-10-10: Die erste Fassung von `chunking.py` zählte die Tokens jedes Wortes einzeln und addierte sie. Weil der Tokenizer ein Leerzeichen mit dem folgenden Wort zu einem Token zusammenfasst, überschätzte das die Länge um rund 50 %. Die Chunks hatten deshalb nur etwa 120–140 statt 200 Tokens (139 statt erwartet rund 90–100 Chunks). Seit der Korrektur wird immer der zusammengesetzte Text gezählt. Der erste Indexlauf steht weiterhin in `logs/index_log.jsonl`, sein Git-Commit verweist auf die alte Fassung.
 
 ## E-06 Reranker
 
-Lokaler Cross-Encoder `BAAI/bge-reranker-v2-m3`: mehrsprachig (auch Deutsch), feste Modellgewichte und damit reproduzierbar, keine API-Kosten, keine Daten bei Dritten. Er ordnet die Top-5 der Vektorsuche neu und behält die besten 3 (DEMI Tabelle 4). Die Modellrevision wird beim ersten Download fixiert und hier nachgetragen.
+Lokaler Cross-Encoder `BAAI/bge-reranker-v2-m3`: mehrsprachig (auch Deutsch), feste Modellgewichte und damit reproduzierbar, keine API-Kosten, keine Daten bei Dritten. Er ordnet die Top-5 der Vektorsuche neu und behält die besten 3 (DEMI Tabelle 4). Die Scores werden auf der CPU berechnet (`reranker_device: cpu`), damit sie auf jedem Rechner gleich ausfallen. Die maximale Eingabelänge beträgt 512 Tokens; Ticket und Chunk liegen deutlich darunter.
+
+Die Modellrevision (Commit auf Hugging Face) ermittelt `eval_retrieval.py` beim ersten Lauf. Sie wird danach in `config.yaml` als `reranker_revision` eingetragen, damit alle weiteren Läufe genau diese Gewichte verwenden. Revision: wird nachgetragen.
 
 ## E-07 Generierungsmodell
 

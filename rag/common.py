@@ -2,6 +2,7 @@
 
 import hashlib
 import json
+import re
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
@@ -43,6 +44,21 @@ def git_info() -> dict:
         return {"commit": commit, "dirty": dirty}
     except (OSError, subprocess.CalledProcessError):
         return {"commit": None, "dirty": None}
+
+
+def norm(text: str) -> str:
+    """Normalisierung für den Zitatvergleich, identisch mit validate_tickets.norm()."""
+    text = re.sub(r"(?m)^\s*(?:[-*]|\d+\.)\s+", "", text)
+    text = re.sub(r"[*_`#|]", " ", text)
+    text = text.replace("„", '"').replace("“", '"').replace("”", '"').replace("–", "-").replace("—", "-")
+    return re.sub(r"\s+", " ", text).strip().rstrip(".;:,!").strip().casefold()
+
+
+def load_tickets(ticket_set: str) -> list[dict]:
+    """Tickets aus tickets.jsonl (Export von validate_tickets.py); ticket_set: pilot, haupt oder alle."""
+    with (ROOT / "tickets.jsonl").open(encoding="utf-8") as f:
+        tickets = [json.loads(line) for line in f]
+    return [t for t in tickets if ticket_set == "alle" or t["set"] == ticket_set]
 
 
 def now_iso() -> str:

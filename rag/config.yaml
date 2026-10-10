@@ -26,6 +26,9 @@ retrieval:                               # E-06, DEMI Tabelle 4
   top_k: 5
   rerank_top_n: 3
   reranker: BAAI/bge-reranker-v2-m3
+  reranker_revision: null                # beim ersten Lauf ermittelt, dann hier eintragen (E-06)
+  reranker_device: cpu                   # CPU für reproduzierbare Scores
+  reranker_max_length: 512               # Ticket + Chunk liegen deutlich darunter
 
 generierung:                             # E-07, DEMI Tabelle 4 (ab Schritt 3)
   modell: gpt-4.1-mini-2025-04-14
