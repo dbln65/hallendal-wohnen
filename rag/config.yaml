@@ -9,9 +9,9 @@ kb:
 
 chunking:                                # E-05, DEMI Tabelle 4
   tokenizer: cl100k_base                 # Tokenizer von text-embedding-3-small
-  chunk_tokens: 200                      # Pilot
-  overlap_tokens: 40                     # Pilot
-  titel_voranstellen: true
+  chunk_tokens: 300                      # im Pilot festgelegt (E-05)
+  overlap_tokens: 60                     # im Pilot festgelegt (E-05)
+  titel_voranstellen: false              # im Pilot festgelegt (E-05)
 
 embedding:                               # E-03
   modell: text-embedding-3-small

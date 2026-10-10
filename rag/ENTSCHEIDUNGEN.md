@@ -8,7 +8,7 @@ Jede Designentscheidung mit Datum, Begründung und Bezug zur DEMI. Status „fes
 | E-02 | 2026-10-10 | Qdrant v1.19.2 lokal per Docker | fest |
 | E-03 | 2026-10-10 | Embedding `text-embedding-3-small`, 1536 Dimensionen, Kosinus | fest |
 | E-04 | 2026-10-10 | Vorverarbeitung: Frontmatter, H1 und „Verwandte Artikel“ entfernen | fest |
-| E-05 | 2026-10-10 | Chunking: feste Token-Größe mit Überlappung, Titel vorangestellt | Pilot |
+| E-05 | 2026-10-10 | Chunking: 300 Tokens, 60 Tokens Überlappung, ohne Titel (im Pilot festgelegt) | fest |
 | E-06 | 2026-10-10 | Reranker: lokaler Cross-Encoder `BAAI/bge-reranker-v2-m3` | fest |
 | E-07 | 2026-10-10 | Generierung: `gpt-4.1-mini-2025-04-14`, Temperatur 0,2 | fest |
 | E-08 | 2026-10-10 | Preise in USD zum Stichtag 2026-10-10 | fest |
@@ -31,7 +31,7 @@ Qdrant in der festen Version v1.19.2, lokal als Docker-Container, nur über `127
 ## E-04 Vorverarbeitung
 
 - Das YAML-Frontmatter (ID, Kategorie, Titel, Länder, Stand) wird als Metadaten gespeichert und nicht eingebettet.
-- Die H1-Überschrift entfällt, weil der Titel jedem Chunk vorangestellt wird (E-05).
+- Die H1-Überschrift entfällt. Der Titel steht in den Metadaten jedes Chunks; ob er zusätzlich dem Chunk-Text vorangestellt wird, regelt E-05.
 - Der Abschnitt „Verwandte Artikel“ wird entfernt. Er enthält nur Verweise auf andere Artikel, keine Fakten, und erzeugt Scheintreffer. Ein Beispiel aus der Relevanz-Review: Bei T-067 fanden sich „5-Jahres-Garantie“-Treffer in KB-023 und KB-025 nur in der Verweisliste.
 
 Die KB-Dateien selbst bleiben unverändert. Die Vorverarbeitung betrifft nur den Index.
@@ -40,7 +40,7 @@ Die KB-Dateien selbst bleiben unverändert. Die Vorverarbeitung betrifft nur den
 
 - **Feste Chunk-Größe in Tokens mit Überlappung**, wie in DEMI Tabelle 4 festgelegt. Gezählt wird mit dem Tokenizer von `text-embedding-3-small` (`cl100k_base`).
 - **Grenzen auf Wortgrenzen**, damit kein Wort zerteilt wird. Die Größe ist daher eine Obergrenze und bezieht sich auf den Text ohne vorangestellten Titel.
-- **Titel jedem Chunk vorangestellt**, damit auch spätere Chunks eines Artikels ihren thematischen Bezug behalten.
+- **Titel voranstellen (ja/nein)** wurde im Pilot geprüft. Die Überlegung dafür: Auch spätere Chunks eines Artikels behalten so ihren thematischen Bezug. Die Überlegung dagegen: Alle Chunks eines Artikels werden einander ähnlicher und verdrängen in der Vektorsuche andere Artikel.
 - **Startwerte: 200 Tokens, 40 Tokens Überlappung.** Die Artikel haben rund 120–280 Wörter, das ergibt meist 2–3 Chunks je Artikel.
 
 **Festlegung im Pilot (vorab definiert, 2026-10-10).** Mit `eval_retrieval.py` werden sechs Varianten auf den 8 KB-gedeckten Pilottickets (26 Beleg-Zitate) verglichen. Format: Chunk-Tokens/Überlappung/Titel.
@@ -58,7 +58,28 @@ Einschränkung: Bei 8 Tickets ist der Vergleich grob. Er dient der begründeten 
 
 Einschränkung der Kennzahl (festgestellt beim ersten Testlauf am 2026-10-10, vor dem Variantenvergleich): Die Beleg-Abdeckung zählt nur wörtliche Zitate. Steht derselbe Fakt in einem anderen Artikel anders formuliert, gilt er als nicht abgedeckt. Beispiel P-03: Die abgerufenen Chunks aus KB-015 und KB-017 enthalten beide Kernaussagen („ungebraucht“, „Originalverpackung erwünscht, aber nicht Pflicht“), die Belege stammen aber aus KB-014. Die Kennzahl unterschätzt die tatsächliche Abdeckung daher. Für den Vergleich der Varianten ist das unkritisch, weil alle Varianten dieselben Artikeltexte enthalten und nur die Chunk-Grenzen sich unterscheiden. Für die F2-Kodierung im Hauptlauf gilt: Maßgeblich ist, ob der Fakt inhaltlich in einer abgerufenen Passage steht, nicht nur die Artikel-ID.
 
-Endgültige Werte: werden nach dem Pilot eingetragen.
+**Ergebnis des Variantenvergleichs (2026-10-10, `logs/retrieval_eval.jsonl`)**
+
+| Variante | Chunks | Artikel-Treffer R@3 | Beleg-Abdeckung V@5 | V@3 | R@3 | Kontext (Zeichen) |
+| --- | --- | --- | --- | --- | --- | --- |
+| 150/30/ja | 113 | 0,88 | 0,81 | 0,61 | 0,58 | 1525 |
+| 200/40/ja | 89 | 0,88 | 0,65 | 0,61 | 0,61 | 1881 |
+| 300/60/ja | 63 | 0,88 | 0,85 | 0,81 | **0,81** | 2679 |
+| 400/80/ja | 44 | 0,88 | 0,92 | 0,85 | 0,73 | 3258 |
+| 200/40/nein | 89 | 1,00 | 0,65 | 0,58 | 0,58 | 1804 |
+| 300/60/nein | 63 | 0,88 | 0,85 | 0,69 | **0,81** | 2441 |
+
+Anwendung der Entscheidungsregel:
+
+1. Die höchste Beleg-Abdeckung@3 nach Reranking erreichen `300/60/ja` und `300/60/nein` mit je 0,81 (21 von 26 Zitaten). `400/80/ja` liegt mit 0,73 zwei Zitate darunter und scheidet damit aus.
+2. Artikel-Treffer@3: beide 0,88, also Gleichstand.
+3. Kürzerer Kontext: `300/60/nein` mit 2441 statt 2679 Zeichen.
+
+**Festlegung: 300 Tokens, 60 Tokens Überlappung, ohne vorangestellten Titel.** Der Titel steht weiterhin in den Metadaten und kann im Kontextblock des Prompts angezeigt werden (Schritt 3).
+
+Beobachtungen:
+- Kleine Chunks (150, 200) zerteilen Fakten häufiger und senken die Abdeckung.
+- Bei 400 Tokens senkt das Reranking die Abdeckung gegenüber der reinen Vektorsuche (0,85 auf 0,73). Eine mögliche Ursache: Ticket und Chunk überschreiten zusammen die maximale Eingabelänge des Cross-Encoders (512 Tokens), und das Ende des Chunks wird abgeschnitten. Das wird in Schritt 3 geprüft.
 
 Korrektur 2026-10-10: Die erste Fassung von `chunking.py` zählte die Tokens jedes Wortes einzeln und addierte sie. Weil der Tokenizer ein Leerzeichen mit dem folgenden Wort zu einem Token zusammenfasst, überschätzte das die Länge um rund 50 %. Die Chunks hatten deshalb nur etwa 120–140 statt 200 Tokens (139 statt erwartet rund 90–100 Chunks). Seit der Korrektur wird immer der zusammengesetzte Text gezählt. Der erste Indexlauf steht weiterhin in `logs/index_log.jsonl`, sein Git-Commit verweist auf die alte Fassung.
 
