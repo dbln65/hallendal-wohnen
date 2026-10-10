@@ -56,6 +56,8 @@ Entscheidungsregel, festgelegt vor dem ersten Vergleich:
 
 Einschränkung: Bei 8 Tickets ist der Vergleich grob. Er dient der begründeten Wahl eines Parameters, nicht dem Nachweis eines Unterschieds.
 
+Einschränkung der Kennzahl (festgestellt beim ersten Testlauf am 2026-10-10, vor dem Variantenvergleich): Die Beleg-Abdeckung zählt nur wörtliche Zitate. Steht derselbe Fakt in einem anderen Artikel anders formuliert, gilt er als nicht abgedeckt. Beispiel P-03: Die abgerufenen Chunks aus KB-015 und KB-017 enthalten beide Kernaussagen („ungebraucht“, „Originalverpackung erwünscht, aber nicht Pflicht“), die Belege stammen aber aus KB-014. Die Kennzahl unterschätzt die tatsächliche Abdeckung daher. Für den Vergleich der Varianten ist das unkritisch, weil alle Varianten dieselben Artikeltexte enthalten und nur die Chunk-Grenzen sich unterscheiden. Für die F2-Kodierung im Hauptlauf gilt: Maßgeblich ist, ob der Fakt inhaltlich in einer abgerufenen Passage steht, nicht nur die Artikel-ID.
+
 Endgültige Werte: werden nach dem Pilot eingetragen.
 
 Korrektur 2026-10-10: Die erste Fassung von `chunking.py` zählte die Tokens jedes Wortes einzeln und addierte sie. Weil der Tokenizer ein Leerzeichen mit dem folgenden Wort zu einem Token zusammenfasst, überschätzte das die Länge um rund 50 %. Die Chunks hatten deshalb nur etwa 120–140 statt 200 Tokens (139 statt erwartet rund 90–100 Chunks). Seit der Korrektur wird immer der zusammengesetzte Text gezählt. Der erste Indexlauf steht weiterhin in `logs/index_log.jsonl`, sein Git-Commit verweist auf die alte Fassung.
@@ -64,7 +66,7 @@ Korrektur 2026-10-10: Die erste Fassung von `chunking.py` zählte die Tokens jed
 
 Lokaler Cross-Encoder `BAAI/bge-reranker-v2-m3`: mehrsprachig (auch Deutsch), feste Modellgewichte und damit reproduzierbar, keine API-Kosten, keine Daten bei Dritten. Er ordnet die Top-5 der Vektorsuche neu und behält die besten 3 (DEMI Tabelle 4). Die Scores werden auf der CPU berechnet (`reranker_device: cpu`), damit sie auf jedem Rechner gleich ausfallen. Die maximale Eingabelänge beträgt 512 Tokens; Ticket und Chunk liegen deutlich darunter.
 
-Die Modellrevision (Commit auf Hugging Face) ermittelt `eval_retrieval.py` beim ersten Lauf. Sie wird danach in `config.yaml` als `reranker_revision` eingetragen, damit alle weiteren Läufe genau diese Gewichte verwenden. Revision: wird nachgetragen.
+Die Modellrevision (Commit auf Hugging Face) ermittelt `eval_retrieval.py` beim ersten Lauf. Sie wird danach in `config.yaml` als `reranker_revision` eingetragen, damit alle weiteren Läufe genau diese Gewichte verwenden. Revision: `953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e` (ermittelt am 2026-10-10).
 
 ## E-07 Generierungsmodell
 
