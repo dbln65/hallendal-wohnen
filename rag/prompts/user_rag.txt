@@ -1,7 +1,7 @@
 Auszüge aus der Wissensdatenbank von Hallendal Wohnen:
 {passagen}
 
-Belegpflicht: Stütze jede sachliche Aussage ausschließlich auf diese Auszüge und setze direkt dahinter die Artikel-ID in eckigen Klammern, z. B. [KB-017]. Was die Auszüge nicht abdecken, behauptest du nicht.
+Belegpflicht: Stütze jede sachliche Aussage ausschließlich auf diese Auszüge. Setze die Artikel-ID in eckigen Klammern an das Ende jedes Satzes, der eine sachliche Aussage enthält, vor den Punkt, zum Beispiel: „Die Lieferzeit beträgt 4–8 Werktage [KB-010].“ Sammle die Belege nicht am Ende des Entwurfs. Anrede und Gruß erhalten keine Belege. Was die Auszüge nicht abdecken, behauptest du nicht.
 
 Kundenanfrage:
 <anfrage>

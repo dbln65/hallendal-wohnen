@@ -9,10 +9,38 @@ Die Musterantwort-Kernaussagen werden nur zur eigenen Kontrolle angezeigt; das M
 
 import argparse
 import json
+import re
 import statistics
 import sys
 
 from common import RAG_DIR, load_tickets
+from generation import CITATION
+
+GRUSS = "Viele Grüße, Ihr Hallendal-Wohnen-Team"
+
+
+def format_checks(e: dict, gedeckt: bool) -> list[str]:
+    """Formale Prüfungen gemäß Prompt (E-12, E-13). Inhaltliche Prüfung erfolgt in der Kodierung."""
+    text, notes = e["antwort"], []
+    if not text.startswith("Guten Tag,") or re.match(r"Guten Tag,?\s*(Herr|Frau)\b", text):
+        notes.append("Anrede nicht wie vorgegeben")
+    if not text.rstrip().endswith(GRUSS):
+        notes.append("endet nicht mit der Grußformel")
+    if "\n\n" not in text:
+        notes.append("keine Absätze")
+    if e["bedingung"] == "rag":
+        if gedeckt and not e["zitierte_artikel"]:
+            notes.append("RAG ohne Beleg")
+        if GRUSS in text and CITATION.search(text.split(GRUSS, 1)[1]):
+            notes.append("Beleg nach der Grußformel")
+        body = text.split(GRUSS, 1)[0]
+        sentences = [s for s in re.split(r"(?<=[.!?])\s+", body) if re.search(r"\d", s)]
+        ohne = [s for s in sentences if not CITATION.search(s)]
+        if ohne:
+            notes.append(f"{len(ohne)} Satz/Sätze mit Zahl ohne Beleg")
+    elif e["zitierte_artikel"]:
+        notes.append("LLM-only mit Beleg")
+    return notes
 
 
 def show_ticket(tid: str, entries: dict, gold: dict) -> None:
@@ -65,13 +93,9 @@ def main() -> None:
     print("\nAuffälligkeiten:")
     found = False
     for e in rows:
-        notes = []
+        notes = format_checks(e, e["kb_abdeckung"] == "gedeckt")
         if e["finish_reason"] != "stop":
             notes.append(f"abgebrochen ({e['finish_reason']})")
-        if e["bedingung"] == "rag" and not e["zitierte_artikel"]:
-            notes.append("RAG ohne Beleg")
-        if e["bedingung"] == "llm" and e["zitierte_artikel"]:
-            notes.append("LLM-only mit Beleg")
         if e["zitate_ausserhalb_kontext"]:
             notes.append(f"zitiert nicht übergebene Artikel {e['zitate_ausserhalb_kontext']}")
         if e["kb_ids_ausserhalb_format"]:

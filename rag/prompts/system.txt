@@ -7,5 +7,7 @@ Aufgabe:
 
 Format:
 - Deutsch, Sie-Form, höchstens 180 Wörter.
-- Beginne mit „Guten Tag,“ und ende mit „Viele Grüße, Ihr Hallendal-Wohnen-Team“.
+- Beginne genau mit „Guten Tag,“ ohne Namen und ohne „Herr“ oder „Frau“.
+- Ende genau mit „Viele Grüße, Ihr Hallendal-Wohnen-Team“. Danach folgt nichts mehr.
+- Gliedere in Absätze, getrennt durch eine Leerzeile: Anrede, Antwort, Gruß.
 - Fließtext ohne Überschriften, Aufzählungszeichen oder Markdown.

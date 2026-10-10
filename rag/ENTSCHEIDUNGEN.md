@@ -92,7 +92,7 @@ Lokaler Cross-Encoder `BAAI/bge-reranker-v2-m3`: mehrsprachig (auch Deutsch), fe
 
 Die Modellrevision (Commit auf Hugging Face) ermittelt `eval_retrieval.py` beim ersten Lauf. Sie wird danach in `config.yaml` als `reranker_revision` eingetragen, damit alle weiteren Läufe genau diese Gewichte verwenden. Revision: `953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e` (ermittelt am 2026-10-10).
 
-Änderung 2026-10-10, vor dem ersten Generierungslauf: `reranker_max_length` von 512 auf 1024 erhöht. Gründe: Bei der Variante 400/80 verschlechterte das Reranking die Abdeckung, was auf abgeschnittene Eingaben hindeutet, und Haupttickets sind teils länger als Pilottickets. Seitdem protokolliert `retrieval.py` je Paar die Eingabelänge in Tokens des Cross-Encoders und ob gekürzt wurde. Voraussetzung ist, dass das Modell Eingaben dieser Länge verarbeitet (`max_position_embeddings` ≥ 1024): wird nachgetragen. Kontrolle, ob die Pilotwerte mit 1024 unverändert bleiben: wird nachgetragen.
+Änderung 2026-10-10, vor dem ersten Generierungslauf: `reranker_max_length` von 512 auf 1024 erhöht. Gründe: Bei der Variante 400/80 verschlechterte das Reranking die Abdeckung, was auf abgeschnittene Eingaben hindeutet, und Haupttickets sind teils länger als Pilottickets. Seitdem protokolliert `retrieval.py` je Paar die Eingabelänge in Tokens des Cross-Encoders und ob gekürzt wurde. Voraussetzung ist, dass das Modell Eingaben dieser Länge verarbeitet: `max_position_embeddings` = 8194 (geprüft am 2026-10-10 in der fixierten Revision). Kontrolle mit `eval_retrieval.py` (2026-10-10): Die Pilotwerte sind mit 1024 unverändert (Beleg-Abdeckung R@3 0,81). Die längste Eingabe hat 333 Tokens, gekürzt wurden 0 von 40 Paaren.
 
 ## E-07 Generierungsmodell
 
@@ -131,6 +131,18 @@ Beide Bedingungen erhalten denselben System-Prompt (`prompts/system.txt`) mit Ro
 - **Belegpflicht (nur RAG):** Jede sachliche Aussage stützt sich ausschließlich auf die Auszüge und erhält direkt dahinter die Artikel-ID. Was die Auszüge nicht abdecken, wird nicht behauptet.
 
 Status „Pilot“: Der Wortlaut wird mit P-01 bis P-10 geprüft. Änderungen werden hier mit Begründung eingetragen, danach wird eingefroren.
+
+**Änderungen nach Pilotlauf `pilot-01` (2026-10-10).** Grundsatz: Korrigiert werden nur Verstöße gegen die vorgegebene Form. Das inhaltliche Antwortverhalten (Ausführlichkeit, Zusatzinformationen, Rückfragen) wird nicht nachgesteuert, damit die Ergebnisse nicht durch Abstimmung auf die Pilottickets geprägt sind.
+
+| Befund in `pilot-01` | Bedingung | Änderung |
+| --- | --- | --- |
+| Anrede mit Vorname („Guten Tag, Herr Tobias“) in 5 von 10 Tickets | beide | „Beginne genau mit „Guten Tag,“ ohne Namen und ohne „Herr“ oder „Frau“.“ |
+| Kein Absatz, alles in einem Block | beide | „Gliedere in Absätze, getrennt durch eine Leerzeile: Anrede, Antwort, Gruß.“ |
+| Belege gesammelt am Ende, teils nach der Grußformel (z. B. P-01, P-07) | RAG | Beleg am Ende jedes Satzes mit sachlicher Aussage, mit Beispiel; „Sammle die Belege nicht am Ende“; Grußformel als letzter Text |
+
+Nicht geändert wurden unter anderem: Zusatzinformationen über die Frage hinaus (z. B. Kosten in P-01), die vorsichtige, häufig nachfragende Art der LLM-only-Bedingung und Aussagen ohne Deckung durch die Passagen (z. B. P-08, P-10). Diese Befunde gehören zum zu messenden Systemverhalten.
+
+`show_run.py` prüft seitdem automatisch: Anrede, Grußformel am Ende, Absätze, Belege nach der Grußformel und Sätze mit Zahlen ohne Beleg.
 
 ## E-13 Belegformat
 
