@@ -29,7 +29,9 @@ vielen Dank für Ihr Interesse an dieser Befragung. Sie ist Teil meiner Bachelor
 
 ☐ Ich habe die Informationen gelesen. Ich bin mindestens 18 Jahre alt, nehme freiwillig teil und bin mit der beschriebenen Verarbeitung meiner Angaben einverstanden.
 
-*Technik: Weiter nur mit Haken. Ohne Haken erscheint:* „Ohne Einwilligung ist eine Teilnahme leider nicht möglich. Vielen Dank für Ihr Interesse.“
+Wenn Sie nicht teilnehmen möchten, können Sie dieses Fenster einfach schließen.
+
+*Technik: Weiter nur mit Haken (Pflichtauswahl, U-07).*
 
 ---
 

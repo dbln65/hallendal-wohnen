@@ -1,0 +1,11 @@
+// Übungsfall (DEMI Tabelle 9, Nr. 5); wird nicht ausgewertet. Texte aus der Inhaltsdatenbank, Schlüssel UEB
+$box = 'border:1px solid #c8c8c8; border-radius:6px; padding:12px 16px; margin:0 0 16px 0; background:#f7f7f7;';
+$e = dbGet('UEB');
+html(
+  '<p><b>Übungsbeispiel:</b> Diese Bewertung dient nur zum Kennenlernen und wird nicht ausgewertet.</p>'.
+  '<p><b>Kundenanfrage</b></p><div style="'.$box.'">'.$e[0].'</div>'.
+  '<p><b>Antwortentwurf</b></p><div style="'.$box.'">'.$e[1].'</div>'
+);
+question('BW01', array(13), 'show-title=no');
+question('BW02', array(49, 50, 51, 52), 'show-title=no');
+question('BW03', array(13), 'show-title=no');

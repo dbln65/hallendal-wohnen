@@ -1,0 +1,34 @@
+// Blockzuteilung (U-05) und zufällige Reihenfolge der 12 Entwürfe (DEMI 1.4.4)
+// Erzeugt mit umfrage/export_sosci.py aus umfrage/entwuerfe.csv – nicht von Hand ändern
+if (!isset($entwuerfe)) {
+  if (value('SD04') == 3) {
+    urnDraw('ohne_ks', 'IV01', 'end');
+    $block = (int)value('IV01_01');
+  } else {
+    urnDraw('mit_ks', 'IV02', 'end');
+    $block = (int)value('IV02_01');
+  }
+  $bloecke = array(
+    1 => array('E005', 'E030', 'E043', 'E048', 'E059', 'E064', 'E070', 'E079', 'E080', 'E086', 'E089', 'E118'),
+    2 => array('E004', 'E006', 'E007', 'E012', 'E014', 'E019', 'E034', 'E041', 'E044', 'E053', 'E082', 'E093'),
+    3 => array('E016', 'E020', 'E033', 'E045', 'E051', 'E061', 'E062', 'E085', 'E091', 'E114', 'E116', 'E120'),
+    4 => array('E001', 'E003', 'E018', 'E025', 'E032', 'E052', 'E066', 'E094', 'E101', 'E105', 'E108', 'E115'),
+    5 => array('E002', 'E024', 'E027', 'E035', 'E046', 'E058', 'E068', 'E071', 'E081', 'E109', 'E111', 'E112'),
+    6 => array('E008', 'E015', 'E022', 'E036', 'E038', 'E060', 'E074', 'E075', 'E078', 'E103', 'E110', 'E119'),
+    7 => array('E010', 'E021', 'E023', 'E028', 'E042', 'E049', 'E072', 'E073', 'E088', 'E095', 'E107', 'E117'),
+    8 => array('E026', 'E029', 'E039', 'E065', 'E067', 'E069', 'E084', 'E087', 'E090', 'E099', 'E102', 'E106'),
+    9 => array('E009', 'E011', 'E017', 'E047', 'E050', 'E054', 'E056', 'E057', 'E076', 'E083', 'E092', 'E097'),
+    10 => array('E013', 'E031', 'E037', 'E040', 'E055', 'E063', 'E077', 'E096', 'E098', 'E100', 'E104', 'E113')
+  );
+  if (!isset($bloecke[$block])) {
+    html('<p style="color:#b00000">Fehler bei der Blockzuteilung (Block: '.$block.').</p>');
+  } else {
+    $entwuerfe = $bloecke[$block];
+    shuffle($entwuerfe);
+    put('IV03_01', $block);
+    for ($i = 0; $i < 12; $i++) {
+      put('IV04_'.($i < 9 ? '0' : '').($i + 1), $entwuerfe[$i]);
+    }
+    registerVariable($entwuerfe);
+  }
+}

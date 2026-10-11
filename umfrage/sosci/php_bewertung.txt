@@ -1,0 +1,16 @@
+// Bewertungsblock: 12 Entwürfe in zufälliger Reihenfolge (DEMI Tabelle 9, Nr. 6)
+// Position p (1–12): BW01 Item p, BW02 Items 4p-3 bis 4p, BW03 Item p; Entwurfs-ID in IV04_p
+$box = 'border:1px solid #c8c8c8; border-radius:6px; padding:12px 16px; margin:0 0 16px 0; background:#f7f7f7;';
+$i = loopPage(12);
+$e = dbGet($entwuerfe[$i]);
+if ($i == 0) {
+  html('<p><b>Jetzt beginnen die 12 Antwortentwürfe.</b></p>');
+}
+html(
+  '<p style="color:#555555">Antwortentwurf '.($i + 1).' von 12</p>'.
+  '<p><b>Kundenanfrage</b></p><div style="'.$box.'">'.$e[0].'</div>'.
+  '<p><b>Antwortentwurf</b></p><div style="'.$box.'">'.$e[1].'</div>'
+);
+question('BW01', array($i + 1), 'show-title=no');
+question('BW02', array(4 * $i + 1, 4 * $i + 2, 4 * $i + 3, 4 * $i + 4), 'show-title=no');
+question('BW03', array($i + 1), 'show-title=no');
