@@ -55,7 +55,6 @@ ITEMS = [  # Wortlaut DEMI Tabelle 10
     "Die Antwort könnte ohne inhaltliche Änderung an die Kundin bzw. den Kunden gesendet werden.",
     "Wie bewerten Sie die Gesamtqualität dieser Antwort?",
 ]
-BOX = "border:1px solid #c8c8c8; border-radius:6px; padding:12px 16px; margin:0 0 16px 0; background:#f7f7f7;"
 
 
 def to_html(text: str) -> str:
@@ -75,7 +74,8 @@ def norm(text: str) -> str:
 
 
 def box(title: str, content: str) -> str:
-    return f'<p><strong>{title}</strong></p>\n<div style="{BOX}">{content}</div>\n'
+    """Nur <p>, <strong>, <br>: Die Qualtrics-Lizenz erlaubt nur einen Teil der HTML-Tags (U-07)."""
+    return f"<p><strong>{title}</strong></p>\n{content}\n"
 
 
 def main() -> None:
@@ -130,9 +130,9 @@ def main() -> None:
         "<p>Zur Orientierung folgen zwei Antworten auf dieselbe Anfrage.</p>\n"
         + box("Beispielanfrage", to_html(tickets[ANKER]["ticket_text"]))
         + box("Beispiel A: eine eher hoch bewertete Antwort", to_html(tickets[ANKER]["musterantwort"]))
-        + f"<p><em>Kommentar:</em> {html.escape(KOMMENTAR_A)}</p>\n"
+        + f"<p><strong>Kommentar:</strong> {html.escape(KOMMENTAR_A)}</p>\n"
         + box("Beispiel B: eine eher niedrig bewertete Antwort", to_html(ANKER_B))
-        + f"<p><em>Kommentar:</em> {html.escape(KOMMENTAR_B)}</p>\n",
+        + f"<p><strong>Kommentar:</strong> {html.escape(KOMMENTAR_B)}</p>\n",
         encoding="utf-8")
     (OUT / "uebung.html").write_text(
         "<p><strong>Übungsbeispiel:</strong> Diese Bewertung dient nur zum Kennenlernen und wird nicht ausgewertet.</p>\n"
