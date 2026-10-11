@@ -16,9 +16,9 @@ vielen Dank für Ihr Interesse an dieser Befragung. Sie ist Teil meiner Bachelor
 
 **Freiwilligkeit:** Die Teilnahme ist freiwillig. Sie können die Befragung jederzeit ohne Angabe von Gründen abbrechen. Dadurch entstehen Ihnen keine Nachteile.
 
-**Anonymität:** Es werden keine Namen, E-Mail-Adressen oder sonstigen Angaben erhoben, die einen Rückschluss auf Ihre Person zulassen. Das Alter wird nur in Gruppen erfasst.
+**Anonymität:** Es werden keine Namen, E-Mail-Adressen oder sonstigen Angaben erhoben, die einen Rückschluss auf Ihre Person zulassen. Das Alter wird nur in Gruppen erfasst. IP-Adressen und Standortdaten werden nicht gespeichert.
 
-**Datenverarbeitung und Löschung:** Die Befragung wird mit SoSci Survey durchgeführt. Die Angaben werden ausschließlich für diese Bachelorarbeit ausgewertet und nur zusammengefasst oder als anonymer Datensatz im Anhang der Arbeit dargestellt. Die Rohdaten werden nach Abschluss des Prüfungsverfahrens, spätestens am [01.02.2027], gelöscht. Da keine personenbezogenen Daten erhoben werden, lässt sich ein einzelner Datensatz nach dem Absenden keiner Person zuordnen und daher nicht gezielt löschen.
+**Datenverarbeitung und Löschung:** Die Befragung wird mit Qualtrics über die Lizenz der BHT durchgeführt. [Rechenzentrum bei der BHT erfragen und ergänzen] Die Angaben werden ausschließlich für diese Bachelorarbeit ausgewertet und nur zusammengefasst oder als anonymer Datensatz im Anhang der Arbeit dargestellt. Die Rohdaten werden nach Abschluss des Prüfungsverfahrens, spätestens am 01.02.2027, gelöscht. Da keine personenbezogenen Daten erhoben werden, lässt sich ein einzelner Datensatz nach dem Absenden keiner Person zuordnen und daher nicht gezielt löschen.
 
 **Kontakt:** David Kinner, Digitale Wirtschaft, BHT, daki9716@bht-berlin.de
 **Betreuung:** Prof. Dr. Ilona Buchem, BHT
@@ -116,15 +116,13 @@ Zur Orientierung folgen zwei Antworten auf dieselbe Anfrage.
 >
 > Viele Grüße, Ihr Hallendal-Wohnen-Team
 
-Darunter Q1–Q6 wie auf Seite 6. Nach der Seite folgt der Hinweis: „Jetzt beginnen die 12 Antwortentwürfe.“
+Darunter Q1–Q6 wie auf Seite 6, danach der Hinweis: „Nach dem Klick auf Weiter beginnen die 12 Antwortentwürfe.“
 
 *Herkunft (nicht im Fragebogen): Tickettext und Musterantwort von P-05 (`tickets.jsonl`, Tag `tickets-v1.0`).*
 
 ---
 
 ## Seite 6: Bewertungsblock (12 Seiten, eine je Entwurf)
-
-**Antwortentwurf {n} von 12**
 
 **Kundenanfrage**
 `{ticket_text}` aus `entwuerfe.csv`
@@ -155,7 +153,7 @@ Darunter Q1–Q6 wie auf Seite 6. Nach der Seite folgt der Hinweis: „Jetzt beg
 - 4 = gut
 - 5 = sehr gut
 
-*Technik: alle sechs Items Antwort erforderlich; Reihenfolge der 12 Entwürfe je Person zufällig; je Position wird die Entwurfs-ID gespeichert.*
+*Technik: alle sechs Items Antwort erforderlich; Reihenfolge der 12 Entwürfe je Person zufällig (Loop & Merge, U-07).*
 
 ---
 
@@ -185,7 +183,7 @@ Ihre Bewertungen fließen anonym in die Auswertung meiner Bachelorarbeit ein. Di
 
 Wenn Sie Personen kennen, die ebenfalls teilnehmen möchten, leiten Sie den Link gerne weiter, besonders an Personen mit Erfahrung im Kundenservice.
 
-Bei Fragen erreichen Sie mich unter [Hochschul-E-Mail].
+Bei Fragen erreichen Sie mich unter daki9716@bht-berlin.de
 
 ---
 
