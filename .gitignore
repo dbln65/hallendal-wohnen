@@ -1,3 +1,4 @@
 .env
 .venv/
-__pycache__/umfrage/daten/
+__pycache__
+/umfrage/daten/
