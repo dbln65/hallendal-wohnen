@@ -97,11 +97,12 @@ Zwei getrennte Zuteilungen auf die Blöcke 1–10: eine für Personen mit Kunden
 
 - Umsetzung in Qualtrics: je S4-Gruppe ein Randomizer mit *Evenly Present Elements*, der die Variable `block` setzt (U-07).
 - Die Qualtrics-Hilfe sagt nicht, ob abgebrochene Antworten mitzählen. Deshalb werden die vollständigen Antworten je Block wöchentlich gezählt; bleibt ein Block zurück, werden die Zähler über *Edit Count* angepasst und die Änderung mit Datum hier notiert.
+- Feldstart: 2026-10-15 (Umfrage veröffentlicht, Antworten und Randomizer-Zähler zuvor zurückgesetzt).
 - **Feldende:** sobald jeder Block mindestens 3 vollständige Bewertungen hat und mindestens 10 Bewertende mit Kundenservice-Erfahrung teilgenommen haben. Alle vollständigen Datensätze gehen in die Auswertung; das gemischte Modell der ICC-Schätzung (DEMI 2.4) erlaubt ungleich viele Urteile je Entwurf. Andernfalls gilt die Panel-Regel aus DEMI 1.4.3 (nach 4 Wochen).
 
 ### U-06 Umfragetool
 
-Qualtrics über die Hochschullizenz. Erfüllt die Anforderungen aus E-11 laut Qualtrics-Hilfe: Randomizer mit gleichmäßiger Verteilung und zurücksetzbaren Zählern, Loop & Merge mit zufälliger Reihenfolge, Pflichtantworten, *Anonymize responses* (entfernt IP-Adresse und Standort).
+Qualtrics. Erfüllt die Anforderungen aus E-11 laut Qualtrics-Hilfe: Randomizer mit gleichmäßiger Verteilung und zurücksetzbaren Zählern, Loop & Merge mit zufälliger Reihenfolge, Pflichtantworten, *Anonymize responses* (entfernt IP-Adresse und Standort).
 
 Verlauf: Am 2026-10-10 war SoSci Survey vorgesehen und umgesetzt (`export_sosci.py`, `SOSCI.md`, `sosci/`). Am 2026-10-11 wurde auf Qualtrics gewechselt. Begründung: Die Bedienoberfläche von SoSci erwies sich beim Aufbau als unübersichtlich und aufwendig. Die SoSci-Dateien wurden entfernt und sind im Git-Verlauf erhalten. Verworfen wurde außerdem MS Forms: keine Zufallszuteilung auf Blöcke, und das Mischen der Fragen ist abgeschaltet, sobald ein Formular Abschnitte enthält.
 
@@ -129,9 +130,3 @@ Pretest am 2026-10-15 mit [n] Personen über den anonymen Link; die Antworten wu
 | Übungsfall nicht nötig, die Ankerbeispiele reichen | Übungsfall bleibt: Er ist in DEMI Tabelle 9 vorgesehen und dient der Kalibrierung der Bewertenden, was die Übereinstimmung (ICC) stützt; er macht nur eine von 13 Bewertungsseiten aus |
 | Antworten unterscheiden sich kaum und klingen alle richtig | Zwei neutrale Hinweise in der Instruktion: Empfängersicht („Würde Ihnen diese Antwort weiterhelfen?“) und Nutzung der gesamten Skala. Bewusst kein Hinweis auf Fehler oder auf unterschiedliche Systeme, um die Bewertenden nicht zu lenken und die Verblindung zu wahren. Die Rückmeldung wird in der Diskussion aufgegriffen: Ohne Kenntnis der Wissensbasis können Laien die fachliche Richtigkeit nur begrenzt beurteilen; deshalb prüft die DEMI die objektive Korrektheit (H1) separat. |
 | Wunsch nach Möglichkeit für Anmerkungen | freiwilliges Textfeld `FEEDBACK` am Ende; wird nur beschreibend ausgewertet, nicht für die Hypothesen |
-
-## Nächste Schritte
-
-1. alle Antworten löschen, Randomizer-Zähler zurücksetzen
-2. QSF und Word-Export sichern, Tag `umfrage-v1.0`, Link verschicken
-3. wöchentlich `import_qualtrics.py` und `feldstand.txt` prüfen, Feldende nach U-05
