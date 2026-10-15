@@ -9,7 +9,7 @@ Aufruf (im Repo-Hauptverzeichnis):
 
 Ausgabe in umfrage/daten/:
 - bewertungen.csv    eine Zeile je Bewertung: Person, Block, S4, Entwurf, Ticket, Bedingung, Merkmale, Q1–Q6
-- teilnehmende.csv   eine Zeile je Person: Kanal, Block, S4, Kundenservice-Erfahrung, S1–S3, S5, Dauer
+- teilnehmende.csv   eine Zeile je Person: Kanal, Block, S4, Kundenservice-Erfahrung, S1–S3, S5, Dauer, Anmerkungen
 - feldstand.txt      vollständige Antworten je Block und S4-Gruppe, Urteile je Entwurf, Prüfergebnisse, Feldende (U-05)
 
 Die Entwurfs-ID jeder Bewertung steht in der zweiten Kopfzeile des Exports (Loop & Merge, Field 1). Sie wird mit
@@ -114,14 +114,15 @@ def main() -> None:
         people.append({"response_id": rid, "kanal": kanal, "block": block, "s4": s4,
                        "ks_erfahrung": "ja" if s4 in (1, 2) else "nein",
                        **{s.lower(): r[col[s]] for s in ("S1", "S2", "S3", "S5")},
-                       "dauer_s": r[col["Duration (in seconds)"]]})
+                       "dauer_s": r[col["Duration (in seconds)"]],
+                       "feedback": r[col["FEEDBACK"]].strip() if "FEEDBACK" in col else ""})
 
     OUT.mkdir(exist_ok=True)
     for name, rows_out, fields in (
         ("bewertungen.csv", ratings, ["response_id", "block", "s4", "entwurf_id", "ticket_id", "bedingung", "kategorie",
                                       "schwierigkeit", "kb_abdeckung", *SKALA]),
         ("teilnehmende.csv", people, ["response_id", "kanal", "block", "s4", "ks_erfahrung", "s1", "s2", "s3", "s5",
-                                      "dauer_s"]),
+                                      "dauer_s", "feedback"]),
     ):
         with (OUT / name).open("w", encoding="utf-8", newline="") as f:
             w = csv.DictWriter(f, fieldnames=fields)

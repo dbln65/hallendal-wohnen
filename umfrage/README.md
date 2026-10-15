@@ -34,7 +34,7 @@ python umfrage/import_qualtrics.py <export.csv>   # 3. Qualtrics-Export einlesen
 | `qualtrics/zuordnung.csv` | Block und Loop-Nummer → Entwurfs-ID | nein, nur Auswertung |
 | `import_qualtrics.py` | liest den Qualtrics-Export, prüft ihn und erzeugt `daten/` | nein |
 | `daten/bewertungen.csv` | eine Zeile je Bewertung: Person, Block, S4, Entwurf, Ticket, Bedingung, Q1–Q6 | nein, Auswertung |
-| `daten/teilnehmende.csv`, `daten/feldstand.txt` | eine Zeile je Person (S1–S5, Dauer); Feldstand je Block | nein, Auswertung |
+| `daten/teilnehmende.csv`, `daten/feldstand.txt` | eine Zeile je Person (S1–S5, Dauer, Anmerkungen); Feldstand je Block | nein, Auswertung |
 
 ## Prüfungen im Skript
 
@@ -56,6 +56,7 @@ python umfrage/import_qualtrics.py <export.csv>   # 3. Qualtrics-Export einlesen
 | U-05 | 2026-10-10 | Blockzuteilung geschichtet nach S4, Feldende | fest |
 | U-06 | 2026-10-11 | Umfragetool Qualtrics (löst E-11; SoSci verworfen) | fest |
 | U-07 | 2026-10-11 | Technische Umsetzung in Qualtrics | fest |
+| U-08 | 2026-10-15 | Änderungen nach dem Pretest | fest |
 
 ### U-01 Bereinigung der Belege
 
@@ -100,7 +101,7 @@ Zwei getrennte Zuteilungen auf die Blöcke 1–10: eine für Personen mit Kunden
 
 ### U-06 Umfragetool
 
-Qualtrics über die Hochschullizenz. Erfüllt die Anforderungen aus E-11 laut Qualtrics-Hilfe: Randomizer mit gleichmäßiger Verteilung und zurücksetzbaren Zählern, Loop & Merge mit zufälliger Reihenfolge, Pflichtantworten, *Anonymize responses* (entfernt IP-Adresse und Standort). Rechenzentrum der Lizenz: [bei der BHT erfragen und eintragen].
+Qualtrics über die Hochschullizenz. Erfüllt die Anforderungen aus E-11 laut Qualtrics-Hilfe: Randomizer mit gleichmäßiger Verteilung und zurücksetzbaren Zählern, Loop & Merge mit zufälliger Reihenfolge, Pflichtantworten, *Anonymize responses* (entfernt IP-Adresse und Standort).
 
 Verlauf: Am 2026-10-10 war SoSci Survey vorgesehen und umgesetzt (`export_sosci.py`, `SOSCI.md`, `sosci/`). Am 2026-10-11 wurde auf Qualtrics gewechselt. Begründung: Die Bedienoberfläche von SoSci erwies sich beim Aufbau als unübersichtlich und aufwendig. Die SoSci-Dateien wurden entfernt und sind im Git-Verlauf erhalten. Verworfen wurde außerdem MS Forms: keine Zufallszuteilung auf Blöcke, und das Mischen der Fragen ist abgeschaltet, sobald ein Formular Abschnitte enthält.
 
@@ -110,14 +111,27 @@ Verlauf: Am 2026-10-10 war SoSci Survey vorgesehen und umgesetzt (`export_sosci.
 - **Loop & Merge:** je Block 12 Loops mit 3 Feldern (Entwurfs-ID, Kundenanfrage, Antwort). Die Texte stehen als HTML in den Feldern, weil Loop-&-Merge-Felder keine Zeilenumbrüche aufnehmen. *Randomize loop order* mischt die Reihenfolge je Person (DEMI 1.4.4).
 - **Einschränkung:** Laut Qualtrics-Hilfe lässt sich die Reihenfolge, in der die Loops gezeigt wurden, nicht exportieren. Die Randomisierung findet statt, aber die Position eines Entwurfs wird nicht gespeichert. Positionseffekte sind in der DEMI nicht als Auswertung vorgesehen; die Einschränkung wird in der Arbeit genannt.
 - **Datenexport:** Jeder Loop hat eigene Spalten; die Loop-Nummer entspricht der Zeile der Loop-&-Merge-Tabelle. `qualtrics/zuordnung.csv` ordnet Block und Loop der Entwurfs-ID zu.
-- **Items:** Q1 und Q6 als Einfachauswahl, Q2–Q5 als Matrix mit 5 Spalten, beschriftete Endpunkte. Wortlaut und Stufen nach DEMI Tabelle 10.
+- **Items:** Q1 und Q6 als Einfachauswahl, Q2–Q5 als Matrix mit 5 Spalten, beschriftete Endpunkte. Wortlaut und Stufen nach DEMI Tabelle 10. Die Matrix hat den Einleitungssatz „Inwieweit treffen die folgenden Aussagen auf die Antwort zu?“, weil Qualtrics einen Fragetext verlangt. Q1 lautete beim ersten Aufbau „wirkt diese Antwort“; vor dem Pretest auf den DEMI-Wortlaut „wirkt die Antwort“ korrigiert.
+- **Aufbau:** Der Block „Übung“ wurde einmal angelegt und als Vorlage für „Bewertung 1“ kopiert; „Bewertung 2“ bis „Bewertung 10“ sind Kopien von „Bewertung 1“. Fragen heißen `UE_Q1`, `UE_Q2_5`, `UE_Q6` bzw. `Bk_Q1`, `Bk_Q2_5`, `Bk_Q6`.
+- **HTML:** Die Qualtrics-Lizenz erlaubt nur einen Teil der HTML-Tags. Verwendet werden ausschließlich `<p>`, `<strong>` und `<br>`; Listen und Kästen (`<ul>`, `<div style>`) wurden abgelehnt. Instruktion und Ankerbeispiele stehen deshalb in einem Textelement, Beispieltexte ohne Rahmen.
 - **Einwilligung:** Pflichtauswahl; ohne Haken geht es nicht weiter (DEMI Tabelle 9: „ohne Bestätigung kein Zugang“).
 - **Pflichtangaben:** S4 und alle Bewertungsitems; S1–S3 und S5 freiwillig.
-- **Prüfung:** Verhalten in Qualtrics nach der Checkliste in QUALTRICS.md, Abschnitt 6.
+- **Prüfung:** Preview-Durchlauf; 60 erzeugte Testantworten (2026-10-12): alle 720 Bewertungsspalten stimmen mit `zuordnung.csv` überein, je S4-Gruppe unterscheiden sich die Blöcke um höchstens 1 (43 Personen „ja“: 4–5 je Block; 17 „nein“: 1–2), jede Person bewertet 12 verschiedene Tickets, davon 6 RAG und 6 LLM-only.
+
+### U-08 Änderungen nach dem Pretest
+
+Pretest am 2026-10-15 mit [n] Personen über den anonymen Link; die Antworten wurden vor dem Feldstart gelöscht und die Randomizer-Zähler zurückgesetzt.
+
+| Rückmeldung | Entscheidung |
+| --- | --- |
+| Dauer angemessen | keine Änderung; Angabe „ca. 20 Minuten“ bleibt |
+| Befragung wirkt monoton | Fortschrittsbalken eingeschaltet; Ablauf und Anzahl der Entwürfe bleiben (DEMI 1.4.4) |
+| Übungsfall nicht nötig, die Ankerbeispiele reichen | Übungsfall bleibt: Er ist in DEMI Tabelle 9 vorgesehen und dient der Kalibrierung der Bewertenden, was die Übereinstimmung (ICC) stützt; er macht nur eine von 13 Bewertungsseiten aus |
+| Antworten unterscheiden sich kaum und klingen alle richtig | Zwei neutrale Hinweise in der Instruktion: Empfängersicht („Würde Ihnen diese Antwort weiterhelfen?“) und Nutzung der gesamten Skala. Bewusst kein Hinweis auf Fehler oder auf unterschiedliche Systeme, um die Bewertenden nicht zu lenken und die Verblindung zu wahren. Die Rückmeldung wird in der Diskussion aufgegriffen: Ohne Kenntnis der Wissensbasis können Laien die fachliche Richtigkeit nur begrenzt beurteilen; deshalb prüft die DEMI die objektive Korrektheit (H1) separat. |
+| Wunsch nach Möglichkeit für Anmerkungen | freiwilliges Textfeld `FEEDBACK` am Ende; wird nur beschreibend ausgewertet, nicht für die Hypothesen |
 
 ## Nächste Schritte
 
-1. Aufbau in Qualtrics nach [QUALTRICS.md](QUALTRICS.md), Platzhalter ersetzen, Datenschutzangaben prüfen
-2. Testcheckliste (QUALTRICS.md, Abschnitt 6)
-3. Pretest mit 2–3 Personen (Dauer, Verständlichkeit); Pretest-Daten werden nicht ausgewertet
-4. Testantworten löschen, Randomizer-Zähler zurücksetzen, QSF sichern, Tag `umfrage-v1.0`, Feldstart
+1. alle Antworten löschen, Randomizer-Zähler zurücksetzen
+2. QSF und Word-Export sichern, Tag `umfrage-v1.0`, Link verschicken
+3. wöchentlich `import_qualtrics.py` und `feldstand.txt` prüfen, Feldende nach U-05

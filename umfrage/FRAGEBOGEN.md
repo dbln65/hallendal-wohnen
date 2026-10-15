@@ -18,7 +18,7 @@ vielen Dank für Ihr Interesse an dieser Befragung. Sie ist Teil meiner Bachelor
 
 **Anonymität:** Es werden keine Namen, E-Mail-Adressen oder sonstigen Angaben erhoben, die einen Rückschluss auf Ihre Person zulassen. Das Alter wird nur in Gruppen erfasst. IP-Adressen und Standortdaten werden nicht gespeichert.
 
-**Datenverarbeitung und Löschung:** Die Befragung wird mit Qualtrics über die Lizenz der BHT durchgeführt. [Rechenzentrum bei der BHT erfragen und ergänzen] Die Angaben werden ausschließlich für diese Bachelorarbeit ausgewertet und nur zusammengefasst oder als anonymer Datensatz im Anhang der Arbeit dargestellt. Die Rohdaten werden nach Abschluss des Prüfungsverfahrens, spätestens am 01.02.2027, gelöscht. Da keine personenbezogenen Daten erhoben werden, lässt sich ein einzelner Datensatz nach dem Absenden keiner Person zuordnen und daher nicht gezielt löschen.
+**Datenverarbeitung und Löschung:** Die Befragung wird mit Qualtrics über die Lizenz der BHT durchgeführt. Die Angaben werden ausschließlich für diese Bachelorarbeit ausgewertet und nur zusammengefasst oder als anonymer Datensatz im Anhang der Arbeit dargestellt. Die Rohdaten werden nach Abschluss des Prüfungsverfahrens, spätestens am 01.02.2027, gelöscht. Da keine personenbezogenen Daten erhoben werden, lässt sich ein einzelner Datensatz nach dem Absenden keiner Person zuordnen und daher nicht gezielt löschen.
 
 **Kontakt:** David Kinner, Digitale Wirtschaft, BHT, daki9716@bht-berlin.de
 **Betreuung:** Prof. Dr. Ilona Buchem, BHT
@@ -54,6 +54,8 @@ Wenn Sie nicht teilnehmen möchten, können Sie dieses Fenster einfach schließe
 Hallendal Wohnen ist ein fiktiver Online-Shop für Möbel und Wohnaccessoires. Ein KI-System erstellt Antwortentwürfe auf schriftliche Kundenanfragen. Auf jeder Seite sehen Sie eine Kundenanfrage und einen Antwortentwurf. Bitte lesen Sie beides und beantworten Sie danach sechs Fragen zum Antwortentwurf.
 
 - Die Regeln des Shops, etwa Fristen oder Kosten, kennen Sie nicht. Das ist beabsichtigt. Bewerten Sie so, wie die Antwort auf Sie als Empfängerin oder Empfänger wirkt.
+- Stellen Sie sich vor, Sie hätten die Anfrage selbst geschrieben: Würde Ihnen diese Antwort weiterhelfen?
+- Lesen Sie jede Antwort genau und nutzen Sie die gesamte Breite der Skalen.
 - Es gibt keine richtigen oder falschen Bewertungen. Entscheidend ist Ihr Eindruck.
 - Bewerten Sie jeden Entwurf für sich, ohne ihn mit anderen Entwürfen zu vergleichen.
 
@@ -136,7 +138,8 @@ Darunter Q1–Q6 wie auf Seite 6, danach der Hinweis: „Nach dem Klick auf Weit
 - 2 = wirkt teilweise korrekt (im Kern richtig, aber mit Ungenauigkeiten)
 - 3 = wirkt korrekt
 
-**Q2–Q5** Skala von 1 = trifft überhaupt nicht zu bis 5 = trifft voll und ganz zu (nur Endpunkte beschriftet)
+**Q2–Q5** Inwieweit treffen die folgenden Aussagen auf die Antwort zu?
+Skala von 1 = trifft überhaupt nicht zu bis 5 = trifft voll und ganz zu (nur Endpunkte beschriftet)
 
 | Nr. | Aussage |
 | --- | --- |
@@ -153,7 +156,7 @@ Darunter Q1–Q6 wie auf Seite 6, danach der Hinweis: „Nach dem Klick auf Weit
 - 4 = gut
 - 5 = sehr gut
 
-*Technik: alle sechs Items Antwort erforderlich; Reihenfolge der 12 Entwürfe je Person zufällig (Loop & Merge, U-07).*
+*Technik: alle sechs Items Antwort erforderlich; Reihenfolge der 12 Entwürfe je Person zufällig (Loop & Merge, U-07); Fortschrittsbalken (U-08).*
 
 ---
 
@@ -172,6 +175,11 @@ kein Abschluss / Schulabschluss / abgeschlossene Ausbildung / Bachelor / Master 
 
 **S5** Wie häufig nutzen Sie KI-Chatbots (zum Beispiel ChatGPT)?
 täglich / wöchentlich / monatlich / seltener / nie
+
+**FEEDBACK** Haben Sie Anmerkungen zur Befragung? (optional, bitte keine persönlichen Angaben)
+freies Textfeld, mehrzeilig
+
+*Technik: S1–S3, S5 und FEEDBACK freiwillig; FEEDBACK nach dem Pretest ergänzt (U-08).*
 
 ---
 
