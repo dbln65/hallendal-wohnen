@@ -1,0 +1,21 @@
+{
+  "erzeugt": "2026-10-16T17:20:28+00:00",
+  "skript": "kodierung/prepare_coding.py",
+  "git": {
+    "commit": "a4aef23034b6965943ee693861752fb0a8a46be6",
+    "dirty": true
+  },
+  "seed": 20261015,
+  "lauf": "haupt-01",
+  "responses_sha256": "819cc178aaf445aa",
+  "tickets_jsonl_sha256": "e065e2fd60dc96e4",
+  "anzahl": {
+    "entwuerfe": 240,
+    "rag": 120,
+    "zweitkodierung": 48
+  },
+  "ausgaben": {
+    "kodierheft.html": "db83e5922aaae786",
+    "kodiertabelle.xlsx": "7f5ccc6db22e0a05"
+  }
+}
