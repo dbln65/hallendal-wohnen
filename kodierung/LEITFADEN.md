@@ -1,6 +1,6 @@
 # Kodierleitfaden: Quellenbezug und Failure Modes (Strang 4)
 
-Grundlage: DEMI 2.5, 3.3 und Tabelle 12. Ergänzende Regeln: K-01 bis K-08 in [README.md](README.md). Der Leitfaden gilt für Erst- und Zweitkodierung gleichermaßen.
+Grundlage: DEMI 2.5, 3.3 und Tabelle 12. Ergänzende Regeln: K-01 bis K-07 in [README.md](README.md). Der Leitfaden gilt für Erst- und Zweitkodierung gleichermaßen.
 
 ## 1 Material
 
@@ -35,7 +35,7 @@ Kodiert wird in der vorgegebenen Reihenfolge (K-05). Bereits kodierte Entwürfe 
 
 **Auswahl und Zuschnitt:**
 
-- Höchstens drei Kernaussagen. Enthält der Entwurf mehr, werden die drei gewählt, die die Anliegen am direktesten beantworten; bei Gleichstand gilt die Reihenfolge im Text.
+- Höchstens drei Kernaussagen. Enthält der Entwurf drei oder weniger Sachaussagen, werden **alle** aufgenommen, in der Reihenfolge im Text. Enthält er mehr, werden die drei gewählt, die die Anliegen am direktesten beantworten; bei Gleichstand gilt die Reihenfolge im Text.
 - Ein Sachverhalt, über mehrere Sätze ausgeführt, ist **eine** Kernaussage. Ein Satz mit zwei unabhängigen Sachverhalten (z. B. Kosten und Lieferzeit) sind **zwei** Kernaussagen.
 - Auch vage Aussagen zählen, wenn sie prüfbar sind: „Die Versandkosten hängen vom Gewicht ab“ ist prüfbar (die KB nennt Pauschalen) und damit eine Kernaussage.
 - Eintrag in die Tabelle als knappe Paraphrase, z. B. „Paketversand DE kostet 4,95 €“.
@@ -54,6 +54,9 @@ Beispiele (konstruiert):
 - „Ab 49 € liefern wir in Deutschland versandkostenfrei.“ → gedeckt (KB-007)
 - „Ab 49 € liefern wir versandkostenfrei, auch Speditionsware.“ → nicht gedeckt, weil die Gratisgrenze laut KB nur für Paketware gilt und die Aussage damit in einem wesentlichen Punkt falsch ist
 - „Die Lieferung dauert 2–4 Werktage, in Ausnahmefällen auch länger.“ → teilweise (Kern gedeckt, der Zusatz steht nicht in der KB)
+- „Die Lieferung in die Schweiz dauert etwas länger als innerhalb Deutschlands.“ → gedeckt (KB-010: 4–8 Werktage, KB-007: 2–4 Werktage)
+
+**Vage, aber ableitbar:** Eine unbestimmte Aussage, die sich aus der KB ergibt, ist gedeckt. Dass eine konkrete Angabe (Zahl, Frist) fehlt, betrifft nicht C1, sondern C3 bzw. Mangel b.
 
 ## 5 C2 Quellenpassung (je Kernaussage)
 
@@ -63,6 +66,8 @@ Beispiele (konstruiert):
 | **nicht passend** | Ein Beleg ist angegeben, der zitierte Artikel stützt die Aussage aber nicht, auch wenn ein anderer Artikel sie stützen würde. |
 | **kein Beleg** | Der Satz mit der Kernaussage trägt keinen Beleg. |
 
+- **Ein Beleg gilt nur für den Satz, an dessen Ende er steht.** Der Prompt verlangt einen Beleg am Ende jedes Satzes mit sachlicher Aussage (`rag/prompts/user_rag.txt`). Steht die Kernaussage in einem Satz ohne Beleg, ist C2 = kein Beleg, auch wenn der folgende Satz einen passenden Beleg trägt.
+- Erstreckt sich eine Kernaussage über mehrere Sätze, ist der Satz mit dem prüfbaren Kern (Frist, Betrag, Bedingung) maßgeblich.
 - Geprüft wird gegen den **zitierten Artikel als Ganzes** (Belege auf Artikelebene, E-13), nicht nur gegen den übergebenen Auszug.
 - Eine nicht gedeckte Aussage (C1) kann nicht passend belegt sein; trägt sie einen Beleg, ist C2 = nicht passend.
 - LLM-only: C2 ist mit „kein Beleg“ vorbelegt (K-02).
@@ -75,6 +80,7 @@ Beispiele (konstruiert):
 | **nein** | Alle Anliegen werden mit Sachaussagen beantwortet. |
 
 - Rückfragen, die **zusätzlich** zu einer Sachaussage gestellt werden und zum Ablauf gehören (z. B. „Bitte senden Sie uns Fotos des Schadens.“, wenn die KB das vorsieht), ergeben C3 = nein.
+- Aufforderungen, die den in der KB beschriebenen Ablauf wiedergeben („Melden Sie dies innerhalb von 14 Tagen.“), sind Sachaussagen und keine Rückfragen.
 - Floskeln wie „Bei weiteren Fragen melden Sie sich gerne“ zählen nicht.
 
 ## 7 Mangel und Fehlertypen (nur RAG)
@@ -91,7 +97,9 @@ Ein Mangel liegt vor, wenn mindestens einer der Punkte zutrifft (K-01):
 
 Bei KB-Gap-Tickets ist eine Rückfrage oder Enthaltung das erwartete Verhalten und **kein** Mangel nach b. Behauptungen ohne KB-Grundlage sind dort Mängel nach a.
 
-Kein Mangel → `mangel` = nein, `F_primaer` = keiner, `F_weitere` leer.
+Kein Mangel → `mangel` = nein, `F_primaer` = keiner, `F_weitere` leer. Mangel → mindestens ein Fehlertyp; `F_primaer` ist dann nie „keiner“.
+
+Ist ein Belegartikel nicht übergeben worden, die Antwort aber vollständig, gedeckt und passend belegt, liegt kein Mangel vor (K-01).
 
 ### 7.2 Fehlertypen in fester Prüfreihenfolge
 
@@ -135,4 +143,4 @@ Bei LLM-only sind `Kx_C2` mit „kein Beleg“ und `mangel`, `F_primaer`, `F_wei
 
 ## 9 Zweitkodierung
 
-Die zweite Person wird vor Beginn anhand dieses Leitfadens eingewiesen (K-08). Sie erhält 48 Entwürfe (24 RAG, 24 LLM-only) mit den Kernaussagen der Erstkodierung (K-06) und kodiert C1, C2, C3, Mangel und Fehlertypen unabhängig, ohne die Codes der Erstkodierung zu sehen. Abweichungen werden nach der Berechnung von Cohens Kappa im Gespräch geklärt; der Konsenswert geht in die Auswertung ein, die ursprünglichen Codes beider Personen bleiben dokumentiert.
+Die zweite Person wird vor Beginn anhand dieses Leitfadens eingewiesen. Sie erhält 48 Entwürfe (24 RAG, 24 LLM-only) mit den Kernaussagen der Erstkodierung (K-06) und kodiert C1, C2, C3, Mangel und Fehlertypen unabhängig, ohne die Codes der Erstkodierung zu sehen. Abweichungen werden nach der Berechnung von Cohens Kappa im Gespräch geklärt; der Konsenswert geht in die Auswertung ein, die ursprünglichen Codes beider Personen bleiben dokumentiert.

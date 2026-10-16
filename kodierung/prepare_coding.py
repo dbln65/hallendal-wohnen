@@ -5,15 +5,14 @@ Eingabe:
 - tickets.jsonl                       Musterantwort, Kernaussagen, Belege und Belegartikel je Ticket (Hilfsmittel)
 - kb/KB-*.md                          vollständige Knowledge Base (Maßstab für C1)
 
-Ausgabe (Standard: kodierung/, mit --out z. B. kodierung/probe/):
+Ausgabe (Standard: kodierung/, anderer Ordner mit --out):
 - kodierheft.html          alles, was zum Kodieren nötig ist, in Kodierreihenfolge; KB-Artikel im Anhang verlinkt
 - kodiertabelle.xlsx       eine Zeile je Entwurf mit Auswahllisten für die Codes
 - stichprobe_zweitkodierung.csv   48 Entwürfe (24 RAG, 24 LLM-only) für die Zweitkodierung (nur Hauptlauf, K-06)
 - kodier_meta.json         Herkunft: Lauf, Hashes, Seed, Git-Stand
 
 Aufruf (im Repo-Hauptverzeichnis; benötigt openpyxl):
-    python kodierung/prepare_coding.py                                   # Hauptlauf, 240 Entwürfe
-    python kodierung/prepare_coding.py --run pilot-03 --out kodierung/probe   # Probekodierung, 20 Entwürfe
+    python kodierung/prepare_coding.py                  # Hauptlauf haupt-01, 240 Entwürfe
 """
 
 import argparse
