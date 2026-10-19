@@ -99,6 +99,17 @@ Zwei getrennte Zuteilungen auf die Blöcke 1–10: eine für Personen mit Kunden
 - Die Qualtrics-Hilfe sagt nicht, ob abgebrochene Antworten mitzählen. Deshalb werden die vollständigen Antworten je Block wöchentlich gezählt; bleibt ein Block zurück, werden die Zähler über *Edit Count* angepasst und die Änderung mit Datum hier notiert.
 - Feldstart: 2026-10-15 (Umfrage veröffentlicht, Antworten und Randomizer-Zähler zuvor zurückgesetzt).
 - **Feldende:** sobald jeder Block mindestens 3 vollständige Bewertungen hat und mindestens 10 Bewertende mit Kundenservice-Erfahrung teilgenommen haben. Alle vollständigen Datensätze gehen in die Auswertung; das gemischte Modell der ICC-Schätzung (DEMI 2.4) erlaubt ungleich viele Urteile je Entwurf. Andernfalls gilt die Panel-Regel aus DEMI 1.4.3 (nach 4 Wochen).
+**Feldende (2026-10-19):** Befragung nach fünf Tagen Feldzeit (Start 2026-10-15) geschlossen; beide Kriterien erfüllt. Export `Bachelorarbeit_October 19, 2026_21.03.csv`, eingelesen mit `import_qualtrics.py`:
+
+| Kennzahl | Wert |
+| --- | --- |
+| vollständige Antworten | 36 (ausgeschlossen: keine) |
+| Antworten je Block | 3 (Blöcke 2, 3, 5, 6) bzw. 4 (übrige) |
+| Urteile je Entwurf | 3–4 |
+| Bewertende mit Kundenservice-Erfahrung | 16 (Ziel: mindestens 10) |
+
+- Block 2 enthält keine Bewertenden mit Kundenservice-Erfahrung; das Ziel der geschichteten Zuteilung (eine erfahrene Person je Block) wurde dort nicht erreicht. Vermutliche Ursache sind abgebrochene Teilnahmen, die in der Zählung des Randomizers enthalten sind. Die Entwürfe aus Block 2 werden ausschließlich von Personen ohne Kundenservice-Erfahrung beurteilt; der Untergruppenvergleich auf Ebene der Bewertenden (DEMI Tabelle 15) bleibt davon unberührt.
+- Anpassungen über *Edit Count*: keine.
 
 ### U-06 Umfragetool
 

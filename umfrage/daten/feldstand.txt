@@ -1,0 +1,19 @@
+Feldstand – Export: Bachelorarbeit_October 19, 2026_21.03.csv
+Vollständige Antworten: 36 | ausgeschlossen: keine
+
+Block | gesamt | mit KS-Erfahrung | ohne
+    1 |      4 |                2 |    2
+    2 |      3 |                0 |    3
+    3 |      3 |                1 |    2
+    4 |      4 |                2 |    2
+    5 |      3 |                1 |    2
+    6 |      3 |                2 |    1
+    7 |      4 |                2 |    2
+    8 |      4 |                2 |    2
+    9 |      4 |                2 |    2
+   10 |      4 |                2 |    2
+
+Urteile je Entwurf: min 3, max 4 (Ziel: mindestens 3)
+Bewertende mit Kundenservice-Erfahrung: 16 (Ziel: mindestens 10)
+Blöcke unter 3: keine
+Feldende nach U-05 erreicht: ja
