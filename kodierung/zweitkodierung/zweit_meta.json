@@ -1,0 +1,21 @@
+{
+  "erzeugt": "2026-10-19T18:49:26+00:00",
+  "skript": "kodierung/zweitkodierung.py",
+  "git": {
+    "commit": "9d080608fb0d9d510e1bb39c0a6f2c74998dd1dc",
+    "dirty": false
+  },
+  "lauf": "haupt-01",
+  "erstkodierung_sha256": "b3a3fc260d39af1e",
+  "stichprobe_sha256": "f99364dd307f50f9",
+  "responses_sha256": "819cc178aaf445aa",
+  "anzahl": {
+    "entwuerfe": 48,
+    "rag": 24,
+    "kernaussagen_vorgegeben": 91
+  },
+  "ausgaben": {
+    "kodierheft.html": "cba1e141bc6070eb",
+    "kodiertabelle_zweit.xlsx": "cb112d4125acaf05"
+  }
+}
