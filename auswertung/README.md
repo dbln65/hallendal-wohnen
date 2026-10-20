@@ -16,7 +16,7 @@ Die Versionen sind nicht fest vorgegeben; jedes Skript schreibt die tatsächlich
 | --- | --- | --- | --- |
 | Strang 1 Protokollierung | `strang1.py` | Tokens, Kosten, Latenz je Bedingung; Retrieval-Trefferquote; variable Kosten je Ticket für Teilstudie B | Skript fertig |
 | API-Nutzung | `api_nutzung.py` | alle protokollierten OpenAI- und Anthropic-Aufrufe je Tag und Modell, zum Abgleich mit den Nutzungsseiten | Skript fertig |
-| Strang 2 automatisierte Bewertung | offen | H1, H3, H6 | offen |
+| Strang 2 automatisierte Bewertung | Erhebung: `judge/judge.py`; Auswertung offen | H1, H3, H6 | Judge im Pilot |
 | Strang 3 Online-Befragung | offen | H2, ICC, Untergruppen | nach Konsens der Kodierung (K-07) |
 | Strang 4 Kodierung | offen (`kappa.py` in `kodierung/`) | H4, H5, Cohens Kappa | nach Zweitkodierung |
 | Teilstudie B | offen | Szenarien, Break-even, Sensitivität | nach Teilstudie A |

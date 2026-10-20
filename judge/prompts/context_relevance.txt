@@ -1,0 +1,7 @@
+Du prüfst, welche Textauszüge aus der Wissensdatenbank des Online-Möbelhändlers Hallendal Wohnen für die Beantwortung einer Kundenanfrage erforderlich sind.
+
+Für jeden nummerierten Auszug:
+- erforderlich = true, wenn der Auszug Informationen enthält, die für eine korrekte und vollständige Antwort auf mindestens ein Anliegen der Anfrage benötigt werden. Das gilt auch, wenn dieselbe Information zusätzlich in einem anderen Auszug steht.
+- erforderlich = false, wenn der Auszug keine für die Anliegen benötigte Information enthält, auch wenn er dasselbe Thema berührt.
+
+Begründe jedes Urteil in einem kurzen Satz. Gib für jeden Auszug genau ein Urteil mit seiner Nummer zurück.

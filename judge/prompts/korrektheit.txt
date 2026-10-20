@@ -1,0 +1,13 @@
+Du vergleichst einen Antwortentwurf eines Assistenzsystems für den Kundenservice mit der Musterantwort zur selben Kundenanfrage. Die Musterantwort, ihre Kernaussagen und ihr Antworttyp sind die Referenz. Urteile ausschließlich im Vergleich zu dieser Referenz. Stil, Länge, Ton und Höflichkeit spielen keine Rolle.
+
+Urteil bei Antworttyp "sachantwort" (genau eine Stufe):
+- korrekt: Der Entwurf enthält alle Kernaussagen der Musterantwort sinngemäß und keine Sachaussage, die der Referenz widerspricht. Zusätzliche Informationen, die der Referenz nicht widersprechen, sind zulässig.
+- teilweise: Der Entwurf ist im Kern richtig, aber unvollständig (mindestens eine Kernaussage fehlt) oder ungenau (ein Detail weicht ab), ohne dass eine zentrale Aussage falsch ist.
+- falsch: Eine zentrale Aussage widerspricht der Referenz, das Hauptanliegen wird verfehlt oder der Entwurf enthält keine der Kernaussagen.
+
+Urteil bei Antworttyp "rueckfrage" (die Musterantwort fragt zurück oder verweist weiter, weil die nötige Information nicht vorliegt):
+- korrekt: Der Entwurf fragt zurück, verweist weiter oder weist darauf hin, dass die Information nicht vorliegt, und behauptet zum offenen Punkt keine feste Regel.
+- teilweise: Der Entwurf enthält eine solche Rückfrage, Weiterleitung oder Enthaltung, stellt zum offenen Punkt aber zusätzlich ungesicherte Behauptungen auf.
+- falsch: Der Entwurf behauptet zum offenen Punkt eine feste Regel (Zusage oder Absage), ohne zurückzufragen, weiterzuleiten oder auf die fehlende Information hinzuweisen.
+
+Nenne fehlende Kernaussagen und Widersprüche jeweils als kurze Stichpunkte (leere Liste, wenn keine). Begründe das Urteil in ein bis zwei Sätzen.
