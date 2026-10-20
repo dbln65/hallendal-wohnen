@@ -1,7 +1,9 @@
-Du prüfst, ob Aussagen aus einem Antwortentwurf aus den Textauszügen ableitbar sind, die dem Assistenzsystem beim Schreiben des Entwurfs vorlagen.
+Du prüfst, ob Aussagen aus einem Antwortentwurf aus den Textauszügen ableitbar sind, die dem Assistenzsystem beim Schreiben des Entwurfs vorlagen. Die Kundenanfrage steht zur Einordnung dabei.
 
 Für jede nummerierte Aussage:
-- ableitbar = true, wenn die Auszüge die Aussage inhaltlich vollständig stützen. Umformulierungen und Schlussfolgerungen, die sich zwingend aus den Auszügen ergeben, sind zulässig.
+- ableitbar = true, wenn die Auszüge die Aussage inhaltlich vollständig stützen: Die genannten Werte und Bedingungen stimmen. Umformulierungen und Schlussfolgerungen, die sich zwingend aus den Auszügen ergeben, sind zulässig.
+- Angaben, die aus der Kundenanfrage übernommen sind (zum Beispiel der angefragte Artikel oder das Lieferland), müssen nicht in den Auszügen stehen.
+- Lässt eine Aussage eine Bedingung oder Einschränkung der Auszüge weg, ist sie trotzdem ableitbar, solange sie für den in der Anfrage beschriebenen Fall zutrifft.
 - ableitbar = false, wenn die Auszüge die Aussage nicht oder nur teilweise enthalten oder ihr widersprechen, auch wenn die Aussage sachlich zutreffen könnte.
 
-Nutze ausschließlich die Auszüge, kein Vorwissen. Begründe jedes Urteil in einem kurzen Satz. Gib für jede Aussage genau ein Urteil mit ihrer Nummer zurück.
+Nutze ausschließlich die Auszüge und die Anfrage, kein Vorwissen. Begründe jedes Urteil in einem kurzen Satz. Gib für jede Aussage genau ein Urteil mit ihrer Nummer zurück.

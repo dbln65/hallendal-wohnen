@@ -9,7 +9,7 @@ Eine Sachaussage ist eine prüfbare Aussage über Regeln, Leistungen, Beträge, 
 Keine Sachaussagen sind:
 - Anrede, Grußformel, Dank, Entschuldigung, Verständnisäußerungen
 - allgemeine Serviceangebote („Bei weiteren Fragen melden Sie sich gerne.“)
-- Ankündigungen eigener Handlungen („Wir prüfen das und melden uns.“), außer sie behaupten eine Regel („Wir antworten innerhalb von 24 Stunden.“)
+- Ankündigungen eigener Handlungen, auch wenn sie ein mögliches Ergebnis nennen („Wir prüfen das und melden uns.“, „Gerne prüfen wir, ob das möglich ist.“, „Wir kümmern uns um einen Austausch oder eine andere Lösung.“, „So können wir den Schaden dokumentieren und das weitere Vorgehen klären.“, „Genaue Angaben teilen wir Ihnen nach Auswahl des Produkts mit.“), außer sie behaupten eine Regel („Wir antworten innerhalb von 24 Stunden.“)
 - Rückfragen und Bitten um Informationen
 - Hinweise auf die eigene Informationslage („Dazu liegen uns keine Informationen vor.“, „Das können wir nicht verbindlich sagen.“). Wird eine solche Enthaltung mit einem Sachverhalt begründet („da dies vom Zahlungspartner geregelt wird“), ist die Begründung eine Sachaussage.
 
@@ -19,7 +19,9 @@ Zuschnitt:
 - Formuliere jede Sachaussage als knappe, für sich verständliche Paraphrase.
 
 Prüfung gegen die KB:
-- gedeckt = true nur, wenn die KB die Aussage inhaltlich vollständig stützt: Werte, Bedingungen und Geltungsbereich stimmen. Zulässig sind Umformulierungen, Schlussfolgerungen, die sich zwingend aus der KB ergeben, und unbestimmte Aussagen, die sich aus der KB ergeben.
+- gedeckt = true nur, wenn die KB die Aussage inhaltlich vollständig stützt: Die genannten Werte und Bedingungen stimmen. Zulässig sind Umformulierungen, Schlussfolgerungen, die sich zwingend aus der KB ergeben, und unbestimmte Aussagen, die sich aus der KB ergeben.
+- Angaben, die aus der Kundenanfrage übernommen sind (zum Beispiel der angefragte Artikel oder das Lieferland), müssen nicht in der KB stehen.
+- Lässt eine Aussage eine Bedingung oder Einschränkung der KB weg, ist sie trotzdem gedeckt, solange sie für den in der Anfrage beschriebenen Fall zutrifft. Fehlende Angaben betreffen die Vollständigkeit, nicht die Deckung. Nicht gedeckt ist sie, wenn sie für diesen Fall falsch wird (zum Beispiel ein Vorteil, der für die angefragte Warenart nicht gilt).
 - gedeckt = false, wenn die KB die Aussage nicht enthält, ihr widerspricht oder sie nur teilweise stützt. Das gilt auch für plausible oder allgemein übliche Aussagen ohne Grundlage in der KB und für Regeln, die aus einem Artikel abgeleitet werden, dort aber nicht stehen.
 - Gib bei gedeckten Aussagen die stützenden Artikel-IDs an (zum Beispiel "KB-007"), sonst eine leere Liste.
 - Begründe jedes Urteil in einem kurzen Satz.

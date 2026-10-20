@@ -43,6 +43,7 @@ from common import git_info, kb_hash, load_config, now_iso  # noqa: E402
 from prepare_survey import strip_citations  # noqa: E402  (gleiche Bereinigung wie in der Befragung, J-02)
 
 MODELL = "claude-sonnet-5-5"          # J-01
+PROMPT_VERSION = "v3"                 # J-11, J-12; bei jeder Änderung an Prompts oder Nachrichtenaufbau erhöhen
 EFFORT = "medium"                     # J-06
 MAX_TOKENS = 16000
 EMBEDDING_MODELL = "text-embedding-3-small"   # wie im Retrieval (rag/config.yaml)
@@ -112,7 +113,7 @@ def nachrichten(name: str, ctx: dict) -> list:
                 {"type": "text", "text": f"{anfrage}\n\n{entwurf}"}]
     if name == "faithfulness":
         liste = "\n".join(f"{i}. {a['aussage']}" for i, a in enumerate(ctx["aussagen"], start=1))
-        return [{"type": "text", "text": f"<auszuege>\n{auszuege(ctx['passagen'])}\n</auszuege>\n\n<aussagen>\n{liste}\n</aussagen>"}]
+        return [{"type": "text", "text": f"{anfrage}\n\n<auszuege>\n{auszuege(ctx['passagen'])}\n</auszuege>\n\n<aussagen>\n{liste}\n</aussagen>"}]
     if name == "context_relevance":
         return [{"type": "text", "text": f"{anfrage}\n\n<auszuege>\n{auszuege(ctx['passagen'])}\n</auszuege>"}]
     if name == "answer_relevance":
@@ -291,7 +292,7 @@ def main() -> None:
     out_dir = JUDGE_DIR / "runs" / args.judge_run
     out_dir.mkdir(parents=True, exist_ok=True)
     results, meta_path = out_dir / "judge.jsonl", out_dir / "judge_meta.json"
-    config = {"modell": MODELL, "effort": EFFORT, "max_tokens": MAX_TOKENS, "embedding_modell": EMBEDDING_MODELL,
+    config = {"modell": MODELL, "prompt_version": PROMPT_VERSION, "effort": EFFORT, "max_tokens": MAX_TOKENS, "embedding_modell": EMBEDDING_MODELL,
               "n_fragen": N_FRAGEN, "prompt_hashes": prompts["_hashes"], "kb_hash": kb_hash(ROOT / "kb")}
     config_hash = sha(json.dumps(config, sort_keys=True))
     if meta_path.exists():
