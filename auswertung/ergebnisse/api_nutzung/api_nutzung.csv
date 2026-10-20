@@ -1,0 +1,13 @@
+anbieter,zweck,modell,tag_utc,aufrufe,input_tokens,cache_tokens,output_tokens,kosten_usd
+Anthropic,KB-Artikel erzeugen,claude-sonnet-5,2026-09-28,43,45382,208198,31196,
+Anthropic,Tickets erzeugen,claude-sonnet-5,2026-10-06,134,288768,3928716,122673,
+Anthropic,"Tickets erzeugen (Fehler, ohne Tokens)",claude-sonnet-5,2026-10-06,8,0,0,0,
+OpenAI,Indexierung der KB,text-embedding-3-small,2026-10-10,3,46024,0,0,0.00092
+OpenAI,Lauf haupt-01: Embedding der Anfrage,text-embedding-3-small,2026-10-10,120,8814,0,0,0.000176
+OpenAI,Lauf haupt-01: Generierung,gpt-4.1-mini-2025-04-14,2026-10-10,240,176524,1024,36128,0.128517
+OpenAI,Lauf pilot-01: Embedding der Anfrage,text-embedding-3-small,2026-10-10,10,695,0,0,1.4e-05
+OpenAI,Lauf pilot-01: Generierung,gpt-4.1-mini-2025-04-14,2026-10-10,20,12860,0,3081,0.010074
+OpenAI,Lauf pilot-02: Embedding der Anfrage,text-embedding-3-small,2026-10-10,10,695,0,0,1.4e-05
+OpenAI,Lauf pilot-02: Generierung,gpt-4.1-mini-2025-04-14,2026-10-10,20,14210,0,3031,0.010534
+OpenAI,Lauf pilot-03: Embedding der Anfrage,text-embedding-3-small,2026-10-10,10,695,0,0,1.4e-05
+OpenAI,Lauf pilot-03: Generierung,gpt-4.1-mini-2025-04-14,2026-10-10,20,13436,1024,2944,0.010187

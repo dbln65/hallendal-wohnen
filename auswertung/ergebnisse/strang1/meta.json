@@ -1,0 +1,24 @@
+{
+  "erzeugt": "2026-10-20T07:29:08+00:00",
+  "skript": "auswertung/strang1.py",
+  "git": {
+    "commit": "c64c9f8c9fbab70a6c2dcc5eb70b6c5f60f9a6f7",
+    "dirty": true
+  },
+  "lauf": "haupt-01",
+  "responses_sha256": "819cc178aaf445aa",
+  "tickets_jsonl_sha256": "e065e2fd60dc96e4",
+  "wechselkurs": {
+    "usd_je_eur": 1.1206,
+    "datum": "2026-10-09",
+    "quelle": "EZB-Referenzkurs"
+  },
+  "teilstudie_b": {
+    "variable_kosten_je_ticket_eur": 0.00063485,
+    "basis": "Mittelwert RAG, haupt-01"
+  },
+  "versionen": {
+    "python": "3.13.14",
+    "matplotlib": "3.11.2"
+  }
+}

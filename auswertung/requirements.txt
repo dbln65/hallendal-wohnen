@@ -1,0 +1,6 @@
+# Auswertung (EVI); verwendete Versionen stehen in ergebnisse/<teil>/meta.json
+matplotlib
+scipy
+pandas
+statsmodels
+openpyxl
