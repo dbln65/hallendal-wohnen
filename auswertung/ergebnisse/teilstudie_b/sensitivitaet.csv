@@ -1,0 +1,31 @@
+szenario,kuerzel,parameter,roi_minus,roi_basis,roi_plus,spannweite,rang
+konservativ,t,Zeitersparnis je Ticket,-0.628008,-0.53501,-0.442012,0.185996,1
+konservativ,V,Ticketvolumen,-0.627929,-0.53501,-0.442131,0.185798,2
+konservativ,a,Adoptionsrate,-0.627929,-0.53501,-0.442131,0.185798,2
+konservativ,hk,Aufwand KB-Pflege,-0.45963,-0.53501,-0.591934,0.132304,4
+konservativ,hm,Aufwand Monitoring,-0.507531,-0.53501,-0.559585,0.052054,5
+konservativ,p,Personalkostensatz,-0.537728,-0.53501,-0.53318,0.004548,6
+konservativ,H,Hostingkosten,-0.532912,-0.53501,-0.537089,0.004176,7
+konservativ,c,Variable Kosten je Ticket,-0.534911,-0.53501,-0.535109,0.000198,8
+konservativ,r,Reduktion der Eskalationsquote,-0.53501,-0.53501,-0.53501,0.0,9
+konservativ,e,Zusatzzeit je Eskalation,-0.53501,-0.53501,-0.53501,0.0,9
+mittel,V,Ticketvolumen,18.423465,23.204416,27.955953,9.532488,1
+mittel,a,Adoptionsrate,18.423465,23.204416,27.955953,9.532488,1
+mittel,t,Zeitersparnis je Ticket,19.170346,23.204416,27.238485,8.068139,3
+mittel,hk,Aufwand KB-Pflege,26.964816,23.204416,20.335458,6.629357,4
+mittel,hm,Aufwand Monitoring,24.580319,23.204416,21.96897,2.611349,5
+mittel,r,Reduktion der Eskalationsquote,22.397602,23.204416,24.011229,1.613628,6
+mittel,e,Zusatzzeit je Eskalation,22.397602,23.204416,24.011229,1.613628,6
+mittel,p,Personalkostensatz,22.854252,23.204416,23.443626,0.589374,8
+mittel,H,Hostingkosten,23.415804,23.204416,22.996656,0.419148,9
+mittel,c,Variable Kosten je Ticket,23.279331,23.204416,23.129961,0.149371,10
+optimistisch,V,Ticketvolumen,345.970928,422.184656,494.785697,148.814769,1
+optimistisch,a,Adoptionsrate,345.970928,422.184656,494.785697,148.814769,1
+optimistisch,t,Zeitersparnis je Ticket,358.706957,422.184656,485.662354,126.955397,3
+optimistisch,hk,Aufwand KB-Pflege,472.253009,422.184656,381.696802,90.556206,4
+optimistisch,hm,Aufwand Monitoring,445.820609,422.184656,400.923665,44.896944,5
+optimistisch,r,Reduktion der Eskalationsquote,401.025423,422.184656,443.343889,42.318466,6
+optimistisch,e,Zusatzzeit je Eskalation,401.025423,422.184656,443.343889,42.318466,6
+optimistisch,p,Personalkostensatz,401.407475,422.184656,437.270569,35.863094,8
+optimistisch,c,Variable Kosten je Ticket,432.71366,422.184656,412.154748,20.558913,9
+optimistisch,H,Hostingkosten,429.516068,422.184656,415.098761,14.417307,10

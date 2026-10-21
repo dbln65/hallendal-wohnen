@@ -1,0 +1,93 @@
+{
+  "erzeugt": "2026-10-21T06:51:17+00:00",
+  "skript": "auswertung/teilstudie_b.py",
+  "git": {
+    "commit": "09d00f859c1675c5f5b2e8620dc0c2d627587536",
+    "dirty": true
+  },
+  "eingabe": {
+    "datei": "auswertung/ergebnisse/strang1/kennzahlen.csv",
+    "sha256": "1e4963bf931ba1dc",
+    "strang1_meta": {
+      "erzeugt": "2026-10-20T07:29:08+00:00",
+      "skript": "auswertung/strang1.py",
+      "git": {
+        "commit": "c64c9f8c9fbab70a6c2dcc5eb70b6c5f60f9a6f7",
+        "dirty": true
+      },
+      "lauf": "haupt-01",
+      "responses_sha256": "819cc178aaf445aa",
+      "tickets_jsonl_sha256": "e065e2fd60dc96e4",
+      "wechselkurs": {
+        "usd_je_eur": 1.1206,
+        "datum": "2026-10-09",
+        "quelle": "EZB-Referenzkurs"
+      },
+      "teilstudie_b": {
+        "variable_kosten_je_ticket_eur": 0.00063485,
+        "basis": "Mittelwert RAG, haupt-01"
+      },
+      "versionen": {
+        "python": "3.13.14",
+        "matplotlib": "3.11.2"
+      }
+    }
+  },
+  "variation": 0.2,
+  "parameter": {
+    "konservativ": {
+      "V": 2000,
+      "a": 0.4,
+      "t": 0.5,
+      "p": 33.2,
+      "r": 0.0,
+      "e": 10,
+      "c": 0.00063485,
+      "s": 8.49,
+      "ip": 0.5,
+      "bk": 0.2,
+      "hk": 10,
+      "hm": 4,
+      "cl": 0.00032217,
+      "dl": 1.02074417
+    },
+    "mittel": {
+      "V": 10000,
+      "a": 0.6,
+      "t": 1.5,
+      "p": 33.2,
+      "r": 0.02,
+      "e": 15,
+      "c": 0.00063485,
+      "s": 8.49,
+      "ip": 0.5,
+      "bk": 0.2,
+      "hk": 5,
+      "hm": 2,
+      "cl": 0.00032217,
+      "dl": 1.02074417
+    },
+    "optimistisch": {
+      "V": 30000,
+      "a": 0.8,
+      "t": 3.0,
+      "p": 33.2,
+      "r": 0.05,
+      "e": 20,
+      "c": 0.00063485,
+      "s": 8.49,
+      "ip": 0.5,
+      "bk": 0.2,
+      "hk": 2,
+      "hm": 1,
+      "cl": 0.00032217,
+      "dl": 1.02074417
+    }
+  },
+  "versionen": {
+    "python": "3.13.14",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3"
+  }
+}
