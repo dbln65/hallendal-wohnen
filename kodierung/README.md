@@ -10,16 +10,19 @@ python kodierung/prepare_coding.py                  # 1. Material für die Erstk
 python kodierung/pruefe_kodierung.py                # 3. Konsistenzprüfung der Erstkodierung (muss 0 Fehler melden)
 python kodierung/zweitkodierung.py                  # 4. Material für die Zweitkodierung
 python kodierung/pruefe_kodierung.py kodierung/zweitkodierung/kodiertabelle_zweit.xlsx   # 5. nach der Zweitkodierung
+python kodierung/kappa.py                           # 6. Cohens Kappa und Liste der Abweichungen
+python kodierung/konsens.py                         # 7. Konsens übernehmen, endgültiger Kodierdatensatz
 ```
 
 | # | Schritt | Status |
 | --- | --- | --- |
 | 1 | Kodierheft, Kodiertabelle und Stichprobe der Zweitkodierung erzeugen; Leitfaden einfrieren, Tag `kodierung-v1.0` | erledigt (2026-10-16) |
 | 2 | Erstkodierung aller 240 Entwürfe in `kodierung/kodiertabelle.xlsx` | erledigt (2026-10-19) |
-| 3 | Konsistenzprüfung und Korrektur der Erstkodierung (K-08), Tag `kodierung-erst-v1.0` | offen |
-| 4 | Material für die Zweitkodierung erzeugen; Einweisung der Zweitkodierperson anhand von LEITFADEN.md und AUSLEGUNGEN.md | offen |
-| 5 | Zweitkodierung der 48 Entwürfe in `zweitkodierung/kodiertabelle_zweit.xlsx`, Konsistenzprüfung | offen |
-| 6 | Cohens Kappa, Konsens bei Abweichungen | offen |
+| 3 | Konsistenzprüfung und Korrektur der Erstkodierung (K-08), Tag `kodierung-erst-v1.0` | erledigt (2026-10-19) |
+| 4 | Material für die Zweitkodierung erzeugen; Einweisung der Zweitkodierperson anhand von LEITFADEN.md und AUSLEGUNGEN.md | erledigt |
+| 5 | Zweitkodierung der 48 Entwürfe in `zweitkodierung/kodiertabelle_zweit.xlsx`, Konsistenzprüfung (K-10) | eingegangen 2026-10-26; Konsistenzprüfung: 10 Fehler in 8 Entwürfen, zur Korrektur an die Zweitkodierperson |
+| 6 | Cohens Kappa je Code (K-06) und Liste der Abweichungen mit `kappa.py` | offen |
+| 7 | Konsens bei allen Abweichungen (K-11), `konsens.py`, Tag `kodierung-final-v1.0` | offen |
 
 ## Dateien
 
@@ -35,10 +38,15 @@ python kodierung/pruefe_kodierung.py kodierung/zweitkodierung/kodiertabelle_zwei
 | `pruefe_kodierung.py` | prüft eine Kodiertabelle auf Vollständigkeit und Regelkonsistenz (Fehler und Hinweise) |
 | `zweitkodierung.py` | erzeugt `zweitkodierung/` mit Kodierheft und Tabelle für die 48 Entwürfe, Kernaussagen vorgegeben (K-06) |
 | `zweitkodierung/` | Material und Codes der Zweitkodierung; enthält keine Codes der Erstkodierung |
+| `kappa.py` | Cohens Kappa je Code mit prozentualer Übereinstimmung und Kreuztabellen; schreibt `kappa/` |
+| `kappa/bericht.md`, `kappa/kappa.csv` | Übereinstimmung vor dem Konsens |
+| `kappa/abweichungen.xlsx` | jede abweichende Codierung; Spalten „konsens“ und „begruendung“ werden im Konsens ausgefüllt |
+| `konsens.py` | überträgt den Konsens auf die Erstkodierung und prüft das Ergebnis |
+| `kodiertabelle_konsens.xlsx` | endgültiger Kodierdatensatz für die Auswertung von Strang 4; Blatt „Konsens“ protokolliert jede Entscheidung |
 
 ## Entscheidungen
 
-Die DEMI legt Codes und Prüfreihenfolge fest (Tabelle 12). Die folgenden Regeln präzisieren sie und wurden vor Beginn der Kodierung festgelegt (2026-10-15; Präzisierungen in LEITFADEN.md, Abschnitte 3–7, am 2026-10-16). K-08 und K-09 betreffen den Abschluss der Erstkodierung (2026-10-19).
+Die DEMI legt Codes und Prüfreihenfolge fest (Tabelle 12). Die folgenden Regeln präzisieren sie und wurden vor Beginn der Kodierung festgelegt (2026-10-15; Präzisierungen in LEITFADEN.md, Abschnitte 3–7, am 2026-10-16). K-08 und K-09 betreffen den Abschluss der Erstkodierung (2026-10-19), K-10 und K-11 die Zweitkodierung und den Konsens (2026-10-26).
 
 | Nr. | Entscheidung |
 | --- | --- |
@@ -51,6 +59,8 @@ Die DEMI legt Codes und Prüfreihenfolge fest (Tabelle 12). Die folgenden Regeln
 | K-07 | Die manuelle Kodierung wird **vor** der Sichtung der automatisierten Bewertung (Strang 2) abgeschlossen, damit deren Ergebnisse die Urteile nicht beeinflussen. Manuelle Codes werden nach Einsicht in die automatisierte Bewertung nicht mehr geändert. Ergebnisse der Online-Befragung werden während der Kodierung ebenfalls nicht ausgewertet. |
 | K-08 | **Konsistenzprüfung:** Nach Abschluss der Erstkodierung wird die Tabelle mit `pruefe_kodierung.py` auf fehlende Einträge und Widersprüche zwischen den Codes geprüft (z. B. Belegproblem ohne F4, Mangel ohne Fehlertyp). Korrigiert werden Eingabefehler und Abweichungen von LEITFADEN.md und AUSLEGUNGEN.md, jeweils vor Erzeugung des Materials für die Zweitkodierung und vor Sichtung von Strang 2. Jede Änderung steht im Blatt „Korrekturen“ der Kodiertabelle. Eine inhaltliche Neubewertung bereits kodierter Entwürfe findet nicht statt. |
 | K-09 | **Auslegungsregeln:** Wiederkehrende Grenzfälle wurden während der Erstkodierung einheitlich entschieden und in AUSLEGUNGEN.md festgehalten. Sie ändern keine Codes oder Definitionen des Leitfadens. Die Zweitkodierperson erhält sie mit dem Leitfaden in der Einweisung, damit beide Personen dieselben Regeln anwenden. |
+| K-10 | **Konsistenzprüfung der Zweitkodierung:** dieselbe Prüfung wie in K-08 mit `pruefe_kodierung.py`. Fehler (fehlende Codes, Widersprüche zwischen den Codes eines Entwurfs) behebt die Zweitkodierperson selbst, ohne Kenntnis der Erstkodierung; die Hinweise prüft sie ebenfalls selbst. Die eingegangene Fassung wird vor der Korrektur unverändert committet, sodass jede Änderung im Git-Verlauf nachvollziehbar ist. Kappa wird auf der korrigierten Fassung berechnet. |
+| K-11 | **Konsens:** `kappa.py` listet jede abweichende Codierung in `kappa/abweichungen.xlsx`, einschließlich F_weitere, das nicht in Kappa eingeht. Beide Kodierpersonen besprechen jede Abweichung anhand des Kodierhefts, LEITFADEN.md und AUSLEGUNGEN.md und halten den vereinbarten Code mit Begründung fest. Erfordert ein Konsens Folgeänderungen an anderen Codes desselben Entwurfs, werden sie ebenfalls mit Begründung eingetragen. `konsens.py` überträgt die Entscheidungen auf die Erstkodierung; das Ergebnis muss `pruefe_kodierung.py` ohne Fehler bestehen. Kappa wird für die Codes vor dem Konsens berichtet. Grundlage der Auswertung von Strang 4 ist `kodiertabelle_konsens.xlsx`: Konsenscodes für die 48 doppelt kodierten Entwürfe, Erstkodierung für die übrigen 192. Der Konsens wird vor der Sichtung von Strang 2 und 3 abgeschlossen (K-07). Interpretation von Kappa nach Landis und Koch (1977), Konfidenzintervall nach der Näherung von Cohen (1960); wegen der kleinen Fallzahlen wird die prozentuale Übereinstimmung mit berichtet. |
 
 ## Für die Verschriftlichung: Limitationen der Kodierung
 

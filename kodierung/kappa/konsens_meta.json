@@ -1,0 +1,14 @@
+{
+  "erzeugt": "2026-10-26T11:56:33+00:00",
+  "skript": "kodierung/konsens.py",
+  "git": {
+    "commit": "19d31770ba1ce6d1418b80e869be930adc79086e",
+    "dirty": true
+  },
+  "erstkodierung_sha256": "b3a3fc260d39af1e",
+  "zweitkodierung_sha256": "86f4e372625c23c3",
+  "abweichungen_sha256": "364b1c5171de3ae7",
+  "konsens_sha256": "22e8f2a6e087e281",
+  "entscheidungen": 27,
+  "aenderungen": 9
+}
