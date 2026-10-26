@@ -1,0 +1,21 @@
+{
+  "erzeugt": "2026-10-26T10:43:11+00:00",
+  "skript": "kodierung/kappa.py",
+  "git": {
+    "commit": "1f3ba2f40c27e1d04c341f0a8c9ea4b911fab66e",
+    "dirty": true
+  },
+  "erstkodierung_sha256": "b3a3fc260d39af1e",
+  "zweitkodierung_sha256": "86f4e372625c23c3",
+  "zweit_meta_sha256": "361ced1332711ef9",
+  "entwuerfe": 48,
+  "abweichungen": 27,
+  "abweichungen_sha256": "ffac8f8dd5d2c464",
+  "kappa": {
+    "C1": 0.5713,
+    "C2": 0.4865,
+    "C3": 0.7504,
+    "mangel": 0.4545,
+    "F_primaer": 0.4725
+  }
+}

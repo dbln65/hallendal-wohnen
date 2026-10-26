@@ -1,0 +1,7 @@
+code,einheit,n,uebereinstimmung,kappa,ci_unten,ci_oben,stufe
+C1,Kernaussagen (beide Bedingungen),91,0.8352,0.5713,0.373,0.7696,moderate
+C2,Kernaussagen (RAG),57,0.9649,0.4865,-0.2126,1.0,moderate
+C3,Entwürfe (beide Bedingungen),48,0.875,0.7504,0.5636,0.9372,substantial
+mangel,Entwürfe (RAG),24,0.9167,0.4545,-0.2692,1.0,moderate
+F_primaer,Entwürfe (RAG),24,0.9167,0.4725,-0.2274,1.0,moderate
+C1_linear_gewichtet,Kernaussagen (beide Bedingungen),91,0.9011,0.6544,,,substantial
