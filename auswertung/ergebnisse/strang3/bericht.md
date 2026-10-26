@@ -126,4 +126,5 @@ Q6 je Entwurf, Median nach Bedingung; Paarvergleich der Mittelwerte.
 | Kategorie: Zahlung | 15 | 4,75 | 3,50 | 12 / 1 / 2 |
 
 ![q6.png](q6.png)
+![q6_sensitivitaet.png](q6_sensitivitaet.png)
 ![h6.png](h6.png)

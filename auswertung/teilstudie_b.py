@@ -16,6 +16,7 @@ Ausgabe in auswertung/ergebnisse/teilstudie_b/:
 - sensitivitaet.csv   One-at-a-time-Variation ±20 % je Szenario
 - break_even.png      Nutzen und Kosten über dem Ticketvolumen je Szenario
 - tornado.png         Sensitivität des ROI je Szenario
+- tornado_mittel.png  dasselbe nur für das mittlere Szenario (kompakte Fassung)
 - meta.json           Herkunft: Eingabedatei mit Hash, Parameter, Git-Stand, Bibliotheksversionen
 """
 
@@ -436,7 +437,33 @@ def abbildungen(out: Path, werte_sz: dict, erg: dict, sens: dict) -> list:
     fig.tight_layout()
     fig.savefig(out / "tornado.png", facecolor="white")
     plt.close(fig)
-    return ["break_even.png", "tornado.png"]
+
+    # Tornado nur für das mittlere Szenario (kompakte Fassung für das EVI)
+    fig, ax = plt.subplots(figsize=(6.3, 2.9), dpi=300)
+    rows = sorted(sens["mittel"], key=lambda s: -s["spannweite"])
+    basis = erg["mittel"]["roi"] * 100
+    y = np.arange(len(rows))[::-1]
+    for yi, s in zip(y, rows):
+        lo, hi = s["roi_minus"] * 100, s["roi_plus"] * 100
+        ax.barh(yi + 0.17, lo - basis, left=basis, height=0.32, color=FARBE_MINUS,
+                label="Parameter −20 %" if yi == y[0] else None)
+        ax.barh(yi - 0.17, hi - basis, left=basis, height=0.32, color=FARBE_PLUS,
+                label="Parameter +20 %" if yi == y[0] else None)
+    ax.axvline(basis, color=TEXT, lw=0.9)
+    ax.set_yticks(y, [s["name"] for s in rows], fontsize=7.5)
+    ax.xaxis.grid(True, color=GRID, linewidth=0.6)
+    ax.set_axisbelow(True)
+    for side in ("top", "right", "left"):
+        ax.spines[side].set_visible(False)
+    ax.tick_params(axis="y", length=0)
+    ax.xaxis.set_major_locator(matplotlib.ticker.MaxNLocator(nbins=6, steps=[1, 2, 5, 10]))
+    ax.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{de(v, 0)} %"))
+    ax.set_xlabel(f"modellierter ROI im mittleren Szenario (Basis {de(basis, 0)} %)")
+    ax.legend(loc="lower right", frameon=False, fontsize=7.5)
+    fig.tight_layout()
+    fig.savefig(out / "tornado_mittel.png", facecolor="white")
+    plt.close(fig)
+    return ["break_even.png", "tornado.png", "tornado_mittel.png"]
 
 
 # --------------------------------------------------------------------------- Hauptprogramm

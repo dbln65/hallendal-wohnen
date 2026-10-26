@@ -1,8 +1,8 @@
 {
-  "erzeugt": "2026-10-21T06:51:17+00:00",
+  "erzeugt": "2026-10-26T19:06:00+00:00",
   "skript": "auswertung/teilstudie_b.py",
   "git": {
-    "commit": "09d00f859c1675c5f5b2e8620dc0c2d627587536",
+    "commit": "038c291f34cd180ce1c970b0ef4fd6b7a8d70221",
     "dirty": true
   },
   "eingabe": {

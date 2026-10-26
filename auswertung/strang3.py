@@ -9,7 +9,8 @@ Ausgabe in auswertung/ergebnisse/strang3/:
 - bericht.md        Tabellen für das EVI
 - entwuerfe.csv     eine Zeile je bewertetem Entwurf: Anzahl Urteile, Mittelwerte Q1–Q6, Judge-Korrektheit
 - tests.csv         Kennwerte von H2 und H6, jeweils alle Bewertenden und Sensitivitätsanalyse (AW-07)
-- q6.png            Gesamtqualität je Entwurf und Bedingung, alle Bewertenden und Sensitivitätsanalyse
+- q6.png            Gesamtqualität je Entwurf und Bedingung, alle Bewertenden
+- q6_sensitivitaet.png  dasselbe neben der Sensitivitätsanalyse (AW-07)
 - h6.png            wahrgenommene Korrektheit (Q1) nach referenzbasierter Korrektheit des Judge
 - meta.json         Herkunft: Hashes, Git-Stand, Versionen
 
@@ -332,9 +333,7 @@ def abbildungen(ent, ent_s, tickets, tickets_s, judge, n_alle, n_ohne) -> list:
         for side in ("top", "right"):
             ax.spines[side].set_visible(False)
 
-    fig, axes = plt.subplots(1, 2, figsize=(6.3, 2.8), dpi=300, sharey=True)
-    for ax, (e, tt, titel) in zip(axes, ((ent, tickets, f"alle Bewertenden (n = {n_alle})"),
-                                          (ent_s, tickets_s, f"ohne Bearbeitungszeit < 5 min (n = {n_ohne})"))):
+    def q6_panel(ax, e, tt, titel):
         daten = [[e[(t, b)]["q6"] for t in tt] for b in BED]
         bp = ax.boxplot(daten, widths=0.5, patch_artist=True, showfliers=False,
                         medianprops={"color": TEXT, "linewidth": 1.4},
@@ -346,12 +345,25 @@ def abbildungen(ent, ent_s, tickets, tickets_s, judge, n_alle, n_ohne) -> list:
         for i, (b, vals) in enumerate(zip(BED, daten), start=1):
             ax.scatter([i + rng.uniform(-0.16, 0.16) for _ in vals], vals, s=9, color=FARBE[b], alpha=0.75, linewidths=0)
         ax.set_xticks([1, 2], [f"{NAME[b]}\n({len(tt)} Entwürfe)" for b in BED])
-        ax.set_title(titel, fontsize=9, color=TEXT, loc="left")
+        if titel:
+            ax.set_title(titel, fontsize=9, color=TEXT, loc="left")
         ax.set_ylim(0.8, 5.2)
+        ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: de(v, 1)))
         stil(ax)
-    axes[0].set_ylabel("Q6 Gesamtqualität, Mittel je Entwurf")
+
+    fig, ax = plt.subplots(figsize=(4.2, 2.8), dpi=300)
+    q6_panel(ax, ent, tickets, "")
+    ax.set_ylabel("Q6 Gesamtqualität,\nMittel je Entwurf")
     fig.tight_layout()
     fig.savefig(OUT / "q6.png", facecolor="white")
+    plt.close(fig)
+
+    fig, axes = plt.subplots(1, 2, figsize=(6.3, 2.8), dpi=300, sharey=True)
+    q6_panel(axes[0], ent, tickets, f"alle Bewertenden (n = {n_alle})")
+    q6_panel(axes[1], ent_s, tickets_s, f"ohne Bearbeitungszeit < 5 min (n = {n_ohne})")
+    axes[0].set_ylabel("Q6 Gesamtqualität, Mittel je Entwurf")
+    fig.tight_layout()
+    fig.savefig(OUT / "q6_sensitivitaet.png", facecolor="white")
     plt.close(fig)
 
     fig, ax = plt.subplots(figsize=(6.3, 2.8), dpi=300)
@@ -368,12 +380,13 @@ def abbildungen(ent, ent_s, tickets, tickets_s, judge, n_alle, n_ohne) -> list:
     ax.set_xticks(range(3), [f"{k}\n(Judge)" for k in KORREKTHEIT])
     ax.set_ylabel("Q1 wahrgenommene Korrektheit\n(Mittel je Entwurf, 1–3)")
     ax.set_ylim(0.9, 3.1)
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: de(v, 2)))
     ax.legend(frameon=False, fontsize=7.5, loc="lower right")
     stil(ax)
     fig.tight_layout()
     fig.savefig(OUT / "h6.png", facecolor="white")
     plt.close(fig)
-    return ["q6.png", "h6.png"]
+    return ["q6.png", "q6_sensitivitaet.png", "h6.png"]
 
 
 if __name__ == "__main__":

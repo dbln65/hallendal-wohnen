@@ -1,6 +1,6 @@
 # Teilstudie B: ROI/TCO-Modell
 
-Erzeugt mit `auswertung/teilstudie_b.py` am 2026-10-21. **Alle Werte sind Modellergebnisse und keine empirischen Messwerte** (DEMI 1.5). Gemessen sind nur die variablen Kosten je Ticket und für die Schwelle RAG gegenüber LLM-only die Latenzdifferenz (Strang 1); alle übrigen Eingangsgrößen sind Sekundärdaten oder Annahmen. Beträge netto, je Monat.
+Erzeugt mit `auswertung/teilstudie_b.py` am 2026-10-26. **Alle Werte sind Modellergebnisse und keine empirischen Messwerte** (DEMI 1.5). Gemessen sind nur die variablen Kosten je Ticket und für die Schwelle RAG gegenüber LLM-only die Latenzdifferenz (Strang 1); alle übrigen Eingangsgrößen sind Sekundärdaten oder Annahmen. Beträge netto, je Monat.
 
 ## Eingangsgrößen
 
@@ -108,3 +108,5 @@ Szenario mittel im Einzelnen:
 ![break_even.png](break_even.png)
 
 ![tornado.png](tornado.png)
+
+![tornado_mittel.png](tornado_mittel.png)
