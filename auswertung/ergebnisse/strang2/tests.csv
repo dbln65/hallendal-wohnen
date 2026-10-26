@@ -1,0 +1,4 @@
+hypothese,verfahren,n_paare,n_ungleich,rag_hoeher,llm_hoeher,statistik,p,z,r
+H1,Wilcoxon exakt,120,95,85,10,4142.5,2.036336868011056e-15,7.1494,0.6527
+H1,Stuart-Maxwell (df = 2),120,,,,58.6397,1.8474111129762605e-13,,
+H3,Wilcoxon exakt,112,96,91,5,4564.5,5.756157728861782e-23,8.2024,0.7751

@@ -1,0 +1,17 @@
+analyse,stichprobe,n,statistik,p,effekt
+H2 Wilcoxon exakt,alle,60,1557.0,2.1615714149159082e-09,0.702
+H2 Wilcoxon exakt,ohne < 300 s,48,729.0,0.00030616103640568326,0.5022
+H6 Spearman Q1-Korrektheit,alle,120,0.3993,6.2376945985167796e-06,
+H6 Spearman Q1-Korrektheit,ohne < 300 s,108,0.2927,0.002115209467449465,
+ergänzend Q6 Gesamtqualität – Korrektheit (Judge),alle,120,0.4247,1.3366158122318416e-06,
+ergänzend Q6 Gesamtqualität – KB-Supportedness,alle,115,0.3669,5.516813882176956e-05,
+ergänzend Q2 Vollständigkeit – Answer Relevance,alle,120,-0.2297,0.011597149092453967,
+ICC q1,alle,120,,,"ICC(2,1)=0.2903; ICC(2,3)=0.5509"
+ICC q2,alle,120,,,"ICC(2,1)=0.1692; ICC(2,3)=0.3793"
+ICC q3,alle,120,,,"ICC(2,1)=0.1454; ICC(2,3)=0.3380"
+ICC q4,alle,120,,,"ICC(2,1)=0.0795; ICC(2,3)=0.2058"
+ICC q5,alle,120,,,"ICC(2,1)=0.2828; ICC(2,3)=0.5419"
+ICC q6,alle,120,,,"ICC(2,1)=0.2943; ICC(2,3)=0.5557"
+Mann-Whitney Q6 gesamt,Personen,16/20,207.0,0.1366889003684921,0.2507
+Mann-Whitney RAG-Vorteil,Personen,16/20,86.0,0.018769369747033804,0.3943
+Mann-Whitney RAG-Vorteil,Personen ohne < 300 s,13/11,53.0,0.29511678885283166,0.2196

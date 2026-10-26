@@ -20,9 +20,9 @@ python kodierung/konsens.py                         # 7. Konsens übernehmen, en
 | 2 | Erstkodierung aller 240 Entwürfe in `kodierung/kodiertabelle.xlsx` | erledigt (2026-10-19) |
 | 3 | Konsistenzprüfung und Korrektur der Erstkodierung (K-08), Tag `kodierung-erst-v1.0` | erledigt (2026-10-19) |
 | 4 | Material für die Zweitkodierung erzeugen; Einweisung der Zweitkodierperson anhand von LEITFADEN.md und AUSLEGUNGEN.md | erledigt |
-| 5 | Zweitkodierung der 48 Entwürfe in `zweitkodierung/kodiertabelle_zweit.xlsx`, Konsistenzprüfung (K-10) | eingegangen 2026-10-26; Konsistenzprüfung: 10 Fehler in 8 Entwürfen, zur Korrektur an die Zweitkodierperson |
-| 6 | Cohens Kappa je Code (K-06) und Liste der Abweichungen mit `kappa.py` | offen |
-| 7 | Konsens bei allen Abweichungen (K-11), `konsens.py`, Tag `kodierung-final-v1.0` | offen |
+| 5 | Zweitkodierung der 48 Entwürfe in `zweitkodierung/kodiertabelle_zweit.xlsx`, Konsistenzprüfung (K-10) | erledigt (2026-10-26); 10 Formfehler in 8 Entwürfen von der Zweitkodierperson korrigiert (K-10) |
+| 6 | Cohens Kappa je Code (K-06) und Liste der Abweichungen mit `kappa.py` | erledigt (2026-10-26): 27 Abweichungen in 19 Entwürfen |
+| 7 | Konsens bei allen Abweichungen (K-11), `konsens.py`, Tag `kodierung-final-v1.0` | erledigt (2026-10-26) |
 
 ## Dateien
 

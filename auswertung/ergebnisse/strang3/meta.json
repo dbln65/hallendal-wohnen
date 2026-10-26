@@ -1,0 +1,22 @@
+{
+  "erzeugt": "2026-10-26T13:45:24+00:00",
+  "skript": "auswertung/strang3.py",
+  "git": {
+    "commit": "83b4b2d7d86a87d752e9155f50fc1ff2ec819603",
+    "dirty": true
+  },
+  "eingaben": {
+    "bewertungen_csv": "158b602ae57f3d96",
+    "teilnehmende_csv": "f6127d941df52895",
+    "judge_jsonl": "a361a0b7a9223544"
+  },
+  "sensitivitaet_min_dauer_s": 300,
+  "ausgeschlossen_sensitivitaet": 12,
+  "versionen": {
+    "python": "3.13.14",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2"
+  }
+}

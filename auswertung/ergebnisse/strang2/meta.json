@@ -1,0 +1,22 @@
+{
+  "erzeugt": "2026-10-26T13:45:02+00:00",
+  "skript": "auswertung/strang2.py",
+  "git": {
+    "commit": "83b4b2d7d86a87d752e9155f50fc1ff2ec819603",
+    "dirty": true
+  },
+  "eingaben": {
+    "judge_hauptlauf": "a361a0b7a9223544",
+    "judge_meta": "44d92cb3842f6304",
+    "judge_wiederholung": "8dbc7cdd3d31bcde",
+    "tickets_jsonl": "e065e2fd60dc96e4"
+  },
+  "judge_config_hash": "3c1a9cb5a97898ab",
+  "versionen": {
+    "python": "3.13.14",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "erzeugt": "2026-10-26T13:50:04+00:00",
+  "skript": "auswertung/strang4.py",
+  "git": {
+    "commit": "83b4b2d7d86a87d752e9155f50fc1ff2ec819603",
+    "dirty": true
+  },
+  "eingaben": {
+    "kodiertabelle_konsens": "22e8f2a6e087e281",
+    "judge_jsonl": "a361a0b7a9223544",
+    "kappa_csv": "149dcdfb5f8a0697"
+  },
+  "versionen": {
+    "python": "3.13.14",
+    "scipy": "1.18.1",
+    "openpyxl": "3.1.5"
+  }
+}
